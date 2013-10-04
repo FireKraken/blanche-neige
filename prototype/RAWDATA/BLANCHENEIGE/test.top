@@ -3,4 +3,4 @@ topic: ~chicken (chicken roasting pork)
 t: Chicken chicken chicken, and beef ^keep()
 s: (like chicken)  You like chicken. ^repeat() ^keep()
 s: (like it) You like $it_pronoun.
-
+s: (bob) Bob
