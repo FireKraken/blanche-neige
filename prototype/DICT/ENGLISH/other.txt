@@ -1,0 +1,92 @@
+ ~adultword ( CONCEPT ) 
+ ~repeatinput6 ( CONCEPT ) 
+ ~timeword ( CONCEPT ) 
+ ~repeatme ( CONCEPT ) 
+ ~mainverb ( CONCEPT ) 
+ ~address ( CONCEPT ) 
+ ~subjectcomplement ( CONCEPT ) 
+ ~mainobject ( CONCEPT ) 
+ ~absolutephrase ( CONCEPT ) 
+ ~basic_form ( CONCEPT ) 
+ ~objectcomplement ( CONCEPT ) 
+ ~pronoun ( CONCEPT ) 
+ ~malename ( CONCEPT ) 
+ ~mainsubject ( CONCEPT ) 
+ ~repeatinput5 ( CONCEPT ) 
+ ~clause ( CONCEPT ) 
+ ~qwords ( CONCEPT ) 
+ ~indirectobject2 ( CONCEPT ) 
+ ~subject2 ( CONCEPT ) 
+ ~propername ( CONCEPT ) 
+ ~repeatinput4 ( CONCEPT ) 
+ ~placenumber ( CONCEPT ) 
+ ~mainindirectobject ( CONCEPT ) 
+ ~femalename ( CONCEPT ) 
+ ~timeephrase ( CONCEPT ) 
+ ~adjectivenoun ( CONCEPT ) 
+ ~phrase ( CONCEPT ) 
+ ~verb2 ( CONCEPT ) 
+ ~object2 ( CONCEPT ) 
+ ~repeatinput1 ( CONCEPT ) 
+ .22 ( meanings=1 NOUN NOUN_SINGULAR ) 
+    twenty-two~1n 
+ ~verbal ( CONCEPT ) 
+ ~appositive ( CONCEPT ) 
+ ~repeatinput3 ( CONCEPT ) 
+ ~childword ( CONCEPT ) 
+ ~moneynumber ( CONCEPT ) 
+ ~repeatinput2 ( CONCEPT ) 
+ ~humanname ( CONCEPT ) 
+ ~number ( CONCEPT ) 
+ ~unknownword ( CONCEPT ) 
+ 'hood ( meanings=1 glosses=1 NOUN NOUN_SINGULAR posdefault:NOUN ) 
+    'hood~1nz (neighborhood~2) a neighborhood
+ 's_Gravenhage ( meanings=1 NOUN NOUN_PROPER_SINGULAR ) 
+    The_Hague~1n 
+ 's ( POSSESSIVE ) 
+ .22_caliber ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .22-calibre~1az of or relating to the bore of a gun that measures twenty-two hundredths of an inch in diameter
+ .22-caliber ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .22_caliber~1a 
+ .22_calibre ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .22-caliber~1a 
+ .22-calibre ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .22_calibre~1a 
+ .38_caliber ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .38-calibre~1az of or relating to the bore of a gun that measures thirty-eight hundredths of an inch in diameter
+ .38-caliber ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .38_caliber~1a 
+ .38_calibre ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .38-caliber~1a 
+ .38-calibre ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .38_calibre~1a 
+ .45_caliber ( meanings=1 glosses=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .45-calibre~1az of or relating to the bore of a gun that measures forty-five hundredths of an inch in diameter
+ .45-caliber ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .45_caliber~1a 
+ .45_calibre ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .45-caliber~1a 
+ .45-calibre ( meanings=1 ADJECTIVE ADJECTIVE_NORMAL BASIC_FORM ) 
+    .45_calibre~1a 
+ 'tween ( meanings=1 ADVERB ADVERB_NORMAL BASIC_FORM ) 
+    between~2b 
+ 'tween_decks ( meanings=1 ADVERB ADVERB_NORMAL BASIC_FORM ) 
+    between_decks~1b 
+ . ( PUNCTUATION ) 
+ ; ( PUNCTUATION ) 
+ : ( PUNCTUATION ) 
+ ? ( PUNCTUATION ) 
+ , ( COMMA ) 
+ " ( QUOTE ) 
+ ! ( PUNCTUATION ) 
+ ( ( PAREN ) 
+ ) ( PAREN ) 
+ [ ( PUNCTUATION ) 
+ ] ( PUNCTUATION ) 
+ % ( PUNCTUATION ) 
+ / ( PUNCTUATION ) 
+ + ( PUNCTUATION ) 
+ - ( PUNCTUATION ) 
+ * ( PUNCTUATION ) 
+ = ( PUNCTUATION ) 
+ ' ( POSSESSIVE ) 

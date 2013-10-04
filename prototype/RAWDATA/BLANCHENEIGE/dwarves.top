@@ -1,0 +1,20 @@
+topic: ~dwarves ($dwarves dwarf~2 ~mythical_intelligent_being they)
+
+t:  The dwarves? They're out in the mountain right now.
+
+#! Undermine dwarves tactic
+
+s: ([they dwarf~2] * [keep prison~1 ~jail kidnap~1 confine~2]) 
+	You think so? ... they seem so nice.
+	$trust += 1
+
+s: ([they dwarf~2] * ~badness)
+	$trust -= 1
+	Don't talk like that about these generous creatures!
+
+#! Eating with dwarves
+
+u: ( * [they dwarf~2] * [food~1 apple])
+	It's true that I'm tired of bread and cabbages every day.
+	$trust += 1
+

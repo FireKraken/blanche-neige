@@ -1,0 +1,26 @@
+concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer)
+
+topic: ~justify_identity (~peddler who woman be ~reliability_words )
+
+t: 	[So, what brings you to this part of the woods?]
+	[Yes, what can I do for you?]
+	$trust = 0
+
+t: Sorry but I was told not to trust any strangers.
+	
+#! Pose as peddler tactic
+
+s: ($offered==1 ~peddler) Why are you giving your apples away, then?
+	a: (~example)
+		$trust += 1
+		$peddler = 1
+		Oh, that makes sense. 
+
+s: ($offered!=1 ~peddler) 
+		$trust += 1
+		$EQ_peddler = 1
+		I see.
+
+u: (trust~1) 
+	$dwarves = 1
+	The dwarves told me not to trust anyone.

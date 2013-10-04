@@ -1,0 +1,18 @@
+﻿Start: user:bobino bot:snowwhite ip: rand:979 (~justify_identity) 0 ==> Yes, what can I do for you?  When:Mon Sep 23 16:16:56 2013 Version:3.53 Build0:1379951602 Build1:1379966460 Why: ~justify_identity.0.0 
+Respond: user:bobino bot:snowwhite ip: (~chicken) 1  roasting it ==> You want chicken.  When:Mon Sep 23 16:17:02 2013 Why: ~chicken.0.0 
+Respond: user:bobino bot:snowwhite ip: (~sell_apple) 2  want it ==> I can't accept anything from you.  When:Mon Sep 23 16:17:06 2013 Why: ~sell_apple.0.0 
+Respond: user:bobino bot:snowwhite ip: (~sell_apple) 3  give apple ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 16:17:11 2013 Why: ~sell_apple.3.0 
+Respond: user:bobino bot:snowwhite ip: (~justify_identity) 4  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 16:17:13 2013 Why: ~justify_identity.2.0 
+Respond: user:bobino bot:snowwhite ip: (~justify_identity) 5  sample ==> Oh, that makes sense.  When:Mon Sep 23 16:17:16 2013 Why: ~justify_identity.2.1 
+Respond: user:bobino bot:snowwhite ip: (~sell_apple) 6  want it? ==> No thanks.  When:Mon Sep 23 16:17:20 2013 Why: ~sell_apple.1.0 
+Command: :reset
+Respond: user:bobino bot:snowwhite ip: (~justify_identity) 0  :reset ==> Yes, what can I do for you?  When:Mon Sep 23 16:17:29 2013 Why: ~justify_identity.0.0 
+Respond: user:bobino bot:snowwhite ip: (~sell_apple) 1  give apple ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 16:17:34 2013 Why: ~sell_apple.3.0 
+Respond: user:bobino bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 16:17:37 2013 Why: ~justify_identity.2.0 
+Respond: user:bobino bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 16:17:37 2013 Why: ~justify_identity.2.1 
+Respond: user:bobino bot:snowwhite ip: (~sell_apple) 4  want it? ==> No thanks.  When:Mon Sep 23 16:17:40 2013 Why: ~sell_apple.1.0 
+Respond: user:bobino bot:snowwhite ip: (~sell_apple) 5  look how delicious it looks! ==> It does look good.  When:Mon Sep 23 16:18:06 2013 Why: ~sell_apple.5.0 
+Respond: user:bobino bot:snowwhite ip: (~sell_apple) 6  Why won't you taste it? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Mon Sep 23 16:18:18 2013 Why: ~sell_apple.6.0 
+Respond: user:bobino bot:snowwhite ip: (~sell_apple) 7  what did she give you? ==> I can't accept anything from you.  When:Mon Sep 23 16:19:06 2013 Why: ~sell_apple.0.0 
+Respond: user:bobino bot:snowwhite ip: (~assassination_plot) 8  how did she try to kill you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Mon Sep 23 16:19:29 2013 Why: ~assassination_plot.1.0 
+Command: :build 1

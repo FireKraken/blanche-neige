@@ -1,0 +1,31 @@
+concept: ~murdlerplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder)
+concept: ~evilqueen (queen "evil queen" stepmother she)
+
+topic: ~assassination_plot ($plot ~plot ~evilqueen)
+
+t:  I can't be too cautious with my stepmother wanting to kill me!
+
+#! fishing for more info
+
+?: ([~murdlerplot (what * ~evilqueen)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
+
+?: ([(why * ~evilqueen)  (why * ~kill)]) Apparently she's jealous of my beauty and wants to kill me for that!
+
+#! Compassion move
+
+s: ([horrible awful tragic sad poor])
+	$trust += 1
+	I know! This is so unfair! 
+
+#! Not being stepmother
+
+u: (trust~1) 
+	$dwarves = 1
+	The dwarves told me not to trust anyone.
+
+s: ( * I * ~negation * ~evilqueen * [~explanatory_adverbs because] * [dead~1 away~3 ])
+	$trust += 1
+	Really!? That's great news!
+
+s: (not * ~evilqueen) How do I know that?
+

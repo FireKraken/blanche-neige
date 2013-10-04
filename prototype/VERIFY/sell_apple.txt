@@ -1,0 +1,4 @@
+ ~sell_apple.0.0 #! If identity not clear
+ ~sell_apple.4.0 #! If identity clear, matter of trust
+ ~sell_apple.10.0 #! Selling the apple
+ ~sell_apple.11.0 #! Fishing for reasons

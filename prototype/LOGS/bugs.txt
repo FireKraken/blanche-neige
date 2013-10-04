@@ -1,0 +1,114 @@
+﻿   in simpletopic.top at 2:  #! @summary
+FILE-1 Unknown top-level declaration #! in RAWDATA/BLANCHENEIGE/simpletopic.topMissing topic index for ~introductions
+input:1 Sat Aug 24 20:47:15 2013 Missing topic index for ~control
+ caller:test callee:snowwhite in sentence: hello at 
+Missing topic index for ~control
+input:0 Sat Aug 24 20:47:40 2013 Missing topic index for ~introductions
+ caller:test callee:snowwhite in sentence: hello at 
+Missing topic index for ~introductions
+   in simpletopic.top at 2: #! Relevant concepts
+FILE-1 Unknown top-level declaration #! in RAWDATA/BLANCHENEIGE/simpletopic.topinput:4 Mon Sep 23 11:16:26 2013 Missing topic index for ~defendpresence
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~defendpresence
+input:4 Mon Sep 23 11:16:26 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~introductions
+input:4 Mon Sep 23 11:16:26 2013 Missing topic index for ~defendpresence
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~defendpresence
+   in simpletopic.top at 2: #! Relevant concepts
+FILE-1 Unknown top-level declaration #! in RAWDATA/BLANCHENEIGE/simpletopic.topinput:4 Mon Sep 23 11:17:35 2013 Missing topic index for ~defendpresence
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~defendpresence
+input:4 Mon Sep 23 11:17:35 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~introductions
+input:4 Mon Sep 23 11:17:35 2013 Missing topic index for ~defendpresence
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~defendpresence
+   in simpletopic.top at 2: #! Relevant concepts
+FILE-1 Unknown top-level declaration #! in RAWDATA/BLANCHENEIGE/simpletopic.topinput:4 Mon Sep 23 11:18:46 2013 Missing topic index for ~defendpresence
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~defendpresence
+input:4 Mon Sep 23 11:18:46 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~introductions
+input:4 Mon Sep 23 11:18:46 2013 Missing topic index for ~defendpresence
+ caller: callee:snowwhite in sentence: Here's an apple at 
+Missing topic index for ~defendpresence
+   in simpletopic.top at 5: $EQ_peddler=1
+Expecting responder for topic ~defendpresence, got $eq_peddler=1input:4 Mon Sep 23 11:41:43 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: want apple? at 
+Missing topic index for ~introductions
+input:4 Mon Sep 23 11:41:43 2013 Missing topic index for ~defendpresence
+ caller: callee:snowwhite in sentence: want apple? at 
+Missing topic index for ~defendpresence
+   in identity.top at 3: topic: ~identity (~peddler who woman be)
+TOPIC-1 Concept already defined with this topic name ~identity   in identity.top at 5: t: [So, what brings you to this part of the woods?][Yes, what can I do for you?]
+Bad topic flag t: for topic ~identity   in identity.top at 9: s: ($offered==1 ~peddler) Why are you giving your apples away, then?
+Bad topic flag s: for topic ~identity   in identity.top at 15: s: ($offered==0 ~peddler) 
+Bad topic flag s: for topic ~identity   in simpletopic.top at 1: concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer)
+CONCEPT-3 Concept/topic already defined ~peddlerinput:5 Mon Sep 23 14:24:16 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: peddler at 
+Missing topic index for ~introductions
+input:5 Mon Sep 23 14:24:16 2013 Missing topic index for ~apple
+ caller: callee:snowwhite in sentence: peddler at 
+Missing topic index for ~apple
+   in identity.top at 1: topic: ~identity (~peddler who woman be)
+TOPIC-1 Concept already defined with this topic name ~identity   in identity.top at 3: t: [So, what brings you to this part of the woods?][Yes, what can I do for you?]
+Bad topic flag t: for topic ~identity   in identity.top at 7: s: ($offered==1 ~peddler) Why are you giving your apples away, then?
+Bad topic flag s: for topic ~identity   in identity.top at 13: s: ($offered==0 ~peddler) 
+Bad topic flag s: for topic ~identityinput:5 Mon Sep 23 14:26:28 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: peddler at 
+Missing topic index for ~introductions
+input:5 Mon Sep 23 14:26:28 2013 Missing topic index for ~apple
+ caller: callee:snowwhite in sentence: peddler at 
+Missing topic index for ~apple
+   in apple.top at 2: concept: ~taste (taste eat try)
+CONCEPT-3 Concept/topic already defined ~taste   in plot.top at 1: concept: ~plot (plot plan assassination murder scheme machination intrigue conspiracy cabal kill murder)
+CONCEPT-3 Concept/topic already defined ~plotinput:2 Mon Sep 23 14:54:40 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: I'm a peddler at 
+Missing topic index for ~introductions
+input:2 Mon Sep 23 14:54:41 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I'm a peddler at 
+Missing topic index for ~justify_identity
+   in test.top at 3: s:(like * chicken) ^keep(You like chicken.)  
+CALL-60 Incorrect argument count to function ^keep- 3 instead of 0input:4 Thu Sep 26 12:52:27 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: i like chicken at 
+Missing topic index for ~justify_identity
+input:4 Thu Sep 26 12:52:27 2013 Missing topic index for ~chicken
+ caller: callee:snowwhite in sentence: i like chicken at 
+Missing topic index for ~chicken
+input:4 Thu Sep 26 12:52:27 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: i like chicken at 
+Missing topic index for ~introductions
+   in test.top at 1: topic: ~chicken (chicken roasting pork) ^keep()
+Expecting responder for topic ~chicken, got ^keepinput:2 Thu Sep 26 12:54:07 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~introductions
+input:2 Thu Sep 26 12:54:07 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~justify_identity
+input:2 Thu Sep 26 12:54:07 2013 Missing topic index for ~chicken
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~chicken
+   in test.top at 3: s: ^keep() (like * chicken)  You like chicken. 
+RULE-3 Missing pattern for ruleinput:2 Thu Sep 26 12:54:22 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~introductions
+input:2 Thu Sep 26 12:54:22 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~justify_identity
+input:2 Thu Sep 26 12:54:22 2013 Missing topic index for ~chicken
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~chicken
+   in test.top at 3: t:Chicken chicken chicken ^keep()
+Expecting responder for topic ~chicken, got t:Chickeninput:2 Thu Sep 26 12:59:35 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~introductions
+input:2 Thu Sep 26 12:59:35 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~justify_identity
+input:2 Thu Sep 26 12:59:35 2013 Missing topic index for ~chicken
+ caller: callee:snowwhite in sentence: I like chicken at 
+Missing topic index for ~chicken

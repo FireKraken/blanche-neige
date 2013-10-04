@@ -1,0 +1,3 @@
+﻿Start: user:koko bot:snowwhite ip: rand:1839 (~defendpresence) 0 ==> Yes, what can I do for you?  When:Mon Sep 23 13:53:38 2013 Version:3.53 Build0:1379951602 Build1:1379958575 Why: ~defendpresence.0.0 
+Command: :rebuild 1
+Command: :build 1

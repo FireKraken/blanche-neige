@@ -1,0 +1,1479 @@
+ï»¿Respond: user: bot:snowwhite ip: (~introductions) 1    ==> Yes, what can I do for you?  When:Mon Sep 23 11:42:56 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 2  want apple? ==> I'm sorry. I don't know.  When:Mon Sep 23 11:42:58 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~introductions) 3  want apple? ==> I don't remember.  When:Mon Sep 23 11:43:20 2013 Why: ~honest_response.33.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~defendpresence) 4    ==> So, what brings you to this part of the woods?  When:Mon Sep 23 11:43:31 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 5  want appl? ==> Don't know.  When:Mon Sep 23 11:43:34 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 6  want apple? ==> I forget.  When:Mon Sep 23 11:43:37 2013 Why: ~honest_response.33.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~defendpresence) 7    ==> I don't know what to say.  When:Mon Sep 23 11:44:59 2013 Why: ~control.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 11:45:04 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 1  want apple? ==> Shouldn't you be selling those rather than giving them away?  When:Mon Sep 23 11:45:59 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 2  I am peddler ==> I didn't know that.  When:Mon Sep 23 11:46:47 2013 Why: ~honest_response.20.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~defendpresence) 3    ==> Yes, what can I do for you?  When:Mon Sep 23 11:47:45 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 4  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 11:47:48 2013 Why: ~defendpresence.2.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 5  am peddler ==> I don't remember.  When:Mon Sep 23 11:47:53 2013 Why: ~honest_response.33.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~introductions) 6    ==> I don't know what to say.  When:Mon Sep 23 11:48:16 2013 Why: ~control.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 11:48:18 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 1  want apple? ==> Shouldn't you be selling those rather than giving them away?  When:Mon Sep 23 11:48:22 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 2  am peddler ==> I'm sorry. I don't know.  When:Mon Sep 23 11:48:25 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 3  I am peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 11:48:29 2013 Why: ~defendpresence.3.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 4  It's a sample ==> ++ Oh! That makes sense.  When:Mon Sep 23 11:48:47 2013 Why: ~defendpresence.3.1 
+Command: :build 0
+Respond: user: bot:snowwhite ip: (~defendpresence) 5    ==> Right.  When:Mon Sep 23 11:51:34 2013 Why: ~honest_response.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 11:51:36 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 1  want apple? ==> Shouldn't you be selling those rather than giving them away?  When:Mon Sep 23 11:51:40 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 2  I am a peddler ==> I didn't know that.  When:Mon Sep 23 11:51:45 2013 Why: ~honest_response.20.0 
+Command: :build 0
+Respond: user: bot:snowwhite ip: (~introductions) 3    ==> Yes, what can I do for you?  When:Mon Sep 23 11:54:16 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 4  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 11:54:23 2013 Why: ~defendpresence.2.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 5  I am a peddler ==> I enjoy learning more about you.  When:Mon Sep 23 11:54:33 2013 Why: ~honest_response.20.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 6  build:1 ==> OK.  When:Mon Sep 23 11:56:39 2013 Why: ~honest_response.45.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~defendpresence) 7    ==> I don't know what to say.  When:Mon Sep 23 11:57:11 2013 Why: ~control.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 11:57:13 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 1  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 11:57:17 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 2  I am a peddler ==> I didn't know that.  When:Mon Sep 23 11:57:23 2013 Why: ~honest_response.20.0 
+Command: :build1
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~defendpresence) 3    ==> Yes, what can I do for you?  When:Mon Sep 23 11:57:52 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 4  want apple? ==> Shouldn't you be selling those rather than giving them away?  When:Mon Sep 23 11:57:55 2013 Why: ~defendpresence.2.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 5  peddler ==> Right.  When:Mon Sep 23 11:57:59 2013 Why: ~honest_response.45.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~introductions) 6    ==> I don't know what to say.  When:Mon Sep 23 12:02:42 2013 Why: ~control.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 12:02:44 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 1  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 12:02:47 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 12:02:50 2013 Why: ~defendpresence.3.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 3  sample ==> Oh! That makes sense.  When:Mon Sep 23 12:02:57 2013 Why: ~defendpresence.3.1 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~defendpresence) 4    ==> Yes, what can I do for you?  When:Mon Sep 23 12:03:42 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 5  want apple? ==> Shouldn't you be selling those rather than giving them away?  When:Mon Sep 23 12:03:44 2013 Why: ~defendpresence.2.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 6  peddler ==> OK.  When:Mon Sep 23 12:04:07 2013 Why: ~honest_response.45.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~introductions) 7    ==> I don't know what to say.  When:Mon Sep 23 12:05:41 2013 Why: ~control.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 12:05:43 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 1  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 12:05:46 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~introductions) 2  peddler ==> Yes, what can I do for you?  When:Mon Sep 23 12:05:51 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 3  peddler ==> I don't know what to say.  When:Mon Sep 23 12:06:02 2013 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 4  want apple? ==> Shouldn't you be selling those rather than giving them away?!  When:Mon Sep 23 12:06:05 2013 Why: ~defendpresence.2.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 5  peddler ==> Right.  When:Mon Sep 23 12:06:08 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 6  $bo ==> OK.  When:Mon Sep 23 13:39:57 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 7  $bot ==> I don't know what to say.  When:Mon Sep 23 13:39:59 2013 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 8    ==> I don't know what to say.  When:Mon Sep 23 13:49:44 2013 Why: ~control.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 13:49:47 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 1  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 13:49:50 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~introductions) 2  peddler ==> Yes, what can I do for you?  When:Mon Sep 23 13:49:53 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 3  peddler ==> I don't know what to say.  When:Mon Sep 23 13:50:01 2013 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~introductions) 4    ==> I don't know what to say.  When:Mon Sep 23 13:54:11 2013 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 5  I like chicken ==> I like chicken too  When:Mon Sep 23 13:54:16 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 6  chicken ==> OK.  When:Mon Sep 23 13:54:19 2013 Why: ~honest_response.45.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~chicken) 7  chicken ==> We talked about chicken already  When:Mon Sep 23 13:57:53 2013 Why: ~chicken.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 13:58:04 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  chicken ==> I like chicken too  When:Mon Sep 23 13:58:16 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  chicken ==> We talked about chicken already  When:Mon Sep 23 13:58:18 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 3  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 13:58:49 2013 Why: ~defendpresence.1.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~defendpresence) 4    ==> Yes, what can I do for you?  When:Mon Sep 23 13:59:50 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 5  want apple? ==> Shouldn't you be selling those rather than giving them away? 1!  When:Mon Sep 23 13:59:54 2013 Why: ~defendpresence.2.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 6  sample÷ ==> OK.  When:Mon Sep 23 14:00:33 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 7  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 14:00:35 2013 Why: ~defendpresence.3.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 14:05:56 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~introductions) 1  Here's an apple! ==> Yes, what can I do for you?  When:Mon Sep 23 14:06:02 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 2  Do you want an apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 14:06:19 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 3  I'm an apple peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 14:06:26 2013 Why: ~defendpresence.3.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 4  It's just a sample ==> Oh, that makes sense.  When:Mon Sep 23 14:06:38 2013 Why: ~defendpresence.3.1 
+Command: :rebuild
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~defendpresence) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 14:14:00 2013 Why: ~defendpresence.0.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 1  I'm giving apples ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 14:14:54 2013 Why: ~defendpresence.1.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 2  An apple vendor ==> Why are you giving your apples away, then?  When:Mon Sep 23 14:15:04 2013 Why: ~defendpresence.4.0 
+Respond: user: bot:snowwhite ip: (~defendpresence) 3  It's just a sample ==> Oh, that makes sense.  When:Mon Sep 23 14:15:17 2013 Why: ~defendpresence.4.1 
+Respond: user: bot:snowwhite ip: (~defendpresence) 4  You want it then? ==> No thanks.  When:Mon Sep 23 14:15:22 2013 Why: ~defendpresence.3.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~introductions) 5    ==> Yes, what can I do for you?  When:Mon Sep 23 14:21:09 2013 Why: ~introductions.4.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~introductions) 0  :reset ==> Welcome to ChatScript.  When:Mon Sep 23 14:21:10 2013 Why: ~introductions.3.0 
+Respond: user: bot:snowwhite ip: (~introductions) 1    ==> Yes, what can I do for you?  When:Mon Sep 23 14:21:13 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 2  Take this apple! ==> I don't know what to say.  When:Mon Sep 23 14:21:25 2013 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~apple) 3  want an apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 14:21:33 2013 Why: ~apple.0.0 
+Respond: user: bot:snowwhite ip: (~apple) 4  I'm an apple vendor ==> Thanks for telling me that.  When:Mon Sep 23 14:22:06 2013 Why: ~honest_response.20.0 
+Respond: user: bot:snowwhite ip: (~apple) 5  peddler ==> Right.  When:Mon Sep 23 14:22:35 2013 Why: ~honest_response.45.0 
+Command: :build 1
+Missing topic index for ~introductions
+
+5 Mon Sep 23 14:24:16 2013 in sentence: peddler 
+    Missing topic index for ~apple
+
+5 Mon Sep 23 14:24:16 2013 in sentence: peddler 
+    Command: :build 1
+Missing topic index for ~introductions
+
+5 Mon Sep 23 14:26:28 2013 in sentence: peddler 
+    Missing topic index for ~apple
+
+5 Mon Sep 23 14:26:28 2013 in sentence: peddler 
+    Command: :build 1
+Respond: user: bot:snowwhite ip: (~introductions) 6    ==> OK.  When:Mon Sep 23 14:26:38 2013 Why: ~honest_response.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 14:26:40 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~introductions) 1  Take this apple! ==> Yes, what can I do for you?  When:Mon Sep 23 14:26:52 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  Want an apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 14:27:00 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  An apple vendor ==> Why are you giving your apples away, then?  When:Mon Sep 23 14:27:05 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  It's a sample ==> Oh, that makes sense.  When:Mon Sep 23 14:27:17 2013 Why: ~justify_identity.1.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  want it then? ==> I don't remember.  When:Mon Sep 23 14:27:21 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  Do you want the apple? ==> No thanks.  When:Mon Sep 23 14:27:44 2013 Why: ~sell_apple.2.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 7    ==> I can't accept anything from you.  When:Mon Sep 23 14:32:56 2013 Why: ~sell_apple.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 14:32:57 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  have an apple! ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 14:33:04 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm a peddler ==> I didn't know that.  When:Mon Sep 23 14:33:11 2013 Why: ~honest_response.20.0 
+Respond: user: bot:snowwhite ip: (~introductions) 3  peddler ==> Yes, what can I do for you?  When:Mon Sep 23 14:33:14 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  build 1 ==> I can't accept anything from you.  When:Mon Sep 23 14:33:26 2013 Why: ~sell_apple.0.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 5    ==> Right.  When:Mon Sep 23 14:33:37 2013 Why: ~honest_response.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 14:33:38 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  take an apple! ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 14:33:42 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm a peddler ==> I didn't know that.  When:Mon Sep 23 14:33:46 2013 Why: ~honest_response.20.0 
+Respond: user: bot:snowwhite ip: (~introductions) 3  peddler ==> Yes, what can I do for you?  When:Mon Sep 23 14:33:49 2013 Why: ~introductions.4.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  : ==> I can't accept anything from you.  When:Mon Sep 23 14:34:40 2013 Why: ~sell_apple.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 14:34:41 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  take this apple! ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 14:34:46 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm a peddler ==> I see.  When:Mon Sep 23 14:34:50 2013 Why: ~justify_identity.3.0 
+Command: :build 1
+Missing topic index for ~introductions
+
+2 Mon Sep 23 14:54:40 2013 in sentence: I'm a peddler 
+    Missing topic index for ~justify_identity
+
+2 Mon Sep 23 14:54:41 2013 in sentence: I'm a peddler 
+    Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 3    ==> I can't accept anything from you.  When:Mon Sep 23 14:59:04 2013 Why: ~sell_apple.0.0 
+Command: :up try
+
+For try:
+ Set hierarchy:
+ Wordnet hierarchy:
+  try~1: earnest and conscientious activity intended to do or accomplish something 
+    is activity~1  any specific behavior 
+       is act~1z something that people do or cause to happen 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  try~2: put on a garment in order to see whether it fits and looks nice 
+  try~3: melt in order to separate out impurities 
+  try~4: take a sample of 
+  try~5: test the limits of 
+  try~6: give pain or trouble to 
+  try~7: examine or hear by judicial process 
+  try~8: put on trial or hear a case and sit as the judge at the trial of 
+  try~9: make an effort or attempt 
+  try~10: put to the test, as for its quality, or give experimental use to 
+Command: :up taste
+
+For taste:
+ Set hierarchy:
+ Wordnet hierarchy:
+  taste~1: a kind of sensing 
+    is sensing~1  becoming aware of something via the senses 
+       is sensory_activity~1z activity intended to achieve a particular sensory result 
+          is activity~1z any specific behavior 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  taste~2: the faculty of distinguishing sweet, sour, bitter, and salty properties in the mouth 
+    is modality~2  a particular sense 
+       is sensory_faculty~1z the faculty through which the external world is apprehended 
+          is module~1z one of the inherent cognitive or perceptual powers of the mind 
+             is mightiness~1z possession of the qualities required to do something or get something done 
+                is knowledge~1z the psychological result of perception and learning and reasoning 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is exteroception~1  sensitivity to stimuli originating outside of the body 
+       is sensitiveness~1z responsiveness to external stimuli 
+          is sensory_faculty~1z the faculty through which the external world is apprehended 
+             is module~1z one of the inherent cognitive or perceptual powers of the mind 
+                is mightiness~1z possession of the qualities required to do something or get something done 
+                   is knowledge~1z the psychological result of perception and learning and reasoning 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  taste~3: the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus 
+    is esthesis~1  an unelaborated elementary awareness of stimulation 
+       is sensing~1 the process of perceiving 
+          is basic_cognitive_process~1z cognitive processes involved in obtaining and storing knowledge 
+             is mental_process~1z the performance of some composite cognitive activity 
+                is knowledge~1z the psychological result of perception and learning and reasoning 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  taste~4: delicate discrimination  
+    is discrimination~2  the cognitive process whereby two or more stimuli are distinguished 
+       is basic_cognitive_process~1z cognitive processes involved in obtaining and storing knowledge 
+          is mental_process~1z the performance of some composite cognitive activity 
+             is knowledge~1z the psychological result of perception and learning and reasoning 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  taste~5: a brief experience of something 
+    is experience~3  an event as apprehended 
+       is natural_event~1z an event that happens 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  taste~6: a strong liking 
+    is liking~1  a feeling of pleasure and enjoyment 
+       is feeling~1z the experiencing of affective and emotional states 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  taste~7: a small amount eaten or drunk 
+    is small_indefinite_quantity~1  an indefinite quantity that is below average size or magnitude 
+       is indefinite_quantity~1z an estimated quantity 
+          is quantity~1z how much there is or how many there are of something that you can quantify 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  taste~8: experience briefly 
+  taste~9: take a sample of 
+  taste~10: perceive by the sense of taste 
+  taste~11: distinguish flavors 
+  taste~12: have flavor 
+  taste~13: have a distinctive or characteristic taste 
+Respond: user: bot:snowwhite ip: (~introductions) 4    ==> Yes, what can I do for you?  When:Mon Sep 23 15:01:09 2013 Why: ~introductions.4.0 
+Command: :build 1
+Command: :build 1
+Command: :up plan
+
+For plan:
+ Set hierarchy:
+ Wordnet hierarchy:
+  plan~1: scale drawing of a structure 
+    is drawing~5  a representation of forms or objects on a surface by means of lines 
+       is representation~1z a creation that is a visual or tangible rendering of someone or something 
+          is foundation~1 an artifact that has been brought into existence by someone 
+             is artefact~1z a man-made object taken as a whole 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  plan~2: an arrangement scheme 
+    is organization~5  an organized structure for arranging or classifying 
+       is construction~4z the complex composition of knowledge as elements and their combinations 
+          is knowledge~1z the psychological result of perception and learning and reasoning 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  plan~3: a series of steps to be carried out or goals to be accomplished 
+    is thought~2  the content of cognition 
+       is depicted_object~1z the sum or range of what has been perceived, discovered, or learned 
+          is knowledge~1z the psychological result of perception and learning and reasoning 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  plan~4: make plans for something 
+  plan~5: have the will and intention to carry out some action 
+  plan~6: make or work out a plan for 
+  plan~7: make a design of 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:02:41 2013 Why: ~justify_identity.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:02:44 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  take this apple ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:02:54 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  why? ==> Why not?  When:Mon Sep 23 15:03:07 2013 Why: ~quibble_why.108.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:03:22 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:03:26 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:03:28 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want it? ==> I forget.  When:Mon Sep 23 15:03:35 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  do you want the apple? ==> No thanks.  When:Mon Sep 23 15:03:39 2013 Why: ~sell_apple.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  it look delicious ==> I can't accept anything from you.  When:Mon Sep 23 15:03:47 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  doesn't it look delicious? ==> I'm not sure.  When:Mon Sep 23 15:04:02 2013 Why: ~quibble_do.6.0 
+Command: :build 1
+Command: :up give
+
+For give:
+ Set hierarchy:
+ Wordnet hierarchy:
+  give~1: the elasticity of something that can be stretched and returns to its original length 
+    is snap~7  the tendency of a body to return to its original shape after it has been stretched or compressed 
+       is physical_property~1z any property used to characterize matter and energy and their interactions 
+          is prop~3z a basic or essential attribute shared by all members of a class 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  give~2: proffer  
+  give~3: consent to engage in sexual intercourse with a man 
+  give~4: occur 
+  give~5: estimate the duration or outcome of something 
+  give~6: dedicate 
+  give~7: inflict as a punishment 
+  give~8: allow to have or take 
+  give~9: guide or direct, as by behavior of persuasion 
+  give~10: submit for consideration, judgment, or use 
+  give~11: give entirely to a specific person, activity, or cause 
+  give~12: offer in good faith 
+  give~13: manifest or show 
+  give~14: convey or communicate 
+  give~15: convey, as of a compliment, regards, attention, etc. 
+  give~16: bestow 
+  give~17: accord by verdict 
+  give~18: propose 
+  give~19: give food to 
+  give~20: be flexible under stress of physical force 
+  give~21: give or supply 
+  give~22: cause to happen or be responsible for 
+  give~23: bring about 
+  give~24: perform for an audience 
+  give~25: present to view 
+  give~26: organize or be responsible for 
+  give~27: move in order to make room for someone for something 
+  give~28: break down, literally or metaphorically 
+  give~29: transfer possession of something concrete or abstract to somebody 
+  give~30: leave with 
+  give~31: give as a present 
+  give~32: place into the hands or custody of 
+  give~33: convey or reveal information 
+  give~34: transmit  
+  give~35: contribute to some cause 
+  give~36: give or convey physically 
+  give~37: give  
+  give~38: cause to have, in the abstract sense or physical sense 
+  give~39: bestow, especially officially 
+  give~40: be the cause or source of 
+  give~41: endure the loss of 
+  give~42: afford access to 
+  give~43: deliver in exchange or recompense 
+  give~44: emit or utter 
+  give~45: execute and deliver 
+Respond: user: bot:snowwhite ip: (~introductions) 10    ==> Yes, what can I do for you?  When:Mon Sep 23 15:04:56 2013 Why: ~introductions.4.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~introductions) 11    ==> Fine.  When:Mon Sep 23 15:05:19 2013 Why: ~honest_response.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:05:20 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm giving apples ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:05:27 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  a peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:05:31 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  as a sample ==> Oh, that makes sense.  When:Mon Sep 23 15:05:35 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  do you want it? ==> Do you wish?  When:Mon Sep 23 15:05:38 2013 Why: ~quibble_do.21.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 5    ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:06:16 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want it then? ==> I forget.  When:Mon Sep 23 15:06:18 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~introductions) 7  want i6 ==> Yes, what can I do for you?  When:Mon Sep 23 15:06:20 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  want it? ==> I can't accept anything from you.  When:Mon Sep 23 15:06:22 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  It's delicious! ==> It does look good.  When:Mon Sep 23 15:06:28 2013 Why: ~sell_apple.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 10  try it! ==> I don't know what to say.  When:Mon Sep 23 15:06:32 2013 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 11  Why won't you taste it? ==> Why not, indeed.  When:Mon Sep 23 15:06:39 2013 Why: ~quibble_not.90.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 12    ==> OK.  When:Mon Sep 23 15:07:15 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 13  why won't you taste it? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Mon Sep 23 15:07:19 2013 Why: ~sell_apple.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 14  that's horrible ==> I can't be too cautious with my stepmother wanting to kill me!  When:Mon Sep 23 15:07:28 2013 Why: ~assassination_plot.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 15  that's horrible ==> Trust += 1 I know! This is so unfair!  sob   When:Mon Sep 23 15:07:54 2013 Why: ~assassination_plot.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:08:55 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  selling apples ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:08:58 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm an apple seller ==> I see.  When:Mon Sep 23 15:09:06 2013 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  want an apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:09:12 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  a peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:09:16 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:09:22 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want one? ==> I forget.  When:Mon Sep 23 15:09:27 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  want an apple? ==> No thanks.  When:Mon Sep 23 15:09:29 2013 Why: ~sell_apple.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  why? ==> I can't accept anything from you.  When:Mon Sep 23 15:09:32 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  Why not taste it? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Mon Sep 23 15:09:44 2013 Why: ~sell_apple.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  that's horrible ==> I can't be too cautious with my stepmother wanting to kill me!  When:Mon Sep 23 15:09:49 2013 Why: ~assassination_plot.0.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11    ==> Fine.  When:Mon Sep 23 15:10:37 2013 Why: ~honest_response.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:10:38 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  Here's an apple ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:10:42 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm an apple peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:10:47 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  It's just a sample ==> Oh, that makes sense.  When:Mon Sep 23 15:10:54 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Do yo want it then? ==> Do you wish?  When:Mon Sep 23 15:10:59 2013 Why: ~quibble_do.21.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  do you want it then? ==> Doesn't everyone?  When:Mon Sep 23 15:11:50 2013 Why: ~quibble_do.102.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:11:57 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  apple ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:11:59 2013 Why: ~justify_identity.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:12:07 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  Want an apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:12:09 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:12:11 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:12:12 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  want it then? ==> I'll have to think about that.  When:Mon Sep 23 15:12:14 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  want an apple? ==> I don't remember.  When:Mon Sep 23 15:12:45 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  do you want apple? ==> No thanks.  When:Mon Sep 23 15:12:50 2013 Why: ~sell_apple.3.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:13:27 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:13:30 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:13:33 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:13:36 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  want it? ==> I'll have to think about that.  When:Mon Sep 23 15:13:42 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  take this apple ==> Right.  When:Mon Sep 23 15:13:52 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  take this apple ==> OK.  When:Mon Sep 23 15:14:13 2013 Why: ~honest_response.45.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:14:26 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  take this apple ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:14:44 2013 Why: ~justify_identity.1.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 2    ==> I can't accept anything from you.  When:Mon Sep 23 15:15:23 2013 Why: ~sell_apple.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:15:25 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  take this apple! ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:15:28 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  have an apple! ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:16:15 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:16:25 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:16:27 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  do you want it then? ==> Doesn't everyone?  When:Mon Sep 23 15:16:47 2013 Why: ~quibble_do.102.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 6    ==> OK.  When:Mon Sep 23 15:17:30 2013 Why: ~honest_response.45.0 
+Command: :up take
+
+For take:
+ Set hierarchy:
+ Wordnet hierarchy:
+  take~1: the act of photographing a scene or part of a scene without interruption 
+    is motion-picture_photography~1  the act of making a film 
+       is photography~2z the act of taking and printing photographs 
+          is pictorial_representation~1z visual representation as by photography or painting 
+             is representation~1z an activity that stands as an equivalent of something or results in an equivalent 
+                is activity~1z any specific behavior 
+                   is act~1z something that people do or cause to happen 
+                      is event~1z something that happens at a given place and time 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  take~2: the income or profit arising from such transactions as the sale of land or other property 
+    is income~1  the financial gain accruing over a given period of time 
+       is financial_gain~1z the amount of monetary gain 
+          is amplification~3z the amount by which the revenue of a business exceeds its cost of operating 
+             is measure~1 a quantity of money 
+                is assets~1z anything of material value or usefulness that is owned by a person or company 
+                   is possession~1z anything owned or possessed 
+                      is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  take~3: be stricken by an illness, fall victim to an illness 
+  take~4: remove something concrete, as by lifting, pushing, or taking off, or remove something abstract 
+  take~5: ascertain or determine by measuring, computing or take a reading from a dial 
+  take~6: take on a certain form, attribute, or aspect 
+  take~7: be seized or affected in a specified way 
+  take~8: be a student of a certain subject 
+  take~9: interpret something in a certain way 
+  take~10: accept or undergo, often unwillingly 
+  take~11: pick out, select, or choose from a number of alternatives 
+  take~12: take into consideration for exemplifying purposes 
+  take~13: take as an undesirable consequence of some event or state of affairs 
+  take~14: lay claim to 
+  take~15: make a film or photograph of something 
+  take~16: obtain by winning 
+  take~17: point or cause to go towards 
+  take~18: serve oneself to, or consume regularly 
+  take~19: get into one's hands, take physically 
+  take~20: travel or go by means of a certain kind of transportation, or a certain route 
+  take~21: proceed along in a vehicle 
+  take~22: occupy or take on 
+  take~23: take somebody somewhere 
+  take~24: head into a specified direction 
+  take~25: take something or somebody with oneself somewhere 
+  take~26: experience or feel or submit to 
+  take~27: to get into a position of having, e.g., safety, comfort 
+  take~28: take into one's possession 
+  take~29: take by force 
+  take~30: buy, select 
+  take~31: engage for service under a term of contract 
+  take~32: receive or obtain regularly 
+  take~33: make use of or accept for some purpose 
+  take~34: receive willingly something given or offered 
+  take~35: admit into a group or community 
+  take~36: require  
+  take~37: assume, as of positions or roles 
+  take~38: develop a habit 
+  take~39: carry out 
+  take~40: require as useful, just, or proper 
+  take~41: be capable of holding or containing 
+  take~42: have with oneself 
+  take~43: be designed to hold or take 
+Command: :up have
+
+For have:
+ Set hierarchy:
+ Wordnet hierarchy:
+  have~1: cause to be born 
+  have~2: suffer from 
+  have~3: undergo  
+  have~4: cause to move 
+  have~5: undergo 
+  have~6: cause to do 
+  have~7: serve oneself to, or consume regularly 
+  have~8: organize or be responsible for 
+  have~9: go through  
+  have~10: have or possess, either in a concrete or an abstract sense 
+  have~11: have ownership or possession of 
+  have~12: have left 
+  have~13: get something 
+  have~14: receive willingly something given or offered 
+  have~15: achieve a point or goal 
+  have~16: have a personal or business relationship with someone 
+  have~17: have as a feature 
+  have~18: be confronted with 
+Command: :up accept
+
+For accept:
+ Set hierarchy:
+ Wordnet hierarchy:
+  accept~1: tolerate or accommodate oneself to 
+  accept~2: consider or hold as true 
+  accept~3: be sexually responsive to, used of a female domesticated mammal 
+  accept~4: react favorably to 
+  accept~5: give an affirmative reply to 
+  accept~6: make use of or accept for some purpose 
+  accept~7: receive officially, as from a committee 
+  accept~8: receive willingly something given or offered 
+  accept~9: admit into a group or community 
+  accept~10: take on as one's own the expenses or debts of another person 
+  accept~11: be designed to hold or take 
+Command: :build 1
+Command: :up want
+
+For want:
+ Set hierarchy:
+ Wordnet hierarchy:
+  want~1: a specific feeling of desire 
+    is desire~2  the feeling that accompanies an unsatisfied state 
+       is feeling~1z the experiencing of affective and emotional states 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  want~2: anything that is necessary but lacking 
+    is requirement~3  anything indispensable 
+       is thing~1z a separate and self-contained entity 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  want~3: the state of needing something that is absent or unavailable 
+    is need~3  a condition requiring relief 
+       is condition~6z a state at a particular time 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  want~4: a state of extreme poverty 
+    is poorness~4  the state of having little or no money and few or no material possessions 
+       is financial_condition~1z the condition of finances 
+          is condition~6z a state at a particular time 
+             is state~1z the way something is with respect to its main attributes 
+                is attribute~1z an abstraction belonging to or characteristic of an entity 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  want~5: wish or demand the presence of 
+  want~6: have need of 
+  want~7: hunt or look for 
+  want~8: feel or have a desire for 
+  want~9: be without, lack 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:20:55 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  giving apples ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:21:01 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:21:04 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample÷ ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:21:07 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  sample ==> I can't be too cautious with my stepmother wanting to kill me!  When:Mon Sep 23 15:21:09 2013 Why: ~assassination_plot.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  sample ==> Right.  When:Mon Sep 23 15:21:11 2013 Why: ~honest_response.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:21:13 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  here's an apple! ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:21:22 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:21:24 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:21:26 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  do you want it then? ==> Do you wish?  When:Mon Sep 23 15:21:32 2013 Why: ~quibble_do.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  do you want one? ==> Doesn't everyone?  When:Mon Sep 23 15:21:54 2013 Why: ~quibble_do.102.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want one? ==> I forget.  When:Mon Sep 23 15:21:59 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  want apple? ==> No thanks.  When:Mon Sep 23 15:22:00 2013 Why: ~sell_apple.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:22:09 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  do you want an apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:22:13 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:22:15 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:22:17 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  do you want an apple then? ==> No thanks.  When:Mon Sep 23 15:22:22 2013 Why: ~sell_apple.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:22:24 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  apples ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:22:30 2013 Why: ~justify_identity.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:22:32 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  take this apple ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:22:38 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:22:40 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:22:42 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  want one? ==> I'll have to think about that.  When:Mon Sep 23 15:22:49 2013 Why: ~honest_response.33.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  want it? ==> I don't remember.  When:Mon Sep 23 15:23:49 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want one? ==> I forget.  When:Mon Sep 23 15:23:52 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  want apple? ==> No thanks.  When:Mon Sep 23 15:23:53 2013 Why: ~sell_apple.3.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  want it? ==> I can't accept anything from you.  When:Mon Sep 23 15:27:04 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~introductions) 9  want it ==> Yes, what can I do for you?  When:Mon Sep 23 15:27:11 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  want ==> I can't be too cautious with my stepmother wanting to kill me!  When:Mon Sep 23 15:27:16 2013 Why: ~assassination_plot.0.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  want it? ==> Don't know.  When:Mon Sep 23 15:27:56 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 12  want apple? ==> I don't know.  When:Mon Sep 23 15:27:59 2013 Why: ~honest_response.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:28:02 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  want an apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:28:08 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:28:11 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:28:12 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  want it? ==> I'll have to think about that.  When:Mon Sep 23 15:28:14 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  want apple? ==> No thanks.  When:Mon Sep 23 15:28:17 2013 Why: ~sell_apple.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:31:33 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  want one? ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:31:34 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  want one? ==> I'm sorry. I don't know.  When:Mon Sep 23 15:31:37 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:31:41 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:31:43 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:31:44 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want one? ==> I forget.  When:Mon Sep 23 15:31:46 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  want apple? ==> No thanks.  When:Mon Sep 23 15:31:48 2013 Why: ~sell_apple.3.0 
+Command: :build
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  want it? ==> I can't accept anything from you.  When:Mon Sep 23 15:32:57 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  want i? ==> I don't know.  When:Mon Sep 23 15:32:59 2013 Why: ~honest_response.14.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  want apple? ==> I can't be too cautious with my stepmother wanting to kill me!  When:Mon Sep 23 15:33:01 2013 Why: ~assassination_plot.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  apple ==> Fine.  When:Mon Sep 23 15:33:04 2013 Why: ~honest_response.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:33:06 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  give apple ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:33:10 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:33:12 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  wample ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:33:14 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  sample ==> I can't be too cautious with my stepmother wanting to kill me!  When:Mon Sep 23 15:33:17 2013 Why: ~assassination_plot.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  want it? ==> I don't remember.  When:Mon Sep 23 15:33:21 2013 Why: ~honest_response.33.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  want it? ==> I forget.  When:Mon Sep 23 15:37:00 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  want it? ==> I can't accept anything from you.  When:Mon Sep 23 15:37:02 2013 Why: ~sell_apple.0.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~introductions) 8  want it? ==> Yes, what can I do for you?  When:Mon Sep 23 15:39:11 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 9  want it? ==> I'll have to think about that.  When:Mon Sep 23 15:39:12 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 10  want apple? ==> Shouldn't you be selling those rather than giving them away?  When:Mon Sep 23 15:39:14 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 11  sample ==> Oh! That makes sense.  When:Mon Sep 23 15:39:19 2013 Why: ~sell_apple.2.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 12  want it? ==> No thanks.  When:Mon Sep 23 15:39:21 2013 Why: ~sell_apple.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:39:35 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  here's an apple! ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:39:43 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm an apple peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:39:49 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  It's just a sample ==> Oh, that makes sense.  When:Mon Sep 23 15:39:56 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Do you want it then? ==> Do you wish?  When:Mon Sep 23 15:40:04 2013 Why: ~quibble_do.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  Want it? ==> I don't remember.  When:Mon Sep 23 15:40:08 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want it? ==> I forget.  When:Mon Sep 23 15:40:10 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  want the appple? ==> No thanks.  When:Mon Sep 23 15:40:16 2013 Why: ~sell_apple.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  want it6 ==> I can't accept anything from you.  When:Mon Sep 23 15:40:26 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  want it? ==> I'll have to think about that.  When:Mon Sep 23 15:40:28 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~introductions) 10  want it? ==> Yes, what can I do for you?  When:Mon Sep 23 15:40:29 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 11  do you want an apple then? ==> Isn't wanting things a source of trouble?  When:Mon Sep 23 15:41:34 2013 Why: ~quibble_do.31.0 
+Respond: user: bot:snowwhite ip: (~introductions) 12  want an apple? ==> Don't know.  When:Mon Sep 23 15:41:39 2013 Why: ~honest_response.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:41:42 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  give apple ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:41:48 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  seller ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:41:51 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:41:54 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  want an apple then? ==> No thanks.  When:Mon Sep 23 15:41:58 2013 Why: ~sell_apple.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  Look how delicious it looks! ==> It does look good.  When:Mon Sep 23 15:42:06 2013 Why: ~sell_apple.5.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  Why won't you taste it? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Mon Sep 23 15:42:12 2013 Why: ~sell_apple.6.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  What did she give you? ==> I can't accept anything from you.  When:Mon Sep 23 15:42:21 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  How did she try to kill you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Mon Sep 23 15:42:37 2013 Why: ~assassination_plot.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  horrible ==> I know! This is so unfair!  When:Mon Sep 23 15:42:44 2013 Why: ~assassination_plot.3.0 
+Command: :up it
+
+For it:
+ Set hierarchy:
+ Wordnet hierarchy:
+  it~1:
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  want it? ==> I can't be too cautious with my stepmother wanting to kill me!  When:Mon Sep 23 15:45:02 2013 Why: ~assassination_plot.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:45:04 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  sell apples ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:45:10 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  want it? ==> I'm sorry. I don't know.  When:Mon Sep 23 15:45:13 2013 Why: ~honest_response.33.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:45:16 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:45:18 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:45:20 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want it? ==> I forget.  When:Mon Sep 23 15:45:24 2013 Why: ~honest_response.33.0 
+Command: :word it
+
+it: PRONOUN_SUBJECT PRONOUN_OBJECT pattern_word substitute_recipient other_singular kindergarten  cannonical: it 
+
+ 1: it~1 
+    synonyms:  *it~1 
+Pstamp- 1197
+Istamp- 54407
+MultiWordHeader length: 7
+Direct Sets: ~it_words 
+Facts:
+Index: 19419
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~introductions) 7  this is it ==> Yes, what can I do for you?  When:Mon Sep 23 15:49:31 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  this is it ==> I can't accept anything from you.  When:Mon Sep 23 15:49:34 2013 Why: ~sell_apple.0.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~chicken) 9  chicken is it ==> You want chicken.  When:Mon Sep 23 15:49:57 2013 Why: ~chicken.0.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  I'm roasting it ==> I can't be too cautious with my stepmother wanting to kill me!  When:Mon Sep 23 15:50:35 2013 Why: ~assassination_plot.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  I'm roasting chicken ==> OK.  When:Mon Sep 23 15:50:40 2013 Why: ~honest_response.23.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 12  I'm roasting it ==> I wouldn't have thought that about you.  When:Mon Sep 23 15:50:58 2013 Why: ~honest_response.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 13  I'm roasting chicken ==> Have you tried to look for the good in it?  When:Mon Sep 23 15:51:03 2013 Why: ~honest_response.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 14  I'm roasting chicken ==> I don't know what to say.  When:Mon Sep 23 15:51:17 2013 Why: ~control.1.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 15  I'm roasting pork ==> I didn't know that.  When:Mon Sep 23 15:52:58 2013 Why: ~honest_response.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 16  I'm roasting chicken ==> I don't know what to say.  When:Mon Sep 23 15:53:04 2013 Why: ~control.1.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~chicken) 17  roasting chicken ==> Right.  When:Mon Sep 23 15:53:22 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~chicken) 18  roasting pork ==> Cool.  When:Mon Sep 23 15:53:26 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~chicken) 19  roasting chicken ==> Indeed.  When:Mon Sep 23 15:53:28 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~chicken) 20  build 1 ==> I don't know what to say.  When:Mon Sep 23 15:54:06 2013 Why: ~control.1.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~chicken) 21  roasting chicken ==> I don't know what to say.  When:Mon Sep 23 15:54:18 2013 Why: ~control.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:54:20 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  roasting chicken ==> You want chicken.  When:Mon Sep 23 15:54:24 2013 Why: ~chicken.0.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:54:45 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  roasting chicken ==> You want chicken.  When:Mon Sep 23 15:54:48 2013 Why: ~chicken.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:54:50 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  roasting pork ==> You want chicken.  When:Mon Sep 23 15:54:54 2013 Why: ~chicken.0.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:55:09 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  roasting chicken ==> You want chicken.  When:Mon Sep 23 15:55:12 2013 Why: ~chicken.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:55:14 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  roasting it ==> You want chicken.  When:Mon Sep 23 15:55:16 2013 Why: ~chicken.0.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:56:24 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  want an apple&? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:56:29 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 15:56:31 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Mon Sep 23 15:56:32 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  want it? ==> I'll have to think about that.  When:Mon Sep 23 15:56:35 2013 Why: ~honest_response.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:57:03 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  want it? ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:57:05 2013 Why: ~justify_identity.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:58:20 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  want an orange? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 15:58:24 2013 Why: ~sell_apple.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 15:59:06 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  want it ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 15:59:07 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  want it? ==> I'm sorry. I don't know.  When:Mon Sep 23 15:59:10 2013 Why: ~honest_response.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 16:00:32 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  want it? ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 16:00:35 2013 Why: ~justify_identity.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 16:01:08 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  want it? ==> Sorry but I was told not to trust any strangers.  When:Mon Sep 23 16:01:10 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  what did she give you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Mon Sep 23 16:21:11 2013 Why: ~assassination_plot.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  Why does she whant to kill you? ==> It just seems that way based on stuff I've been told about it in the past.  When:Mon Sep 23 16:21:28 2013 Why: ~quibble_why.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  Why does your stepmother want to kill you? ==> Based on stuff I've been told about it in the past.  When:Mon Sep 23 16:21:42 2013 Why: ~quibble_why.3.0 
+Command: :up kill
+
+For kill:
+ Set hierarchy:
+ Wordnet hierarchy:
+  kill~1: the destruction of an enemy plane or ship or tank or missile 
+    is destruction~1  the termination of something by causing so much damage to it that it cannot be repaired or no longer exists 
+       is decision~1 the act of ending something 
+          is change_of_state~1z the act of changing something into something different in essential characteristics 
+             is change~1z the action of changing something 
+                is action~1z something done  
+                   is act~1z something that people do or cause to happen 
+                      is event~1z something that happens at a given place and time 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  kill~2: the act of terminating a life 
+    is conclusion~2  the act of ending something 
+       is change_of_state~1z the act of changing something into something different in essential characteristics 
+          is change~1z the action of changing something 
+             is action~1z something done  
+                is act~1z something that people do or cause to happen 
+                   is event~1z something that happens at a given place and time 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  kill~3: end or extinguish by forceful means 
+  kill~4: destroy a vitally essential quality of or in 
+  kill~5: cause to cease operating 
+  kill~6: tire out completely 
+  kill~7: mark for deletion, rub off, or erase 
+  kill~8: drink down entirely 
+  kill~9: cause to die 
+  kill~10: cause the death of, without intention 
+  kill~11: deprive of life 
+  kill~12: hit with great force 
+  kill~13: hit with so much force as to make a return impossible, in racket games 
+  kill~14: overwhelm with hilarity, pleasure, or admiration 
+  kill~15: be the source of great pain for 
+  kill~16: thwart the passage of 
+  kill~17: be fatal 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Mon Sep 23 16:23:27 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  Here's an apple ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 16:23:37 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm an apple peddler ==> Why are you giving your apples away, then?  When:Mon Sep 23 16:23:43 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  It's a sample ==> Oh, that makes sense.  When:Mon Sep 23 16:23:46 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  Want it then? ==> No thanks.  When:Mon Sep 23 16:23:50 2013 Why: ~sell_apple.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  Look how delicious it looks! ==> It does look good.  When:Mon Sep 23 16:24:00 2013 Why: ~sell_apple.5.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  Why won't you taste it? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Mon Sep 23 16:24:06 2013 Why: ~sell_apple.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  What did she give you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Mon Sep 23 16:24:14 2013 Why: ~assassination_plot.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  That's just horrible! ==> I know! This is so unfair!  When:Mon Sep 23 16:24:21 2013 Why: ~assassination_plot.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 10:38:11 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  roasting chicken ==> You want chicken.  When:Wed Sep 25 10:38:19 2013 Why: ~chicken.0.0 
+Command: :up eat
+
+For eat:
+ Set hierarchy:
+ Wordnet hierarchy:
+  eat~1: cause to deteriorate due to the action of water, air, or an acid 
+  eat~2: use up  
+  eat~3: eat a meal 
+  eat~4: take in solid food 
+  eat~5: take in food 
+  eat~6: worry or cause anxiety in a persistent way 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 10:42:18 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  fart chicken ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 10:42:20 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  digest chicken ==> I can't accept anything from you.  When:Wed Sep 25 10:42:36 2013 Why: ~sell_apple.0.0 
+Respond: user: bot:snowwhite ip: (~introductions) 3  swallow chicken ==> Yes, what can I do for you?  When:Wed Sep 25 10:42:53 2013 Why: ~introductions.4.0 
+Command: :up trust
+
+For trust:
+ Set hierarchy:
+ Wordnet hierarchy:
+  trust~1: the trait of believing in the honesty and reliability of others 
+    is trait~1  a distinguishing feature of your personal nature 
+       is attribute~1z an abstraction belonging to or characteristic of an entity 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trust~2: certainty based on past experience 
+    is certainty~2  the state of being certain 
+       is state_of_mind~1z the state of a person's cognitive processes 
+          is mental_condition~1z a mental condition in which the qualities of a state are relatively constant even though the state itself may be dynamic 
+             is condition~6z a state at a particular time 
+                is state~1z the way something is with respect to its main attributes 
+                   is attribute~1z an abstraction belonging to or characteristic of an entity 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trust~3: complete confidence in a person or plan etc 
+    is belief~2  any cognitive content held as true 
+       is depicted_object~1z the sum or range of what has been perceived, discovered, or learned 
+          is knowledge~1z the psychological result of perception and learning and reasoning 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trust~4: a consortium of independent organizations formed to limit competition by controlling the production and distribution of a product or service 
+    is syndicate~1  an association of companies for some definite purpose 
+       is association~1z a formal organization of people or groups of people 
+          is constitution~1z a group of people who work together 
+             is social_group~1z people sharing some social relation 
+                is group~1z any number of entities considered as a unit 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trust~5: something held by one party (the trustee) for the benefit of another (the beneficiary) 
+    is property~5  something owned 
+       is possession~1z anything owned or possessed 
+          is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trust~6: a trustful relationship 
+    is friendship~1  the state of being friends 
+       is human_relationship~1z a state involving mutual dealings between people or parties or countries 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trust~7: have confidence or faith in 
+  trust~8: be confident about something 
+  trust~9: expect and wish 
+  trust~10: extend credit to 
+  trust~11: confer a trust upon 
+  trust~12: allow without fear 
+Command: :dwarf
+Command: :up dwarf
+
+For dwarf:
+ Set hierarchy:
+ Wordnet hierarchy:
+  dwarf~1: a plant or animal that is atypically small 
+    is being~1  a living thing that has the ability to act or function independently 
+       is living_thing~1z a living entity 
+          is unit~1z an assemblage of parts that is regarded as a single entity 
+             is physical_object~1z a tangible and visible entity 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  dwarf~2: a legendary creature resembling a tiny old man 
+    is fairy~1  a small being, human in form, playful and having magical powers 
+       is supernatural_being~1z an incorporeal being believed to have powers to affect the course of human events 
+          is notion~3 any cognitive content held as true 
+             is depicted_object~1z the sum or range of what has been perceived, discovered, or learned 
+                is knowledge~1z the psychological result of perception and learning and reasoning 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  dwarf~3: a person who is markedly small 
+    is small_person~1  a person of below average size 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  dwarf~4: check the growth of 
+  dwarf~5: make appear small by comparison 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4    ==> I can't be too cautious with my stepmother wanting to kill me!  When:Wed Sep 25 11:04:05 2013 Why: ~assassination_plot.0.0 
+Command: :kidnap
+Command: :up kidnap
+
+For kidnap:
+ Set hierarchy:
+ Wordnet hierarchy:
+  kidnap~1: take away to an undisclosed location against their will and usually in order to extract a ransom 
+Command: :prison
+Command: :up prison
+
+For prison:
+ Set hierarchy:
+ Wordnet hierarchy:
+  prison~1: a correctional institution where persons are confined while on trial or for punishment 
+    is correctional_institution~1  a penal institution maintained by the government 
+       is penal_facility~1z an institution where persons are confined for punishment and to protect the public 
+          is instauration~1 an establishment consisting of a building or complex of buildings where an organization for the promotion of some cause is situated 
+             is organization~1 a public or private structure including buildings and equipment for business or residence 
+                is construction~4z a thing constructed 
+                   is artefact~1z a man-made object taken as a whole 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  prison~2: a prisonlike situation 
+    is situation~4  the general state of things 
+       is state~1z the way something is with respect to its main attributes 
+          is attribute~1z an abstraction belonging to or characteristic of an entity 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up jail
+
+For jail:
+ Set hierarchy:
+ Wordnet hierarchy:
+  jail~1: a correctional institution used to detain persons who are in the lawful custody of the government 
+    is correctional_institution~1  a penal institution maintained by the government 
+       is penal_facility~1z an institution where persons are confined for punishment and to protect the public 
+          is instauration~1 an establishment consisting of a building or complex of buildings where an organization for the promotion of some cause is situated 
+             is organization~1 a public or private structure including buildings and equipment for business or residence 
+                is construction~4z a thing constructed 
+                   is artefact~1z a man-made object taken as a whole 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  jail~2: lock up or confine, in or as in a jail 
+Command: :up imprison
+
+For imprison:
+ Set hierarchy:
+ Wordnet hierarchy:
+  imprison~1: lock up or confine, in or as in a jail 
+  imprison~2: confine as if in a prison 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  ~confine ==> Right.  When:Wed Sep 25 11:06:07 2013 Why: ~honest_response.45.0 
+Command: :up ~confine
+Command: :up confine
+
+For confine:
+ Set hierarchy:
+ Wordnet hierarchy:
+  confine~1: place limits on  
+  confine~2: restrict or confine, 
+  confine~3: to close within bounds, limit or hold back from movement 
+  confine~4: prevent from leaving or from being removed 
+  confine~5: deprive of freedom 
+  confine~6: close in 
+Command: :up pervert
+
+For pervert:
+ Set hierarchy:
+ Wordnet hierarchy:
+  pervert~1: a person whose behavior deviates from what is acceptable especially in sexual behavior 
+    is reprobate~1  a person without moral scruples 
+       is offender~1z a person who transgresses moral or civil law 
+          is bad_person~1z a person who does harm to others 
+             is somebody~1z a human being 
+                is organism~1z a living thing that has the ability to act or function independently 
+                   is living_thing~1z a living entity 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  pervert~2: change the inherent purpose or function of something 
+  pervert~3: practice sophistry 
+  pervert~4: corrupt morally or by intemperance or sensuality 
+Command: :up vicious
+
+For vicious:
+ Set hierarchy:
+ Wordnet hierarchy:
+  vicious~1: marked by deep ill will 
+  vicious~2: able or disposed to inflict pain or suffering 
+  vicious~3: bringing or deserving severe rebuke or censure 
+  vicious~4: having the nature of vice 
+Command: :up badness
+
+For badness:
+ Set hierarchy:
+ Wordnet hierarchy:
+  badness~1: an attribute of mischievous children 
+    is disobedience~2  the trait of being unwilling to obey 
+       is intractableness~1z the trait of being hard to influence or control 
+          is trait~1z a distinguishing feature of your personal nature 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  badness~2: used of the degree of something undesirable e.g. pain or weather 
+    is intensiveness~1  high level or degree 
+       is grade~1z a position on a scale of intensity or amount or quality 
+          is prop~3z a basic or essential attribute shared by all members of a class 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  badness~3: that which is below standard or expectations as of ethics or decency 
+    is quality~1  an essential and distinguishing attribute of something or someone 
+       is attribute~1z an abstraction belonging to or characteristic of an entity 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up food
+
+For food:
+ Set hierarchy:
+ Wordnet hierarchy:
+  food~1: any substance that can be metabolized by an animal to give energy and build tissue 
+    is substance~2  a particular kind or species of matter with uniform properties 
+       is matter~1z that which has mass and occupies space 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  food~2: anything that provides mental stimulus for thinking 
+    is content~2  the sum or range of what has been perceived, discovered, or learned 
+       is knowledge~1z the psychological result of perception and learning and reasoning 
+          is psychological_feature~1z a feature of the mental life of a living organism 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  food~3: any solid substance that is used as a source of nourishment 
+    is solid~3  matter that is solid at room temperature and pressure 
+       is matter~1z that which has mass and occupies space 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :dead
+Command: :up dead
+
+For dead:
+ Set hierarchy:
+ Wordnet hierarchy:
+  dead~1: people who are no longer living 
+    is people~1  any group of human beings (men or women or children) collectively 
+       is group~1z any number of entities considered as a unit 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  dead~2: a time when coldness is intense 
+    is time~5  an indefinite period  
+       is stop~7 an amount of time 
+          is fundamental_measure~1z one of the four quantities that are the basis of systems of measurement 
+             is quantity~1z how much there is or how many there are of something that you can quantify 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  dead~3: devoid of activity 
+  dead~4: physically inactive 
+  dead~5: no longer having or seeming to have or expecting to have life 
+  dead~6: not showing characteristics of life especially the capacity to sustain life 
+  dead~7: drained of electric charge 
+  dead~8: complete 
+  dead~9: no longer having force or relevance 
+  dead~10: out of use or operation because of a fault or breakdown 
+  dead~11: lacking resilience or bounce 
+  dead~12: not surviving in active use 
+  dead~13: not circulating or flowing 
+  dead~14: unerringly accurate 
+  dead~15: not yielding a return 
+  dead~16: lacking acoustic resonance 
+  dead~17: devoid of physical sensation 
+  dead~18: not showing human feeling or sensitivity 
+  dead~19: very tired 
+  dead~20: completely and without qualification 
+  dead~21: quickly and without warning 
+Command: :because
+Command: :up becaue
+Command: :up because
+
+For because:
+ Set hierarchy:
+ Wordnet hierarchy:
+  because~1:
+Command: :up explanatory
+
+For explanatory:
+ Set hierarchy:
+ Wordnet hierarchy:
+  explanatory~1: serving or intended to explain or make clear 
+Command: :up awat
+Command: :up away
+
+For away:
+ Set hierarchy:
+ Wordnet hierarchy:
+  away~1: on the far side of home plate from the batter 
+  away~2: used of an opponent's ground 
+  away~3: not present 
+  away~4: from a particular thing or place or position  
+  away~5: from one's possession 
+  away~6: in reserve 
+  away~7: out of the way  
+  away~8: out of existence 
+  away~9: indicating continuing action 
+  away~10: in a different direction 
+  away~11: in or into a proper place  
+  away~12: at a distance in space or time 
+  away~13: so as to be removed or gotten rid of 
+  away~14: freely or at will 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:30:38 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  Here's a apple ==> Who are you to be offering apples to strangers?  When:Wed Sep 25 11:30:45 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm an apple peddler ==> Why are you giving your apples away, then?  When:Wed Sep 25 11:30:50 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  It's just a sample. ==> Oh, that makes sense.  When:Wed Sep 25 11:30:57 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  Do you want it then? ==> No thanks.  When:Wed Sep 25 11:31:04 2013 Why: ~sell_apple.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  Look how delicious it looks? ==> It does look good.  When:Wed Sep 25 11:31:30 2013 Why: ~sell_apple.5.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  Why won'T you taste it then? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Wed Sep 25 11:31:36 2013 Why: ~sell_apple.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  What did she give you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Wed Sep 25 11:31:53 2013 Why: ~assassination_plot.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  That's just horrible! ==> I know! This is so unfair!  When:Wed Sep 25 11:32:56 2013 Why: ~assassination_plot.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  I'm not your stepmother ==> How do I know that?  When:Wed Sep 25 11:33:11 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  Just trust me ==> I can't be too cautious with my stepmother wanting to kill me!  When:Wed Sep 25 11:33:19 2013 Why: ~assassination_plot.0.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  : ==> Fine.  When:Wed Sep 25 11:36:19 2013 Why: ~honest_response.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:36:21 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  apple ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 11:36:32 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Just trust me ==> The dwarves told me not to trust anyone.  When:Wed Sep 25 11:36:38 2013 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 3  They want to keep you for themselves ==> Yes, what can I do for you?  When:Wed Sep 25 11:36:48 2013 Why: ~introductions.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:37:41 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  just trust me ==> The dwarves told me not to trust anyone.  When:Wed Sep 25 11:37:46 2013 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  they want to keep you ==> You think so?... they seem so nice.  When:Wed Sep 25 11:37:49 2013 Why: ~dwarves.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 3  the dwarves are perverts ==> Trust -= 1 Don't talk like that about these generous creatures!  When:Wed Sep 25 11:38:04 2013 Why: ~dwarves.2.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  But do they give you nice apples? ==> Who are you to be offering apples to strangers?  When:Wed Sep 25 11:38:55 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 5  dwarves! food! ==> It's true that I'm tired of bread and cabbages every day.  When:Wed Sep 25 11:39:30 2013 Why: ~dwarves.3.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  You know what? I can't be your stepmother because she's dead ==> You think I should know?  When:Wed Sep 25 11:40:52 2013 Why: ~honest_response.30.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:41:36 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 1  you know, I can't be your stepmother because she's dead ==> Really!? That's great news!  When:Wed Sep 25 11:41:57 2013 Why: ~assassination_plot.5.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:42:37 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  have an apple! ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 11:42:51 2013 Why: ~justify_identity.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:43:54 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  have an apple! ==> Who are you to be offering apples to strangers?  When:Wed Sep 25 11:43:57 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler! ==> Why are you giving your apples away, then?  When:Wed Sep 25 11:44:04 2013 Why: ~justify_identity.2.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:44:09 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  have a dwarf apple! ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 11:44:15 2013 Why: ~justify_identity.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:44:22 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  have an apple! ==> Who are you to be offering apples to strangers?  When:Wed Sep 25 11:44:26 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler! ==> Why are you giving your apples away, then?  When:Wed Sep 25 11:44:28 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample! ==> Oh, that makes sense.  When:Wed Sep 25 11:44:31 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  want it then? ==> No thanks.  When:Wed Sep 25 11:44:39 2013 Why: ~sell_apple.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  it delicious ==> It does look good.  When:Wed Sep 25 11:44:46 2013 Why: ~sell_apple.5.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  taste it! ==> OK.  When:Wed Sep 25 11:44:50 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  why won't you taste it? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Wed Sep 25 11:44:57 2013 Why: ~sell_apple.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  what did she give you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Wed Sep 25 11:45:03 2013 Why: ~assassination_plot.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  poor thing ==> I know! This is so unfair!  When:Wed Sep 25 11:45:07 2013 Why: ~assassination_plot.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  I not stepmother ==> How do I know that?  When:Wed Sep 25 11:45:21 2013 Why: ~assassination_plot.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  just trust me ==> The dwarves told me not to trust anyone.  When:Wed Sep 25 11:45:24 2013 Why: ~assassination_plot.4.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 12  they want to keep you for themselves ==> You think so?... they seem so nice.  When:Wed Sep 25 11:45:39 2013 Why: ~dwarves.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 13  the dwarves are perverts ==> Don't talk like that about these generous creatures!  When:Wed Sep 25 11:45:45 2013 Why: ~dwarves.2.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 14  do they give you apples? ==> The dwarves? They're out in the mountain right now.  When:Wed Sep 25 11:45:53 2013 Why: ~dwarves.0.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:47:39 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  do they give you apples? ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 11:47:49 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  do the dwarves give you apples? ==> Could you ask someone else who might know more?  When:Wed Sep 25 11:47:55 2013 Why: ~quibble_do.12.0 
+Respond: user: bot:snowwhite ip: (~introductions) 3  build 1 ==> Yes, what can I do for you?  When:Wed Sep 25 11:48:16 2013 Why: ~introductions.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:48:26 2013 Why: ~justify_identity.0.0 
+Command: :up apple
+
+For apple:
+ Set hierarchy:
+ Wordnet hierarchy:
+  apple~1: fruit with red or yellow or green skin and sweet to tart crisp whitish flesh 
+    is edible_fruit~1  edible reproductive body of a seed plant especially one having sweet flesh 
+       is green_groceries~1z fresh fruits and vegetable grown for the market 
+          is nutrient~1z any solid substance that is used as a source of nourishment 
+             is solid~1z matter that is solid at room temperature and pressure 
+                is matter~1z that which has mass and occupies space 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is yield~2 the ripened reproductive body of a seed plant 
+          is reproductive_structure~1z the parts of a plant involved in its reproduction 
+             is plant_organ~1z a functional and structural unit of a plant or fungus 
+                is plant_structure~1z any part of a plant or fungus 
+                   is natural_object~1z an object occurring naturally 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is pome~1  a fleshy fruit having seed chambers and an outer fleshy part 
+       is yield~2 the ripened reproductive body of a seed plant 
+          is reproductive_structure~1z the parts of a plant involved in its reproduction 
+             is plant_organ~1z a functional and structural unit of a plant or fungus 
+                is plant_structure~1z any part of a plant or fungus 
+                   is natural_object~1z an object occurring naturally 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  apple~2: native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits 
+    is apple_tree~1  any tree of the genus Malus especially those bearing firm rounded edible fruits 
+       is fruit_tree~1z tree bearing edible fruit 
+          is flowering_tree~1z any tree having seeds and ovules contained in the ovary 
+             is tree~1z a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown 
+                is ligneous_plant~1z a plant having hard lignified tissues or woody parts especially stems 
+                   is tracheophyte~1z green plant having a vascular system: ferns, gymnosperms, angiosperms 
+                      is flora~1z a living organism lacking the power of locomotion 
+                         is organism~1z a living thing that has the ability to act or function independently 
+                            is living_thing~1z a living entity 
+                               is unit~1z an assemblage of parts that is regarded as a single entity 
+                                  is physical_object~1z a tangible and visible entity 
+                                     is physical_entity~1z an entity that has physical existence 
+                                        is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  do dwarves give you food ==> It's true that I'm tired of bread and cabbages every day.  When:Wed Sep 25 11:48:50 2013 Why: ~dwarves.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:48:53 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  do they give you food? ==> It's true that I'm tired of bread and cabbages every day.  When:Wed Sep 25 11:48:57 2013 Why: ~dwarves.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:48:59 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  do they give you apples? ==> It's true that I'm tired of bread and cabbages every day.  When:Wed Sep 25 11:49:02 2013 Why: ~dwarves.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:49:14 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  have apple ==> Who are you to be offering apples to strangers?  When:Wed Sep 25 11:49:17 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Wed Sep 25 11:49:20 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Wed Sep 25 11:49:23 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  want it then? ==> No thanks.  When:Wed Sep 25 11:49:31 2013 Why: ~sell_apple.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  it delicious ==> It does look good.  When:Wed Sep 25 11:49:36 2013 Why: ~sell_apple.5.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  why not taste it ? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Wed Sep 25 11:49:45 2013 Why: ~sell_apple.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  what did she give you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Wed Sep 25 11:49:53 2013 Why: ~assassination_plot.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  poor thing ==> I know! This is so unfair!  When:Wed Sep 25 11:49:56 2013 Why: ~assassination_plot.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  I'm not your stepmother ==> How do I know that?  When:Wed Sep 25 11:50:07 2013 Why: ~assassination_plot.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  just trust me ==> The dwarves told me not to trust anyone.  When:Wed Sep 25 11:50:10 2013 Why: ~assassination_plot.4.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 11  they kidnapped you ==> You think so?... they seem so nice.  When:Wed Sep 25 11:50:20 2013 Why: ~dwarves.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 12  the dwarves are vicious ==> Don't talk like that about these generous creatures!  When:Wed Sep 25 11:50:40 2013 Why: ~dwarves.2.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 13  but do they give you nice apples? ==> It's true that I'm tired of bread and cabbages every day.  When:Wed Sep 25 11:50:54 2013 Why: ~dwarves.3.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 14  You know what? I can'T be your stepmother because she's dead! ==> The dwarves? They're out in the mountain right now.  When:Wed Sep 25 11:51:14 2013 Why: ~dwarves.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 15  your stepmother is dead ==> I can't be too cautious with my stepmother wanting to kill me!  When:Wed Sep 25 11:51:36 2013 Why: ~assassination_plot.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 16  your stepmother died ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 11:51:51 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 17  I not stepmother because dead ==> Really!? That's great news!  When:Wed Sep 25 11:52:36 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 18  take apple now ==> OK.  When:Wed Sep 25 11:52:50 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 19  take this apple ==> Indeed.  When:Wed Sep 25 11:53:01 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 20  want an apple? ==> Don't know.  When:Wed Sep 25 11:53:05 2013 Why: ~honest_response.33.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:57:57 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  take this apple ==> Who are you to be offering apples to strangers?  When:Wed Sep 25 11:57:59 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  take this appe ==> I can't accept anything from you.  When:Wed Sep 25 11:58:02 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  take this apple ==> Shouldn't you be selling those rather than giving them away?  When:Wed Sep 25 11:58:06 2013 Why: ~sell_apple.3.0 
+Respond: user: bot:snowwhite ip: (~introductions) 4  take this apple ==> Yes, what can I do for you?  When:Wed Sep 25 11:58:09 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 5  take this apple ==> Right.  When:Wed Sep 25 11:58:12 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~introductions) 6  take this apple ==> OK.  When:Wed Sep 25 11:58:14 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  have an apple ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 11:58:18 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  I'm peddler ==> Why are you giving your apples away, then?  When:Wed Sep 25 11:58:32 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 9  sample ==> Oh, that makes sense.  When:Wed Sep 25 11:58:38 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 10  take apple ==> No thanks, trust is 1 .  When:Wed Sep 25 11:58:40 2013 Why: ~sell_apple.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Wed Sep 25 11:59:12 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  take apple ==> Who are you to be offering apples to strangers?  When:Wed Sep 25 11:59:19 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  peddler ==> Why are you giving your apples away, then?  When:Wed Sep 25 11:59:21 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  sample ==> Oh, that makes sense.  When:Wed Sep 25 11:59:23 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  eat it then ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 11:59:32 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  do you want it then? ==> No thanks, trust is 1 .  When:Wed Sep 25 11:59:43 2013 Why: ~sell_apple.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  it looks delicious ==> It does look good.  When:Wed Sep 25 11:59:55 2013 Why: ~sell_apple.10.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  why won't you taste it? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Wed Sep 25 12:00:05 2013 Why: ~sell_apple.11.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  what did she give you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Wed Sep 25 12:00:10 2013 Why: ~assassination_plot.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  poor thing ==> I know! This is so unfair!  When:Wed Sep 25 12:00:12 2013 Why: ~assassination_plot.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  I'm not your stepmother ==> How do I know that?  When:Wed Sep 25 12:00:23 2013 Why: ~assassination_plot.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  trust me ==> The dwarves told me not to trust anyone.  When:Wed Sep 25 12:00:25 2013 Why: ~assassination_plot.4.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 12  they kidnapped you ==> You think so?... they seem so nice.  When:Wed Sep 25 12:00:33 2013 Why: ~dwarves.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 13  they are douchebags ==> Indeed.  When:Wed Sep 25 12:00:46 2013 Why: ~honest_response.45.0.34.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 14  they are assholes ==> The dwarves? They're out in the mountain right now.  When:Wed Sep 25 12:00:57 2013 Why: ~dwarves.0.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 15  they are weird ==> Don't talk like that about these generous creatures!  When:Wed Sep 25 12:01:04 2013 Why: ~dwarves.2.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 16  but do they feed you well? ==> It's true that I'm tired of bread and cabbages every day.  When:Wed Sep 25 12:01:31 2013 Why: ~dwarves.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 17  I'm not stepmother because she's away ==> Really!? That's great news!  When:Wed Sep 25 12:01:49 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 18  take apple ==> All right, Iâ€™ll have a bite of this apple. Arrrhh you vile woman! Iâ€™m too young to die! The dwarves will definitely think me an idiot now!  When:Wed Sep 25 12:01:57 2013 Why: ~sell_apple.9.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 12:44:12 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  I like chicken ==> You like chicken.  When:Thu Sep 26 12:44:15 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  do you like it? ==> It is  When:Thu Sep 26 12:44:23 2013 Why: ~chicken.1.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  You like it? ==> I can't accept anything from you.  When:Thu Sep 26 12:47:19 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~introductions) 4  chicken ==> Yes, what can I do for you?  When:Thu Sep 26 12:47:24 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~introductions) 5  do you like it? ==> Doesn't everyone?  When:Thu Sep 26 12:47:27 2013 Why: ~quibble_do.102.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 12:47:33 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  I like chicken ==> You like chicken.  When:Thu Sep 26 12:47:35 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  Do you like chicken? ==> Yes, I like it.  When:Thu Sep 26 12:47:41 2013 Why: ~quibble_do.27.0 
+Respond: user: bot:snowwhite ip: (~chicken) 3  do you like it? ==> It is  When:Thu Sep 26 12:47:46 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 4  do you like it? ==> I don't know. I've never tried it.  When:Thu Sep 26 12:47:51 2013 Why: ~quibble_do.102.0 
+Respond: user: bot:snowwhite ip: (~chicken) 5  do you like it? ==> Doesn't everyone?  When:Thu Sep 26 12:47:52 2013 Why: ~quibble_do.102.0 
+Respond: user: bot:snowwhite ip: (~chicken) 6  chicken ==> OK.  When:Thu Sep 26 12:47:57 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  I like chicken ==> Sorry but I was told not to trust any strangers.  When:Thu Sep 26 12:48:00 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  do you like it? ==> I can't accept anything from you.  When:Thu Sep 26 12:48:03 2013 Why: ~sell_apple.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 12:48:16 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  i like chicken ==> You like chicken.  When:Thu Sep 26 12:48:19 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  i like chicken ==> That's nice.  When:Thu Sep 26 12:48:21 2013 Why: ~honest_response.22.0 
+Respond: user: bot:snowwhite ip: (~chicken) 3  i like chicken ==> Great.  When:Thu Sep 26 12:48:22 2013 Why: ~honest_response.22.0 
+Respond: user: bot:snowwhite ip: (~introductions) 4  i like chicken ==> Yes, what can I do for you?  When:Thu Sep 26 12:48:22 2013 Why: ~introductions.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 12:48:38 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  i like chicken ==> You like chicken.  When:Thu Sep 26 12:48:40 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  i like chicken ==> That's nice.  When:Thu Sep 26 12:48:41 2013 Why: ~honest_response.22.0 
+Respond: user: bot:snowwhite ip: (~chicken) 3  i like chicken ==> Great.  When:Thu Sep 26 12:48:42 2013 Why: ~honest_response.22.0 
+Respond: user: bot:snowwhite ip: (~introductions) 4  i like chicken ==> Yes, what can I do for you?  When:Thu Sep 26 12:48:43 2013 Why: ~introductions.4.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+4 Thu Sep 26 12:52:27 2013 in sentence: i like chicken 
+    Missing topic index for ~chicken
+
+4 Thu Sep 26 12:52:27 2013 in sentence: i like chicken 
+    Missing topic index for ~introductions
+
+4 Thu Sep 26 12:52:27 2013 in sentence: i like chicken 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 12:52:31 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  I like chicken ==> You like chicken.  When:Thu Sep 26 12:52:36 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  I like chicken ==> That's nice.  When:Thu Sep 26 12:52:41 2013 Why: ~honest_response.22.0 
+Command: :build 1
+Missing topic index for ~introductions
+
+2 Thu Sep 26 12:54:07 2013 in sentence: I like chicken 
+    Missing topic index for ~justify_identity
+
+2 Thu Sep 26 12:54:07 2013 in sentence: I like chicken 
+    Missing topic index for ~chicken
+
+2 Thu Sep 26 12:54:07 2013 in sentence: I like chicken 
+    Command: :build 1
+Missing topic index for ~introductions
+
+2 Thu Sep 26 12:54:22 2013 in sentence: I like chicken 
+    Missing topic index for ~justify_identity
+
+2 Thu Sep 26 12:54:22 2013 in sentence: I like chicken 
+    Missing topic index for ~chicken
+
+2 Thu Sep 26 12:54:22 2013 in sentence: I like chicken 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 12:54:27 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  I like chicken ==> You like chicken.  When:Thu Sep 26 12:54:29 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  I like chicken ==> That's nice.  When:Thu Sep 26 12:54:32 2013 Why: ~honest_response.22.0 
+Command: :build 1
+Missing topic index for ~introductions
+
+2 Thu Sep 26 12:59:35 2013 in sentence: I like chicken 
+    Missing topic index for ~justify_identity
+
+2 Thu Sep 26 12:59:35 2013 in sentence: I like chicken 
+    Missing topic index for ~chicken
+
+2 Thu Sep 26 12:59:35 2013 in sentence: I like chicken 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 12:59:40 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  chicken ==> Sorry but I was told not to trust any strangers.  When:Thu Sep 26 12:59:42 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  roasting ==> Chicken chicken chicken  When:Thu Sep 26 12:59:45 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  roasting ==> I can't accept anything from you.  When:Thu Sep 26 12:59:47 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 4  roasting ==> The dwarves? They're out in the mountain right now.  When:Thu Sep 26 12:59:49 2013 Why: ~dwarves.0.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 5  chicken ==> Right.  When:Thu Sep 26 12:59:50 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  chicken ==> OK.  When:Thu Sep 26 12:59:53 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~chicken) 7  I like chicken ==> You like chicken.  When:Thu Sep 26 12:59:56 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~introductions) 8  I like chicken ==> Yes, what can I do for you?  When:Thu Sep 26 12:59:58 2013 Why: ~introductions.4.0 
+Respond: user: bot:snowwhite ip: (~chicken) 9  I really like chicken ==> Great.  When:Thu Sep 26 13:00:05 2013 Why: ~honest_response.22.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  like chicken ==> I can't be too cautious with my stepmother wanting to kill me!  When:Thu Sep 26 13:00:09 2013 Why: ~assassination_plot.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 11  like that chicken ==> Fine.  When:Thu Sep 26 13:00:11 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~chicken) 12  pork! ==> I don't know what to say.  When:Thu Sep 26 13:00:17 2013 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 13  good pork ==> Indeed.  When:Thu Sep 26 13:00:22 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~chicken) 14  roasting pork ==> I don't know what to say.  When:Thu Sep 26 13:00:24 2013 Why: ~control.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 13:08:30 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  pork ==> Sorry but I was told not to trust any strangers.  When:Thu Sep 26 13:08:31 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  pork! ==> Chicken chicken chicken  When:Thu Sep 26 13:08:33 2013 Why: ~chicken.0.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  pork! ==> I can't accept anything from you.  When:Thu Sep 26 13:08:34 2013 Why: ~sell_apple.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 4  I like chicken ==> You like chicken.  When:Thu Sep 26 13:08:37 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 5  I like chicken ==> That's nice.  When:Thu Sep 26 13:08:38 2013 Why: ~honest_response.22.0 
+Respond: user: bot:snowwhite ip: (~chicken) 6  chicken pork ==> OK.  When:Thu Sep 26 13:08:44 2013 Why: ~honest_response.45.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  roasting pork ==> I can't be too cautious with my stepmother wanting to kill me!  When:Thu Sep 26 13:08:46 2013 Why: ~assassination_plot.0.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 13:09:35 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  I like chicken ==> You like chicken.  When:Thu Sep 26 13:09:38 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  I like chicken ==> That's nice.  When:Thu Sep 26 13:09:42 2013 Why: ~honest_response.22.0 
+Command: :build
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 14:08:38 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  I like chicken ==> You like chicken.  When:Thu Sep 26 14:08:40 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  I like it ==> You like.  When:Thu Sep 26 14:08:42 2013 Why: ~chicken.2.0 
+Respond: user: bot:snowwhite ip: (~chicken) 3  I like chicken ==> You like chicken.  When:Thu Sep 26 15:21:41 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 4  I like chicken ==> Great.  When:Thu Sep 26 15:21:45 2013 Why: ~honest_response.22.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 15:22:06 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~chicken) 1  I like chicken ==> You like chicken.  When:Thu Sep 26 15:22:09 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 2  I like chicken ==> You like chicken.  When:Thu Sep 26 15:22:13 2013 Why: ~chicken.1.0 

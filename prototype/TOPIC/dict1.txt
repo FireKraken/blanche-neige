@@ -1,0 +1,6 @@
+﻿+ ~delicious CONCEPT 
++ ~peddler CONCEPT 
++ ~murdlerplot CONCEPT 
++ ~evilqueen CONCEPT 
++ evil_queen 
++ defaultbot 

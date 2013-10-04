@@ -1,0 +1,38 @@
+﻿Start: user:jonathan bot:snowwhite ip: rand:3218 (~justify_identity) 0 ==> Yes, what can I do for you?  When:Wed Sep 25 10:14:06 2013 Version:3.53 Build0:1379951602 Build1:1379967799 Why: ~justify_identity.0.0 
+Respond: user:jonathan bot:snowwhite ip: (~justify_identity) 1  I'm selling these fine apples ==> That's nice.  When:Wed Sep 25 10:14:32 2013 Why: ~honest_response.22.0 
+Respond: user:jonathan bot:snowwhite ip: (~sell_apple) 2  want an apple? ==> Who are you to be offering apples to strangers?  When:Wed Sep 25 10:18:05 2013 Why: ~sell_apple.1.0 
+Respond: user:jonathan bot:snowwhite ip: (~justify_identity) 3  I'm an apple vendor ==> Why are you giving your apples away, then?  When:Wed Sep 25 10:18:14 2013 Why: ~justify_identity.2.0 
+Respond: user:jonathan bot:snowwhite ip: (~justify_identity) 4  It's just to try ==> Sorry but I was told not to trust any strangers.  When:Wed Sep 25 10:18:55 2013 Why: ~justify_identity.1.0 
+Respond: user:jonathan bot:snowwhite ip: (~sell_apple) 5  It's a sample! ==> I can't accept anything from you.  When:Wed Sep 25 10:19:27 2013 Why: ~sell_apple.0.0 
+Respond: user:jonathan bot:snowwhite ip: (~sell_apple) 6  doesn't it look delicious though? ==> It does look good.  When:Wed Sep 25 10:19:40 2013 Why: ~sell_apple.5.0 
+Respond: user:jonathan bot:snowwhite ip: (~assassination_plot) 7  sample ==> I can't be too cautious with my stepmother wanting to kill me!  When:Wed Sep 25 10:20:34 2013 Why: ~assassination_plot.0.0 
+Respond: user:jonathan bot:snowwhite ip: (~assassination_plot) 8  how did your stepmother try to kill you? ==> First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?  When:Wed Sep 25 10:20:53 2013 Why: ~assassination_plot.1.0 
+Respond: user:jonathan bot:snowwhite ip: (~assassination_plot) 9  ah poor thing! ==> I know! This is so unfair!  When:Wed Sep 25 10:21:04 2013 Why: ~assassination_plot.3.0 
+Command: :up sample
+
+For sample:
+ Set hierarchy:
+ Wordnet hierarchy:
+  sample~1: a small part of something intended as representative of the whole 
+    is illustration~2  an item of information that is typical of a class or group 
+       is selective_information~1z knowledge acquired through study or experience or instruction 
+          is knowledge~1z the psychological result of perception and learning and reasoning 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  sample~2: items selected at random from a population and used to test hypotheses about the population 
+    is distribution~4  an arrangement of values of a variable showing their observed or theoretical frequency of occurrence 
+       is constitution~1z an organized structure for arranging or classifying 
+          is construction~4z the complex composition of knowledge as elements and their combinations 
+             is knowledge~1z the psychological result of perception and learning and reasoning 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  sample~3: all or part of a natural object that is collected and preserved as an example of its class 
+    is natural_object~1  an object occurring naturally 
+       is unit~1z an assemblage of parts that is regarded as a single entity 
+          is physical_object~1z a tangible and visible entity 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  sample~4: take a sample of 
+Command: :build 1

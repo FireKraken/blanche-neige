@@ -1,0 +1,42 @@
+concept: ~delicious (delicious delectable savory yummy tasty)
+
+topic: ~sell_apple (apple ~fruit buy sell food hunger hungry snack meal give ~delicious it)
+
+#! If identity not clear
+	
+t: ($trust==5) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+
+t: I can't accept anything from you.
+
+u: ($offered!=1 !they !dwarf~2 [~acquire_imperatives here want~1 ~acquiring_verbs have] * apple ) 
+	$offered = 1
+	Who are you to be offering apples to strangers?
+
+u: ($offered==1 $peddler!=1 [~acquire_imperatives here want~1 ~acquiring_verbs] * apple ) 
+	$offered = 1
+	Shouldn't you be selling those rather than giving them away? 
+		a: (~example)
+			$trust += 1
+			$peddler = 1
+			Oh! That makes sense.
+
+#! If identity clear, matter of trust
+
+u: ($trust<5 [~acquire_imperatives here want ~acquiring_verbs] * [apple ~it_words] ) No thanks, trust is $trust.
+u: ($trust<5 [~acquire_imperatives here want ~acquiring_verbs] * [apple ~it_words] ) No thanks, trust is $trust.
+u: ($trust<5 [~acquire_imperatives here want ~acquiring_verbs] * [apple ~it_words] ) No thanks, trust is $trust.
+u: ($trust<5 [~acquire_imperatives here want ~acquiring_verbs] * [apple ~it_words] ) No thanks, trust is $trust.
+u: ($trust<5 [~acquire_imperatives here want ~acquiring_verbs] * [apple ~it_words] ) No thanks, trust is $trust.
+u: ($trust==5) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+
+#! Selling the apple
+
+u: (~delicious)
+	$trust += 1
+	It does look good.
+
+#! Fishing for reasons
+
+?: (why * [~taste try~1 ~eat]) 
+	$plot = 1
+	The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother. 
