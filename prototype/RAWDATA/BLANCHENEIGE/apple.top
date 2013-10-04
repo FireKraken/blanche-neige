@@ -19,6 +19,9 @@ u: ($offered==1 $peddler!=1 [~acquire_imperatives here want~1 ~acquiring_verbs] 
 			$trust += 1
 			$peddler = 1
 			Oh! That makes sense.
+		a: (* why * care~8)
+			$trust -= 1
+			I'm not sure that I trust you enough.
 
 #! If identity clear, matter of trust
 

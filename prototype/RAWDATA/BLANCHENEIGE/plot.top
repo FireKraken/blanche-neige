@@ -17,6 +17,10 @@ s: ([horrible awful tragic sad poor])
 	$trust += 1
 	I know! This is so unfair! 
 
+s: ([good great ~good_quality_adjectives])
+	$trust -= 1
+	How can you say such a thing!
+
 #! Not being stepmother
 
 u: (trust~1) 

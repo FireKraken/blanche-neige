@@ -6,6 +6,12 @@ t: 	[So, what brings you to this part of the woods?]
 	[Yes, what can I do for you?]
 	$trust = 0
 
+#! Bad responses
+
+s: ([stranger~2 traveller~1])
+		$trust -= 1
+		That's odd, we rarely get visitors this deep in the woods.
+
 t: Sorry but I was told not to trust any strangers.
 	
 #! Pose as peddler tactic
