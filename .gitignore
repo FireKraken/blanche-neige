@@ -1,7 +1,6 @@
-
 # Untracked directories (pretty much all of them)
-blanche-neige/*
+blanche-neige/prototype/*
 
 # Exceptions
-!blanche-neige/RAWDATA/BLANCHENEIGE
-!blanche-neige/files1.txt
+!blanche-neige/prototype/RAWDATA/BLANCHENEIGE
+!blanche-neige/prototype/files1.txt
