@@ -7,3 +7,5 @@ Respond: user:bob bot:snowwhite ip: (~defendpresence) 0  :reset ==> Yes, what ca
 Respond: user:bob bot:snowwhite ip: (~defendpresence) 1  want apple? ==> Who are you to be offering apples to strangers?  When:Mon Sep 23 13:44:37 2013 Why: ~defendpresence.1.0 
 Respond: user:bob bot:snowwhite ip: (~introductions) 2  peddler ==> I don't know what to say.  When:Mon Sep 23 13:44:40 2013 Why: ~control.1.0 
 Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2947 (~justify_identity) 2 ==> So, what brings you to this part of the woods?  When:Fri Oct 04 13:41:05 2013 Version:3.53 Build0:1379951602 Build1:1380223321 Why: ~justify_identity.0.0 
+Command: :build 1

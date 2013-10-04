@@ -4,3 +4,4 @@
 + ~evilqueen CONCEPT 
 + evil_queen 
 + defaultbot 
++ ~quibble_all 

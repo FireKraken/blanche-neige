@@ -1477,3 +1477,4 @@ Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> So, what brings you to this part of the woods?  When:Thu Sep 26 15:22:06 2013 Why: ~justify_identity.0.0 
 Respond: user: bot:snowwhite ip: (~chicken) 1  I like chicken ==> You like chicken.  When:Thu Sep 26 15:22:09 2013 Why: ~chicken.1.0 
 Respond: user: bot:snowwhite ip: (~chicken) 2  I like chicken ==> You like chicken.  When:Thu Sep 26 15:22:13 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~chicken) 3    ==> Chicken chicken chicken, and beef  When:Fri Oct 04 13:41:16 2013 Why: ~chicken.0.0 

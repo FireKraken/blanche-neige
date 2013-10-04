@@ -3,7 +3,7 @@
 RAWDATA/BLANCHENEIGE/
 
 # quibble ability
-RAWDATA/QUIBBLE/
+#RAWDATA/QUIBBLE/
 
 
 

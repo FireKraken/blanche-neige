@@ -1,2 +1,2 @@
  ~dwarves.1.0 #! Undermine dwarves tactic
- ~dwarves.3.0 #! Eating with dwarves
+ ~dwarves.5.0 #! Eating with dwarves
