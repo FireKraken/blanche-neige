@@ -1,3 +1,0 @@
-﻿Start: user:bobleponge bot:snowwhite ip: rand:1018 (~justify_identity) 0 ==> So, what brings you to this part of the woods?  When:Thu Sep 26 12:43:39 2013 Version:3.53 Build0:1379951602 Build1:1380124746 Why: ~justify_identity.0.0 
-Respond: user:bobleponge bot:snowwhite ip: (~justify_identity) 1  I like chicken ==> Sorry but I was told not to trust any strangers.  When:Thu Sep 26 12:43:48 2013 Why: ~justify_identity.1.0 
-Command: :build 1

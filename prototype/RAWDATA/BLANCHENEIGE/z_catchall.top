@@ -1,0 +1,21 @@
+topic: ~catchall ()
+
+#! Gambits to fall back on when input doesn't trigger anything more precise
+
+t: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+
+?: (why) I don't need to answer your questions. ^poptopic()
+?: (where) I don't know, look at a map. ^poptopic()
+?: (how) How what? ^poptopic()
+?: (how) In a crafty way, probably. ^poptopic()
+?: (who) Who do you think? ^poptopic()
+
+
+t: ($trust<2) Why are you not leaving me alone? ^poptopic()
+t: ($trust>3 $offered) You have some good points but I'm not accepting anything from you. ^poptopic()
+t: Not to be rude, but you're abusing your welcome. ^poptopic()
+t: I'm going to close this door anytime soon now. ^poptopic()
+t: That's it, bye.
+	$end = 1
+
+

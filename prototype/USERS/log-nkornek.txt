@@ -1,8 +1,0 @@
-﻿Start: user:nkornek bot:snowwhite ip: rand:2682 (~defendpresence) 0 ==> Yes, what can I do for you?  When:Mon Sep 23 11:11:14 2013 Version:3.53 Build0:1376793962 Build1:1379947532 Why: ~defendpresence.0.0 
-Respond: user:nkornek bot:snowwhite ip: (~dwarvenfolk) 1  how are you ==> I'm sure you're a really nice old lady, but the dwarves have told me not to talk to strangers.  When:Mon Sep 23 11:11:21 2013 Why: ~dwarvenfolk.0.0 
-Respond: user:nkornek bot:snowwhite ip: (~introductions) 2  im just an apple peddler ==> I don't know what to say.  When:Mon Sep 23 11:11:38 2013 Why: ~control.1.0 
-Respond: user:nkornek bot:snowwhite ip: (~introductions) 3  would you like an apple ==> I don't know what to say.  When:Mon Sep 23 11:11:49 2013 Why: ~control.1.0 
-Respond: user:nkornek bot:snowwhite ip: (~introductions) 4  what color is the grass? ==> I don't know what to say.  When:Mon Sep 23 11:12:29 2013 Why: ~control.1.0 
-Respond: user:nkornek bot:snowwhite ip: (~introductions) 5  what is your name ==> My name is Snow White.  When:Mon Sep 23 11:12:40 2013 Why: ~introductions.5.0 
-Respond: user:nkornek bot:snowwhite ip: (~introductions) 6  what is your quest? ==> I don't know what to say.  When:Mon Sep 23 11:12:51 2013 Why: ~control.1.0 
-Respond: user:nkornek bot:snowwhite ip: (~introductions) 7  What is your favorite color? ==> I don't know what to say.  When:Mon Sep 23 12:49:35 2013 Why: ~control.1.0 

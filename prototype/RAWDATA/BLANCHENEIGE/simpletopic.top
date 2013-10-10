@@ -21,8 +21,6 @@ t: ( %input<%userfirstline )
 	^keep()   
 	Welcome to ChatScript.
 
-#!x issued only once, then erased
-t: Yes, what can I do for you?
 
 #! what is your name $bot = snowwhite
 u: ( $bot=snowwhite what is your name ) My name is Snow White.

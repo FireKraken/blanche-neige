@@ -1,6 +1,8 @@
 
 ----Reading file apple.top
 Reading concept ~delicious
+Reading concept ~samaritan
+*** Warning- line 2 of apple.top: johny-on-the-spot is not a known word. Is it misspelled?
 Reading topic ~sell_apple
 
 ----Reading file dwarves.top
@@ -10,9 +12,10 @@ Reading topic ~dwarves
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
+*** Warning- line 57 of identity.top: aint is unknown as a word in pattern
 
 ----Reading file plot.top
-Reading concept ~murdlerplot
+Reading concept ~murderplot
 Reading concept ~evilqueen
 Reading topic ~assassination_plot
 *** Warning- line 4 of plot.top: $plot is not a known word. Is it misspelled?
@@ -26,14 +29,17 @@ Reading topic ~alternate_control
 ----Reading file simpletopic.top
 Reading topic ~introductions
 
+----Reading file snowwhite.top
+Reading topic ~snowwhite
+
 ----Reading file test.top
 Reading topic ~chicken
-*** Warning- line 3 of Post compilation Verification: Undefined set or topic ~quibble_all
+
+----Reading file z_catchall.top
+Reading topic ~catchall
 
 WARNING SUMMARY: 
-  line 3 of Post compilation Verification: Undefined set or topic ~quibble_all
-
-2 spelling warnings and 1 more serious warnings
+4 spelling warnings and 0 more serious warnings
     
 
 Finished compile

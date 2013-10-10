@@ -1,6 +1,9 @@
-topic: ~dwarves ($dwarves dwarf~2 ~mythical_intelligent_being they)
+topic: ~dwarves ($dwarves dwarf~2 ~mythical_intelligent_being)
 
-t:  The dwarves? They're out in the mountain right now.
+#! generic gambits
+
+t: The dwarves told me not to let anyone in.
+t: The dwarves would think I'm really stupid if I accept another gift from a stranger.
 
 #! Undermine dwarves tactic
 

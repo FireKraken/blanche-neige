@@ -1,7 +1,8 @@
 ﻿+ ~delicious CONCEPT 
++ ~samaritan CONCEPT 
++ samaritan 
 + ~peddler CONCEPT 
-+ ~murdlerplot CONCEPT 
 + ~evilqueen CONCEPT 
++ ~murderplot CONCEPT 
 + evil_queen 
 + defaultbot 
-+ ~quibble_all 

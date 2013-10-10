@@ -1,15 +1,27 @@
-concept: ~murdlerplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder)
+concept: ~murderplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder)
 concept: ~evilqueen (queen "evil queen" stepmother she)
 
-topic: ~assassination_plot ($plot ~plot ~evilqueen)
+topic: ~assassination_plot ($plot ~murderplot ~evilqueen)
 
-t:  I can't be too cautious with my stepmother wanting to kill me!
+t: Look, I can't be too cautious with my stepmother wanting to kill me.
+	$plot = 1
+t: It's so hard living with this sword of Damocles over my head.
+	
 
 #! fishing for more info
 
-?: ([~murdlerplot (what * ~evilqueen)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
+?: ([(how * ~murderplot) (what * ~evilqueen * give)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
+	a: (~YES) You read too much gothic fiction.
+	a: (~NO) She's out of her mind.
 
 ?: ([(why * ~evilqueen)  (why * ~kill)]) Apparently she's jealous of my beauty and wants to kill me for that!
+
+?: (who * ~evilqueen) Simply the kingdom's queen!
+
+?: ([what who] * ~murderplot) My stempother wants to kill me so that she can claim to be the most beautiful living woman.
+
+?: ([Damocles sword]) I'm referring to my stepmother's plot to assassinate me.
+	$plot = 1
 
 #! Compassion move
 
@@ -27,7 +39,7 @@ u: (trust~1)
 	$dwarves = 1
 	The dwarves told me not to trust anyone.
 
-s: ( * I * ~negation * ~evilqueen * [~explanatory_adverbs because] * [dead~1 away~3 ])
+s: (~evilqueen * [dead~1 away~3])
 	$trust += 1
 	Really!? That's great news!
 
