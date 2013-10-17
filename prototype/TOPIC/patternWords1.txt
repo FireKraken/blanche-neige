@@ -18,6 +18,8 @@ traveler~1
 official~2
 government~4
 afraid~1
+bank~11
+believe~1
 dead~1
 away~3
 snowwhite
