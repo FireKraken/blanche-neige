@@ -1,0 +1,155 @@
+﻿Start: user:test bot:snowwhite ip: rand:3089 (~justify_identity) 0 ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 14:46:14 2013 Version:3.53 Build0:1379951602 Build1:1381975128 Why: ~justify_identity.0.0 
+Command: :up passing
+
+For passing:
+ Set hierarchy:
+ Wordnet hierarchy:
+  passing~1: success in satisfying a test or requirement 
+    is success~1  an attainment that is successful 
+       is attainment~1z the act of achieving an aim 
+          is accomplishment~1z the action of accomplishing something 
+             is action~1z something done  
+                is act~1z something that people do or cause to happen 
+                   is event~1z something that happens at a given place and time 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  passing~2: going by something that is moving in order to get in front of it 
+    is reordering~1  a rearrangement in a different order 
+       is rearrangement~1z changing an arrangement 
+          is arrangement~1z the act of arranging and adapting a piece of music 
+             is composition~2z musical creation 
+                is creating_by_mental_acts~1z the act of creating something by thinking 
+                   is creation~2z the human act of creating 
+                      is activity~1z any specific behavior 
+                         is act~1z something that people do or cause to happen 
+                            is event~1z something that happens at a given place and time 
+                               is psychological_feature~1z a feature of the mental life of a living organism 
+                                  is abstraction~1z a general concept formed by extracting common features from specific examples 
+                                     is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  passing~3: a play that involves one player throwing the ball to a teammate 
+    is football_play~1  a play by the offensive team 
+       is swordplay~1z a preset plan of action in team sports 
+          is plan_of_action~1z a plan for actively doing something 
+             is architectural_plan~1z a series of steps to be carried out or goals to be accomplished 
+                is thinking~1 the content of cognition 
+                   is depicted_object~1z the sum or range of what has been perceived, discovered, or learned 
+                      is knowledge~1z the psychological result of perception and learning and reasoning 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  passing~4: a bodily reaction of changing from one place or stage to another 
+    is reaction~2  a bodily process occurring due to the effect of some antecedent stimulus or agent 
+       is activity~1z an organic process that takes place in the body 
+          is biological_process~1z a process occurring in living organisms 
+             is process~1z a sustained phenomenon or one marked by gradual changes through a series of states 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  passing~5: the end of something 
+    is last~3  the concluding parts of an event or occurrence 
+       is finishing~1z event whose occurrence ends something 
+          is natural_event~1z an event that happens 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  passing~6: the motion of one object relative to another 
+    is movement~8  a natural event that involves a change in the position or location of something 
+       is natural_event~1z an event that happens 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  passing~7: euphemistic expressions for death 
+    is expiry~1  the event of dying or departure from life 
+       is adjustment~1 an event that occurs when something passes from one state or phase to another 
+          is natural_event~1z an event that happens 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  passing~8: hasty and without attention to detail 
+  passing~9: of advancing the ball by throwing it 
+  passing~10: lasting a very short time 
+  passing~11: allowing you to pass satisfactorily 
+  passing~12: to an extreme degree 
+Command: :up visit
+
+For visit:
+ Set hierarchy:
+ Wordnet hierarchy:
+  visit~1: a temporary stay 
+    is stay~1  continuing or remaining in a place or state 
+       is act~1z something that people do or cause to happen 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~2: the act of going to see some person in a professional capacity 
+    is coming_together~2  the social act of assembling for some common purpose 
+       is fabrication~2z the social act of assembling 
+          is group_action~1z action taken by a group of people 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~3: the act of visiting in an official capacity 
+    is coming_together~2  the social act of assembling for some common purpose 
+       is fabrication~2z the social act of assembling 
+          is group_action~1z action taken by a group of people 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~4: the act of going to see some person or place or thing for a short time 
+    is coming_together~2  the social act of assembling for some common purpose 
+       is fabrication~2z the social act of assembling 
+          is group_action~1z action taken by a group of people 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~5: a meeting arranged by the visitor to see someone for treatment or advice 
+    is meeting~5  a small informal social gathering 
+       is social_affair~1z a gathering for the purpose of promoting fellowship 
+          is assembly~2 a group of persons together in one place 
+             is social_group~1z people sharing some social relation 
+                is group~1z any number of entities considered as a unit 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~6: assail 
+  visit~7: impose something unpleasant 
+  visit~8: talk socially without exchanging too much information 
+  visit~9: go to certain places as for sightseeing 
+  visit~10: come to see in an official or professional capacity 
+  visit~11: pay a brief visit 
+  visit~12: go to see a place, as for entertainment 
+  visit~13: stay with as a guest 
+Command: :down visit
+     2. call~3z a visit in an official or professional capacity
+     2. flying_visit~1z a visit that last for only a very short time
+     2. call~4z a brief social visit
+     2. visiting~1z the activity of making visits
+     2. site_visit~1z a visit in an official capacity to examine a site to determine its suitability for some enterprise
+     2. visitation~1z an official visit for inspection or supervision
+
+Command: :down arrive
+
+Command: :down arrive
+
+Command: :build 1

@@ -59,12 +59,18 @@ s: ([not no aint "ain't"] * stranger~1) Who are you then?
 u: (trust~1) 
 	$dwarves = 1
 	The dwarves told me not to trust anyone.
-	
-#! Other identities
 
-s: (!not !no [stranger~2 traveller~1])
+#! Pose as traveller
+
+s: ($traveller!=1 !not !no [stranger~2 traveller~1])
 	$trust -= 1
 	That's odd, we rarely get visitors this deep in the woods.
+		a: ([~arrive ~visit] * [isolated~1 ~secluded])
+			$trust += 1
+			$traveller = 1
+			I can certainly understand that. These woods are so full of life! 
+	
+#! Other identities
 	
 s: ([official~2 collector ~occupation_law government~4]) The government doesn't really reach here.
 

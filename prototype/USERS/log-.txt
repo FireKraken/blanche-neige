@@ -658,3 +658,76 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brin
 Respond: user: bot:snowwhite ip: (~chicken) 1  i like chicken ==> You like chicken.  When:Wed Oct 16 21:58:59 2013 Why: ~chicken.2.0 
 Respond: user: bot:snowwhite ip: (~chicken) 2  i like it ==> You like chicken.  When:Wed Oct 16 21:59:02 2013 Why: ~chicken.2.0 
 Respond: user: bot:snowwhite ip: (~chicken) 3  i really like it ==> You like chicken.  When:Wed Oct 16 21:59:06 2013 Why: ~chicken.2.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 15:16:40 2013 Why: ~justify_identity.0.0 
+Command: :down arrive
+
+Command: :up arrive
+
+For arrive:
+ Set hierarchy:
+ Wordnet hierarchy:
+  arrive~1: reach a destination 
+  arrive~2: succeed in a big way 
+Command: :up secluded
+
+For secluded:
+ Set hierarchy:
+ Wordnet hierarchy:
+  secluded~1: providing privacy or seclusion 
+  secluded~2: hidden from general view or use 
+Command: :up seclusion
+
+For seclusion:
+ Set hierarchy:
+ Wordnet hierarchy:
+  seclusion~1: the act of secluding yourself from others 
+    is separation~2  the social act of separating or parting company 
+       is group_action~1z action taken by a group of people 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  seclusion~2: the quality of being secluded from the presence or view of others 
+    is reclusiveness~1  a disposition to prefer seclusion or isolation 
+       is solitariness~1z a disposition toward being alone 
+          is disposal~1 your usual mood 
+             is nature~1z the complex of emotional and intellectual attributes that determine a person's characteristic actions and reactions 
+                is trait~1z a distinguishing feature of your personal nature 
+                   is attribute~1z an abstraction belonging to or characteristic of an entity 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up isolated
+
+For isolated:
+ Set hierarchy:
+ Wordnet hierarchy:
+  isolated~1: remote and separate physically or socially 
+  isolated~2: not close together in time 
+  isolated~3: under forced isolation especially for health reasons 
+  isolated~4: being or feeling set or kept apart from others 
+  isolated~5: marked by separation of or from usually contiguous elements 
+  isolated~6: cut off or left behind 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 15:29:02 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm just passing through ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 15:29:57 2013 Why: ~justify_identity.2.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 15:30:16 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm just a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 15:30:21 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I like to visit secluded places ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 15:30:29 2013 Why: ~justify_identity.2.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 15:40:56 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 15:44:02 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I like to visit secluded places ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 15:44:19 2013 Why: ~justify_identity.2.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 15:50:18 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 15:50:21 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I like to visit secluded places ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 15:50:31 2013 Why: ~justify_identity.2.0 
