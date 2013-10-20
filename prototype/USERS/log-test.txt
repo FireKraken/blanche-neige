@@ -153,3 +153,95 @@ Command: :down arrive
 Command: :down arrive
 
 Command: :build 1
+Start: user:test bot:snowwhite ip: rand:3089 (~justify_identity) 0 ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 20:00:34 2013 Version:3.53 Build0:1379951602 Build1:1382212211 Why: ~justify_identity.2.0 
+Command: :build 1
+Start: user:test bot:snowwhite ip: rand:3089 (~introductions) 0 ==> Welcome to ChatScript.  When:Sat Oct 19 20:18:09 2013 Version:3.53 Build0:1379951602 Build1:1382227574 Why: ~introductions.3.0 
+Command: :up nature
+
+For nature:
+ Set hierarchy:
+ Wordnet hierarchy:
+  nature~1: the complex of emotional and intellectual attributes that determine a person's characteristic actions and reactions 
+    is trait~1  a distinguishing feature of your personal nature 
+       is attribute~1z an abstraction belonging to or characteristic of an entity 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  nature~2: the essential qualities or characteristics by which something is recognized 
+    is quality~1  an essential and distinguishing attribute of something or someone 
+       is attribute~1z an abstraction belonging to or characteristic of an entity 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  nature~3: a particular type of thing 
+    is type~2  a subdivision of a particular kind of thing 
+       is diverseness~1z a category of things distinguished by some common characteristic or quality 
+          is category~1z a general concept that marks divisions or coordinations in a conceptual scheme 
+             is concept~1z an abstract or general idea inferred or derived from specific instances 
+                is thinking~1 the content of cognition 
+                   is depicted_object~1z the sum or range of what has been perceived, discovered, or learned 
+                      is knowledge~1z the psychological result of perception and learning and reasoning 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  nature~4: the natural physical world including plants and animals and landscapes etc. 
+    is world~6  everything that exists anywhere 
+       is natural_object~1z an object occurring naturally 
+          is unit~1z an assemblage of parts that is regarded as a single entity 
+             is physical_object~1z a tangible and visible entity 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  nature~5: a causal agent creating and controlling things in the universe 
+    is causal_agency~1  any entity that produces an effect or is responsible for events or results 
+       is physical_entity~1z an entity that has physical existence 
+          is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up animal
+
+For animal:
+ Set hierarchy:
+ Wordnet hierarchy:
+  animal~1: a living organism characterized by voluntary movement 
+    is being~1  a living thing that has the ability to act or function independently 
+       is living_thing~1z a living entity 
+          is unit~1z an assemblage of parts that is regarded as a single entity 
+             is physical_object~1z a tangible and visible entity 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  animal~2: marked by the appetites and passions of the body 
+Command: :up forest
+
+For forest:
+ Set hierarchy:
+ Wordnet hierarchy:
+  forest~1: the trees and other plants in a large densely wooded area 
+    is flora~2  all the plant life in a particular region or period 
+       is assembly~2 several things grouped together or considered as a whole 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  forest~2: land that is covered with trees and shrubs 
+    is biome~1  a major biotic community characterized by the dominant forms of plant life and the prevailing climate 
+       is biotic_community~1z a group of interdependent organisms inhabiting the same region and interacting with each other 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is ground~8  the solid part of the earth's surface 
+       is physical_object~1z a tangible and visible entity 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  forest~3: establish a forest on previously unforested land 
+Command: :up sing
+
+For sing:
+ Set hierarchy:
+ Wordnet hierarchy:
+  sing~1: divulge confidential information or secrets 
+  sing~2: make a whining, ringing, or whistling sound 
+  sing~3: to make melodious sounds 
+  sing~4: produce tones with the voice 
+  sing~5: deliver by singing 
+Command: :up we
+
+For we:
+ Set hierarchy:
+ Wordnet hierarchy:
+  we~1:
+Command: :build 1

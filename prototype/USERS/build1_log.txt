@@ -14,6 +14,9 @@ Reading concept ~peddler
 Reading topic ~justify_identity
 *** Warning- line 57 of identity.top: aint is unknown as a word in pattern
 
+----Reading file nature.top
+Reading topic ~praise_nature
+
 ----Reading file plot.top
 Reading concept ~murderplot
 Reading concept ~evilqueen
@@ -37,15 +40,9 @@ Reading topic ~chicken
 
 ----Reading file z_catchall.top
 Reading topic ~catchall
-*** Warning- line 4 of Post compilation Verification: Undefined set or topic ~visit
-*** Warning- line 5 of Post compilation Verification: Undefined set or topic ~secluded
 
 WARNING SUMMARY: 
-  line 4 of Post compilation Verification: Undefined set or topic ~visit
-
-  line 5 of Post compilation Verification: Undefined set or topic ~secluded
-
-4 spelling warnings and 2 more serious warnings
+4 spelling warnings and 0 more serious warnings
     
 
 Finished compile

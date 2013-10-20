@@ -1,0 +1,11 @@
+topic: ~praise_nature (nature~4 animal~1 forest~1)
+
+t: 	I love it here in the woods!
+
+#! praise nature tactic
+
+s: (animal~1 * ~goodness) Aren't they! Sometimes I sing with them!
+	$trust += 1
+
+s: ([!no !not] * sing~4) Okay! (You whistle a tune with the birds while Snow White sings)
+	$trust += 1

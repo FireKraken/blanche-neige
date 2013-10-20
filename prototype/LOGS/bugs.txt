@@ -1531,4 +1531,13 @@ unexpected word in ReadTopLevelRule -    in plot.top at 193: s:
 unexpected word in ReadTopLevelRule -    in plot.top at 194: s:
 unexpected word in ReadTopLevelRule -    in plot.top at 195: s:
 unexpected word in ReadTopLevelRule -    in plot.top at 196: s:
-unexpected word in ReadTopLevelRule - 
+unexpected word in ReadTopLevelRule -    in identity.top at 68:   a: ([arrive~1 visit~1 ~goodness] * [secluded~2 seclusion~2)
+PATTERN-9 ) is not closing corresponding (input:2 Sat Oct 19 20:52:05 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: i like seclusion at 
+Missing topic index for ~justify_identity
+input:2 Sat Oct 19 20:52:05 2013 Missing topic index for ~introductions
+ caller: callee:snowwhite in sentence: i like seclusion at 
+Missing topic index for ~introductions
+input:2 Sat Oct 19 20:52:05 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: i like seclusion at 
+Missing topic index for ~justify_identity

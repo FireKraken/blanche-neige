@@ -731,3 +731,160 @@ Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 15:50:18 2013 Why: ~justify_identity.0.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 15:50:21 2013 Why: ~justify_identity.10.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 2  I like to visit secluded places ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 15:50:31 2013 Why: ~justify_identity.2.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 20:03:38 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 20:03:41 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  visit secluded ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 20:03:47 2013 Why: ~justify_identity.2.0 
+Command: :up arrive
+
+For arrive:
+ Set hierarchy:
+ Wordnet hierarchy:
+  arrive~1: reach a destination 
+  arrive~2: succeed in a big way 
+Command: :up visit
+
+For visit:
+ Set hierarchy:
+ Wordnet hierarchy:
+  visit~1: a temporary stay 
+    is stay~1  continuing or remaining in a place or state 
+       is act~1z something that people do or cause to happen 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~2: the act of going to see some person in a professional capacity 
+    is coming_together~2  the social act of assembling for some common purpose 
+       is fabrication~2z the social act of assembling 
+          is group_action~1z action taken by a group of people 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~3: the act of visiting in an official capacity 
+    is coming_together~2  the social act of assembling for some common purpose 
+       is fabrication~2z the social act of assembling 
+          is group_action~1z action taken by a group of people 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~4: the act of going to see some person or place or thing for a short time 
+    is coming_together~2  the social act of assembling for some common purpose 
+       is fabrication~2z the social act of assembling 
+          is group_action~1z action taken by a group of people 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~5: a meeting arranged by the visitor to see someone for treatment or advice 
+    is meeting~5  a small informal social gathering 
+       is social_affair~1z a gathering for the purpose of promoting fellowship 
+          is assembly~2 a group of persons together in one place 
+             is social_group~1z people sharing some social relation 
+                is group~1z any number of entities considered as a unit 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  visit~6: assail 
+  visit~7: impose something unpleasant 
+  visit~8: talk socially without exchanging too much information 
+  visit~9: go to certain places as for sightseeing 
+  visit~10: come to see in an official or professional capacity 
+  visit~11: pay a brief visit 
+  visit~12: go to see a place, as for entertainment 
+  visit~13: stay with as a guest 
+Command: :up secluded
+
+For secluded:
+ Set hierarchy:
+ Wordnet hierarchy:
+  secluded~1: providing privacy or seclusion 
+  secluded~2: hidden from general view or use 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 20:06:29 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 20:06:32 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  visit secluded ==> I can certainly understand that. These woods are so full of life!  When:Sat Oct 19 20:06:35 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  take apple ==> Who are you to be offering apples to strangers?  When:Sat Oct 19 20:06:41 2013 Why: ~sell_apple.2.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 20:35:44 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 20:36:07 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like to visit secluded places ==> I can certainly understand that. These woods are so full of life!  When:Sat Oct 19 20:36:20 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals are nice ==> Aren’t they! Sometimes I sing with them!  When:Sat Oct 19 20:36:29 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  why don' ==> I don't need to answer your questions.  When:Sat Oct 19 20:36:54 2013 Why: ~catchall.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 5  why don't we sing? ==> I love it here in the woods!  When:Sat Oct 19 20:36:58 2013 Why: ~praise_nature.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6    ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 20:37:11 2013 Why: ~justify_identity.2.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 20:37:22 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 20:37:32 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like isolation ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 20:37:41 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  i like isolated places ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Sat Oct 19 20:37:47 2013 Why: ~assassination_plot.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 20:37:52 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 20:37:58 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like isolated places ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 20:38:03 2013 Why: ~justify_identity.2.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 20:42:50 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 20:44:00 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 19 20:44:06 2013 Why: ~justify_identity.2.0 
+Command: :up seclusion
+
+For seclusion:
+ Set hierarchy:
+ Wordnet hierarchy:
+  seclusion~1: the act of secluding yourself from others 
+    is separation~2  the social act of separating or parting company 
+       is group_action~1z action taken by a group of people 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  seclusion~2: the quality of being secluded from the presence or view of others 
+    is reclusiveness~1  a disposition to prefer seclusion or isolation 
+       is solitariness~1z a disposition toward being alone 
+          is disposal~1 your usual mood 
+             is nature~1z the complex of emotional and intellectual attributes that determine a person's characteristic actions and reactions 
+                is trait~1z a distinguishing feature of your personal nature 
+                   is attribute~1z an abstraction belonging to or characteristic of an entity 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+2 Sat Oct 19 20:52:05 2013 in sentence: i like seclusion 
+    Missing topic index for ~introductions
+
+2 Sat Oct 19 20:52:05 2013 in sentence: i like seclusion 
+    Missing topic index for ~justify_identity
+
+2 Sat Oct 19 20:52:05 2013 in sentence: i like seclusion 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 19 20:52:22 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 19 20:52:25 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so full of life!  When:Sat Oct 19 20:52:30 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 19 20:53:01 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  let's sing to them ==> Okay! (You whistle a tune with the birds while Snow White sings)  When:Sat Oct 19 20:53:19 2013 Why: ~praise_nature.2.0 

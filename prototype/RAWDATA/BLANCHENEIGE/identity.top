@@ -65,10 +65,10 @@ u: (trust~1)
 s: ($traveller!=1 !not !no [stranger~2 traveller~1])
 	$trust -= 1
 	That's odd, we rarely get visitors this deep in the woods.
-		a: ([~arrive ~visit] * [isolated~1 ~secluded])
+		a: ([arrive~1 visit~1 ~goodness] * [secluded~2 seclusion~2])
 			$trust += 1
 			$traveller = 1
-			I can certainly understand that. These woods are so full of life! 
+			I can certainly understand that. These woods are so peaceful! 
 	
 #! Other identities
 	

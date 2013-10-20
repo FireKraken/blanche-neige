@@ -3,8 +3,6 @@
 + samaritan 
 + ~peddler CONCEPT 
 + ~evilqueen CONCEPT 
-+ ~visit 
-+ ~secluded 
 + ~murderplot CONCEPT 
 + evil_queen 
 + defaultbot 
