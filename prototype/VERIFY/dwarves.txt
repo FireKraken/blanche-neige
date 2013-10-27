@@ -1,3 +1,4 @@
  ~dwarves.0.0 #! generic gambits
  ~dwarves.2.0 #! Undermine dwarves tactic
  ~dwarves.6.0 #! Eating with dwarves
+ ~dwarves.7.0 #! Praise dwarves tactic

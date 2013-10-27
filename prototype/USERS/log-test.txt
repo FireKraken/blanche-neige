@@ -245,3 +245,84 @@ For we:
  Wordnet hierarchy:
   we~1:
 Command: :build 1
+Start: user:test bot:snowwhite ip: rand:3091 (~dwarves) 0 ==> The dwarves told me not to let anyone in.  When:Sat Oct 26 22:52:28 2013 Version:3.53 Build0:1379951602 Build1:1382230325 Why: ~dwarves.0.0 
+Command: :up forest
+
+For forest:
+ Set hierarchy:
+ Wordnet hierarchy:
+  forest~1: the trees and other plants in a large densely wooded area 
+    is flora~2  all the plant life in a particular region or period 
+       is assembly~2 several things grouped together or considered as a whole 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  forest~2: land that is covered with trees and shrubs 
+    is biome~1  a major biotic community characterized by the dominant forms of plant life and the prevailing climate 
+       is biotic_community~1z a group of interdependent organisms inhabiting the same region and interacting with each other 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is ground~8  the solid part of the earth's surface 
+       is physical_object~1z a tangible and visible entity 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  forest~3: establish a forest on previously unforested land 
+Command: :up woods
+
+For woods:
+ Set hierarchy:
+ Wordnet hierarchy:
+  woods~1: the trees and other plants in a large densely wooded area 
+    is flora~2  all the plant life in a particular region or period 
+       is assembly~2 several things grouped together or considered as a whole 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up not
+
+For not:
+ Set hierarchy:
+ Wordnet hierarchy:
+  not~1: negation of a word or group of words 
+Command: :build 2
+Command: :build2
+Command: :build1
+Command: :build 1
+Start: user:test bot:snowwhite ip: rand:3091 (~dwarves) 0 ==> The dwarves would think I'm really stupid if I accept another gift from a stranger.  When:Sat Oct 26 23:12:38 2013 Version:3.53 Build0:1379951602 Build1:1382843457 Why: ~dwarves.1.0 
+Command: :reset
+Respond: user:test bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 26 23:12:44 2013 Why: ~justify_identity.0.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 26 23:13:00 2013 Why: ~justify_identity.10.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 2  i like isolation ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 26 23:13:05 2013 Why: ~justify_identity.2.0 
+Respond: user:test bot:snowwhite ip: (~chicken) 3  i like seclusion ==> Chicken chicken chicken, and beef  When:Sat Oct 26 23:13:10 2013 Why: ~chicken.1.0 
+Command: :reset
+Respond: user:test bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 26 23:13:21 2013 Why: ~justify_identity.0.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 26 23:13:26 2013 Why: ~justify_identity.10.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Sat Oct 26 23:13:31 2013 Why: ~justify_identity.10.1 
+Respond: user:test bot:snowwhite ip: (~praise_nature) 3  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 26 23:13:54 2013 Why: ~praise_nature.1.0 
+Respond: user:test bot:snowwhite ip: (~praise_nature) 4  would you like a snack? ==> I love it here in the woods!  When:Sat Oct 26 23:14:06 2013 Why: ~praise_nature.0.0 
+Command: :up snack
+
+For snack:
+ Set hierarchy:
+ Wordnet hierarchy:
+  snack~1: a light informal meal 
+    is meal~2  the food served and eaten at one time 
+       is upkeep~2 a source of materials to nourish the body 
+          is nutrient~1z any substance that can be metabolized by an animal to give energy and build tissue 
+             is substance~1z a particular kind or species of matter with uniform properties 
+                is matter~1z that which has mass and occupies space 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  snack~2: eat a snack 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 5  it must be lonely out here ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 26 23:15:08 2013 Why: ~justify_identity.2.0 
+Command: :up lonely
+
+For lonely:
+ Set hierarchy:
+ Wordnet hierarchy:
+  lonely~1: marked by dejection from being alone 
+  lonely~2: devoid of creatures 
+  lonely~3: characterized by or preferring solitude 
+  lonely~4: lacking companions or companionship 
+Command: :build 1

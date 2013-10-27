@@ -3,5 +3,5 @@
  ~justify_identity.6.0 #! Pose as peddler
  ~justify_identity.8.0 #! appeal to trust
  ~justify_identity.10.0 #! Pose as traveller
- ~justify_identity.11.0 #! Other identities
- ~justify_identity.14.0 #! Fishing for info
+ ~justify_identity.12.0 #! Other identities
+ ~justify_identity.15.0 #! Fishing for info

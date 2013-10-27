@@ -29,3 +29,7 @@ u: ( * [they dwarf~2] * [food~1 apple])
 	It's true that I'm tired of bread and cabbages every day.
 	$trust += 1
 
+#! Praise dwarves tactic
+
+s: ([they dwarf~2] * ~goodness) Yes they've been very good to me
+	$trust += 1

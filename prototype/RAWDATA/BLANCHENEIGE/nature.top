@@ -9,3 +9,9 @@ s: (animal~1 * ~goodness) Aren't they! Sometimes I sing with them!
 
 s: ([!no !not] * sing~4) Okay! (You whistle a tune with the birds while Snow White sings)
 	$trust += 1
+
+s: (~scenery_land * ~goodness) The trees are beautiful! 
+	$trust += 1
+
+s: (lonely~1) Yeah, it sucks being the only human around here
+	$trust += 1

@@ -888,3 +888,64 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 1  traveller ==> That's odd
 Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so full of life!  When:Sat Oct 19 20:52:30 2013 Why: ~justify_identity.10.1 
 Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 19 20:53:01 2013 Why: ~praise_nature.1.0 
 Respond: user: bot:snowwhite ip: (~praise_nature) 4  let's sing to them ==> Okay! (You whistle a tune with the birds while Snow White sings)  When:Sat Oct 19 20:53:19 2013 Why: ~praise_nature.2.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 26 23:11:05 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 26 23:11:25 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like secluded places ==> I can certainly understand that. These woods are so peaceful!  When:Sat Oct 26 23:11:33 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 26 23:11:41 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  would you like a snack? ==> I love it here in the woods!  When:Sat Oct 26 23:11:50 2013 Why: ~praise_nature.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 26 23:16:42 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 26 23:16:55 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Sat Oct 26 23:18:46 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 26 23:18:55 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  would you like an apple? ==> Sorry, what were you saying about those apples?  When:Sat Oct 26 23:19:04 2013 Why: ~sell_apple.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  it must get lonely out here ==> I can't accept anything from you.  When:Sat Oct 26 23:19:20 2013 Why: ~sell_apple.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 26 23:19:24 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 26 23:19:32 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Sat Oct 26 23:19:39 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 26 23:19:44 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  are you lonely? ==> I love it here in the woods!  When:Sat Oct 26 23:19:53 2013 Why: ~praise_nature.0.0 
+Command: :up lonely
+
+For lonely:
+ Set hierarchy:
+ Wordnet hierarchy:
+  lonely~1: marked by dejection from being alone 
+  lonely~2: devoid of creatures 
+  lonely~3: characterized by or preferring solitude 
+  lonely~4: lacking companions or companionship 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 26 23:20:38 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  are you lonely? ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 26 23:20:41 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 26 23:20:49 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Sat Oct 26 23:20:54 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 26 23:21:01 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 5  are you lonely? ==> I love it here in the woods!  When:Sat Oct 26 23:21:12 2013 Why: ~praise_nature.0.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 6  why don't we sing together? ==> I don't need to answer your questions.  When:Sat Oct 26 23:21:30 2013 Why: ~catchall.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 26 23:22:19 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 26 23:22:23 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Sat Oct 26 23:22:52 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 26 23:22:56 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  are you lonely? ==> I love it here in the woods!  When:Sat Oct 26 23:23:08 2013 Why: ~praise_nature.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  let's since ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Sat Oct 26 23:23:13 2013 Why: ~assassination_plot.0.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  let's sing ==> It's so hard living with this sword of Damocles over my head.  When:Sat Oct 26 23:23:16 2013 Why: ~assassination_plot.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  want to sing ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 26 23:23:36 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~chicken) 8  the trees are nice ==> Chicken chicken chicken, and beef  When:Sat Oct 26 23:23:47 2013 Why: ~chicken.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 9  the dwarves are smart ==> Yes they’ve been very good to me  When:Sat Oct 26 23:23:58 2013 Why: ~dwarves.7.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 10  i'm not a stranger ==> Who are you then?  When:Sat Oct 26 23:24:27 2013 Why: ~justify_identity.8.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Oct 26 23:24:54 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 1  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Sat Oct 26 23:25:01 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  the dwarves are smart ==> Yes they've been very good to me  When:Sat Oct 26 23:25:07 2013 Why: ~dwarves.7.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  want an apple? ==> Who are you to be offering apples to strangers?  When:Sat Oct 26 23:25:11 2013 Why: ~sell_apple.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Oct 26 23:25:18 2013 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Sat Oct 26 23:25:22 2013 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  want an apple? ==> Shouldn't you be selling those rather than giving them away?  When:Sat Oct 26 23:25:25 2013 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  it's free ==> Sorry but I was told not to trust any strangers.  When:Sat Oct 26 23:25:35 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  want an apple? ==> No thanks, I don't trust you enough.  When:Sat Oct 26 23:25:39 2013 Why: ~sell_apple.6.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 9  i'm not a stranger ==> Who are you then?  When:Sat Oct 26 23:25:48 2013 Why: ~justify_identity.8.0 

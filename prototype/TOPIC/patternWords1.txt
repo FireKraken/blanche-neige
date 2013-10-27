@@ -26,6 +26,7 @@ bank~11
 believe~1
 fauna~1
 sing~4
+lonely~1
 dead~1
 away~3
 snowwhite
