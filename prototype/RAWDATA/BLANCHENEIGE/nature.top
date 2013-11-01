@@ -1,8 +1,8 @@
 topic: ~praise_nature (nature~4 animal~1 forest~1)
 
-t: 	I love it here in the woods!
-
-#! praise nature tactic
+#! ----------------------------------------------------------------
+#! Pose as peddler tactic
+#! ----------------------------------------------------------------
 
 s: (animal~1 * ~goodness) Aren't they! Sometimes I sing with them!
 	$trust += 1
@@ -15,3 +15,9 @@ s: (~scenery_land * ~goodness) The trees are beautiful!
 
 s: (lonely~1) Yeah, it sucks being the only human around here
 	$trust += 1
+
+#! ----------------------------------------------------------------
+#! Topic-related Gambits
+#! ----------------------------------------------------------------
+
+t: 	I love it here in the woods!

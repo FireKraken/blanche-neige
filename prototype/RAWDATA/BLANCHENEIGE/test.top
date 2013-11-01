@@ -1,6 +1,0 @@
-topic: ~chicken (chicken roasting pork) 
-
-u: ($it=chicken _it) ^mark(chicken _0)  ^repeat() ^keep() 
-t: Chicken chicken chicken, and beef ^keep()
-s: (like * chicken)  You like chicken. ^repeat() ^keep() $it = chicken
-s: (bob) Bob

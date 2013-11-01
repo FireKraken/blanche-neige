@@ -3,33 +3,24 @@ concept: ~samaritan (samaritan do-gooder humanitarian johny-on-the-spot helpfuln
 
 topic: ~sell_apple (apple ~fruit buy sell food hunger hungry snack meal give ~delicious it)
 
-#! If identity not clear
+#! Possible related pronouns
+u: (_it) ^mark(apple _0)  ^repeat() ^keep() 
+u: (_them) ^mark(apple _0)  ^repeat() ^keep() 
+u: (_they) ^mark(apple _0)  ^repeat() ^keep() 
+u: (_one) ^mark(apple _0)  ^repeat() ^keep() 
+
+#! ----------------------------------------------------------------
+#! Offer apple
+#! ----------------------------------------------------------------
+
 	
 t: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
-
-t: I can't accept anything from you.
-	a:(why) Because you're a stranger.
 
 u: ($offered!=1 !they !dwarf~2 [~acquire_imperatives here want~1 ~acquiring_verbs have] * [apple one it] ) 
 	$offered = 1
 	Who are you to be offering apples to strangers? ^addtopic(~justify_identity)
 	
 u: ($offered!=1 $peddler!=1 apple) Sorry, what were you saying about those apples?
-
-	
-#! Selling the apple
-
-u: (~delicious)
-	$trust += 1
-	It does look good.
-
-#! Fishing for reasons
-
-?: (why * [accept~5 ~taste try~1 ~eat]) 
-	$plot = 1
-	The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother. 
-
-	#! If identity clear, matter of trust
 
 u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it_words] ) No thanks, I don't trust you enough.
 u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat ] * [apple ~it_words] ) I still don't trust you enough to eat that.
@@ -38,3 +29,28 @@ u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it
 u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it_words] ) There are other people in this world that could want this apple!
 u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
 u: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+	
+#! ----------------------------------------------------------------
+#! Selling the apple
+#! ----------------------------------------------------------------
+
+u: (~delicious)
+	$trust += 1
+	It does look good.
+
+#! ----------------------------------------------------------------
+#! Fishing for info
+#! ----------------------------------------------------------------
+
+?: (why * [accept~5 ~taste try~1 ~eat]) 
+	$plot = 1
+	The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother. 
+
+	#! If identity clear, matter of trust
+
+#! ----------------------------------------------------------------
+#! Topic-related gambits
+#! ----------------------------------------------------------------
+
+t: I can't accept anything from you.
+	a:(why) Because you're a stranger.

@@ -12,7 +12,7 @@ Reading topic ~dwarves
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 57 of identity.top: aint is unknown as a word in pattern
+*** Warning- line 55 of identity.top: aint is unknown as a word in pattern
 
 ----Reading file nature.top
 Reading topic ~praise_nature
@@ -34,9 +34,6 @@ Reading topic ~introductions
 
 ----Reading file snowwhite.top
 Reading topic ~snowwhite
-
-----Reading file test.top
-Reading topic ~chicken
 
 ----Reading file z_catchall.top
 Reading topic ~catchall

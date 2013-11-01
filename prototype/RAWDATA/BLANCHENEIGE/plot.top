@@ -3,12 +3,15 @@ concept: ~evilqueen (queen "evil queen" stepmother she)
 
 topic: ~assassination_plot ($plot ~murderplot ~evilqueen)
 
-t: Look, I can't be too cautious with my stepmother wanting to kill me.
-	$plot = 1
-t: It's so hard living with this sword of Damocles over my head.
-	
+#! Possible related pronouns
+u: (_she) ^mark(queen _0)  ^repeat() ^keep() 
+u: (_her) ^mark(queen _0)  ^repeat() ^keep() 
+u: (_it) ^mark(plot _0)  ^repeat() ^keep() 
 
+
+#! ----------------------------------------------------------------
 #! fishing for more info
+#! ----------------------------------------------------------------
 
 ?: ([(how * ~murderplot) (what * ~evilqueen * give)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
 	a: (~YES) You read too much gothic fiction.
@@ -23,7 +26,9 @@ t: It's so hard living with this sword of Damocles over my head.
 ?: ([Damocles sword]) I'm referring to my stepmother's plot to assassinate me.
 	$plot = 1
 
+#! ----------------------------------------------------------------
 #! Compassion move
+#! ----------------------------------------------------------------
 
 s: ([horrible awful tragic sad poor])
 	$trust += 1
@@ -33,7 +38,9 @@ s: ([good great ~good_quality_adjectives])
 	$trust -= 1
 	How can you say such a thing!
 
+#! ----------------------------------------------------------------
 #! Not being stepmother
+#! ----------------------------------------------------------------
 
 u: (trust~1) 
 	$dwarves = 1
@@ -45,3 +52,10 @@ s: (~evilqueen * [dead~1 away~3])
 
 s: (not * ~evilqueen) How do I know that?
 
+#! ----------------------------------------------------------------
+#! Topic related gambits
+#! ----------------------------------------------------------------
+
+t: Look, I can't be too cautious with my stepmother wanting to kill me.
+	$plot = 1
+t: ($plot==1) It's so hard living with this sword of Damocles over my head.

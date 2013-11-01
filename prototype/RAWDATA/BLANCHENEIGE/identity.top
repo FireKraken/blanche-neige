@@ -2,22 +2,19 @@ concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendo
 
 topic: ~justify_identity (~peddler who woman be ~reliability_words )
 
+#! ----------------------------------------------------------------
+#! Entry point of conversation
+#! ----------------------------------------------------------------
+
 t: 	Hi, what brings you to this part of the woods?
 	$trust = 0
 	$end = 0
 
-#! Bad responses
-
-
-s: (I * ~evilqueen) Well thank you for your honesty. I don't think I'll be eating that apple now.
-	$trust -= 10
-		
-t: Sorry but I was told not to trust any strangers.
-	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)
-		$plot = 1
-	
+#! ----------------------------------------------------------------
 #! Pose as peddler tactic
+#! ----------------------------------------------------------------
 
+		
 s: ($offered==1 ~peddler) Why are you giving your apples away, then?
 	a: (~example)
 		$trust += 1
@@ -35,7 +32,6 @@ s: ($offered!=1 ~peddler)
 
 s:($peddler ~peddler) Yes, we've already established that you are an itinerant apples salesperson.
 
-#! Pose as peddler
 u: ($offered==1 $peddler!=1 [~sell ~acquire_imperatives here want~1 ~acquiring_verbs] * [apple one it] ) 
 	$offered = 1
 	Shouldn't you be selling those rather than giving them away? 
@@ -52,7 +48,9 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 	$trust += 1
 	You're an apple vendor? I'm not interested in buying apples, though..
 
-#! appeal to trust
+#! ----------------------------------------------------------------
+#! Appeal to trust
+#! ----------------------------------------------------------------
 
 s: ([not no aint "ain't"] * stranger~1) Who are you then?
 
@@ -73,16 +71,30 @@ s: ($traveller!=1 !not !no [stranger~2 traveller~1])
 s: ($trust>=2 [no not] stranger~2)	You're right, I have gotten to know you a bit better.
 	$trust += 1
 	
+#! ----------------------------------------------------------------
 #! Other identities
+#! ----------------------------------------------------------------
+
+
+s: (I * be *  ~evilqueen) Well thank you for your honesty. I don't think I'll be eating that apple now.
+	$trust -= 10
 	
 s: ([official~2 collector ~occupation_law government~4]) The government doesn't really reach here.
 
-s: (~samaritan) I can't trust your word on that.
+s: (I * be * ~samaritan) I can't trust your word on that.
 
-s: (~friend) I don't recognize you.
+s: (I * be * ~friend) I don't recognize you.
 
 #! Fishing for info
 ?: ([~feeling_fearful afraid~1]) My stepmother wanting to kill me has made me paranoid.
 	$plot = 1
 	
 ?: ([trust~7 believe~1]) The dwarves told me to simply not trust anyone.
+
+#! ----------------------------------------------------------------
+#! Topic-related gambits
+#! ----------------------------------------------------------------
+
+t: Sorry but I was told not to trust any strangers.
+	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)
+		$plot = 1
