@@ -21,15 +21,18 @@ s: ($offered==1 ~peddler) Why are you giving your apples away, then?
 	a: (~example)
 		$trust += 1
 		$peddler = 1
+		$identity = 1
 		Oh, that makes sense. 
 	a: (first * free)
 		$trust += 1
 		$peddler = 1
+		$identity = 1
 		Oh, that makes sense. 
 
 s: ($offered!=1 ~peddler) 
 		$trust += 1
 		$peddler = 1
+		$identity = 1
 		I see. Well I'm not interested in any apples.
 
 s:($peddler ~peddler) Yes, we've already established that you are an itinerant apples salesperson.
@@ -40,6 +43,7 @@ u: ($offered==1 $peddler!=1 [~sell ~acquire_imperatives here want~1 ~acquiring_v
 		a: ([~example taste])
 			$trust += 1
 			$peddler = 1
+			$identity = 1
 			Oh! That makes sense.
 		a: (* why * care~8)
 			I'm not sure that I trust you enough.
@@ -47,8 +51,13 @@ u: ($offered==1 $peddler!=1 [~sell ~acquire_imperatives here want~1 ~acquiring_v
 s:($peddler!=1 [~sell ~buy] * [apple one it] )
 	$offered = 1
 	$peddler = 1
+	$identity = 1
 	$trust += 1
-	You're an apple vendor? I'm not interested in buying apples, though..
+	You're an apple vendor? I really can't accept anything from strangers though.
+		a:(why) Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+				$plot = 1
+				b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+				b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
 
 #! ----------------------------------------------------------------
 #! Appeal to trust
@@ -59,7 +68,7 @@ s:([I let] * [help assist]) I'll be fine, thank you.
 s:(I * [want wish] * [wellness~1 "well-being"]) That's what they all say.
 	a:(it * true) That's also what they all say.
 
-s: ([not no aint "ain't"] * stranger~1) Who are you then?
+s: ([not no ain't] * stranger~1) Who are you then?
 
 u: ([trust believe] * I) Sorry, I can't trust anyone.
 
@@ -69,11 +78,18 @@ u: (why * not * trust~1)
 
 s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 
+?: (you * be * ~friend) I'm not in a good disposition to make new friends.
+	a:(why) Because of that assassination plot thing. ^addtopic(~assassination_plot)
+		$plot = 1
+
+?:([what how way can] [help assistance assist]) No, I'll be fine, thanks.
+
 #! ----------------------------------------------------------------
 #! Lost tactic
 #! ----------------------------------------------------------------
 
 s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach a carriage station.
+	$identity = 1
 	
 #! ----------------------------------------------------------------
 #! Other identities
@@ -81,8 +97,9 @@ s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach 
 
 s:(I * name * be _*) My name is Snow White.
 	$name = '_0
+	$identity = 1
 
-s:(I * name * be _*) 
+s:(!not I * name * be _*) 
 	if ($name != '_0) { But you told me your name was $name! }
 	else { You told me already. }
 
@@ -92,17 +109,21 @@ s: ($traveller!=1 !not !no [stranger~2 traveller~1])
 		a: ([arrive~1 visit~1 ~goodness] * [secluded~2 seclusion~2])
 			$trust += 1
 			$traveller = 1
+			$identity = 1
 			I can certainly understand that. These woods are so peaceful! 
 
 s: ($trust>=2 [no not] stranger~2)	You're right, I have gotten to know you a bit better.
 	$trust += 1
 
-u: (I * be * ~family_members) I think I would recognize a family member.
+u: (!stepmother I * be * ~family_members) I think I would recognize a family member.
+
+u: (we * be * [family related parent]) I don't recognize you. 
 
 s: (I * changed) Whoever you are, I'm sorry to say you haven't changed for the better.
 
-s: (I * be *  ~evilqueen) Well thank you for your honesty. I don't think I'll be eating that apple now.
+s: (!not I * be *  ~evilqueen) Well thank you for your honesty. I don't think I'll be eating that apple now.
 	$trust -= 10
+	$identity = 1
 	
 s: ([official~2 collector ~occupation_law government~4]) The government doesn't really reach here.
 
@@ -110,13 +131,17 @@ s: (I * be * ~samaritan) I can't trust your word on that.
 
 s: (I * be * ~friend) I don't recognize you.
 
-s: (%length<5 I * be _*) Your name is really ^substitute(CHARACTER '_0 " "  )?
+s: (%length<5 'I * be _*) Your name is really ^substitute(CHARACTER '_0 " "  )?
 	$name = ^substitute(CHARACTER '_0 " "  )
 	a:(~yes) My name is Snow White.
+		$identity = 1
 	a:(~no) Then you should stop claiming to be $name
 		$name = null
 
 ?: ([may can] * [come enter]) That is out of the question.
+
+s: (I * be * [unpleasant_person~1 annoying]) Now that you mention it...
+
 
 #! ----------------------------------------------------------------
 #! Fishing for info
@@ -126,11 +151,17 @@ s: (%length<5 I * be _*) Your name is really ^substitute(CHARACTER '_0 " "  )?
 	$plot = 1
 	
 ?: ([trust~7 believe~1]) The dwarves told me to simply not trust anyone.
+	$dwarves = 1
 
 #! ----------------------------------------------------------------
 #! Topic-related gambits
 #! ----------------------------------------------------------------
 
+t:($identity!=1) Who are you again?
+	a: (*) ^mark(I 1) ^mark(be 2) ^respond(~justify_identity) ^repeat() ^keep()
+
 t: Sorry but I was told not to trust any strangers.
 	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)
 		$plot = 1
+			b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+			b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)		

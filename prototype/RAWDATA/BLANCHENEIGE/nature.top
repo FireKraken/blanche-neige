@@ -3,23 +3,24 @@ topic: ~praise_nature (nature~4 animal~1 forest~1)
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
 #! ----------------------------------------------------------------
-#! Pose as peddler tactic
+#! Love of the woods tactics?
 #! ----------------------------------------------------------------
 
 s: (animal~1 * ~goodness) Aren't they! Sometimes I sing with them!
 	$trust += 1
+	$nature = 1
 
-s: ([!no !not] * sing~4) Okay! (You whistle a tune with the birds while Snow White sings)
+s: (!no !not !I sing~4) Okay! With a smile and a song, Life is just a sunny day...
 	$trust += 1
+	$nature = 1
 
 s: (~scenery_land * ~goodness) The trees are beautiful! 
 	$trust += 1
+	$nature = 1
 
-s: (lonely~1) Yeah, it sucks being the only human around here
-	$trust += 1
 
 #! ----------------------------------------------------------------
 #! Topic-related Gambits
 #! ----------------------------------------------------------------
 
-t: 	I love it here in the woods!
+t:  ($nature==1)	I love it here in the woods!

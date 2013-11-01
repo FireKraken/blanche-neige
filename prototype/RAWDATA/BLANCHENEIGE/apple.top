@@ -11,34 +11,34 @@ u: (_one) ^mark(apple _0)  ^repeat() ^keep()
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
+
 #! ----------------------------------------------------------------
-#! Offer apple
+#! "I will have one too tactic"
 #! ----------------------------------------------------------------
 
-	
-t: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+u:(I will [eat taste try have] * apple) That is somewhat convincing but you could have poisoned only parts of it!
+	$trust += 1
 
-u: ($offered!=1 !they !dwarf~2 [~acquire_imperatives here want~1 ~acquiring_verbs have] * [apple one it] ) 
-	$offered = 1
-	Who are you to be offering apples to strangers? ^addtopic(~justify_identity)
-	
-u: ($offered!=1 $peddler!=1 apple) Sorry, what were you saying about those apples?
+#! ----------------------------------------------------------------
+#! Bribe tactic
+#! ----------------------------------------------------------------
 
-u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it_words] ) No thanks, I don't trust you enough.
-u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat ] * [apple ~it_words] ) I still don't trust you enough to eat that.
-u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it_words] ) Not eating that apple.
-u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it_words] ) Stop waving that apple in my face.
-u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it_words] ) There are other people in this world that could want this apple!
-u: ($trust<3 [~acquire_imperatives here want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
-u: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+u:([I here take have give] * [~currency dollars gold silver coins money cash]) You're giving me money to taste your apple? This is getting really suspicious.
+	$trust -= 1
 
-s:(I * have * too~1 * apple) There's no such thing as too many apples.
+#! ----------------------------------------------------------------
+#! Threatening
+#! ----------------------------------------------------------------
+
+u: (<<[~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] [~insults unpleasant_person~1] apple>>) You're not being very amiable.
+u: (<<[~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] [~insults unpleasant_person~1] apple>>) I don't have to listen to this, bye.
+	$end = 1
 
 #! ----------------------------------------------------------------
 #! Selling the apple
 #! ----------------------------------------------------------------
 
-u: (<<apple ~delicious>>)
+u: (<<apple [~delicious tasty]>>)
 	$trust += 1
 	It does look good.
 
@@ -51,13 +51,21 @@ u: (<<apple magical~1>>)
 		$plot = 1
 		^addtopic(~assassination_plot)
 
-u: (<<apple [wellness~1 healthy "good for you" nutritive "well-being"] >>)
+u: (<<apple [wellness~1 healthy good "good for you" nutritive "well-being" "fat" organic] >>)
 	$trust += 1
 	It's true that apples are healthy.
 
 u: (<<apple day doctor>>) I knew you'd say that.
 
 u: (dwarf~1 * like~5 * apple) They do, but they're very picky when it comes to the origin of what they eat.
+
+u: (<< you apple pie >>) The dwarves would love this but they won't eat anything they haven't grown themselves.
+	$dwarves = 1
+
+u: (<< apple you ugly >>) That's interesting, but I'm not very fond of magic.
+	a:(why) My stepmother has been using magic to kill me.
+		$plot = 1
+		^addtopic(~assassination_plot)
 
 #! ----------------------------------------------------------------
 #! Fishing for info
@@ -68,6 +76,31 @@ u: (dwarf~1 * like~5 * apple) They do, but they're very picky when it comes to t
 	The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother. 
 
 	#! If identity clear, matter of trust
+
+#! ----------------------------------------------------------------
+#! Offer apple
+#! ----------------------------------------------------------------
+
+	
+t: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+
+u: ($offered!=1 !they !dwarf~2 [~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] * [apple one it] ) 
+	$offered = 1
+	Who are you to be offering apples to strangers? ^addtopic(~justify_identity)
+	
+u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
+	a:(~yes) That's nice but I can't accept anything from strangers.
+	b:(~no) Then what are you doing here?
+
+u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No thanks, I don't trust you enough.
+u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat ] * [apple ~it_words] ) I still don't trust you enough to eat that.
+u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) Not eating that apple.
+u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) Stop waving that apple in my face.
+u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) There are other people in this world that could want this apple!
+u: ($trust<3 !~insults !unpleasant_person~1[~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
+u: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+
+s:(I * have * too~1 * apple) There's no such thing as too many apples.
 
 #! ----------------------------------------------------------------
 #! Topic-related gambits

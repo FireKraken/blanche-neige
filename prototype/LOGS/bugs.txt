@@ -1552,3 +1552,20 @@ Missing topic index for ~snowwhite
 CALL-1 Call to function not yet defined ^substitueinput:2 Thu Oct 31 21:39:26 2013 Missing topic index for ~justify_identity
  caller: callee:snowwhite in sentence: my name is bob at 
 Missing topic index for ~justify_identity
+   in identity.top at 56:  You're an apple vendor? I really can't accept anything from strangers though. ^explanation()
+CALL-1 Call to function not yet defined ^explanation   in plot.top at 58:  a:(why) Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+FILE-1 Unknown top-level declaration a: in RAWDATA/BLANCHENEIGE/plot.top   in plot.top at 67: t: Look, I can't be too cautious with my stepmother wanting to kill me.
+FILE-1 Unknown top-level declaration t: in RAWDATA/BLANCHENEIGE/plot.top   in plot.top at 69: t: ($plot==1) It's so hard living with this sword of Damocles over my head.
+FILE-1 Unknown top-level declaration t: in RAWDATA/BLANCHENEIGE/plot.topinput:5 Fri Nov 01 14:42:27 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: i'm an asshole at 
+Missing topic index for ~justify_identity
+   in identity.top at 56:  You're an apple vendor? I really can't accept anything from strangers though. ^explanation()
+CALL-1 Call to function not yet defined ^explanation   in plot.top at 60:   b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+CHOICE-2 Fail to close code started with ( why ) Because strangers have tried to kill me re    in plot.top at 68: t: Look, I can't be too cautious with my stepmother wanting to kill me.
+FILE-1 Unknown top-level declaration t: in RAWDATA/BLANCHENEIGE/plot.top   in plot.top at 70: t: ($plot==1) It's so hard living with this sword of Damocles over my head.
+FILE-1 Unknown top-level declaration t: in RAWDATA/BLANCHENEIGE/plot.topinput:5 Fri Nov 01 14:45:33 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: i'm an asshole at 
+Missing topic index for ~justify_identity
+input:5 Fri Nov 01 14:49:08 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: i'm an asshole at 
+Missing topic index for ~justify_identity

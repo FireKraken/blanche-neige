@@ -7,12 +7,10 @@ Reading topic ~sell_apple
 
 ----Reading file dwarves.top
 Reading topic ~dwarves
-*** Warning- line 1 of dwarves.top: $dwarves is not a known word. Is it misspelled?
 
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 62 of identity.top: aint is unknown as a word in pattern
 
 ----Reading file nature.top
 Reading topic ~praise_nature
@@ -21,16 +19,12 @@ Reading topic ~praise_nature
 Reading concept ~murderplot
 Reading concept ~evilqueen
 Reading topic ~assassination_plot
-*** Warning- line 4 of plot.top: $plot is not a known word. Is it misspelled?
 
 ----Reading file simplecontrol.top
 Reading outputmacro: ^snowwhite
 Reading table tbl:defaultbot
 Reading topic ~control
 Reading topic ~alternate_control
-
-----Reading file simpletopic.top
-Reading topic ~introductions
 
 ----Reading file snowwhite.top
 Reading topic ~snowwhite
@@ -39,7 +33,7 @@ Reading topic ~snowwhite
 Reading topic ~catchall
 
 WARNING SUMMARY: 
-4 spelling warnings and 0 more serious warnings
+1 spelling warnings and 0 more serious warnings
     
 
 Finished compile

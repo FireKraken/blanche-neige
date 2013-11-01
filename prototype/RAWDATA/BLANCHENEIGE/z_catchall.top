@@ -1,4 +1,4 @@
-topic: ~catchall (~emohello ~emohowzit ~emogoodbye)
+topic: ~catchall (~emohello ~emohowzit ~emogoodbye ~insults ~damage_verbs)
 
 #! Gambits to fall back on when input doesn't trigger anything more precise
 
@@ -28,7 +28,20 @@ u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
 #! ----------------------------------------------------------------
 
 s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
+?: (really) Yup. ^poptopic() ^keep() ^repeat()
+u: ([here take have] _* ) No thanks, I have all the '_0 I need. ^poptopic() ^keep() ^repeat()
+u: ([nonsense "not making sense" "not making any sense" "mean anything" "means nothing"]) Sorry, I lost my train of thought. What were we taling about? ^poptopic()
 
+#! ----------------------------------------------------------------
+#! Threatening and insulting
+#! ----------------------------------------------------------------
+
+u: ([~insults unpleasant_person~1]) You're not being very amiable.
+u: ([~insults unpleasant_person~1]) I don't have to listen to this, bye.
+	$end = 1
+u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) You're not very credible, old woman.
+u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Ok, that's it. Bye now!
+	$end = 1
 
 #! ----------------------------------------------------------------
 #! Impatience gambits

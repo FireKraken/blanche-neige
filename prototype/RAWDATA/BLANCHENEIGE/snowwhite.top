@@ -4,11 +4,21 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
 ?: (you * like * [living here house~2]) I sort of got used to it.
 
-s: (you * beautiful~1) Thank you, but my beauty has brought me only misery.
+s: (you * [be look] * [beautiful~1 pretty]) Thank you, but my beauty has brought me only misery.
+	a:(why) My stepmother has been trying to kill me because she thinks I look better than her.
+		$plot = 1
+		^addtopic(~assassination_plot)
 
-s: (you * ugly) If only that was true!
+s: (you * be * ugly) If only that was true!
 	a: (why) Then my stepmother would leave me alone!
 		$plot = 1
 		^addtopic(~assassination_plot)
 
-s: (you * _unpleasant_person~1) Your mother is '_0.
+s: (you * be * _unpleasant_person~1) Your mother is '_0.
+
+u: (you * be * paranoid) You would be if random old women where repetitively trying to kill you!
+
+u: (you * be * amnesiac) I don't remember being amnesiac.
+
+u: (you * [lost bad] * memory) I don't remember not remembering anything.
+

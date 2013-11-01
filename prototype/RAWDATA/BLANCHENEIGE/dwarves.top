@@ -1,8 +1,8 @@
-topic: ~dwarves ($dwarves dwarf~2 ~mythical_intelligent_being)
+topic: ~dwarves (dwarf~2 ~mythical_intelligent_being)
 
 #! Possible related pronouns
-u: (_they) ^mark(dwarves _0)  ^repeat() ^keep() 
-u: (_them) ^mark(dwarves _0)  ^repeat() ^keep() 
+u: (_they) ^mark(dwarf _0)  ^repeat() ^keep() 
+u: (_them) ^mark(dwarf _0)  ^repeat() ^keep() 
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
@@ -30,6 +30,9 @@ u: ( * [they dwarf~2] * [food~1 apple])
 	It's true that I'm tired of bread and cabbages every day.
 	$trust += 1
 
+s: (you * lonely~1) Yeah, it sucks being the only human around here.
+	$trust += 1
+
 #! ----------------------------------------------------------------
 #! Praise dwarves tactic
 #! ----------------------------------------------------------------
@@ -38,19 +41,33 @@ s: ([they dwarf~2] * ~goodness) Yes they've been very good to me
 	$trust += 1
 
 #! ----------------------------------------------------------------
+#! Relation of the dwarves tactic
+#! ----------------------------------------------------------------
+
+s: ( << friend~1 dwarf~2 I >>) They never mentioned you.
+
+?: ( << I dwarf~2 [meet see appointment rendez-vous] >>) Come back when they're there.
+	a:(when) At dusk.
+
+?: (<< dwarf~2 be [home house inside here available] >>) No, they're out at the moutain.
+	$dwarves = 1
+
+#! ----------------------------------------------------------------
 #! Fishing for info
 #! ----------------------------------------------------------------
 
-?: (who * be * dwarf~1) I live with seven little men.
+?: (who * be * dwarf~2) I live with seven little men.
+	$dwarves=1
 	a:(why) They've been very nice to me.
 
-?: (where * be * dwarf~1) Digging the mountain for ore.
+?: (where * be * dwarf~2) Digging the mountain for ore.
 
-?: (when * dwarf~1) They will come back at dusk.
+?: (when * dwarf~2) They will come back at dusk.
 
 #! ----------------------------------------------------------------
 #! Topic-related Gambits
 #! ----------------------------------------------------------------
 
 t: The dwarves told me not to let anyone in.
+	a:([smart good clever]) Yes, they aren't anybody's fools.
 t: ($dwarves==1) The dwarves would think I'm really stupid if I accept another gift from a stranger.

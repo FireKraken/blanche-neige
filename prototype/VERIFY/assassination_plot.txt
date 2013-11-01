@@ -5,9 +5,9 @@
  ~assassination_plot.9.0 #! ----------------------------------------------------------------
  ~assassination_plot.9.0 #! Compassion move
  ~assassination_plot.9.0 #! ----------------------------------------------------------------
- ~assassination_plot.10.0 #! ----------------------------------------------------------------
- ~assassination_plot.10.0 #! Not being stepmother
- ~assassination_plot.10.0 #! ----------------------------------------------------------------
- ~assassination_plot.13.0 #! ----------------------------------------------------------------
- ~assassination_plot.13.0 #! Topic related gambits
- ~assassination_plot.13.0 #! ----------------------------------------------------------------
+ ~assassination_plot.11.0 #! ----------------------------------------------------------------
+ ~assassination_plot.11.0 #! Not being stepmother
+ ~assassination_plot.11.0 #! ----------------------------------------------------------------
+ ~assassination_plot.15.0 #! ----------------------------------------------------------------
+ ~assassination_plot.15.0 #! Topic related gambits
+ ~assassination_plot.15.0 #! ----------------------------------------------------------------

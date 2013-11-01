@@ -1,7 +1,7 @@
 concept: ~murderplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder)
 concept: ~evilqueen (queen "evil queen" stepmother she)
 
-topic: ~assassination_plot ($plot ~murderplot ~evilqueen)
+topic: ~assassination_plot (~murderplot ~evilqueen)
 
 #! Possible related pronouns
 u: (_she) ^mark(queen _0)  ^repeat() ^keep() 
@@ -18,7 +18,7 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 	a: (~YES) You read too much gothic fiction.
 	a: (~NO) She's out of her mind.
 
-?: ([(why * ~evilqueen)  (why * ~kill)]) Apparently she's jealous of my beauty and wants to kill me for that!
+?: ( << why ~evilqueen ~murderplot >>) Apparently she's jealous of my beauty and wants to kill me for that!
 
 ?: (who * ~evilqueen) Simply the kingdom's queen!
 
@@ -31,24 +31,27 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! Compassion move
 #! ----------------------------------------------------------------
 
-s: ([that it situation] * [horrible awful tragic sad poor difficult])
+s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad poor difficult] >> )
 	$trust += 1
 	I know! This is so unfair! 
+
+s: (poor * [thing you]) Thank you for the compassion.
 
 
 #! ----------------------------------------------------------------
 #! Not being stepmother
 #! ----------------------------------------------------------------
 
-u: (trust~1) 
-	$dwarves = 1
-	The dwarves told me not to trust anyone.
-
 s: (~evilqueen * [dead~1 away~3])
 	$trust += 1
 	Really!? That's great news!
 
-s: (not * ~evilqueen) How do I know that?
+s: (I * not *[look resemble like] ~evilqueen) Yes but she tends to disguise herself.
+
+s: (I * not * ~evilqueen) How do I know that?
+
+s: (I * [hate~2 despise~1] ~evilqueen) She's not very popular.
+
 
 #! ----------------------------------------------------------------
 #! Topic related gambits
