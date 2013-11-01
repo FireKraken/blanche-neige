@@ -1,5 +1,7 @@
 topic: ~praise_nature (nature~4 animal~1 forest~1)
 
+u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+
 #! ----------------------------------------------------------------
 #! Pose as peddler tactic
 #! ----------------------------------------------------------------

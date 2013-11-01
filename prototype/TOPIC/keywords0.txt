@@ -1311,7 +1311,7 @@
 ~notpropername NO_PROPER_MERGE ( URL )
 ~accessibility_words ( unlocked spacious shut opened open locked lockable jailed imprisoned closed caged )
 ~acidlist ( acid~2 )
-~acquire_imperatives ( want show seek search scan retrieve procure obtain need look_for look locate hunt give get find desire crave )
+~acquire_imperatives ( take want show seek search scan retrieve procure obtain need look_for look locate hunt give get find desire crave )
 ~acting ( variety~4 stage_production stage shadow_play~1 puppet_show~1 puppet_show play~12 play off-Broadway drama curtain_raiser~2 burlesque~2 Broadway_production Broadway acting )
 ~addition ( total_of together sum more_than increased_by combined addition added_to )
 ~ads ( advertisement advert ad )

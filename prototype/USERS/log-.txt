@@ -951,3 +951,264 @@ Respond: user: bot:snowwhite ip: (~sell_apple) 8  want an apple? ==> No thanks, 
 Respond: user: bot:snowwhite ip: (~justify_identity) 9  i'm not a stranger ==> Who are you then?  When:Sat Oct 26 23:25:48 2013 Why: ~justify_identity.8.0 
 Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:05:09 2013 Why: ~justify_identity.0.0 
+Command: :up magical
+
+For magical:
+ Set hierarchy:
+ Wordnet hierarchy:
+  magical~1: possessing or using or characteristic of or appropriate to supernatural powers 
+Command: :build 1
+Command: :up magical
+
+For magical:
+ Set hierarchy:
+ Wordnet hierarchy:
+  magical~1: possessing or using or characteristic of or appropriate to supernatural powers 
+Command: :up wellness
+
+For wellness:
+ Set hierarchy:
+ Wordnet hierarchy:
+  wellness~1: a healthy state of wellbeing free from disease 
+    is welfare~3  a contented state of being happy and healthy and prosperous 
+       is successfulness~1z the condition of prospering 
+          is break~11 an auspicious state resulting from favorable outcomes 
+             is share~2z your overall circumstances or condition in life  
+                is experimental_condition~1z a mode of being or form of existence of a person or thing 
+                   is state~1z the way something is with respect to its main attributes 
+                      is attribute~1z an abstraction belonging to or characteristic of an entity 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:13:50 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm selling apples ==> You're an apple vendor? I'm not interested in buying apples, though..  When:Thu Oct 31 21:13:55 2013 Why: ~justify_identity.5.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  they're healthy! ==> Sorry but I was told not to trust any strangers.  When:Thu Oct 31 21:14:01 2013 Why: ~justify_identity.16.0 
+Command: :up nutritive
+
+For nutritive:
+ Set hierarchy:
+ Wordnet hierarchy:
+  nutritive~1: of or providing nourishment 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  they are magical ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Oct 31 21:14:53 2013 Why: ~assassination_plot.13.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  apples are magical ==> I've become wary of magic.  When:Thu Oct 31 21:14:56 2013 Why: ~sell_apple.15.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:16:54 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 1  you are boring ==> Your mother is bore.  When:Thu Oct 31 21:16:58 2013 Why: ~snowwhite.3.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:19:51 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 1  you are boring ==> Your mother is boring.  When:Thu Oct 31 21:19:54 2013 Why: ~snowwhite.3.0 
+Command: :up brother
+
+For brother:
+ Set hierarchy:
+ Wordnet hierarchy:
+  brother~1: a male with the same parents as someone else 
+    is male_sibling~1  a sibling who is male 
+       is kinsman~1z a male relative 
+          is relation~1z a person related by blood or marriage 
+             is somebody~1z a human being 
+                is organism~1z a living thing that has the ability to act or function independently 
+                   is living_thing~1z a living entity 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  brother~2: a male person who is a fellow member  
+    is member~4  one of the persons who compose a social group  
+       is associate_degree~1 a person who joins with others in some activity or endeavor 
+          is friction_match~1z a person who is of equal standing with another in a group 
+             is somebody~1z a human being 
+                is organism~1z a living thing that has the ability to act or function independently 
+                   is living_thing~1z a living entity 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  brother~3: used as a term of address for those male persons engaged in the same movement 
+    is friend~3  a person you know well and regard with affection and trust 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  brother~4: a close friend who accompanies his buddies in their activities 
+    is friend~3  a person you know well and regard with affection and trust 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up like
+
+For like:
+ Set hierarchy:
+ Wordnet hierarchy:
+  like~1:
+  like~2: a kind of person 
+    is variety~3  a category of things distinguished by some common characteristic or quality 
+       is category~1z a general concept that marks divisions or coordinations in a conceptual scheme 
+          is concept~1z an abstract or general idea inferred or derived from specific instances 
+             is thinking~1 the content of cognition 
+                is depicted_object~1z the sum or range of what has been perceived, discovered, or learned 
+                   is knowledge~1z the psychological result of perception and learning and reasoning 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  like~3: a similar kind 
+    is variety~3  a category of things distinguished by some common characteristic or quality 
+       is category~1z a general concept that marks divisions or coordinations in a conceptual scheme 
+          is concept~1z an abstract or general idea inferred or derived from specific instances 
+             is thinking~1 the content of cognition 
+                is depicted_object~1z the sum or range of what has been perceived, discovered, or learned 
+                   is knowledge~1z the psychological result of perception and learning and reasoning 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  like~4: feel about or towards 
+  like~5: be fond of 
+  like~6: find enjoyable or agreeable 
+  like~7: prefer or wish to do something 
+  like~8: want to have 
+  like~9: resembling or similar 
+  like~10: having the same or similar characteristics 
+  like~11: equal in amount or value 
+  like~12: conforming in every respect 
+Command: :up "too many"
+Command: :up too
+
+For too:
+ Set hierarchy:
+ Wordnet hierarchy:
+  too~1: to a degree exceeding normal or proper limits 
+  too~2: in addition 
+Command: :up  honest
+
+For honest:
+ Set hierarchy:
+ Wordnet hierarchy:
+  honest~1: gained or earned without cheating or stealing 
+  honest~2: not forged 
+  honest~3: not disposed to cheat or defraud 
+  honest~4: marked by truth 
+  honest~5: without pretensions 
+  honest~6: without dissimulation 
+  honest~7: worthy of being depended on 
+Command: :up sincere
+
+For sincere:
+ Set hierarchy:
+ Wordnet hierarchy:
+  sincere~1: characterized by a firm and humorless belief in the validity of your opinions 
+  sincere~2: open and genuine 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+1 Thu Oct 31 21:35:31 2013 in sentence: you are boring 
+    Missing topic index for ~snowwhite
+
+1 Thu Oct 31 21:35:31 2013 in sentence: you are boring 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:35:38 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is bob ==> My name is Snow White.  When:Thu Oct 31 21:35:43 2013 Why: ~justify_identity.12.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  my name is pouet ==> But you told me your name was bob!  When:Thu Oct 31 21:35:47 2013 Why: ~justify_identity.13.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:35:50 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is bob ==> My name is Snow White.  When:Thu Oct 31 21:35:52 2013 Why: ~justify_identity.12.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  my name is bob ==> You told me already.  When:Thu Oct 31 21:35:56 2013 Why: ~justify_identity.13.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+2 Thu Oct 31 21:39:26 2013 in sentence: my name is bob 
+    Command: :build 1
+Command: :rest
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:39:37 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm bob leponge ==> Your name is really bobleponge?  When:Thu Oct 31 21:39:40 2013 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> My name is Snow White.  When:Thu Oct 31 21:39:43 2013 Why: ~justify_identity.22.1 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:39:47 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm bob leponge ==> Your name is really bobleponge?  When:Thu Oct 31 21:39:53 2013 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  no ==> Sorry but I was told not to trust any strangers.  When:Thu Oct 31 21:39:56 2013 Why: ~justify_identity.25.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:40:22 2013 Why: ~justify_identity.0.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm bob leponge ==> Your name is really bobleponge?  When:Thu Oct 31 21:40:26 2013 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  no ==> Then you should stop claiming to be bobleponge  When:Thu Oct 31 21:40:27 2013 Why: ~justify_identity.22.2 
+Command: :up lost
+
+For lost:
+ Set hierarchy:
+ Wordnet hierarchy:
+  lost~1: people who are destined to die soon 
+    is people~1  any group of human beings (men or women or children) collectively 
+       is group~1z any number of entities considered as a unit 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  lost~2: not caught with the senses or the mind 
+  lost~3: unable to function 
+  lost~4: no longer in your possession or control 
+  lost~5: spiritually or physically doomed or destroyed 
+  lost~6: not gained or won 
+  lost~7: having lost your bearings 
+  lost~8: perplexed by many conflicting situations or statements 
+  lost~9: incapable of being recovered or regained 
+  lost~10: deeply absorbed in thought 
+Command: :up may
+
+For may:
+ Set hierarchy:
+ Wordnet hierarchy:
+  may~1:
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:50:39 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  hi ==> Sorry but I was told not to trust any strangers.  When:Thu Oct 31 21:50:40 2013 Why: ~justify_identity.28.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  hello ==> Hello.  When:Thu Oct 31 21:50:43 2013 Why: ~catchall.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 3  good morning! ==> You're quite the greeter.  When:Thu Oct 31 21:50:50 2013 Why: ~catchall.2.0 
+Command: :up why
+
+For why:
+ Set hierarchy:
+ Wordnet hierarchy:
+  why~1:
+  why~2: the cause or intention underlying an action or situation, especially in the phrase `the whys and wherefores' 
+    is ground~7  a rational motive for a belief or action 
+       is rational_motive~1z a motive that can be defended by reasoning or logical argument 
+          is motive~1z the psychological feature that arouses an organism to action toward a desired goal 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 0
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Oct 31 21:53:21 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  hi ==> Hello.  When:Thu Oct 31 21:53:22 2013 Why: ~catchall.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  hello! ==> You're quite the greeter.  When:Thu Oct 31 21:53:25 2013 Why: ~catchall.2.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  MY apples are cheap ==> Sorry, what were you saying about those apples?  When:Thu Oct 31 21:53:31 2013 Why: ~sell_apple.7.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  MY apples are cheap ==> Price is not the issue here.  When:Thu Oct 31 21:53:33 2013 Why: ~sell_apple.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  what is the issue ==> Trust is the issue.  When:Thu Oct 31 21:53:36 2013 Why: ~sell_apple.17.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  how? ==> How what?  When:Thu Oct 31 21:53:40 2013 Why: ~catchall.6.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  How is trust the issue? ==> The dwarves told me to simply not trust anyone.  When:Thu Oct 31 21:53:44 2013 Why: ~justify_identity.27.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  Who are the dwarves? ==> Sorry but I was told not to trust any strangers.  When:Thu Oct 31 21:53:50 2013 Why: ~justify_identity.28.0 

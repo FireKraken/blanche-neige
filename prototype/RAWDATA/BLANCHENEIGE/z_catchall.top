@@ -1,15 +1,38 @@
-topic: ~catchall ()
+topic: ~catchall (~emohello ~emohowzit ~emogoodbye)
 
 #! Gambits to fall back on when input doesn't trigger anything more precise
 
-t: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
-?: (why) I don't need to answer your questions. ^poptopic()
+#! ----------------------------------------------------------------
+#! Politeness
+#! ----------------------------------------------------------------
+
+u: ([~emohello ~emohowzit hello hi "good morning"]) Hello.
+u: ([~emohello ~emohowzit hello hi "good morning"]) You're quite the greeter.
+u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
+	$end = 1
+
+#! ----------------------------------------------------------------
+#! Questions
+#! ----------------------------------------------------------------
+
+?: (why) Sorry, why what again?. ^poptopic()
 ?: (where) I don't know, look at a map. ^poptopic()
 ?: (how) How what? ^poptopic()
 ?: (how) In a crafty way, probably. ^poptopic()
 ?: (who) Who do you think? ^poptopic()
 
+#! ----------------------------------------------------------------
+#! Generic propositions
+#! ----------------------------------------------------------------
+
+s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
+
+
+#! ----------------------------------------------------------------
+#! Impatience gambits
+#! ----------------------------------------------------------------
 
 t: ($trust<2) Why are you not leaving me alone? ^poptopic()
 t: ($trust>3 $offered) You have some good points but I'm not accepting anything from you. ^poptopic()

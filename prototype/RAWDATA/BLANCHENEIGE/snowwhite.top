@@ -1,5 +1,14 @@
 topic: ~Snowwhite (you)
 
+u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+
 ?: (you * like * [living here house~2]) I sort of got used to it.
 
 s: (you * beautiful~1) Thank you, but my beauty has brought me only misery.
+
+s: (you * ugly) If only that was true!
+	a: (why) Then my stepmother would leave me alone!
+		$plot = 1
+		^addtopic(~assassination_plot)
+
+s: (you * _unpleasant_person~1) Your mother is '_0.

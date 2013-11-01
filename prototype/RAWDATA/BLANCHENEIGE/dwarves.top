@@ -4,6 +4,7 @@ topic: ~dwarves ($dwarves dwarf~2 ~mythical_intelligent_being)
 u: (_they) ^mark(dwarves _0)  ^repeat() ^keep() 
 u: (_them) ^mark(dwarves _0)  ^repeat() ^keep() 
 
+u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
 #! ----------------------------------------------------------------
 #! Undermine dwarves tactic
@@ -35,6 +36,17 @@ u: ( * [they dwarf~2] * [food~1 apple])
 
 s: ([they dwarf~2] * ~goodness) Yes they've been very good to me
 	$trust += 1
+
+#! ----------------------------------------------------------------
+#! Fishing for info
+#! ----------------------------------------------------------------
+
+?: (who * be * dwarf~1) I live with seven little men.
+	a:(why) They've been very nice to me.
+
+?: (where * be * dwarf~1) Digging the mountain for ore.
+
+?: (when * dwarf~1) They will come back at dusk.
 
 #! ----------------------------------------------------------------
 #! Topic-related Gambits

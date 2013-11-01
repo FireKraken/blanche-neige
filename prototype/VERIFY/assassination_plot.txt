@@ -1,10 +1,10 @@
  ~assassination_plot.0.0 #! Possible related pronouns
- ~assassination_plot.3.0 #! ----------------------------------------------------------------
- ~assassination_plot.3.0 #! fishing for more info
- ~assassination_plot.3.0 #! ----------------------------------------------------------------
- ~assassination_plot.8.0 #! ----------------------------------------------------------------
- ~assassination_plot.8.0 #! Compassion move
- ~assassination_plot.8.0 #! ----------------------------------------------------------------
+ ~assassination_plot.4.0 #! ----------------------------------------------------------------
+ ~assassination_plot.4.0 #! fishing for more info
+ ~assassination_plot.4.0 #! ----------------------------------------------------------------
+ ~assassination_plot.9.0 #! ----------------------------------------------------------------
+ ~assassination_plot.9.0 #! Compassion move
+ ~assassination_plot.9.0 #! ----------------------------------------------------------------
  ~assassination_plot.10.0 #! ----------------------------------------------------------------
  ~assassination_plot.10.0 #! Not being stepmother
  ~assassination_plot.10.0 #! ----------------------------------------------------------------

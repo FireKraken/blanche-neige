@@ -2,6 +2,8 @@ concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendo
 
 topic: ~justify_identity (~peddler who woman be ~reliability_words )
 
+u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+
 #! ----------------------------------------------------------------
 #! Entry point of conversation
 #! ----------------------------------------------------------------
@@ -52,13 +54,37 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 #! Appeal to trust
 #! ----------------------------------------------------------------
 
+s:([I let] * [help assist]) I'll be fine, thank you.
+
+s:(I * [want wish] * [wellness~1 "well-being"]) That's what they all say.
+	a:(it * true) That's also what they all say.
+
 s: ([not no aint "ain't"] * stranger~1) Who are you then?
 
-u: (trust~1) 
+u: ([trust believe] * I) Sorry, I can't trust anyone.
+
+u: (why * not * trust~1) 
 	$dwarves = 1
 	The dwarves told me not to trust anyone.
 
-#! Pose as traveller
+s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
+
+#! ----------------------------------------------------------------
+#! Lost tactic
+#! ----------------------------------------------------------------
+
+s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach a carriage station.
+	
+#! ----------------------------------------------------------------
+#! Other identities
+#! ----------------------------------------------------------------
+
+s:(I * name * be _*) My name is Snow White.
+	$name = '_0
+
+s:(I * name * be _*) 
+	if ($name != '_0) { But you told me your name was $name! }
+	else { You told me already. }
 
 s: ($traveller!=1 !not !no [stranger~2 traveller~1])
 	$trust -= 1
@@ -70,11 +96,10 @@ s: ($traveller!=1 !not !no [stranger~2 traveller~1])
 
 s: ($trust>=2 [no not] stranger~2)	You're right, I have gotten to know you a bit better.
 	$trust += 1
-	
-#! ----------------------------------------------------------------
-#! Other identities
-#! ----------------------------------------------------------------
 
+u: (I * be * ~family_members) I think I would recognize a family member.
+
+s: (I * changed) Whoever you are, I'm sorry to say you haven't changed for the better.
 
 s: (I * be *  ~evilqueen) Well thank you for your honesty. I don't think I'll be eating that apple now.
 	$trust -= 10
@@ -85,7 +110,18 @@ s: (I * be * ~samaritan) I can't trust your word on that.
 
 s: (I * be * ~friend) I don't recognize you.
 
+s: (%length<5 I * be _*) Your name is really ^substitute(CHARACTER '_0 " "  )?
+	$name = ^substitute(CHARACTER '_0 " "  )
+	a:(~yes) My name is Snow White.
+	a:(~no) Then you should stop claiming to be $name
+		$name = null
+
+?: ([may can] * [come enter]) That is out of the question.
+
+#! ----------------------------------------------------------------
 #! Fishing for info
+#! ----------------------------------------------------------------
+
 ?: ([~feeling_fearful afraid~1]) My stepmother wanting to kill me has made me paranoid.
 	$plot = 1
 	

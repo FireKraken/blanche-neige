@@ -1,17 +1,21 @@
- ~justify_identity.0.0 #! ----------------------------------------------------------------
- ~justify_identity.0.0 #! Entry point of conversation
- ~justify_identity.0.0 #! ----------------------------------------------------------------
  ~justify_identity.1.0 #! ----------------------------------------------------------------
- ~justify_identity.1.0 #! Pose as peddler tactic
+ ~justify_identity.1.0 #! Entry point of conversation
  ~justify_identity.1.0 #! ----------------------------------------------------------------
- ~justify_identity.6.0 #! ----------------------------------------------------------------
- ~justify_identity.6.0 #! Appeal to trust
- ~justify_identity.6.0 #! ----------------------------------------------------------------
- ~justify_identity.8.0 #! Pose as traveller
- ~justify_identity.10.0 #! ----------------------------------------------------------------
- ~justify_identity.10.0 #! Other identities
- ~justify_identity.10.0 #! ----------------------------------------------------------------
- ~justify_identity.14.0 #! Fishing for info
- ~justify_identity.16.0 #! ----------------------------------------------------------------
- ~justify_identity.16.0 #! Topic-related gambits
- ~justify_identity.16.0 #! ----------------------------------------------------------------
+ ~justify_identity.2.0 #! ----------------------------------------------------------------
+ ~justify_identity.2.0 #! Pose as peddler tactic
+ ~justify_identity.2.0 #! ----------------------------------------------------------------
+ ~justify_identity.7.0 #! ----------------------------------------------------------------
+ ~justify_identity.7.0 #! Appeal to trust
+ ~justify_identity.7.0 #! ----------------------------------------------------------------
+ ~justify_identity.13.0 #! ----------------------------------------------------------------
+ ~justify_identity.13.0 #! Lost tactic
+ ~justify_identity.13.0 #! ----------------------------------------------------------------
+ ~justify_identity.14.0 #! ----------------------------------------------------------------
+ ~justify_identity.14.0 #! Other identities
+ ~justify_identity.14.0 #! ----------------------------------------------------------------
+ ~justify_identity.26.0 #! ----------------------------------------------------------------
+ ~justify_identity.26.0 #! Fishing for info
+ ~justify_identity.26.0 #! ----------------------------------------------------------------
+ ~justify_identity.28.0 #! ----------------------------------------------------------------
+ ~justify_identity.28.0 #! Topic-related gambits
+ ~justify_identity.28.0 #! ----------------------------------------------------------------

@@ -1,6 +1,13 @@
 ﻿johny-on-the-spot
 dwarf~2
 wishing~1
+too~1
+low_price
+good_price
+witching~2
+health~2
+dwarf~1
+like~5
 consent~2
 effort~3
 prison~1
@@ -32,3 +39,5 @@ away~3
 snowwhite
 house~2
 beautiful~1
+unpleasant_person~1
+see_you

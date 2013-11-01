@@ -1541,3 +1541,14 @@ Missing topic index for ~introductions
 input:2 Sat Oct 19 20:52:05 2013 Missing topic index for ~justify_identity
  caller: callee:snowwhite in sentence: i like seclusion at 
 Missing topic index for ~justify_identity
+   in apple.top at 33: d:(I * have * too~1 * apple) There's no such thing as too many apples.
+RULE-1 Illegal rejoinder level d:input:1 Thu Oct 31 21:35:30 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: you are boring at 
+Missing topic index for ~justify_identity
+input:1 Thu Oct 31 21:35:31 2013 Missing topic index for ~snowwhite
+ caller: callee:snowwhite in sentence: you are boring at 
+Missing topic index for ~snowwhite
+   in identity.top at 105: s: (%length<5 I * be _*) Your name is really ^substitue(CHARACTER '_0 " "  )?
+CALL-1 Call to function not yet defined ^substitueinput:2 Thu Oct 31 21:39:26 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: my name is bob at 
+Missing topic index for ~justify_identity
