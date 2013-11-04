@@ -2383,3 +2383,594 @@ Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 16:58:48 2013 Why: ~justify_identity.1.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 16:58:51 2013 Why: ~justify_identity.32.0 
 Respond: user: bot:snowwhite ip: (~sell_apple) 2  jojo ==> Sorry, are you here to sell apples?  When:Fri Nov 01 16:58:51 2013 Why: ~sell_apple.20.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:00:32 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:00:34 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  brother ==> I think I would recognize a family member.  When:Fri Nov 01 21:00:38 2013 Why: ~justify_identity.20.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:16:27 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:16:28 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:16:29 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+2 Fri Nov 01 21:17:28 2013 in sentence: jojo 
+    Missing topic index for ~justify_identity
+
+2 Fri Nov 01 21:17:28 2013 in sentence: jojo 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:17:37 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:17:38 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==>   When:Fri Nov 01 21:17:39 2013 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:19:50 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:19:51 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:19:52 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:25:41 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:25:42 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:25:43 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:26:05 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:26:05 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  brother ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:26:07 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:26:48 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:26:49 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:26:50 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:27:10 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:27:12 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:27:13 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:29:06 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:29:07 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:29:08 2013 Why: ~justify_identity.33.0 
+Command: :prepare jojo
+
+Original User Input: jojo
+Tokenized: jojo  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Tagged POS 1 words: jojo (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_basic)  
+
+Concepts: 
+
+1: jojo raw=  +~verb_present(1)  +~verb_tenses(1)  +~verb_infinitive(1)  +~noun_infinitive(1)  +~noun(1)  +~verb(1)  +~adjective(1) 
+.  +~adjective_normal(1)  +~noun_singular(1)  +~noun_bits(1)  +~unknownword(1)  +jojo(1)  // 
+1:  canonical=  //  
+
+    sequences=
+TokenFlags: PRESENT USERINPUT 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  :^mark(I 1) ==> Why are you not leaving me alone?  When:Fri Nov 01 21:29:34 2013 Why: ~catchall.17.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:29:40 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:29:41 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:29:42 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:29:43 2013 Why: ~justify_identity.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:30:09 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:30:10 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:30:10 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 21:31:25 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 21:31:26 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 21:31:29 2013 Why: ~justify_identity.33.0 
+Start: user: bot:build 1 ip: rand:0 () 0 ==>   When:Fri Nov 01 22:38:39 2013 Version:3.53 Build0:1383270700 Build1:1383355879 
+Command: :reset
+Respond: user: bot:build 1 ip: () 0  :reset ==>   When:Fri Nov 01 22:38:41 2013 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 22:38:50 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 22:38:51 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 22:38:52 2013 Why: ~justify_identity.33.0 
+Command: :echo
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 22:39:20 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 22:39:22 2013 Why: ~justify_identity.32.0 
+Command: :show mark
+ showMark set to 1
+----------------
+
+Mark: ~verb_present 30
+Mark: ~verb_tenses 30
+Mark: ~verb_infinitive 30
+Mark: ~noun_infinitive 30
+Mark: ~noun 30
+Mark: ~verb 30
+Mark: ~adjective 30
+Mark: ~adjective_normal 30
+Mark: ~noun_singular 30
+Mark: ~noun_bits 30
+Mark: ~unknownword 30
+Mark: jojo 30
+----------------
+
+Mark: ~pronoun 32
+Mark: ~pronoun_subject 32
+Mark: ~pronoun_bits 32
+Mark: ~kindergarten 32
+Mark: ~mainsubject 32
+Mark: I 32
+Mark: ~letters 32
+
+Mark: ~verb 32
+Mark: ~verbal 32
+Mark: be 32
+Mark: ~justify_identity 32
+Mark: ~linkingverb 32
+Mark: ~tobe 32
+Mark: ~be_verbs 32
+Mark: ~special_activities_verbs 32
+Mark: ~animate_verbs 32
+Mark: ~verbs 32
+Mark: ~active_verbs 32
+Mark: ~auxverblist 32
+Mark: ~states_of_being 32
+Mark: ~static_verbs 32
+Mark: ~usefulfactverb 32
+Mark: Be 32
+
+Mark: ~adjective 32
+Mark: ~adjective_normal 32
+Mark: ~subjectcomplement 32
+Mark: jojo 32
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 22:39:30 2013 Why: ~justify_identity.33.0 
+Command: :show pos
+ Pos set to 1
+----------------
+
+Mark: ~verb_present 34
+Mark: ~verb_tenses 34
+Mark: ~verb_infinitive 34
+Mark: ~noun_infinitive 34
+Mark: ~noun 34
+Mark: ~verb 34
+Mark: ~adjective 34
+Mark: ~adjective_normal 34
+Mark: ~noun_singular 34
+Mark: ~noun_bits 34
+Mark: ~unknownword 34
+Mark: jojo 34
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  jojo ==> Why are you not leaving me alone?  When:Fri Nov 01 22:39:45 2013 Why: ~catchall.17.0 
+Tagged POS 1 words: jojo (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_basic)  
+
+Command: :pos jojo
+
+Original User Input: jojo
+Tokenized: jojo  
+TokenControls: ESSENTIALS CONTRACTIONS BRITISH POSTAG PARSE STRICT_CASING 
+
+Original POS:  1 words: jojo (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_basic)  
+
+------------- POS rules pass 1: 
+ 1) jojo: DISCARD VERB_PRESENT Rule #346  only tense of a verb that can start a sentence is infinitive  "mother let her daughter go" "pencils for the teacher" , "search for my nails" but not "Go home" 
+   now  NOUN_SINGULAR ADJECTIVE_NORMAL NOUN_INFINITIVE VERB_INFINITIVE
+
+POS 1 words: jojo/unknown-word (Noun_infinitive Noun_singular Verb_infinitive Adjective_basic)  
+
+------------- POS rules pass 2: 
+ *** enable GUESS0
+
+---- Assign roles
+     Zones: 
+"jojo" 1 (Noun_infinitive Noun_singular Verb_infinitive Adjective_basic )
+    need 1  Main: MainSubject MainVerb - s:0 aux:0 v:0 io:0 o:0
+Limit "jojo"(1) not ending sentence in adjective since not subject complement ->  NOUN_SINGULAR NOUN_INFINITIVE VERB_INFINITIVE
+"jojo" 1 (Noun_infinitive Noun_singular Verb_infinitive )
+    need 1  Main: MainSubject MainVerb - s:0 aux:0 v:0 io:0 o:0
+Limit "jojo"(1) Potential command at start has object after it ->  VERB_INFINITIVE
+   +jojo->MAINVERB 
+      - leftover want 1:  Main: MainIO Mainobj ObjCompl
+        ->  subject:  verb:jojo  indirectobject:  object:  lastclause@:  lastverbal@:
+PreFinishSentence: jojo (MAINVERB ) 
+Zones: Ambiguous zone, 
+
+------------- POS rules pass 3: 
+Roled SemiTagged POS 1 words: jojo/unknown-word (MAINVERB Verb_infinitive)  
+
+  MainSentence: jojo 
+
+
+---- Assign roles
+     Zones: 
+"jojo" 1 (Verb_infinitive )
+    need 1  Main: MainSubject MainVerb - s:0 aux:0 v:0 io:0 o:0
+   +jojo->MAINVERB 
+      - leftover want 1:  Main: MainIO Mainobj ObjCompl
+        ->  subject:  verb:jojo  indirectobject:  object:  lastclause@:  lastverbal@:
+PreFinishSentence: jojo (MAINVERB ) 
+Zones: Predicate zone, 
+Tagged POS 1 words: jojo (MAINVERB Verb_infinitive)  
+  MainSentence: jojo  PRESENT 
+
+TokenFlags: PRESENT USERINPUT 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 22:40:44 2013 Why: ~justify_identity.1.0 
+Tagged POS 0 words: 
+
+----------------
+
+Mark: ~verb_present 38
+Mark: ~verb_tenses 38
+Mark: ~verb_infinitive 38
+Mark: ~noun_infinitive 38
+Mark: ~noun 38
+Mark: ~verb 38
+Mark: ~adjective 38
+Mark: ~adjective_normal 38
+Mark: ~noun_singular 38
+Mark: ~noun_bits 38
+Mark: ~unknownword 38
+Mark: jojo 38
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 22:40:45 2013 Why: ~justify_identity.32.0 
+Tagged POS 1 words: jojo (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_basic)  
+
+Command: :pos jojo
+
+Original User Input: jojo
+Tokenized: jojo  
+TokenControls: ESSENTIALS CONTRACTIONS BRITISH POSTAG PARSE STRICT_CASING 
+
+Original POS:  1 words: jojo (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_basic)  
+
+------------- POS rules pass 1: 
+ 1) jojo: DISCARD VERB_PRESENT Rule #346  only tense of a verb that can start a sentence is infinitive  "mother let her daughter go" "pencils for the teacher" , "search for my nails" but not "Go home" 
+   now  NOUN_SINGULAR ADJECTIVE_NORMAL NOUN_INFINITIVE VERB_INFINITIVE
+
+POS 1 words: jojo/unknown-word (Noun_infinitive Noun_singular Verb_infinitive Adjective_basic)  
+
+------------- POS rules pass 2: 
+ *** enable GUESS0
+
+---- Assign roles
+     Zones: 
+"jojo" 1 (Noun_infinitive Noun_singular Verb_infinitive Adjective_basic )
+    need 1  Main: MainSubject MainVerb - s:0 aux:0 v:0 io:0 o:0
+Limit "jojo"(1) not ending sentence in adjective since not subject complement ->  NOUN_SINGULAR NOUN_INFINITIVE VERB_INFINITIVE
+"jojo" 1 (Noun_infinitive Noun_singular Verb_infinitive )
+    need 1  Main: MainSubject MainVerb - s:0 aux:0 v:0 io:0 o:0
+Limit "jojo"(1) Potential command at start has object after it ->  VERB_INFINITIVE
+   +jojo->MAINVERB 
+      - leftover want 1:  Main: MainIO Mainobj ObjCompl
+        ->  subject:  verb:jojo  indirectobject:  object:  lastclause@:  lastverbal@:
+PreFinishSentence: jojo (MAINVERB ) 
+Zones: Ambiguous zone, 
+
+------------- POS rules pass 3: 
+Roled SemiTagged POS 1 words: jojo/unknown-word (MAINVERB Verb_infinitive)  
+
+  MainSentence: jojo 
+
+
+---- Assign roles
+     Zones: 
+"jojo" 1 (Verb_infinitive )
+    need 1  Main: MainSubject MainVerb - s:0 aux:0 v:0 io:0 o:0
+   +jojo->MAINVERB 
+      - leftover want 1:  Main: MainIO Mainobj ObjCompl
+        ->  subject:  verb:jojo  indirectobject:  object:  lastclause@:  lastverbal@:
+PreFinishSentence: jojo (MAINVERB ) 
+Zones: Predicate zone, 
+Tagged POS 1 words: jojo (MAINVERB Verb_infinitive)  
+  MainSentence: jojo  PRESENT 
+
+TokenFlags: PRESENT USERINPUT 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 22:41:46 2013 Why: ~justify_identity.1.0 
+Tagged POS 0 words: 
+
+----------------
+
+Mark: ~verb_present 57
+Mark: ~verb_tenses 57
+Mark: ~verb_infinitive 57
+Mark: ~noun_infinitive 57
+Mark: ~noun 57
+Mark: ~verb 57
+Mark: ~adjective 57
+Mark: ~adjective_normal 57
+Mark: ~noun_singular 57
+Mark: ~noun_bits 57
+Mark: ~unknownword 57
+Mark: jojo 57
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 22:41:47 2013 Why: ~justify_identity.32.0 
+Tagged POS 1 words: jojo (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_basic)  
+
+----------------
+
+Mark: ~verb_present 59
+Mark: ~verb_tenses 59
+Mark: ~verb_infinitive 59
+Mark: ~noun_infinitive 59
+Mark: ~noun 59
+Mark: ~verb 59
+Mark: ~adjective 59
+Mark: ~adjective_normal 59
+Mark: ~noun_singular 59
+Mark: ~noun_bits 59
+Mark: ~unknownword 59
+Mark: jojo 59
+----------------
+
+Mark: ~pronoun 61
+Mark: ~pronoun_subject 61
+Mark: ~pronoun_bits 61
+Mark: ~kindergarten 61
+Mark: ~mainsubject 61
+Mark: I 61
+Mark: ~letters 61
+
+Mark: ~verb_present 61
+Mark: ~verb_tenses 61
+Mark: ~verb 61
+Mark: ~mainverb 61
+Mark: am 61
+Mark: ~linkingverb 61
+Mark: ~auxverblist 61
+Mark: be 61
+Mark: ~justify_identity 61
+Mark: ~tobe 61
+Mark: ~be_verbs 61
+Mark: ~special_activities_verbs 61
+Mark: ~animate_verbs 61
+Mark: ~verbs 61
+Mark: ~active_verbs 61
+Mark: ~states_of_being 61
+Mark: ~static_verbs 61
+Mark: ~usefulfactverb 61
+
+Mark: ~adjective 61
+Mark: ~adjective_normal 61
+Mark: ~subjectcomplement 61
+Mark: jojo 61
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 22:41:49 2013 Why: ~justify_identity.33.0 
+Tagged POS 3 words: I (MAINSUBJECT Pronoun_subject)  am/be (MAINVERB Verb_present)  jojo (SUBJECT_COMPLEMENT Adjective_basic)  
+
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 22:42:12 2013 Why: ~justify_identity.1.0 
+Tagged POS 0 words: 
+
+----------------
+
+Mark: ~verb_present 79
+Mark: ~verb_tenses 79
+Mark: ~verb_infinitive 79
+Mark: ~noun_infinitive 79
+Mark: ~noun 79
+Mark: ~verb 79
+Mark: ~adjective 79
+Mark: ~adjective_normal 79
+Mark: ~noun_singular 79
+Mark: ~noun_bits 79
+Mark: ~unknownword 79
+Mark: jojo 79
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 22:42:13 2013 Why: ~justify_identity.32.0 
+Tagged POS 1 words: jojo (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_basic)  
+
+----------------
+
+Mark: ~verb_present 81
+Mark: ~verb_tenses 81
+Mark: ~verb_infinitive 81
+Mark: ~noun_infinitive 81
+Mark: ~noun 81
+Mark: ~verb 81
+Mark: ~adjective 81
+Mark: ~adjective_normal 81
+Mark: ~noun_singular 81
+Mark: ~noun_bits 81
+Mark: ~unknownword 81
+Mark: jojo 81
+----------------
+
+Mark: ~pronoun 82
+Mark: ~pronoun_subject 82
+Mark: ~pronoun_bits 82
+Mark: ~kindergarten 82
+Mark: ~mainsubject 82
+Mark: I 82
+Mark: ~letters 82
+
+Mark: ~verb_present 82
+Mark: ~verb_tenses 82
+Mark: ~verb 82
+Mark: ~mainverb 82
+Mark: am 82
+Mark: ~linkingverb 82
+Mark: ~auxverblist 82
+Mark: be 82
+Mark: ~justify_identity 82
+Mark: ~tobe 82
+Mark: ~be_verbs 82
+Mark: ~special_activities_verbs 82
+Mark: ~animate_verbs 82
+Mark: ~verbs 82
+Mark: ~active_verbs 82
+Mark: ~states_of_being 82
+Mark: ~static_verbs 82
+Mark: ~usefulfactverb 82
+
+Mark: ~pronoun_possessive 82
+Mark: ~possessive_bits 82
+Mark: your 82
+Mark: you 82
+Mark: ~snowwhite 82
+Mark: Your 82
+
+Mark: ~noun_human 82
+Mark: ~malename 82
+Mark: ~he 82
+Mark: ~age_gender 82
+Mark: ~noun_he 82
+Mark: ~noun_role 82
+Mark: ~noun 82
+Mark: ~noun_singular 82
+Mark: ~noun_bits 82
+Mark: ~mainobject 82
+Mark: brother 82
+Mark: ~family_children_male 82
+Mark: ~family_children 82
+Mark: ~family_members 82
+Mark: ~role_family 82
+Mark: ~role 82
+Mark: ~styles 82
+Mark: ~attributes 82
+Mark: ~nounlist 82
+Mark: ~brother 82
+Mark: ~family_adult_male 82
+Mark: ~family_adult 82
+Mark: ~adult 82
+Mark: ~goodness 82
+Mark: ~nounroot 82
+Mark: Brother 82
+Mark: ~religious_leaders 82
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 22:42:16 2013 Why: ~justify_identity.33.0 
+Tagged POS 4 words: I (MAINSUBJECT Pronoun_subject)  am/be (MAINVERB Verb_present)  your/you (Pronoun_possessive)  brother (MAINOBJECT Noun_singular)  
+
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:46:30 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:46:32 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 13:46:36 2013 in sentence: jojo 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:46:36 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:46:53 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:46:54 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 13:46:55 2013 in sentence: jojo 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:46:55 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:51:34 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:51:35 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 13:51:36 2013 in sentence: jojo 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:51:36 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:52:03 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:52:05 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 13:52:06 2013 in sentence: jojo 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:52:06 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:52:25 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:52:26 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 13:52:27 2013 in sentence: jojo 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:52:27 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:52:28 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:52:29 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 13:52:30 2013 in sentence: brother 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  brother ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:52:30 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:52:53 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:52:54 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 13:52:55 2013 in sentence: jojo 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:52:55 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:53:26 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:53:27 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Bob  When:Sat Nov 02 13:53:28 2013 Why: ~justify_identity.32.1 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:54:27 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I be brother ==> I think I would recognize a family member.  When:Sat Nov 02 13:54:30 2013 Why: ~justify_identity.20.0 
+Command: :rest
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 13:54:32 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 13:54:33 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 13:54:35 2013 in sentence: jojo 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:54:35 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 14:07:49 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 14:07:50 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  brother ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 14:07:51 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :respond
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 14:08:24 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 14:08:25 2013 Why: ~justify_identity.32.0 
+Cannot use ^Analyze except in postprocessing
+2 Sat Nov 02 14:08:26 2013 in sentence: brother 
+    Respond: user: bot:snowwhite ip: (~justify_identity) 2  brother ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 14:08:26 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 15:59:53 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 15:59:54 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 15:59:55 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 15:59:57 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 15:59:58 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  brother ==> I think I would recognize a family member.  When:Sat Nov 02 15:59:59 2013 Why: ~justify_identity.20.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 16:00:03 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 16:00:05 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  friend ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 16:00:09 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 16:00:13 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 16:00:14 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  brother ==> I think I would recognize a family member.  When:Sat Nov 02 16:00:15 2013 Why: ~justify_identity.20.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 16:04:38 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 16:04:39 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 16:04:40 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 16:04:44 2013 Why: ~justify_identity.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:01:29 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 21:01:29 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 21:01:30 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:01:34 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 21:01:35 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  samaritan ==> I can't trust your word on that.  When:Sat Nov 02 21:01:38 2013 Why: ~justify_identity.25.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:04:50 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 21:04:52 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 21:04:54 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :rseet
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:05:53 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 21:05:54 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 21:05:55 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:06:28 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 21:06:30 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Nov 02 21:06:34 2013 Why: ~justify_identity.18.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:06:39 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Sat Nov 02 21:06:41 2013 Why: ~justify_identity.18.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:07:23 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  a friend ==> Who are you again?  When:Sat Nov 02 21:07:25 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  a friend ==> I don't recognize you.  When:Sat Nov 02 21:07:28 2013 Why: ~justify_identity.26.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:19:27 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 21:19:28 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 21:19:29 2013 Why: ~justify_identity.33.0 

@@ -103,7 +103,7 @@ s:(!not I * name * be _*)
 	if ($name != '_0) { But you told me your name was $name! }
 	else { You told me already. }
 
-s: ($traveller!=1 !not !no [stranger~2 traveller~1])
+s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1])
 	$trust -= 1
 	That's odd, we rarely get visitors this deep in the woods.
 		a: ([arrive~1 visit~1 ~goodness] * [secluded~2 seclusion~2])
@@ -112,10 +112,10 @@ s: ($traveller!=1 !not !no [stranger~2 traveller~1])
 			$identity = 1
 			I can certainly understand that. These woods are so peaceful! 
 
-s: ($trust>=2 [no not] stranger~2)	You're right, I have gotten to know you a bit better.
+s: ($trust>=2 [no not] I * be * stranger~2)	You're right, I have gotten to know you a bit better.
 	$trust += 1
 
-u: (!stepmother I * be * ~family_members) I think I would recognize a family member.
+u: (!stepmother <<I  be  ~family_members>>) I think I would recognize a family member.
 
 u: (we * be * [family related parent]) I don't recognize you. 
 
@@ -158,7 +158,7 @@ s: (I * be * [unpleasant_person~1 annoying]) Now that you mention it...
 #! ----------------------------------------------------------------
 
 t:($identity!=1) Who are you again?
-	a: (*) ^mark(I 1) ^mark(be 2) ^respond(~justify_identity) ^repeat() ^keep()
+	a: (_*) ^input(I am '_0) ^fail(sentence)  
 
 t: Sorry but I was told not to trust any strangers.
 	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)

@@ -81,3 +81,74 @@ Start: user:bob bot:anonymous ip: rand:2944 () 0 ==>   When:Fri Nov 01 15:18:54 
 Command: :build 1
 Start: user:bob bot:anonymous ip: rand:2944 () 0 ==>   When:Fri Nov 01 15:19:25 2013 Version:3.53 Build0:1383270700 Build1:1383333536 
 Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2944 (~justify_identity) 0 ==> Who are you again?  When:Fri Nov 01 21:00:07 2013 Version:3.53 Build0:1383270700 Build1:1383339525 Why: ~justify_identity.32.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+Missing topic index for ~justify_identity
+
+Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2946 (~sell_apple) 0 ==> I can't accept anything from you.  When:Fri Nov 01 22:33:59 2013 Version:3.53 Build0:1383270700 Build1:1383355879 Why: ~sell_apple.29.0 
+Command: :reset
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 22:34:00 2013 Why: ~justify_identity.1.0 
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 22:34:07 2013 Why: ~justify_identity.32.0 
+Command: :why jojo
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 22:34:14 2013 Why: ~justify_identity.33.0 
+Command: :why
+~justify_identity.33.0  t:  Sorry but I was told not to trust any strangers. 
+Command: :revert
+Command: :reset
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 22:34:33 2013 Why: ~justify_identity.1.0 
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 22:34:34 2013 Why: ~justify_identity.32.0 
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Fri Nov 01 22:34:35 2013 Why: ~justify_identity.33.0 
+Command: :revert
+Command: :reset
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Fri Nov 01 22:35:44 2013 Why: ~justify_identity.1.0 
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Fri Nov 01 22:35:46 2013 Why: ~justify_identity.32.0 
+Command: :debug jojo
+Debugger started - for help type 'h'
+
+Debugging Main:
+Debug:  at ~control
+ ?:  step in
+Debug:     - ~control.0    u:  ( %input<%userfirstline ) ^gambit ( ~justify_identity ) 
+ ?:  step in
+Debug:     + ~control.1    u:  ( ) $$currenttopic = %topic ^^if ( %response  0 ) 00I{ ^nofail ( TOPIC ^rejoinder ( ) ) 
+ ?:  step in
+Debug:                1.0 act 1    $$currenttopic = %topic 
+ ?:  step in
+Debug:                1.0 act 2    ^^if ( %response == 0 ) 
+ ?:  step in
+Debug:                  IF act 3    $$currenttopic = %topic 
+ ?:  step in
+Debug:                              32.1 act 1    ^unmark ( * 1 ) 
+ ?:  step in
+Debug:                              32.1 act 2    ^mark ( I 1 ) 
+ ?:  step in
+Debug:                              32.1 act 3    ^mark ( am 2 ) 
+ ?:  step in
+Debug:                              32.1 act 4    ^mark ( _0 3 ) 
+ ?:  step in
+Debug:                              32.1 act 5    ^respond ( ~justify_identity ) 
+ ?:  step in
+Debug:          at ~justify_identity
+ ?:  step in
+Debug:             - ~justify_identity.0    u:  ( $end==1 ) The door is shut, no one is hearing you. ^keep ( ) ^repeat ( ) 
+ ?:  step in
+Debug:             - ~justify_identity.2    s:  ( $offered==1 ~peddler ) Why are you giving your apples away, then? 
+ ?:  step in
+Debug:             - ~justify_identity.3    s:  ( !$offered=1 ~peddler ) $trust += 1 $peddler = 1 $identity = 1 I see. Well I'm not inte
+ ?:  step in
+Debug:             - ~justify_identity.4    s:  ( $peddler ~peddler ) Yes, we've already established that you are an itinerant apples sale
+ ?:  step in
+Debug:             - ~justify_identity.5    u:  ( $offered==1 !$peddler=1 [ ~sell ~acquire_imperatives here wishing~1 ~acquiring_verbs
+ ?:  step in
+Debug:             - ~justify_identity.6    s:  ( !$peddler=1 [ ~sell ~buy ] * [ apple one it ] ) $offered = 1 $peddler = 1 $identity = 
+ ?:  step in
+Debug:             - ~justify_identity.7    s:  ( [ I let ] * [ help assist ] ) I'll be fine, thank you. 
+ ?:  step in
+Debug:             - ~justify_identity.8    s:  ( I * [ want wish ] * [ health~2 well-being ] ) That's what they all say. 
+ ?:  step in
+Debug:             - ~justify_identity.9    s:  ( [ not no ain_'t ] * unknown~3 ) Who are you then? 
+ ?: Start: user:bob bot:snowwhite ip: rand:2945 (~justify_identity) 1 ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:45:54 2013 Version:3.53 Build0:1383270700 Build1:1383360121 Why: ~justify_identity.33.0 
+Command: :build 1

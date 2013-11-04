@@ -1569,3 +1569,23 @@ Missing topic index for ~justify_identity
 input:5 Fri Nov 01 14:49:08 2013 Missing topic index for ~justify_identity
  caller: callee:snowwhite in sentence: i'm an asshole at 
 Missing topic index for ~justify_identity
+   in identity.top at 118: u: (!stepmother <<I * be * ~family_members>>) I think I would recognize a family member.
+PATTERN-45 Cannot have wildcard * inside << >>Missing topic index for ~justify_identity
+Missing topic index for ~justify_identity
+   in identity.top at 161:  a: (_*) mark(I 1) ^mark(be 2) ^retry(SENTENCE)) ^repeat() ^keep()
+OUTPUT-3 Unbalanced )input:2 Fri Nov 01 21:17:28 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: jojo at 
+Missing topic index for ~justify_identity
+input:2 Fri Nov 01 21:17:28 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: jojo at 
+Missing topic index for ~justify_identity
+input:2 Sat Nov 02 13:46:36 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:46:55 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:51:36 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:52:05 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:52:27 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:52:30 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: brother at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:52:54 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:54:35 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 14:08:26 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: brother at ~justify_identity.32.1
+Cannot use ^Analyze except in postprocessing
