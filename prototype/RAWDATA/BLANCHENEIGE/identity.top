@@ -132,7 +132,7 @@ s: ([official~2 collector ~occupation_law government~4]) The government doesn't 
 
 s: (I * be * ~samaritan) I can't trust your word on that.
 
-s: (%length<5 'I * be _*) Your name is really ^substitute(CHARACTER '_0 " "  )?
+s: (%length<5 !~bro !stranger~2 * 'I * be _* ) Your name is really ^substitute(CHARACTER '_0 " "  )?
 	$name = ^substitute(CHARACTER '_0 " "  )
 	a:(~yes) My name is Snow White.
 		$identity = 1
