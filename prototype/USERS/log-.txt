@@ -3167,3 +3167,165 @@ Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 12:51:43 2013 Why: ~justify_identity.1.0 
 Respond: user: bot:snowwhite ip: (~build_friendship) 1  you must be lonely out here ==> Yeah, it sucks being the only human around here.  When:Wed Nov 06 12:51:50 2013 Why: ~build_friendship.1.0 
 Respond: user: bot:snowwhite ip: (~build_friendship) 2  i could be your friend ==> That would be nice.  When:Wed Nov 06 12:51:55 2013 Why: ~build_friendship.1.1 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 12:56:15 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm just a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 12:56:24 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  you must be lonely when the dwarves are away ==> Don't talk like that about these generous creatures!  When:Wed Nov 06 12:56:36 2013 Why: ~dwarves.5.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 12:56:46 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 12:56:56 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 12:57:01 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  The animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 12:57:12 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  Would you care to join me for a snack? ==> I love it here in the woods!  When:Wed Nov 06 12:57:25 2013 Why: ~praise_nature.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 12:58:11 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 12:58:15 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 12:58:19 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 12:58:30 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  Would you care to join me for a snack? ==> You mean one of those apples?  When:Wed Nov 06 12:58:42 2013 Why: ~sell_apple.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  yes ==> I can't accept anything from you.  When:Wed Nov 06 12:58:44 2013 Why: ~sell_apple.30.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 6  you must be lonely out here ==> Yeah, it sucks being the only human around here.  When:Wed Nov 06 12:58:56 2013 Why: ~build_friendship.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 7  i could be your friend ==> That would be nice.  When:Wed Nov 06 12:59:08 2013 Why: ~build_friendship.1.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  would you like to sing together? ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 06 12:59:22 2013 Why: ~justify_identity.32.0 
+Start: user: bot:build 1 ip: rand:0 () 0 ==>   When:Wed Nov 06 13:00:12 2013 Version:3.53 Build0:1383759876 Build1:1383760684 
+Command: :build 1
+Command: :up lonely
+
+For lonely:
+ Set hierarchy:
+ Wordnet hierarchy:
+  lonely~1: marked by dejection from being alone 
+  lonely~2: devoid of creatures 
+  lonely~3: characterized by or preferring solitude 
+  lonely~4: lacking companions or companionship 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:03:18 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 13:03:26 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 13:03:30 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:03:40 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  would you like some food? ==> You mean one of those apples?  When:Wed Nov 06 13:03:47 2013 Why: ~sell_apple.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  Sure ==> I can't accept anything from you.  When:Wed Nov 06 13:03:50 2013 Why: ~sell_apple.30.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 6  you must be lonely out here ==> Yeah, it sucks being the only human around here.  When:Wed Nov 06 13:04:04 2013 Why: ~build_friendship.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 7  i could be your friend ==> That would be nice.  When:Wed Nov 06 13:04:09 2013 Why: ~build_friendship.1.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 8  would you like to sing together? ==> I love it here in the woods!  When:Wed Nov 06 13:04:19 2013 Why: ~praise_nature.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:05:41 2013 Why: ~justify_identity.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:06:55 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 13:06:59 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like the seclusiob ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 13:07:22 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:09:12 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  would you like a snack? ==> You mean one of those apples?  When:Wed Nov 06 13:09:53 2013 Why: ~sell_apple.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  Sure ==> I can't accept anything from you.  When:Wed Nov 06 13:09:57 2013 Why: ~sell_apple.30.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 6  you must be lonely  ==> Yeah, it sucks being the only human around here.  When:Wed Nov 06 13:11:25 2013 Why: ~build_friendship.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 7  i could be your friend ==> That would be nice.  When:Wed Nov 06 13:11:33 2013 Why: ~build_friendship.1.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 8  would you like to sing? ==> I love it here in the woods!  When:Wed Nov 06 13:11:40 2013 Why: ~praise_nature.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:13:09 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 13:13:14 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like secluded places ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 13:13:22 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:13:26 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  would you like something to eat? ==> I love it here in the woods!  When:Wed Nov 06 13:13:40 2013 Why: ~praise_nature.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  would you like a snack? ==> You mean one of those apples?  When:Wed Nov 06 13:13:50 2013 Why: ~sell_apple.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  indeed ==> I can't accept anything from you.  When:Wed Nov 06 13:13:54 2013 Why: ~sell_apple.30.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 7  you must be lonely ==> Yeah, it sucks being the only human around here.  When:Wed Nov 06 13:14:27 2013 Why: ~build_friendship.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 8  i could be your friend ==> That would be nice.  When:Wed Nov 06 13:14:34 2013 Why: ~build_friendship.1.1 
+Respond: user: bot:snowwhite ip: (~dwarves) 9  would you like to sing together? ==> The dwarves told me not to let anyone in.  When:Wed Nov 06 13:14:46 2013 Why: ~dwarves.16.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  would you like to sing a song? ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Wed Nov 06 13:15:27 2013 Why: ~assassination_plot.15.0 
+Command: :up sing
+
+For sing:
+ Set hierarchy:
+ Wordnet hierarchy:
+  sing~1: divulge confidential information or secrets 
+  sing~2: make a whining, ringing, or whistling sound 
+  sing~3: to make melodious sounds 
+  sing~4: produce tones with the voice 
+  sing~5: deliver by singing 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:16:52 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 1  you must be lonely ==> Yeah, it sucks being the only human around here.  When:Wed Nov 06 13:17:00 2013 Why: ~build_friendship.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 2  i could be your friend ==> That would be nice.  When:Wed Nov 06 13:17:08 2013 Why: ~build_friendship.1.1 
+Respond: user: bot:snowwhite ip: (~build_friendship) 3  would you like to sing together? ==> Why are you not leaving me alone?  When:Wed Nov 06 13:17:16 2013 Why: ~catchall.17.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:19:24 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  let's sing ==> Who are you again?  When:Wed Nov 06 13:19:31 2013 Why: ~justify_identity.31.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 13:19:40 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  i like seclusio ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 13:19:45 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  are you linely ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 06 13:19:51 2013 Why: ~justify_identity.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  are you lonely ==> Why are you not leaving me alone?  When:Wed Nov 06 13:19:55 2013 Why: ~catchall.17.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 6  you must be lonely ==> Yeah, it sucks being the only human around here.  When:Wed Nov 06 13:20:10 2013 Why: ~build_friendship.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 7  i could be your friend ==> That would be nice.  When:Wed Nov 06 13:20:32 2013 Why: ~build_friendship.1.1 
+Respond: user: bot:snowwhite ip: (~build_friendship) 8  let's sing together ==> Okay! With a smile and a song, Life is just a sunny day...  When:Wed Nov 06 13:20:40 2013 Why: ~build_friendship.2.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 9  i love the woods ==> I love it here in the woods!  When:Wed Nov 06 13:20:57 2013 Why: ~praise_nature.3.0 
+Command: :up forest
+
+For forest:
+ Set hierarchy:
+ Wordnet hierarchy:
+  forest~1: the trees and other plants in a large densely wooded area 
+    is flora~2  all the plant life in a particular region or period 
+       is assembly~2 several things grouped together or considered as a whole 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  forest~2: land that is covered with trees and shrubs 
+    is biome~1  a major biotic community characterized by the dominant forms of plant life and the prevailing climate 
+       is biotic_community~1z a group of interdependent organisms inhabiting the same region and interacting with each other 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is ground~8  the solid part of the earth's surface 
+       is physical_object~1z a tangible and visible entity 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  forest~3: establish a forest on previously unforested land 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:23:41 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 13:23:51 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusio ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 13:23:58 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:24:09 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  would you like to sing togther? ==> I love it here in the woods!  When:Wed Nov 06 13:25:35 2013 Why: ~praise_nature.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  are you lonely? ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 06 13:25:45 2013 Why: ~justify_identity.32.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:26:35 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 13:26:40 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 13:26:48 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:29:47 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  would you like to sing? ==> I love it here in the woods!  When:Wed Nov 06 13:29:52 2013 Why: ~praise_nature.3.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:31:08 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 1  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:31:14 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 2  would you like to sing? ==> I love it here in the woods!  When:Wed Nov 06 13:31:19 2013 Why: ~praise_nature.3.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:33:18 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 1  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:34:54 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 2  would you like to sing? ==> I love it here in the woods!  When:Wed Nov 06 13:34:59 2013 Why: ~praise_nature.3.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:35:22 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 1  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:35:35 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 2  would you like to sing? ==> Okay! With a smile and a song, Life is just a sunny day...  When:Wed Nov 06 13:38:34 2013 Why: ~build_friendship.2.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 13:38:41 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 13:43:31 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i like seclusion ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 13:44:04 2013 Why: ~justify_identity.18.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 3  the animals seem nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 13:44:23 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 4  would you like to sing right now? ==> Okay! With a smile and a song, Life is just a sunny day...  When:Wed Nov 06 13:45:34 2013 Why: ~build_friendship.2.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 5  you must be lonely out here ==> Yeah, it sucks being the only human around here.  When:Wed Nov 06 13:45:45 2013 Why: ~build_friendship.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 6  i could be your friend ==> That would be nice.  When:Wed Nov 06 13:45:50 2013 Why: ~build_friendship.1.1 
+Respond: user: bot:snowwhite ip: (~praise_nature) 7  i love the woods ==> I love it here in the woods!  When:Wed Nov 06 13:46:04 2013 Why: ~praise_nature.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  build 1 ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Wed Nov 06 13:46:57 2013 Why: ~assassination_plot.15.0 
+Command: :build 1

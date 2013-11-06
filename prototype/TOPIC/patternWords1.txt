@@ -22,6 +22,7 @@ lonely~1
 acquaintance~2
 rendez-vous
 homie
+solitary~6
 stranger~2
 care~8
 ain_'t
@@ -38,7 +39,6 @@ afraid~1
 bank~11
 believe~1
 fauna~1
-sing~4
 dead~1
 away~3
 hate~2

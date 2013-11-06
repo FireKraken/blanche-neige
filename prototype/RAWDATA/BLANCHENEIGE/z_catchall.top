@@ -54,4 +54,8 @@ t: I'm going to close this door anytime soon now. ^poptopic()
 t: That's it, bye.
 	$end = 1
 
+#! ----------------------------------------------------------------
+#! Easter Eggs
+#! ----------------------------------------------------------------
 
+u: (build 1) Are you trying to compile me again?

@@ -12,6 +12,7 @@ Reading topic ~dwarves
 ----Reading file friendship.top
 Reading concept ~bro
 *** Warning- line 1 of friendship.top: homie is not a known word. Is it misspelled?
+Reading concept ~sing
 Reading topic ~build_friendship
 
 ----Reading file identity.top
@@ -19,6 +20,7 @@ Reading concept ~peddler
 Reading topic ~justify_identity
 
 ----Reading file nature.top
+Reading concept ~thewoods
 Reading topic ~praise_nature
 
 ----Reading file plot.top
@@ -37,12 +39,9 @@ Reading topic ~snowwhite
 
 ----Reading file z_catchall.top
 Reading topic ~catchall
-*** Warning- line 3 of Post compilation Verification: Undefined set or topic ~lonely
 
 WARNING SUMMARY: 
-  line 3 of Post compilation Verification: Undefined set or topic ~lonely
-
-2 spelling warnings and 1 more serious warnings
+2 spelling warnings and 0 more serious warnings
     
 
 Finished compile

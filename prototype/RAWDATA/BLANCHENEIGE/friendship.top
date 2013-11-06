@@ -1,6 +1,7 @@
 concept: ~bro (bro homie ~role_ally "best friend" ~friend)
+concept: ~sing (sing~3 sing~4 song)
 
-topic: ~build_friendship (~friend ~befriend ~feeling_alone ~befriend ~lonely)
+topic: ~build_friendship (~friend ~befriend ~feeling_alone ~befriend lonely~1 lonely~4 ~sing)
 
 
 #! Possible related pronouns 
@@ -12,10 +13,18 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! Loneliness
 #! ----------------------------------------------------------------
 
-s: (<<you [~lonely ~feeling_alone]>>) Yeah, it sucks being the only human around here.
+s: (<<you [lonely~1 lonely~4 ~feeling_alone]>>) Yeah, it sucks being the only human around here.
 	a: ($friend!=1 <<I be !~no ~bro>>) That would be nice.
 		$trust += 1 
 		$friend = 1
+
+#! ----------------------------------------------------------------
+#! Friend activities
+#! ----------------------------------------------------------------
+
+u: (!no !not ~sing) Okay! With a smile and a song, Life is just a sunny day...
+	$trust += 1
+	$nature = 1
 
 #! ----------------------------------------------------------------
 #! Cement friendship

@@ -1,6 +1,6 @@
 concept: ~delicious (delicious delectable savory yummy tasty)
 concept: ~samaritan (samaritan do-gooder humanitarian johny-on-the-spot helpfulness~2)
-concept: ~takethis ("take this" "would you like" "how about" "would you care for")
+concept: ~takethis ("take this" "would you like" "how about" "would you care for" "would you care to join me")
 
 topic: ~sell_apple (apple ~fruit buy sell food hunger hungry snack meal give ~delicious it)
 
