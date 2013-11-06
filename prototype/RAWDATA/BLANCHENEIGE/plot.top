@@ -37,6 +37,12 @@ s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad po
 
 s: (poor * [thing you]) Thank you for the compassion.
 
+#! ----------------------------------------------------------------
+#! Truce attempt
+#! ----------------------------------------------------------------
+
+s: (I * want * [friendly~2 chat~3]) Somehow I doubt that, given our last three meetings. What’s your plan this time?
+	threatened += 1 
 
 #! ----------------------------------------------------------------
 #! Not being stepmother
