@@ -2974,3 +2974,24 @@ Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Sat Nov 02 21:19:27 2013 Why: ~justify_identity.1.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 1  jojo ==> Who are you again?  When:Sat Nov 02 21:19:28 2013 Why: ~justify_identity.32.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 2  jojo ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 21:19:29 2013 Why: ~justify_identity.33.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:27:00 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 1  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 11:27:22 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 2  would you like a snack? ==> I love it here in the woods!  When:Wed Nov 06 11:27:39 2013 Why: ~praise_nature.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  do you want a snack? ==> You mean one of those apples?  When:Wed Nov 06 11:28:07 2013 Why: ~sell_apple.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  yes ==> I can't accept anything from you.  When:Wed Nov 06 11:28:12 2013 Why: ~sell_apple.30.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:30:55 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 1  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 11:30:59 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 2  would you like a snack? ==> I love it here in the woods!  When:Wed Nov 06 11:31:04 2013 Why: ~praise_nature.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:31:40 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 1  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 11:31:46 2013 Why: ~praise_nature.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  would you like a snack? ==> You mean one of those apples?  When:Wed Nov 06 11:31:52 2013 Why: ~sell_apple.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  yes ==> I can't accept anything from you.  When:Wed Nov 06 11:31:57 2013 Why: ~sell_apple.30.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:32:06 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  would you like a snack? ==> You mean one of those apples?  When:Wed Nov 06 11:32:19 2013 Why: ~sell_apple.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  no ==> Do you have anything else to eat?  When:Wed Nov 06 11:32:21 2013 Why: ~sell_apple.17.2 

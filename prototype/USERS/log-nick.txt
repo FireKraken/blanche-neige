@@ -1,0 +1,40 @@
+﻿Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:13:23 2013 Version:3.53 Build0:1383270700 Build1:1383441561 Why: ~justify_identity.1.0 
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 1  I'm just a traveller ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 06 11:13:53 2013 Why: ~justify_identity.18.0 
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 2  I like to visit secluded places ==> I can certainly understand that. These woods are so peaceful!  When:Wed Nov 06 11:14:02 2013 Why: ~justify_identity.18.1 
+Respond: user:nick bot:snowwhite ip: (~praise_nature) 3  The animals here seem very nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 11:14:12 2013 Why: ~praise_nature.1.0 
+Respond: user:nick bot:snowwhite ip: (~praise_nature) 4  Would you care to join me for a snack? I have apples ==> I love it here in the woods!  When:Wed Nov 06 11:14:29 2013 Why: ~praise_nature.4.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:15:45 2013 Why: ~justify_identity.1.0 
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 1  the animals are anice ==> Who are you again?  When:Wed Nov 06 11:15:54 2013 Why: ~justify_identity.32.0 
+Respond: user:nick bot:snowwhite ip: (~praise_nature) 2  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 11:16:00 2013 Why: ~praise_nature.1.0 
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 3  take this apple ==> Who are you to be offering apples to strangers?  When:Wed Nov 06 11:16:11 2013 Why: ~sell_apple.19.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:16:32 2013 Why: ~justify_identity.1.0 
+Respond: user:nick bot:snowwhite ip: (~praise_nature) 1  animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 11:17:08 2013 Why: ~praise_nature.1.0 
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 2  take this apple? ==> Who are you to be offering apples to strangers?  When:Wed Nov 06 11:17:16 2013 Why: ~sell_apple.19.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:17:21 2013 Why: ~justify_identity.1.0 
+Respond: user:nick bot:snowwhite ip: (~sell_apple) 1  TAke this snack ==> No thanks, I don't trust you enough.  When:Wed Nov 06 11:17:25 2013 Why: ~sell_apple.21.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:17:51 2013 Why: ~justify_identity.1.0 
+Respond: user:nick bot:snowwhite ip: (~praise_nature) 1  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 11:18:01 2013 Why: ~praise_nature.1.0 
+Respond: user:nick bot:snowwhite ip: (~praise_nature) 2  would you care to join me for a snack? ==> I love it here in the woods!  When:Wed Nov 06 11:18:22 2013 Why: ~praise_nature.4.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 06 11:18:36 2013 Why: ~justify_identity.1.0 
+Respond: user:nick bot:snowwhite ip: (~praise_nature) 1  the animals are nice ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 06 11:18:44 2013 Why: ~praise_nature.1.0 
+Respond: user:nick bot:snowwhite ip: (~praise_nature) 2  would you like a snack? ==> I love it here in the woods!  When:Wed Nov 06 11:18:52 2013 Why: ~praise_nature.4.0 
+Command: :up snack
+
+For snack:
+ Set hierarchy:
+ Wordnet hierarchy:
+  snack~1: a light informal meal 
+    is meal~2  the food served and eaten at one time 
+       is upkeep~2 a source of materials to nourish the body 
+          is nutrient~1z any substance that can be metabolized by an animal to give energy and build tissue 
+             is substance~1z a particular kind or species of matter with uniform properties 
+                is matter~1z that which has mass and occupies space 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  snack~2: eat a snack 
+Command: :build 1

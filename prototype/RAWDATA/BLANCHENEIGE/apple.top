@@ -1,5 +1,6 @@
 concept: ~delicious (delicious delectable savory yummy tasty)
 concept: ~samaritan (samaritan do-gooder humanitarian johny-on-the-spot helpfulness~2)
+concept: ~takethis ("take this" "would you like" "how about")
 
 topic: ~sell_apple (apple ~fruit buy sell food hunger hungry snack meal give ~delicious it)
 
@@ -66,6 +67,11 @@ u: (<< apple you ugly >>) That's interesting, but I'm not very fond of magic.
 	a:(why) My stepmother has been using magic to kill me.
 		$plot = 1
 		^addtopic(~assassination_plot)
+
+u: (<<~takethis ~food>>) You mean one of those apples?
+	a:(~Yes)
+		^input(take this apple)
+	a:(~No) Do you have anything else to eat?
 
 #! ----------------------------------------------------------------
 #! Fishing for info
