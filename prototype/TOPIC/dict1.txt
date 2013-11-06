@@ -5,6 +5,9 @@
 + take_this 
 + would_you_like 
 + how_about 
++ would_you_care_for 
++ ~bro CONCEPT 
++ ~lonely 
 + ~peddler CONCEPT 
 + ~evilqueen CONCEPT 
 + ~murderplot CONCEPT 

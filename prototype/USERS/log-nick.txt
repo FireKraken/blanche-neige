@@ -41,3 +41,9 @@ Command: :build 1
 Start: user:nick bot:anonymous ip: rand:2581 () 0 ==>   When:Wed Nov 06 11:50:02 2013 Version:3.53 Build0:1383270700 Build1: 
 Respond: user:nick bot:anonymous ip: () 1    ==>   When:Wed Nov 06 11:50:05 2013 
 Command: :build 1
+Start: user:nick bot:anonymous ip: rand:2581 () 0 ==>   When:Wed Nov 06 12:40:45 2013 Version:3.53 Build0:1383270700 Build1: 
+Command: :build 1
+Start: user:nick bot:anonymous ip: rand:2581 () 0 ==>   When:Wed Nov 06 12:41:07 2013 Version:3.53 Build0:1383270700 Build1:1383759648 
+Command: :build 1
+Command: :build 1
+Command: :build 0

@@ -1604,3 +1604,96 @@ Missing topic index for ~sell_apple
 input:7 Wed Nov 06 11:49:42 2013 Missing topic index for ~control
  caller: callee:snowwhite in sentence:   at 
 Missing topic index for ~control
+   in friendship.top at 1: topic: ~build friendship (~friend ~befriend ~feeling_alone ~befriend)
+TOPIC-1 Concept already defined with this topic name ~build   in friendship.top at 3: concept: ~friend (bro "~no ~stranger" homie ~role_ally "best friend")
+CONCEPT-3 Concept/topic already defined ~friend   in friendship.top at 7: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+FILE-1 Unknown top-level declaration u: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 9: s: ($trust<2 I * be * ~friend) I just met you.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 11: s: ($trust>=2 I * be * ~friend) I guess I do know you a bit better now.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 17: s: (<<you ~feeling_alone>>) Yeah, it sucks being the only human around here.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 25: s: ($trust>=2 [no not] I * be * stranger~2) You're right, I have gotten to know you a bit better.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 1: topic: ~build friendship (~friend ~befriend ~feeling_alone ~befriend)
+TOPIC-1 Concept already defined with this topic name ~build   in friendship.top at 1: topic: ~build friendship (~friend ~befriend ~feeling_alone ~befriend)
+TOPIC-1 Concept already defined with this topic name ~build   in friendship.top at 15:  a: ($friend~=1 <<I be !~no ~bro>>) That would be nice.
+CONCEPT-8 Cannot include topic into self   in friendship.top at 23: s: ($trust<2 $friend!=1 I * be * ~bro) I just met you.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 25: s: ($trust>=2 $friend!=1[no not] I * be * stranger~2) You're right, I have gotten to know you a bit better.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 29: s: ($trust>=2 $friend!=1 I * be * !~no * ~bro) I guess I do know you a bit better now.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in apple.top at 8: u: (_it) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in apple.top at 9: u: (_them) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in apple.top at 10: u: (_they) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in apple.top at 11: u: (_one) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in apple.top at 13: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in apple.top at 106: u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in dwarves.top at 4: u: (_they) ^mark(dwarf _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in dwarves.top at 5: u: (_them) ^mark(dwarf _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in dwarves.top at 7: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in friendship.top at 15:  a: ($friend~=1 <<I be !~no ~bro>>) That would be nice.
+CONCEPT-8 Cannot include topic into self   in friendship.top at 23: s: ($trust<2 $friend!=1 I * be * ~bro) I just met you.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 25: s: ($trust>=2 $friend!=1[no not] I * be * stranger~2) You're right, I have gotten to know you a bit better.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 29: s: ($trust>=2 $friend!=1 I * be * !~no * ~bro) I guess I do know you a bit better now.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in identity.top at 5: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in nature.top at 3: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in plot.top at 7: u: (_she) ^mark(queen _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in plot.top at 8: u: (_her) ^mark(queen _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in plot.top at 9: u: (_it) ^mark(plot _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in plot.top at 11: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in simplecontrol.top at 98:  }
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in simplecontrol.top at 144:  ^repeat() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 11   in snowwhite.top at 3: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in z_catchall.top at 5: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in z_catchall.top at 30: s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in z_catchall.top at 31: ?: (really) Yup. ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in z_catchall.top at 32: u: ([here take have] _* ) No thanks, I have all the '_0 I need. ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 11   in script1.txt at 2: TOPIC: ~sell_apple 0 -1740989128 31 2 3874 apple.top
+failed to read all of topic ~sell_apple read: 614 wanted: 3874 
+   in friendship.top at 15:  a: ($friend~=1 <<I be !~no ~bro>>) That would be nice.
+CONCEPT-8 Cannot include topic into self   in friendship.top at 23: s: ($trust<2 $friend!=1 I * be * ~bro) I just met you.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 25: s: ($trust>=2 $friend!=1[no not] I * be * stranger~2) You're right, I have gotten to know you a bit better.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in friendship.top at 29: s: ($trust>=2 $friend!=1 I * be * !~no * ~bro) I guess I do know you a bit better now.
+FILE-1 Unknown top-level declaration s: in RAWDATA/BLANCHENEIGE/friendship.top   in apple.top at 8: u: (_it) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in apple.top at 9: u: (_them) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in apple.top at 10: u: (_they) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in apple.top at 11: u: (_one) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in apple.top at 13: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in apple.top at 106: u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in dwarves.top at 4: u: (_they) ^mark(dwarf _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in dwarves.top at 5: u: (_them) ^mark(dwarf _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in dwarves.top at 7: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in friendship.top at 8: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in identity.top at 5: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in nature.top at 3: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in plot.top at 7: u: (_she) ^mark(queen _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in plot.top at 8: u: (_her) ^mark(queen _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in plot.top at 9: u: (_it) ^mark(plot _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in plot.top at 11: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in simplecontrol.top at 98:  }
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in simplecontrol.top at 144:  ^repeat() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in snowwhite.top at 3: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 5: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 30: s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 31: ?: (really) Yup. ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 32: u: ([here take have] _* ) No thanks, I have all the '_0 I need. ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in apple.top at 8: u: (_it) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in apple.top at 9: u: (_them) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in apple.top at 10: u: (_they) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in apple.top at 11: u: (_one) ^mark(apple _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in apple.top at 13: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in apple.top at 106: u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in dwarves.top at 4: u: (_they) ^mark(dwarf _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in dwarves.top at 5: u: (_them) ^mark(dwarf _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in dwarves.top at 7: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in friendship.top at 8: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in identity.top at 5: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in nature.top at 3: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in plot.top at 7: u: (_she) ^mark(queen _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in plot.top at 8: u: (_her) ^mark(queen _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in plot.top at 9: u: (_it) ^mark(plot _0)  ^repeat() ^keep() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in plot.top at 11: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in simplecontrol.top at 98:  }
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in simplecontrol.top at 144:  ^repeat() 
+CALL-60 Incorrect argument count to function ^repeat- 0 instead of 23   in snowwhite.top at 3: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 5: u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 30: s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 31: ?: (really) Yup. ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 32: u: ([here take have] _* ) No thanks, I have all the '_0 I need. ^poptopic() ^keep() ^repeat()
+CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in script1.txt at 2: TOPIC: ~sell_apple 0 -1740989128 31 2 3874 apple.top
+failed to read all of topic ~sell_apple read: 623 wanted: 3874 

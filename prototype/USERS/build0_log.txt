@@ -1,4 +1,4 @@
-﻿
+
 ----Reading file adjectivehierarchy.top
 Reading concept ~ability_adjectives
 Reading concept ~adjectives
@@ -1650,3 +1650,7 @@ WARNING SUMMARY:
 
 Finished compile
 
+failed to read all of topic ~sell_apple read: 623 wanted: 3874 
+
+   in script1.txt at 2: TOPIC: ~sell_apple 0 -1740989128 31 2 3874 apple.top
+    
