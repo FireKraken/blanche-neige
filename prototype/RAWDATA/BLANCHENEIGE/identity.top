@@ -9,6 +9,7 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! ----------------------------------------------------------------
 
 t: 	Hi, what brings you to this part of the woods?
+	$threatened = 0
 	$trust = 0
 	$end = 0
 
@@ -90,7 +91,16 @@ s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 
 s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach a carriage station.
 	$identity = 1
-	
+
+#! ----------------------------------------------------------------
+#! Vader tactic (I am your stepmother)
+#! ----------------------------------------------------------------
+
+s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
+	$threatened += 1
+	$stepmother = 1
+	$identity = 1
+
 #! ----------------------------------------------------------------
 #! Other identities
 #! ----------------------------------------------------------------
@@ -117,10 +127,6 @@ u: (!stepmother <<I  be  ~family_members>>) I think I would recognize a family m
 u: (we * be * [family related parent]) I don't recognize you. 
 
 s: (I * changed) Whoever you are, I'm sorry to say you haven't changed for the better.
-
-s: (!not I * be *  ~evilqueen) Well thank you for your honesty. I believe this conversation is over.
-	$trust -= 10
-	$identity = 1
 	
 s: ([official~2 collector ~occupation_law government~4]) The government doesn't really reach here.
 
