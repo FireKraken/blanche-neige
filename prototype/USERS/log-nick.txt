@@ -38,3 +38,6 @@ For snack:
                       is entity~1z that which is perceived or known or inferred to have its own distinct existence 
   snack~2: eat a snack 
 Command: :build 1
+Start: user:nick bot:anonymous ip: rand:2581 () 0 ==>   When:Wed Nov 06 11:50:02 2013 Version:3.53 Build0:1383270700 Build1: 
+Respond: user:nick bot:anonymous ip: () 1    ==>   When:Wed Nov 06 11:50:05 2013 
+Command: :build 1

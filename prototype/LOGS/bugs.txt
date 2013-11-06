@@ -1588,4 +1588,19 @@ Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:52:30 2013 Can
 Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:52:54 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
 Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 13:54:35 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: jojo at ~justify_identity.32.1
 Cannot use ^Analyze except in postprocessinginput:2 Sat Nov 02 14:08:26 2013 Cannot use ^Analyze except in postprocessing caller: callee:snowwhite in sentence: brother at ~justify_identity.32.1
-Cannot use ^Analyze except in postprocessing
+Cannot use ^Analyze except in postprocessing   in dwarves.top at 59: s: (<<you * ~feeling_alone>>) Yeah, it sucks being the only human around here.
+PATTERN-45 Cannot have wildcard * inside << >>input:6 Wed Nov 06 11:49:42 2013 Missing topic index for ~sell_apple
+ caller: callee:snowwhite in sentence: it must get lonely out here when the dwarves are at work at 
+Missing topic index for ~sell_apple
+input:6 Wed Nov 06 11:49:42 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: it must get lonely out here when the dwarves are at work at 
+Missing topic index for ~justify_identity
+input:6 Wed Nov 06 11:49:42 2013 Missing topic index for ~praise_nature
+ caller: callee:snowwhite in sentence: it must get lonely out here when the dwarves are at work at 
+Missing topic index for ~praise_nature
+input:6 Wed Nov 06 11:49:42 2013 Missing topic index for ~sell_apple
+ caller: callee:snowwhite in sentence: it must get lonely out here when the dwarves are at work at 
+Missing topic index for ~sell_apple
+input:7 Wed Nov 06 11:49:42 2013 Missing topic index for ~control
+ caller: callee:snowwhite in sentence:   at 
+Missing topic index for ~control

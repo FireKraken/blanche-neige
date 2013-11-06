@@ -1,0 +1,14 @@
+topic: ~build friendship (~friend ~befriend ~feeling_alone)
+
+#! Possible related pronouns 
+
+u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+
+s: (I * be * ~friend) I don't recognize you.
+
+#! ----------------------------------------------------------------
+#! Loneliness
+#! ----------------------------------------------------------------
+
+s: (<<you ~feeling_alone>>) Yeah, it sucks being the only human around here.
+	$trust += 1

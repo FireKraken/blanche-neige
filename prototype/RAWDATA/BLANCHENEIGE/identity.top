@@ -129,8 +129,6 @@ s: ([official~2 collector ~occupation_law government~4]) The government doesn't 
 
 s: (I * be * ~samaritan) I can't trust your word on that.
 
-s: (I * be * ~friend) I don't recognize you.
-
 s: (%length<5 'I * be _*) Your name is really ^substitute(CHARACTER '_0 " "  )?
 	$name = ^substitute(CHARACTER '_0 " "  )
 	a:(~yes) My name is Snow White.
