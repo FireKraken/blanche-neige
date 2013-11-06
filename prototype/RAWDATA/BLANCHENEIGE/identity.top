@@ -121,7 +121,7 @@ u: (we * be * [family related parent]) I don't recognize you.
 
 s: (I * changed) Whoever you are, I'm sorry to say you haven't changed for the better.
 
-s: (!not I * be *  ~evilqueen) Well thank you for your honesty. I don't think I'll be eating that apple now.
+s: (!not I * be *  ~evilqueen) Well thank you for your honesty. I believe this conversation is over.
 	$trust -= 10
 	$identity = 1
 	
