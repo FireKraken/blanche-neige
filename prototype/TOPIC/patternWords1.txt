@@ -28,6 +28,7 @@ care~8
 ain_'t
 unknown~3
 trust~1
+assist~2
 traveler~1
 come~11
 visit~1
@@ -39,6 +40,8 @@ afraid~1
 bank~11
 believe~1
 fauna~1
+friendly~2
+schmoose~1
 dead~1
 away~3
 hate~2

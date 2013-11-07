@@ -49,3 +49,216 @@ Command: :build 1
 Command: :build 0
 Start: user:nick bot:snowwhite ip: rand:2583 (~justify_identity) 2 ==> Who are you again?  When:Wed Nov 06 12:56:03 2013 Version:3.53 Build0:1383759876 Build1:1383760297 Why: ~justify_identity.31.0 
 Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2583 (~justify_identity) 2 ==> Sorry but I was told not to trust any strangers.  When:Thu Nov 07 11:49:42 2013 Version:3.53 Build0:1383759876 Build1:1383765278 Why: ~justify_identity.31.0 
+Command: :up apple picking
+
+For apple:
+ Set hierarchy:
+ Wordnet hierarchy:
+  apple~1: fruit with red or yellow or green skin and sweet to tart crisp whitish flesh 
+    is edible_fruit~1  edible reproductive body of a seed plant especially one having sweet flesh 
+       is green_groceries~1z fresh fruits and vegetable grown for the market 
+          is nutrient~1z any solid substance that is used as a source of nourishment 
+             is solid~1z matter that is solid at room temperature and pressure 
+                is matter~1z that which has mass and occupies space 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is yield~2 the ripened reproductive body of a seed plant 
+          is reproductive_structure~1z the parts of a plant involved in its reproduction 
+             is plant_organ~1z a functional and structural unit of a plant or fungus 
+                is plant_structure~1z any part of a plant or fungus 
+                   is natural_object~1z an object occurring naturally 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is pome~1  a fleshy fruit having seed chambers and an outer fleshy part 
+       is yield~2 the ripened reproductive body of a seed plant 
+          is reproductive_structure~1z the parts of a plant involved in its reproduction 
+             is plant_organ~1z a functional and structural unit of a plant or fungus 
+                is plant_structure~1z any part of a plant or fungus 
+                   is natural_object~1z an object occurring naturally 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  apple~2: native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits 
+    is apple_tree~1  any tree of the genus Malus especially those bearing firm rounded edible fruits 
+       is fruit_tree~1z tree bearing edible fruit 
+          is flowering_tree~1z any tree having seeds and ovules contained in the ovary 
+             is tree~1z a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown 
+                is ligneous_plant~1z a plant having hard lignified tissues or woody parts especially stems 
+                   is tracheophyte~1z green plant having a vascular system: ferns, gymnosperms, angiosperms 
+                      is flora~1z a living organism lacking the power of locomotion 
+                         is organism~1z a living thing that has the ability to act or function independently 
+                            is living_thing~1z a living entity 
+                               is unit~1z an assemblage of parts that is regarded as a single entity 
+                                  is physical_object~1z a tangible and visible entity 
+                                     is physical_entity~1z an entity that has physical existence 
+                                        is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up verb
+
+For verb:
+ Set hierarchy:
+ Wordnet hierarchy:
+  verb~1: the word class that serves as the predicate of a sentence 
+    is major_form_class~1  any of the major parts of speech of traditional grammar 
+       is form_class~1z one of the traditional categories of words intended to reflect their functions in a grammatical context 
+          is syntactic_category~1z a category of words having the same grammatical properties 
+             is course_of_instruction~1z a collection of things sharing a common attribute 
+                is assembly~2 several things grouped together or considered as a whole 
+                   is group~1z any number of entities considered as a unit 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  verb~2: a content word that denotes an action, occurrence, or state of existence 
+    is content_word~1  a word to which an independent meaning can be assigned 
+       is word~1z a unit of language that native speakers can identify 
+          is linguistic_unit~1z one of the natural units into which linguistic messages can be analyzed 
+             is share~2z something determined in relation to something that includes it 
+                is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2585 (~dwarves) 2 ==> The dwarves told me not to let anyone in.  When:Thu Nov 07 11:55:55 2013 Version:3.53 Build0:1383759876 Build1:1383843107 Why: ~dwarves.16.0 
+Command: :up old
+
+For old:
+ Set hierarchy:
+ Wordnet hierarchy:
+  old~1: past times 
+    is past~3  the time that has elapsed 
+       is time~1z the continuum of experience in which events pass from the future through the present to the past 
+          is attribute~1z an abstraction belonging to or characteristic of an entity 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  old~2: just preceding something else in time or order 
+  old~3: skilled through long experience 
+  old~4: very familiar 
+  old~5:
+  old~6: of long duration 
+  old~7: having lived for a relatively long time or attained a specific age 
+  old~8: belonging to some prior time 
+Command: :build
+Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2586 (~sell_apple) 2 ==> I can't accept anything from you.  When:Thu Nov 07 12:05:50 2013 Version:3.53 Build0:1383759876 Build1:1383843861 Why: ~sell_apple.30.0 
+Command: :up help
+
+For help:
+ Set hierarchy:
+ Wordnet hierarchy:
+  help~1: the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose 
+    is activity~1  any specific behavior 
+       is act~1z something that people do or cause to happen 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  help~2: a means of serving 
+    is helpfulness~2  the property of providing useful assistance 
+       is utility~1z the quality of being of practical use 
+          is quality~1z an essential and distinguishing attribute of something or someone 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  help~3: a resource 
+    is resource~1  a source of aid or support that may be drawn upon when needed 
+       is plus~1z a useful or valuable quality 
+          is quality~1z an essential and distinguishing attribute of something or someone 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  help~4: a person who contributes to the fulfillment of a need or furtherance of an effort or purpose 
+    is worker~2  a person who works at a specific occupation 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  help~5: improve the condition of 
+  help~6: improve 
+  help~7: help to some food 
+  help~8: take or use 
+  help~9: give help or assistance 
+  help~10: contribute to the furtherance of 
+  help~11: abstain from doing 
+  help~12: be of use 
+Command: :down help
+     2. lift~5z the act of giving temporary assistance
+     2. hand~1z physical assistance
+     2. facilitation~1z act of assisting or making easier the progress or improvement of something
+     2. self-help~1z the act of helping or improving yourself without relying on anyone else
+     2. accommodation~2z the act of providing something to meet a need
+     2. succour~1z assistance in time of difficulty
+     2. support~4z aiding the cause or policy or interests of
+     2. service~10z an act of help or assistance
+     2. encouragement~1z the act of giving hope or support to someone
+     2. comfort~1z assistance, such as that provided to an enemy or to a known criminal
+     2. resort~1z act of turning to for assistance
+     2. thanks~1z with the help of or owing to
+     2. water_boy~1z an assistant who supplies drinking water
+     2. subordinate~2z an assistant subject to the authority or control of another
+     2. man_Friday~1z the most helpful assistant
+     2. prompter~2z someone who assists a performer by providing the next words of a forgotten speech
+     2. powder_monkey~1z someone who carries explosives
+     2. paraprofessional~1z a trained worker who is not a member of a profession but who assists a professional
+     2. mannequin~2z a woman who wears clothes to display fashions
+     2. underboss~1z an assistant or second-in-command to a chief
+     2. labor_coach~1z an assistant who provides support for a woman in labor by encouraging her to use techniques learned in childbirth-preparation classes
+     2. pawn~3z a person used by another to gain an end
+     2. hatchet_man~1z one whose job it is to execute unpleasant tasks for a superior
+     2. girl_Friday~1z a female assistant who has a range of duties
+     2. facilitator~1z someone who makes progress easier
+     2. dresser~4z a wardrobe assistant for an actor
+     2. dental_assistant~1z an assistant to a dentist
+     2. model~8z a person who poses for a photographer or painter or sculptor
+     2. auxiliary~1z someone who acts as assistant
+     2. accomplice~1z a person who joins with another in carrying out some plan
+     2. tender~5z someone who waits on or tends to or attends to the needs of another
+     2. coadjutor~1z an assistant to a bishop
+     2. flower_girl~1z a young girl who carries flowers in a procession
+     2. sidesman~1z an assistant to the churchwarden
+     2. bat_boy~1z a boy who takes care of bats and other baseball equipment
+     2. secretary~3z an assistant who handles correspondence and clerical work for a boss or an organization
+     2. whipper-in~1z huntsman's assistant in managing the hounds
+     2. deputy~1z an assistant with power to act when his superior is absent
+     2. event_planner~1z someone who plans social events as a profession
+
+Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2587 (~justify_identity) 2 ==> Why are you not leaving me alone?  When:Thu Nov 07 12:36:54 2013 Version:3.53 Build0:1383759876 Build1:1383845745 Why: ~catchall.17.0 
+Command: :up need
+
+For need:
+ Set hierarchy:
+ Wordnet hierarchy:
+  need~1: the psychological feature that arouses an organism to action toward a desired goal 
+    is psychological_feature~1  a feature of the mental life of a living organism 
+       is abstraction~1z a general concept formed by extracting common features from specific examples 
+          is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  need~2: anything that is necessary but lacking 
+    is requirement~3  anything indispensable 
+       is thing~1z a separate and self-contained entity 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  need~3: a condition requiring relief 
+    is status~1  a state at a particular time 
+       is state~1z the way something is with respect to its main attributes 
+          is attribute~1z an abstraction belonging to or characteristic of an entity 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  need~4: a state of extreme poverty or destitution 
+    is poorness~4  the state of having little or no money and few or no material possessions 
+       is financial_condition~1z the condition of finances 
+          is condition~6z a state at a particular time 
+             is state~1z the way something is with respect to its main attributes 
+                is attribute~1z an abstraction belonging to or characteristic of an entity 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  need~5: have need of 
+  need~6: have or feel a need for 
+  need~7: require as useful, just, or proper 
+Command: :build 1

@@ -92,6 +92,14 @@ s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach a carriage station.
 	$identity = 1
 
+s:(<<~acquire_imperatives help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
+
+s:(<<help~1 ~thewoods>>) Just keep walking in a straight line and you'll make it out eventually.
+
+s:(<<~age_nouns [lonely~1 lonely~4 ~feeling_alone]>>) You're right. I don't think my conscience would let me abandon you to your fate. What do you need help with?
+	$identity = 1
+	$trust += 1
+
 #! ----------------------------------------------------------------
 #! Vader tactic (I am your stepmother)
 #! ----------------------------------------------------------------
@@ -114,6 +122,8 @@ s:(!not I * name * be _*)
 	if ($name != '_0) { But you told me your name was $name! }
 	else { You told me already. }
 
+s: (~age_words ~gendernoun) How did you make it all the way out here then?
+
 s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1])
 	$trust -= 1
 	That's odd, we rarely get visitors this deep in the woods.
@@ -133,7 +143,7 @@ s: ([official~2 collector ~occupation_law government~4]) The government doesn't 
 
 s: (I * be * ~samaritan) I can't trust your word on that.
 
-s: (%length<5 !~bro !stranger~2 * 'I * be _* ) Your name is really ^substitute(CHARACTER '_0 " "  )?
+s: (%length<5 !~verb !~bro !stranger~2 * 'I * be _* ) Your name is really ^substitute(CHARACTER '_0 " "  )?
 	$name = ^substitute(CHARACTER '_0 " "  )
 	a:(~yes) My name is Snow White.
 		$identity = 1

@@ -3397,3 +3397,83 @@ Respond: user: bot:snowwhite ip: (~dwarves) 12  the dwarves are smart ==> Yes th
 Respond: user: bot:snowwhite ip: (~dwarves) 13  have a snack ==> No thanks, I have all the a snack I need.  When:Wed Nov 06 14:17:23 2013 Why: ~catchall.11.0 
 Respond: user: bot:snowwhite ip: (~dwarves) 14  want an apple? ==> The dwarves told me not to let anyone in.  When:Wed Nov 06 14:17:31 2013 Why: ~dwarves.16.0 
 Respond: user: bot:snowwhite ip: (~dwarves) 15  would you like an apple ==> You have some good points but I'm not accepting anything from you.  When:Wed Nov 06 14:17:41 2013 Why: ~catchall.18.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 07 11:51:55 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm apple picking ==> Sorry, are you here to sell apples?  When:Thu Nov 07 11:52:13 2013 Why: ~sell_apple.21.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 07 12:03:14 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm an old woman ==> Who are you again?  When:Thu Nov 07 12:03:24 2013 Why: ~justify_identity.31.0 
+Command: :up woman
+
+For woman:
+ Set hierarchy:
+ Wordnet hierarchy:
+  woman~1: women as a class 
+    is class~3  people having the same social, economic, or educational status 
+       is people~1z any group of human beings (men or women or children) collectively 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  woman~2: a human female employed to do housework 
+    is cleaner~2  someone whose occupation is cleaning 
+       is manual_laborer~1z someone who works with their hands 
+          is working_person~1z an employee who performs manual or industrial labor 
+             is employee~1z a worker who is hired to perform a job 
+                is worker~1z a person who works at a specific occupation 
+                   is somebody~1z a human being 
+                      is organism~1z a living thing that has the ability to act or function independently 
+                         is living_thing~1z a living entity 
+                            is unit~1z an assemblage of parts that is regarded as a single entity 
+                               is physical_object~1z a tangible and visible entity 
+                                  is physical_entity~1z an entity that has physical existence 
+                                     is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                      is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  woman~3: an adult female person  
+    is adult~2  a fully developed person from maturity onward 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is female~2  a person who belongs to the sex that can have babies 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  woman~4: a female person who plays a significant role in the life of a particular man 
+    is female~2  a person who belongs to the sex that can have babies 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 07 12:04:28 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm an old woman ==> How did you make it all the way out here then?  When:Thu Nov 07 12:04:38 2013 Why: ~justify_identity.19.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 07 12:35:53 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 1  your stepmother is trying to kill you? ==> Yes, she's evil and is jealous of my beauty!  When:Thu Nov 07 12:36:25 2013 Why: ~assassination_plot.8.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 07 12:47:48 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  reset ==> Who are you again?  When:Thu Nov 07 12:48:25 2013 Why: ~justify_identity.34.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  reser ==> Sorry but I was told not to trust any strangers.  When:Thu Nov 07 12:48:29 2013 Why: ~justify_identity.35.0 
+Respond: user: bot:snowwhite ip: (~catchall) 3  reset ==> You won't get rid of me that easily!  When:Thu Nov 07 12:48:31 2013 Why: ~catchall.23.0 
