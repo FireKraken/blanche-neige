@@ -29,6 +29,9 @@ ain_'t
 unknown~3
 trust~1
 assist~2
+give_me
+do_you_have
+thanks~2
 traveler~1
 come~11
 visit~1

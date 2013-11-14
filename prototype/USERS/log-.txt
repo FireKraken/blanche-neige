@@ -3517,3 +3517,152 @@ For old:
   old~7: having lived for a relatively long time or attained a specific age 
   old~8: belonging to some prior time 
 Command: :build 1
+Command: :up food
+
+For food:
+ Set hierarchy:
+ Wordnet hierarchy:
+  food~1: any substance that can be metabolized by an animal to give energy and build tissue 
+    is substance~2  a particular kind or species of matter with uniform properties 
+       is matter~1z that which has mass and occupies space 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  food~2: anything that provides mental stimulus for thinking 
+    is content~2  the sum or range of what has been perceived, discovered, or learned 
+       is knowledge~1z the psychological result of perception and learning and reasoning 
+          is psychological_feature~1z a feature of the mental life of a living organism 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  food~3: any solid substance that is used as a source of nourishment 
+    is solid~3  matter that is solid at room temperature and pressure 
+       is matter~1z that which has mass and occupies space 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up water
+
+For water:
+ Set hierarchy:
+ Wordnet hierarchy:
+  water~1: a facility that provides a source of water 
+    is facility~3  a building or place that provides a particular service or is used for a particular industry 
+       is artefact~1z a man-made object taken as a whole 
+          is unit~1z an assemblage of parts that is regarded as a single entity 
+             is physical_object~1z a tangible and visible entity 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  water~2: a liquid necessary for the life of most animals and plants 
+    is food~1  any substance that can be metabolized by an animal to give energy and build tissue 
+       is substance~1z a particular kind or species of matter with uniform properties 
+          is matter~1z that which has mass and occupies space 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is nutrient~2  any substance that can be taken in by a green plant and used in organic synthesis 
+       is substance~1z a particular kind or species of matter with uniform properties 
+          is matter~1z that which has mass and occupies space 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is liquid~4  a substance that is liquid at room temperature and pressure 
+       is fluid~1z a substance that is fluid at room temperature and pressure 
+          is substance~1z the real physical matter of which a person or thing consists 
+             is matter~1z that which has mass and occupies space 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is share~2z something determined in relation to something that includes it 
+                is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  water~3: the part of the earth's surface covered with water  
+    is thing~1  a separate and self-contained entity 
+       is physical_entity~1z an entity that has physical existence 
+          is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  water~4: binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid 
+    is binary_compound~1  chemical compound composed of only two elements 
+       is compound~1z a substance formed by chemical union of two or more elements or ingredients in definite proportion by weight 
+          is chemical_substance~1z material produced by or used in a reaction involving changes in atoms or molecules 
+             is stuff~1z the tangible substance that goes into the makeup of a physical object 
+                is substance~1z the real physical matter of which a person or thing consists 
+                   is matter~1z that which has mass and occupies space 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                   is share~2z something determined in relation to something that includes it 
+                      is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is liquid~3  fluid matter having no fixed shape but a fixed volume 
+       is fluid~1z continuous amorphous matter that tends to flow and to conform to the outline of its container: a liquid or a gas 
+          is matter~1z that which has mass and occupies space 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  water~5: once thought to be one of four elements composing the universe 
+    is element~7  one of four substances thought in ancient and medieval cosmology to constitute the physical universe 
+       is substance~1z the real physical matter of which a person or thing consists 
+          is matter~1z that which has mass and occupies space 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is share~2z something determined in relation to something that includes it 
+             is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  water~6: liquid excretory product 
+    is excretion~2  waste matter discharged from the body 
+       is dissipation~1z any materials unused and rejected as worthless or unwanted 
+          is stuff~1z the tangible substance that goes into the makeup of a physical object 
+             is substance~1z the real physical matter of which a person or thing consists 
+                is matter~1z that which has mass and occupies space 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                is share~2z something determined in relation to something that includes it 
+                   is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  water~7: secrete or form water, as tears or saliva 
+  water~8: supply with water, as with channels or ditches or streams 
+  water~9: fill with tears 
+  water~10: provide with water 
+Command: :up thanks
+
+For thanks:
+ Set hierarchy:
+ Wordnet hierarchy:
+  thanks~1: with the help of or owing to 
+    is assist~2  the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose 
+       is activity~1z any specific behavior 
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  thanks~2: an acknowledgment of appreciation 
+    is acknowledgement~1  a statement acknowledging something or someone 
+       is message~2z what a communication that is about something is about 
+          is communication~1z something that is communicated by or to or between people or groups 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up "thank you"
+
+For thank_you:
+ Set hierarchy:
+ Wordnet hierarchy:
+  thank_you~1: a conversational expression of gratitude 
+    is thanks~2  an acknowledgment of appreciation 
+       is acknowledgment~1z a statement acknowledging something or someone 
+          is message~2z what a communication that is about something is about 
+             is communication~1z something that is communicated by or to or between people or groups 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 15:30:40 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Do you have water? ==> Who are you again?  When:Thu Nov 14 15:30:43 2013 Why: ~justify_identity.35.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 15:31:16 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Look, I need water ==> I can get you a glass of water if you want.  When:Thu Nov 14 15:31:19 2013 Why: ~justify_identity.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  sure ==> Here.  When:Thu Nov 14 15:31:24 2013 Why: ~justify_identity.21.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  thanks ==> Who are you again?  When:Thu Nov 14 15:31:26 2013 Why: ~justify_identity.35.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 15:31:55 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Do you have some water? ==> I can get you a glass of water if you want.  When:Thu Nov 14 15:32:02 2013 Why: ~justify_identity.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> Here.  When:Thu Nov 14 15:32:04 2013 Why: ~justify_identity.21.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  thanks ==> Who are you again?  When:Thu Nov 14 15:32:05 2013 Why: ~justify_identity.35.0 

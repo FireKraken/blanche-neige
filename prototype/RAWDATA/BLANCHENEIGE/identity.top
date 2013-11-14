@@ -98,6 +98,23 @@ s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach 
 	$identity = 1
 	$purpose = 1
 
+
+#! ----------------------------------------------------------------
+#! Vader tactic (I am your stepmother)
+#! ----------------------------------------------------------------
+
+s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
+	$threatened += 1
+	$stepmother = 1
+	$identity = 1
+	$plot = 1
+
+#! ----------------------------------------------------------------
+#! Need help tactics
+#! ----------------------------------------------------------------
+
+s: (~age_words ~gendernoun) How did you make it all the way out here then?
+
 s:(<<~acquire_imperatives help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
 	$purpose = 1
 
@@ -109,15 +126,11 @@ s:(<<~agenoun [lonely~1 lonely~4 ~feeling_alone]>>) Poor woman. If only my stepm
 	$trust += 1
 	$purpose = 1
 
-#! ----------------------------------------------------------------
-#! Vader tactic (I am your stepmother)
-#! ----------------------------------------------------------------
-
-s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
-	$threatened += 1
-	$stepmother = 1
-	$identity = 1
-	$plot = 1
+u:([need want "give me" "do you have"] * [water drink ~beverage]) I can get you a glass of water if you want.
+	$purpose = 1
+	a:(~yes) Here.
+		b:([thanks~2 thanks "thank you"]) No problem.
+	a:(~no) Ok.
 
 #! ----------------------------------------------------------------
 #! Other identities
@@ -131,7 +144,6 @@ s:(!not I * name * be _*)
 	if ($name != '_0) { But you told me your name was $name! }
 	else { You told me already. }
 
-s: (~age_words ~gendernoun) How did you make it all the way out here then?
 
 s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1])
 	$trust -= 1
