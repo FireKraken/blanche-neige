@@ -3666,3 +3666,108 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brin
 Respond: user: bot:snowwhite ip: (~justify_identity) 1  Do you have some water? ==> I can get you a glass of water if you want.  When:Thu Nov 14 15:32:02 2013 Why: ~justify_identity.21.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> Here.  When:Thu Nov 14 15:32:04 2013 Why: ~justify_identity.21.1 
 Respond: user: bot:snowwhite ip: (~justify_identity) 3  thanks ==> Who are you again?  When:Thu Nov 14 15:32:05 2013 Why: ~justify_identity.35.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+3 Thu Nov 14 15:42:56 2013 in sentence: thanks 
+    Missing topic index for ~justify_identity
+
+3 Thu Nov 14 15:42:56 2013 in sentence: thanks 
+    Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 15:44:12 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I need a place to rest ==> Sorry, I can't let anyone in.  When:Thu Nov 14 15:44:16 2013 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  why? ==> Because strangers have tried to kill me recently.  When:Thu Nov 14 15:44:19 2013 Why: ~justify_identity.36.0.22.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  who? ==> It was actually my stepmother in disguise.  When:Thu Nov 14 15:44:24 2013 Why: ~justify_identity.36.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  really? ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Nov 14 15:44:28 2013 Why: ~assassination_plot.17.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 15:45:08 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  can i sleep here? ==> Sorry, I can't let anyone in.  When:Thu Nov 14 15:45:14 2013 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  why? ==> Because strangers have tried to kill me recently.  When:Thu Nov 14 15:45:16 2013 Why: ~justify_identity.36.0.22.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  who? ==> It was actually my stepmother in disguise.  When:Thu Nov 14 15:45:19 2013 Why: ~justify_identity.36.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  really? ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Nov 14 15:45:22 2013 Why: ~assassination_plot.17.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  i am a frail woman ==> It's so hard living with this sword of Damocles over my head.  When:Thu Nov 14 15:57:41 2013 Why: ~assassination_plot.18.0 
+Command: :up old
+
+For old:
+ Set hierarchy:
+ Wordnet hierarchy:
+  old~1: past times 
+    is past~3  the time that has elapsed 
+       is time~1z the continuum of experience in which events pass from the future through the present to the past 
+          is attribute~1z an abstraction belonging to or characteristic of an entity 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  old~2: just preceding something else in time or order 
+  old~3: skilled through long experience 
+  old~4: very familiar 
+  old~5:
+  old~6: of long duration 
+  old~7: having lived for a relatively long time or attained a specific age 
+  old~8: belonging to some prior time 
+Command: :up weak
+
+For weak:
+ Set hierarchy:
+ Wordnet hierarchy:
+  weak~1: deficient in intelligence or mental power 
+  weak~2: overly diluted 
+  weak~3: likely to fail under stress or pressure 
+  weak~4: wanting in moral strength, courage, or will 
+  weak~5: deficient in magnitude 
+  weak~6: not having authority, political strength, or governing power 
+  weak~7: having standard (or regular) inflection 
+  weak~8: lacking bodily or muscular strength or vitality 
+  weak~9: deficient or lacking in some skill 
+  weak~10: pronounced with little or no stress 
+  weak~11: wanting in physical strength 
+  weak~12: tending downward in price 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:00:58 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm frail woman ==> You shouldn't be walking alone in the woods like that.  When:Thu Nov 14 16:01:02 2013 Why: ~justify_identity.17.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  I'm an old woman from out of town ==> Because strangers have tried to kill me recently.  When:Thu Nov 14 16:01:25 2013 Why: ~justify_identity.36.0 
+Command: :build 1
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:05:05 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm an old woman from out of town ==> You shouldn't be walking alone in the woods like that.  When:Thu Nov 14 16:05:10 2013 Why: ~justify_identity.17.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I know ==> Uh-huh...  When:Thu Nov 14 16:05:14 2013 Why: ~catchall.9.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Will you help me? ==> Who are you again?  When:Thu Nov 14 16:05:27 2013 Why: ~justify_identity.36.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:07:25 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Can I sleep here? ==> Sorry, I can't let anyone in.  When:Thu Nov 14 16:07:27 2013 Why: ~justify_identity.23.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  why? ==> The dwarves told me not to trust anyone.  When:Thu Nov 14 16:07:29 2013 Why: ~justify_identity.11.0.23.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  why? ==> () Because strangers have tried to kill me recently.  When:Thu Nov 14 16:07:32 2013 Why: ~justify_identity.11.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  WIll you help me? ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Nov 14 16:08:02 2013 Why: ~assassination_plot.17.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:08:29 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  will you help me? ==> What do you need?  When:Thu Nov 14 16:08:32 2013 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  a bra ==> Who are you again?  When:Thu Nov 14 16:08:35 2013 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I neet a place to rest ==> What was it that you wanted again?  When:Thu Nov 14 16:10:14 2013 Why: ~justify_identity.38.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:10:17 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I need a place to rest ==> Sorry, I can't let anyone in.  When:Thu Nov 14 16:10:20 2013 Why: ~justify_identity.23.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  You should be cautious ==> Who are you again?  When:Thu Nov 14 16:10:37 2013 Why: ~justify_identity.37.0 
+Command: :up should
+
+For should:
+ Set hierarchy:
+ Wordnet hierarchy:
+  should~1:
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:12:45 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  You should be cautious ==> I know.  When:Thu Nov 14 16:12:50 2013 Why: ~justify_identity.15.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  I am not a strange ==> You're not being very amiable.  When:Thu Nov 14 16:13:56 2013 Why: ~catchall.13.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:15:14 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm not a strange ==> Who are you again?  When:Thu Nov 14 16:15:18 2013 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm not a strange ==> What was it that you wanted again?  When:Thu Nov 14 16:15:21 2013 Why: ~justify_identity.40.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I'm not a strange ==> Sorry but I was told not to trust any strangers.  When:Thu Nov 14 16:15:27 2013 Why: ~justify_identity.41.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm not a strange ==> Why are you not leaving me alone?  When:Thu Nov 14 16:15:32 2013 Why: ~catchall.17.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  shut up ==> Not to be rude, but you're abusing your welcome.  When:Thu Nov 14 16:15:36 2013 Why: ~catchall.19.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  shut up ==> The dwarves told me not to let anyone in.  When:Thu Nov 14 16:15:37 2013 Why: ~dwarves.16.0 

@@ -1,4 +1,4 @@
-topic: ~catchall (~emohello ~emohowzit ~emogoodbye ~insults ~damage_verbs)
+topic: ~catchall (~emohello ~emohowzit ~emogoodbye ~insults ~damage_verbs really)
 
 #! Gambits to fall back on when input doesn't trigger anything more precise
 
@@ -36,8 +36,8 @@ u: ([nonsense "not making sense" "not making any sense" "mean anything" "means n
 #! Threatening and insulting
 #! ----------------------------------------------------------------
 
-u: ([~insults unpleasant_person~1]) You're not being very amiable.
-u: ([~insults unpleasant_person~1]) I don't have to listen to this, bye.
+u: (!I [~insults unpleasant_person~1]) You're not being very amiable.
+u: (!I [~insults unpleasant_person~1]) I don't have to listen to this, bye.
 	$end = 1
 u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) You're not very credible, old woman.
 u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Ok, that's it. Bye now!
@@ -60,3 +60,11 @@ t: That's it, bye.
 
 u: (build 1) Are you trying to compile me again?
 u: (reset) You won't get rid of me that easily!
+
+
+#! Reusable explanation
+t: TELLMEWHY () Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+	$plot = 1
+	a:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+		b:(really) Yes, crazy business.
+	a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)

@@ -14,6 +14,6 @@ T~build_friendship ( ~sing solitary~6 lonely~1 ~feeling_alone ~befriend ~friend 
 T~praise_nature ( ~thewoods fauna~1 nature~4 )
 ~murderplot ( kill cabal conspiracy intrigue machination scheme murder assassination plan~3 plan ~plot )
 T~control ( )
-T~catchall ( ~damage_verbs ~insults ~emogoodbye ~emohowzit ~emohello )
+T~catchall ( really ~damage_verbs ~insults ~emogoodbye ~emohowzit ~emohello )
 T~alternate_control ( )
 T~snowwhite ( you )

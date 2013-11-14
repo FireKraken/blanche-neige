@@ -78,9 +78,14 @@ s: ([not no ain't] * stranger~1) Who are you then?
 
 u: ([trust believe] * I) Sorry, I can't trust anyone.
 
-u: (why * not * trust~1) 
+u: TELLMEWHY (why * not * trust~1) 
 	$dwarves = 1
 	The dwarves told me not to trust anyone.
+	a: (why)  Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+		$plot = 1
+		b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+			b:(really) Yes, crazy business.
+		b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)	
 
 s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 
@@ -89,6 +94,8 @@ s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 		$plot = 1
 
 ?:([what how way can] [help assistance assist]) No, I'll be fine, thanks.
+
+s:(you * [should ought] * [wary cautious careful "watch out"]) I'm being as cautious as I can.
 
 #! ----------------------------------------------------------------
 #! Lost tactic
@@ -113,7 +120,7 @@ s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
 #! Need help tactics
 #! ----------------------------------------------------------------
 
-s: (~age_words ~gendernoun) How did you make it all the way out here then?
+s: (I * be * [old frail weak]) You shouldn't be walking alone in the woods like that.
 
 s:(<<~acquire_imperatives help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
 	$purpose = 1
@@ -131,6 +138,14 @@ u:([need want "give me" "do you have"] * [water drink ~beverage]) I can get you 
 	a:(~yes) Here.
 		b:([thanks~2 thanks "thank you"]) No problem.
 	a:(~no) Ok.
+
+u:([need want "give me" "do you have" "will you"] * [help assist]) What do you need?
+	a: (_*) ^input(I need '_0) ^fail(sentence)  
+
+u:([need want "can I" "may I"] * [rest sleep "spend the night"]) Sorry, I can't let anyone in.
+	a:(why)^reuse(TELLMEWHY)
+
+s:(I * [need want]) I don't think I can help you with that.
 
 #! ----------------------------------------------------------------
 #! Other identities
@@ -192,6 +207,8 @@ s: (I * be * [unpleasant_person~1 annoying]) Now that you mention it...
 
 t:($identity!=1) Who are you again?
 	a: (_*) ^input(I am '_0) ^fail(sentence)  
+
+t:($purpose!=1) What was it that you wanted again?
 
 t: Sorry but I was told not to trust any strangers.
 	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)

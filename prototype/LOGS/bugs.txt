@@ -1697,3 +1697,10 @@ CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catch
 CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in z_catchall.top at 32: u: ([here take have] _* ) No thanks, I have all the '_0 I need. ^poptopic() ^keep() ^repeat()
 CALL-60 Incorrect argument count to function ^keep- 0 instead of 23   in script1.txt at 2: TOPIC: ~sell_apple 0 -1740989128 31 2 3874 apple.top
 failed to read all of topic ~sell_apple read: 623 wanted: 3874 
+   in identity.top at 195:   b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+RULE-1 Illegal rejoinder level b:input:3 Thu Nov 14 15:42:56 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: thanks at 
+Missing topic index for ~justify_identity
+input:3 Thu Nov 14 15:42:56 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: thanks at 
+Missing topic index for ~justify_identity
