@@ -96,6 +96,7 @@ u: ($offered!=1 !they !dwarf~2 [~acquire_imperatives here taste buy want~1 ~acqu
 	
 u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
 	a:(~yes) That's nice but I can't accept anything from strangers.
+		$purpose = 1
 	b:(~no) Then what are you doing here?
 
 u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No thanks, I don't trust you enough.
@@ -112,5 +113,5 @@ s:(I * have * too~1 * apple) There's no such thing as too many apples.
 #! Topic-related gambits
 #! ----------------------------------------------------------------
 
-t: I can't accept anything from you.
+t: ($offered==1) I can't accept anything from you.
 	a:(why) Because you're a stranger.

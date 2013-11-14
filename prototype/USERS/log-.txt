@@ -3477,3 +3477,43 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brin
 Respond: user: bot:snowwhite ip: (~justify_identity) 1  reset ==> Who are you again?  When:Thu Nov 07 12:48:25 2013 Why: ~justify_identity.34.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 2  reser ==> Sorry but I was told not to trust any strangers.  When:Thu Nov 07 12:48:29 2013 Why: ~justify_identity.35.0 
 Respond: user: bot:snowwhite ip: (~catchall) 3  reset ==> You won't get rid of me that easily!  When:Thu Nov 07 12:48:31 2013 Why: ~catchall.23.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 07 21:58:54 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Do you want an apple ? ==> Who are you to be offering apples to strangers?  When:Thu Nov 07 22:01:15 2013 Why: ~sell_apple.20.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm your new neighbourg ==> Who are you again?  When:Thu Nov 07 22:01:39 2013 Why: ~justify_identity.34.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3    ==> Sorry but I was told not to trust any strangers.  When:Thu Nov 07 22:01:39 2013 Why: ~justify_identity.35.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm your new neighbor ==> Why are you not leaving me alone?  When:Thu Nov 07 22:01:45 2013 Why: ~catchall.17.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I though I could present myself, I'm a poor old and lonely woman ==> Not to be rude, but you're abusing your welcome.  When:Thu Nov 07 22:02:28 2013 Why: ~catchall.19.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  I understand it's not a good time right now. May I come later ? ==> It's true that apples are healthy.  When:Thu Nov 07 22:03:16 2013 Why: ~sell_apple.12.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  Yes ! Sweet and healty ! ==> I can't accept anything from you.  When:Thu Nov 07 22:03:31 2013 Why: ~sell_apple.30.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  Ok, I'll let it there, so if you change your mind... ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Nov 07 22:03:58 2013 Why: ~assassination_plot.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  Oh ! But I forgot to tell you, these apple are magic, they will protect you from your ennemis ==> I've become wary of magic.  When:Thu Nov 07 22:04:46 2013 Why: ~sell_apple.11.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 07 22:13:39 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm a poor old woman ==> How did you make it all the way out here then?  When:Thu Nov 07 22:13:42 2013 Why: ~justify_identity.22.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 07 22:14:10 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm your stepmother ==> GAH! You again! What are you doing here, mother?  When:Thu Nov 07 22:14:23 2013 Why: ~justify_identity.19.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm here to kill you ==> No thanks, I have all the to kill you I need.  When:Thu Nov 07 22:14:41 2013 Why: ~catchall.11.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 3  you are too beautifukl ==> Thank you, but my beauty has brought me only misery.  When:Thu Nov 07 22:14:59 2013 Why: ~snowwhite.2.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  how so? ==> My stepmother has been trying to kill me because she thinks I look better than her.  When:Thu Nov 07 22:15:29 2013 Why: ~snowwhite.2.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  that is just stupid ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Nov 07 22:15:35 2013 Why: ~assassination_plot.17.0 
+Command: :up old
+
+For old:
+ Set hierarchy:
+ Wordnet hierarchy:
+  old~1: past times 
+    is past~3  the time that has elapsed 
+       is time~1z the continuum of experience in which events pass from the future through the present to the past 
+          is attribute~1z an abstraction belonging to or characteristic of an entity 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  old~2: just preceding something else in time or order 
+  old~3: skilled through long experience 
+  old~4: very familiar 
+  old~5:
+  old~6: of long duration 
+  old~7: having lived for a relatively long time or attained a specific age 
+  old~8: belonging to some prior time 
+Command: :build 1

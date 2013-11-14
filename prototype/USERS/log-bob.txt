@@ -152,3 +152,8 @@ Debug:             - ~justify_identity.8    s:  ( I * [ want wish ] * [ health~2
 Debug:             - ~justify_identity.9    s:  ( [ not no ain_'t ] * unknown~3 ) Who are you then? 
  ?: Start: user:bob bot:snowwhite ip: rand:2945 (~justify_identity) 1 ==> Sorry but I was told not to trust any strangers.  When:Sat Nov 02 13:45:54 2013 Version:3.53 Build0:1383270700 Build1:1383360121 Why: ~justify_identity.33.0 
 Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2947 (~dwarves) 1 ==> The dwarves told me not to let anyone in.  When:Thu Nov 07 21:58:38 2013 Version:3.53 Build0:1383759876 Build1:1383846447 Why: ~dwarves.16.0 
+Command: :build1
+Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2948 (~justify_identity) 1 ==> Why are you not leaving me alone?  When:Thu Nov 14 15:23:19 2013 Version:3.53 Build0:1383759876 Build1:1383879523 Why: ~catchall.17.0 
+Command: :build 1

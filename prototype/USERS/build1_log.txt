@@ -39,12 +39,9 @@ Reading topic ~snowwhite
 
 ----Reading file z_catchall.top
 Reading topic ~catchall
-*** Warning- line 4 of Post compilation Verification: Undefined set or topic ~age_nouns
 
 WARNING SUMMARY: 
-  line 4 of Post compilation Verification: Undefined set or topic ~age_nouns
-
-2 spelling warnings and 1 more serious warnings
+2 spelling warnings and 0 more serious warnings
     
 
 Finished compile

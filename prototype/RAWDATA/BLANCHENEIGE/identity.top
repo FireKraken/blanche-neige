@@ -23,23 +23,27 @@ s: ($offered==1 ~peddler) Why are you giving your apples away, then?
 		$trust += 1
 		$peddler = 1
 		$identity = 1
+		$purpose = 1
 		Oh, that makes sense. 
 	a: (first * free)
 		$trust += 1
 		$peddler = 1
 		$identity = 1
+		$purpose = 1
 		Oh, that makes sense. 
 
 s: ($offered!=1 ~peddler) 
 		$trust += 1
 		$peddler = 1
 		$identity = 1
+		$purpose = 1
 		I see. Well I'm not interested in any apples.
 
 s:($peddler ~peddler) Yes, we've already established that you are an itinerant apples salesperson.
 
 u: ($offered==1 $peddler!=1 [~sell ~acquire_imperatives here want~1 ~acquiring_verbs] * [apple one it] ) 
 	$offered = 1
+	$purpose = 1
 	Shouldn't you be selling those rather than giving them away? 
 		a: ([~example taste])
 			$trust += 1
@@ -53,6 +57,7 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 	$offered = 1
 	$peddler = 1
 	$identity = 1
+	$purpose = 1
 	$trust += 1
 	You're an apple vendor? I really can't accept anything from strangers though.
 		a:(why) Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
@@ -91,14 +96,18 @@ s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 
 s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach a carriage station.
 	$identity = 1
+	$purpose = 1
 
 s:(<<~acquire_imperatives help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
+	$purpose = 1
 
 s:(<<help~1 ~thewoods>>) Just keep walking in a straight line and you'll make it out eventually.
+	$purpose = 1
 
-s:(<<~age_nouns [lonely~1 lonely~4 ~feeling_alone]>>) You're right. I don't think my conscience would let me abandon you to your fate. What do you need help with?
+s:(<<~agenoun [lonely~1 lonely~4 ~feeling_alone]>>) Poor woman. If only my stepmother hadn't disguised herself as an old woman to kill me, I would be more willing to help.
 	$identity = 1
 	$trust += 1
+	$purpose = 1
 
 #! ----------------------------------------------------------------
 #! Vader tactic (I am your stepmother)
