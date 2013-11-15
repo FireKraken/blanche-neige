@@ -1,4 +1,4 @@
-concept: ~murderplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder)
+concept: ~murderplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder anxiety stress)
 concept: ~evilqueen (queen "evil queen" stepmother she)
 
 topic: ~assassination_plot (~murderplot ~evilqueen)
@@ -65,6 +65,6 @@ s: (I * [hate~2 despise~1] ~evilqueen) She's not very popular.
 #! Topic related gambits
 #! ----------------------------------------------------------------
 
-t: Look, I can't be too cautious with my stepmother wanting to kill me.
+t: ($plot!=1) I can't be too cautious with my stepmother wanting to kill me.
 	$plot = 1
-t: ($plot==1) It's so hard living with this sword of Damocles over my head.
+t: ($plot==1) I can't think straight with all this stress.

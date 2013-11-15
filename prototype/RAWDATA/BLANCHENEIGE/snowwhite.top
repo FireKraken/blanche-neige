@@ -1,4 +1,4 @@
-topic: ~Snowwhite (you)
+topic: ~Snowwhite (you host)
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
@@ -21,4 +21,7 @@ u: (you * be * paranoid) You would be if random old women where repetitively try
 u: (you * be * amnesiac) I don't remember being amnesiac.
 
 u: (you * [lost bad] * memory) I don't remember not remembering anything.
+
+u: (you * [bad terrible] * host) I wish I could be more welcoming but the circumstances don't allow it.
+	a:(circumstances) ^reuse(justify_identity.TELLMEWHY)
 

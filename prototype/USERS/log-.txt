@@ -3771,3 +3771,191 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 3  I'm not a strange ==> So
 Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm not a strange ==> Why are you not leaving me alone?  When:Thu Nov 14 16:15:32 2013 Why: ~catchall.17.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 5  shut up ==> Not to be rude, but you're abusing your welcome.  When:Thu Nov 14 16:15:36 2013 Why: ~catchall.19.0 
 Respond: user: bot:snowwhite ip: (~dwarves) 6  shut up ==> The dwarves told me not to let anyone in.  When:Thu Nov 14 16:15:37 2013 Why: ~dwarves.16.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:32:57 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  you are being a terrible host ==> You're not being very amiable.  When:Thu Nov 14 16:33:02 2013 Why: ~catchall.13.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  you are a bad host ==> I don't have to listen to this, bye.  When:Thu Nov 14 16:33:22 2013 Why: ~catchall.14.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:33:24 2013 Why: ~justify_identity.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:33:42 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  you are a terrible host ==> You're not being very amiable.  When:Thu Nov 14 16:33:46 2013 Why: ~catchall.13.0 
+Command: :build
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:34:50 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 1  you are a terrible host ==> I wish I could be more welcoming but the circumstances don't allow it.  When:Thu Nov 14 16:34:54 2013 Why: ~snowwhite.8.0 
+Command: :build
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:37:53 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm here to pick apples ==> I wasn't aware there were apple trees around.  When:Thu Nov 14 16:37:57 2013 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  yes ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Nov 14 16:37:59 2013 Why: ~assassination_plot.17.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:38:47 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm picking apples ==> I wasn't aware there were apple trees around.  When:Thu Nov 14 16:38:51 2013 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> Who are you again?  When:Thu Nov 14 16:38:53 2013 Why: ~justify_identity.40.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 3    ==> What was it that you wanted again?  When:Thu Nov 14 16:39:28 2013 Why: ~justify_identity.41.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:39:29 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm picking apples ==> I wasn't aware there were apple trees around.  When:Thu Nov 14 16:39:33 2013 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> Interesting.  When:Thu Nov 14 16:39:35 2013 Why: ~justify_identity.37.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  want one? ==> Who are you again?  When:Thu Nov 14 16:39:38 2013 Why: ~justify_identity.40.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  a vendor ==> I see. Well I'm not interested in any apples.  When:Thu Nov 14 16:39:45 2013 Why: ~justify_identity.3.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:43:51 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  you are terrible ==> You're not being very amiable.  When:Thu Nov 14 16:43:53 2013 Why: ~catchall.14.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  neither are you ==> Sorry about that, it's the anxiety.  When:Thu Nov 14 16:43:56 2013 Why: ~catchall.14.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  what anxiety? ==> My stempother wants to kill me so that she can claim to be the most beautiful living woman.  When:Thu Nov 14 16:44:02 2013 Why: ~assassination_plot.7.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  oh ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Nov 14 16:44:08 2013 Why: ~assassination_plot.17.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:45:26 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  you are selfish ==> You're not being very amiable.  When:Thu Nov 14 16:45:29 2013 Why: ~catchall.15.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  neither ==> Sorry about that, it's the anxiety.  When:Thu Nov 14 16:45:31 2013 Why: ~catchall.15.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  what anxiety? ==> My stempother wants to kill me so that she can claim to be the most beautiful living woman.  When:Thu Nov 14 16:45:36 2013 Why: ~assassination_plot.7.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  oh ==> Look, I can't be too cautious with my stepmother wanting to kill me.  When:Thu Nov 14 16:45:38 2013 Why: ~assassination_plot.17.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:47:54 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  quick, eat this! ==> Who are you again?  When:Thu Nov 14 16:47:59 2013 Why: ~justify_identity.40.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:48:34 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  quick, eat this! ==> Sorry, are you here to sell apples?  When:Thu Nov 14 16:48:39 2013 Why: ~sell_apple.22.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  no ==> Then what are you doing here?  When:Thu Nov 14 16:48:46 2013 Why: ~sell_apple.22.2 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I'm giving apples! ==> Who are you to be offering apples to strangers?  When:Thu Nov 14 16:48:53 2013 Why: ~sell_apple.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  a benefactor ==> Who are you again?  When:Thu Nov 14 16:49:00 2013 Why: ~justify_identity.40.0 
+Respond: user: bot:snowwhite ip: (~catchall) 5  ::build 1 ==> Are you trying to compile me again?  When:Thu Nov 14 16:51:18 2013 Why: ~catchall.24.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:51:27 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm a prince ==> Who are you again?  When:Thu Nov 14 16:51:29 2013 Why: ~justify_identity.40.0 
+Command: :up prince
+
+For prince:
+ Set hierarchy:
+ Wordnet hierarchy:
+  prince~1: a male member of a royal family other than the sovereign 
+    is patrician~1  a member of the aristocracy 
+       is loss_leader~1 a person who rules or guides or inspires others 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 16:54:17 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm disguised ==> What is your real identity, then?  When:Thu Nov 14 16:54:19 2013 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  a prince ==> I think I would recognize you.  When:Thu Nov 14 16:54:23 2013 Why: ~justify_identity.38.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I've changed ==> Whoever you are, I'm sorry to say you haven't changed for the better.  When:Thu Nov 14 16:54:31 2013 Why: ~justify_identity.31.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm prince charming ==> Who are you again?  When:Thu Nov 14 16:54:42 2013 Why: ~justify_identity.42.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I'm prince charming ==> What was it that you wanted again?  When:Thu Nov 14 16:54:44 2013 Why: ~justify_identity.43.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  I'm prince charming ==> Sorry but I was told not to trust any strangers.  When:Thu Nov 14 16:54:45 2013 Why: ~justify_identity.44.0 
+Command: :up chased
+
+For chased:
+ Set hierarchy:
+ Wordnet hierarchy:
+  chased~1: a person who is being chased 
+    is hunted_person~1  a person who is hunted 
+       is victim~1z an unfortunate person who suffers from some adverse circumstance 
+          is unfortunate_person~1z a person who suffers misfortune 
+             is somebody~1z a human being 
+                is organism~1z a living thing that has the ability to act or function independently 
+                   is living_thing~1z a living entity 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  I'm being chased by an apple vendor ==> I see. Well I'm not interested in any apples.  When:Thu Nov 14 19:54:35 2013 Why: ~justify_identity.3.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 19:54:38 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  someone is chasing me ==> Who are you again?  When:Thu Nov 14 19:54:45 2013 Why: ~justify_identity.43.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 19:55:13 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm being chased! ==> You can go hide in the shed there, I'll say I haven't seen you.  When:Thu Nov 14 19:55:18 2013 Why: ~justify_identity.25.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  thanks ==> Who are you again?  When:Thu Nov 14 19:55:23 2013 Why: ~justify_identity.43.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 3    ==> What was it that you wanted again?  When:Thu Nov 14 19:56:09 2013 Why: ~justify_identity.44.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 19:56:10 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Someone is chasing me! ==> You can go hide in the shed there, I'll say I haven't seen you.  When:Thu Nov 14 19:56:17 2013 Why: ~justify_identity.25.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  thanks ==> Who are you again?  When:Thu Nov 14 19:56:19 2013 Why: ~justify_identity.43.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 19:56:40 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm being chased! ==> You can go hide in the shed there, I'll say I haven't seen you.  When:Thu Nov 14 19:56:45 2013 Why: ~justify_identity.25.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  thanks ==> Who are you again?  When:Thu Nov 14 19:56:47 2013 Why: ~justify_identity.43.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  thanks ==> What was it that you wanted again?  When:Thu Nov 14 19:56:53 2013 Why: ~justify_identity.44.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  thanks ==> Sorry but I was told not to trust any strangers.  When:Thu Nov 14 19:56:53 2013 Why: ~justify_identity.45.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  thanks ==> Why are you not leaving me alone?  When:Thu Nov 14 19:56:54 2013 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  thanks ==> The dwarves told me not to let anyone in.  When:Thu Nov 14 19:56:55 2013 Why: ~dwarves.16.0 
+Command: :up thanks
+
+For thanks:
+ Set hierarchy:
+ Wordnet hierarchy:
+  thanks~1: with the help of or owing to 
+    is assist~2  the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose 
+       is activity~1z any specific behavior 
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  thanks~2: an acknowledgment of appreciation 
+    is acknowledgement~1  a statement acknowledging something or someone 
+       is message~2z what a communication that is about something is about 
+          is communication~1z something that is communicated by or to or between people or groups 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Command: :prepare thanks
+
+Original User Input: thanks
+Tokenized: thanks  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Substituted: ~emothanks  
+Tagged POS 1 words: ~emothanks ()  
+
+Concepts: 
+
+1: ~emothanks raw=  +~emothanks(1)  +~interjections(1)  // 
+1: ~emothanks canonical=  //  
+
+    sequences=
+TokenFlags: INTERJECTIONS PRESENT USERINPUT 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 19:58:17 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm being chased ==> You can go hide in the shed there, I'll say I haven't seen you.  When:Thu Nov 14 19:58:21 2013 Why: ~justify_identity.25.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  thanks ==> You're welcome.  When:Thu Nov 14 19:58:23 2013 Why: ~catchall.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  thank you! ==> Who are you again?  When:Thu Nov 14 19:58:26 2013 Why: ~justify_identity.43.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  thank you! ==> What was it that you wanted again?  When:Thu Nov 14 19:58:28 2013 Why: ~justify_identity.44.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  thanks ==> Sorry but I was told not to trust any strangers.  When:Thu Nov 14 19:58:31 2013 Why: ~justify_identity.45.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  why? ==> Because the two last strangers that came here tried to kill me.  When:Thu Nov 14 19:58:45 2013 Why: ~justify_identity.45.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  really? ==> I can't think straight with all this stress.  When:Thu Nov 14 19:58:49 2013 Why: ~assassination_plot.18.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  what stress? ==> My stempother wants to kill me so that she can claim to be the most beautiful living woman.  When:Thu Nov 14 19:58:59 2013 Why: ~assassination_plot.7.0 
+Respond: user: bot:snowwhite ip: (~catchall) 9  she's crazy ==> You're not being very amiable.  When:Thu Nov 14 19:59:03 2013 Why: ~catchall.17.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  she's crazy ==> Why are you not leaving me alone?  When:Thu Nov 14 19:59:50 2013 Why: ~catchall.21.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 19:59:51 2013 Why: ~justify_identity.1.0 

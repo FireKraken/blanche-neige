@@ -43,6 +43,7 @@ secret~12
 seclusion~2
 official~2
 government~4
+there_are
 afraid~1
 bank~11
 believe~1
@@ -56,6 +57,7 @@ scorn~4
 house~2
 beautiful~1
 see_you
+oh
 not_making_sense
 not_making_any_sense
 mean_anything

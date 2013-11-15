@@ -1,4 +1,4 @@
-topic: ~catchall (~emohello ~emohowzit ~emogoodbye ~insults ~damage_verbs really)
+topic: ~catchall (~emohello ~emohowzit ~emogoodbye ~insults ~damage_verbs really thank thanks~2 ~emothanks)
 
 #! Gambits to fall back on when input doesn't trigger anything more precise
 
@@ -21,12 +21,18 @@ u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
 ?: (where) I don't know, look at a map. ^poptopic()
 ?: (how) How what? ^poptopic()
 ?: (how) In a crafty way, probably. ^poptopic()
+?: (who do you think) Err... you?
+	a:(~yes) Ok.^poptopic()
+	a:(~no) You lost me.^poptopic()
 ?: (who) Who do you think? ^poptopic()
 
 #! ----------------------------------------------------------------
 #! Generic propositions
 #! ----------------------------------------------------------------
 
+s:([thanks "thank you" thank thanks~2 ~emothanks])  You're welcome. ^poptopic() ^keep() ^repeat()
+s:([oh dear]) Uh-huh... ^poptopic() ^keep() ^repeat()
+s:([maybe]) ... ^poptopic() ^keep() ^repeat()
 s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
 ?: (really) Yup. ^poptopic() ^keep() ^repeat()
 u: ([here take have] _* ) No thanks, I have all the '_0 I need. ^poptopic() ^keep() ^repeat()
@@ -36,8 +42,10 @@ u: ([nonsense "not making sense" "not making any sense" "mean anything" "means n
 #! Threatening and insulting
 #! ----------------------------------------------------------------
 
-u: (!I [~insults unpleasant_person~1]) You're not being very amiable.
-u: (!I [~insults unpleasant_person~1]) I don't have to listen to this, bye.
+u: (!I !she [~insults unpleasant_person~1]) You're not being very amiable.
+	a:(neither) Sorry about that, it's the anxiety.
+	a:(sorry) That's all right.	
+u: (!I !she [~insults unpleasant_person~1]) I don't have to listen to this, bye.
 	$end = 1
 u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) You're not very credible, old woman.
 u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Ok, that's it. Bye now!

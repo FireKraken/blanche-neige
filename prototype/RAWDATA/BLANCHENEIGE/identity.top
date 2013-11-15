@@ -145,7 +145,11 @@ u:([need want "give me" "do you have" "will you"] * [help assist]) What do you n
 u:([need want "can I" "may I"] * [rest sleep "spend the night"]) Sorry, I can't let anyone in.
 	a:(why)^reuse(TELLMEWHY)
 
+s:(<<I chase>>) You can go hide in the shed there, I'll say I haven't seen you.
+
 s:(I * [need want]) I don't think I can help you with that.
+
+
 
 #! ----------------------------------------------------------------
 #! Other identities
@@ -179,16 +183,20 @@ s: ([official~2 collector ~occupation_law government~4]) The government doesn't 
 
 s: (I * be * ~samaritan) I can't trust your word on that.
 
-s: (%length<5 !~verb !~bro !stranger~2 * 'I * be _* ) Your name is really ^substitute(CHARACTER '_0 " "  )?
-	$name = ^substitute(CHARACTER '_0 " "  )
-	a:(~yes) My name is Snow White.
-		$identity = 1
-	a:(~no) Then you should stop claiming to be $name
-		$name = null
-
 ?: ([may can] * [come enter]) That is out of the question.
 
 s: (I * be * [unpleasant_person~1 annoying]) Now that you mention it...
+
+s: (I * [pick] * apple) I wasn't aware there were apple trees around. ^addtopic(~sell_apple)
+	$purpose = 1
+	a:([~yes "there are" indeed]) Interesting. 
+
+s: (I * ["grown-up" adult]) I wasn't even born when you were a child.
+
+s: (!queen I * be * ~royalty) I think I would recognize you.
+
+s: (I * [disguise costume]) What is your real identity, then?
+	a: (_*) ^input(I am '_0) ^fail(sentence) 
 
 
 #! ----------------------------------------------------------------
@@ -210,7 +218,7 @@ t:($identity!=1) Who are you again?
 
 t:($purpose!=1) What was it that you wanted again?
 
-t: Sorry but I was told not to trust any strangers.
+t: ($identity!=1) Sorry but I was told not to trust any strangers.
 	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)
 		$plot = 1
 			b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
