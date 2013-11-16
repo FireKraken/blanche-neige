@@ -14,19 +14,19 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! fishing for more info
 #! ----------------------------------------------------------------
 
-?: ([(how * ~murderplot) (what * ~evilqueen * give)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
+?: ($stepmother!=1 [(how * ~murderplot) (what * ~evilqueen * give)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
 	a: (~YES) You read too much gothic fiction.
 	a: (~NO) She's out of her mind.
 
-?: ( << why ~evilqueen ~murderplot >>) Apparently she's jealous of my beauty and wants to kill me for that!
+?: ($stepmother!=1 << why ~evilqueen ~murderplot >>) Apparently she's jealous of my beauty and wants to kill me for that!
 
-?: (who * ~evilqueen) Simply the kingdom's queen!
+?: ($stepmother!=1 who * ~evilqueen) Simply the kingdom's queen!
 
-?: ([what who] * ~murderplot) My stempother wants to kill me so that she can claim to be the most beautiful living woman.
+?: ($stepmother!=1 [what who] * ~murderplot) My stempother wants to kill me so that she can claim to be the most beautiful living woman.
 
 ?: ($stepmother!=1 ~evilqueen * ~murderplot * you) Yes, she's evil and is jealous of my beauty!
 
-?: ([Damocles sword]) I'm referring to my stepmother's plot to assassinate me.
+?: ($stepmother!=1 [Damocles sword]) I'm referring to my stepmother's plot to assassinate me.
 	$plot = 1
 
 #! ----------------------------------------------------------------
@@ -40,31 +40,31 @@ s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad po
 s: (poor * [thing you]) Thank you for the compassion.
 
 #! ----------------------------------------------------------------
-#! Truce attempt
+#! Truce tactic
 #! ----------------------------------------------------------------
 
-s: (I * want * [friendly~2 chat~3]) Somehow I doubt that, given our last three meetings. What’s your plan this time?
+s: ($stepmother==1 I * want * [friendly~2 chat~3]) Somehow I doubt that, given our last three meetings. What’s your plan this time?
 	threatened += 1 
 
 #! ----------------------------------------------------------------
 #! Not being stepmother
 #! ----------------------------------------------------------------
 
-s: (~evilqueen * [dead~1 away~3])
+s: ($stepmother!=1 ~evilqueen * [dead~1 away~3])
 	$trust += 1
 	Really!? That's great news!
 
-s: (I * not *[look resemble like] ~evilqueen) Yes but she tends to disguise herself.
+s: ($stepmother!=1 I * not *[look resemble like] ~evilqueen) Yes but she tends to disguise herself.
 
-s: (I * not * ~evilqueen) How do I know that?
+s: ($stepmother!=1 I * not * ~evilqueen) How do I know that?
 
-s: (I * [hate~2 despise~1] ~evilqueen) She's not very popular.
+s: ($stepmother!=1 I * [hate~2 despise~1] ~evilqueen) She's not very popular.
 
 
 #! ----------------------------------------------------------------
 #! Topic related gambits
 #! ----------------------------------------------------------------
 
-t: ($plot!=1) I can't be too cautious with my stepmother wanting to kill me.
+t: ($plot!=1 $stepmother!=1) I can't be too cautious with my stepmother wanting to kill me.
 	$plot = 1
-t: ($plot==1) I can't think straight with all this stress.
+t: ($plot==1 $stepmother!=1) I can't think straight with all this stress.
