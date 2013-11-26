@@ -1,5 +1,6 @@
 concept: ~murderplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder anxiety stress)
 concept: ~evilqueen (queen "evil queen" stepmother she)
+concept: ~agreement ("I know" "I agree" "I understand" "totally" "totes")
 
 topic: ~assassination_plot (~murderplot ~evilqueen)
 
@@ -38,6 +39,9 @@ s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad po
 	I know! This is so unfair! 
 
 s: (poor * [thing you]) Thank you for the compassion.
+
+s: ($plot=1 ~agreement) Thanks for taking my side.
+	$trust += 1
 
 #! ----------------------------------------------------------------
 #! Truce tactic

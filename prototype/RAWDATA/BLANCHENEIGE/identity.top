@@ -166,7 +166,11 @@ u:(!no !not !~evilqueen I * be * ~friend * ~family_members) Really? I never knew
 #! Let's get violent! tactic
 #! ----------------------------------------------------------------
 
-u: 
+s: (<<force~2 apple>>) You wouldn't dare!
+	$trust -= 1
+
+s: (kill you) Get away from me you crazy woman!
+	$end = 1
 
 #! ----------------------------------------------------------------
 #! Other identities

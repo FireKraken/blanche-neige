@@ -1704,3 +1704,6 @@ Missing topic index for ~justify_identity
 input:3 Thu Nov 14 15:42:56 2013 Missing topic index for ~justify_identity
  caller: callee:snowwhite in sentence: thanks at 
 Missing topic index for ~justify_identity
+   in identity.top at 169: s: (<<force~2 apple) You wouldn't dare!
+PATTERN-70 Failed to close <<Missing topic index for ~justify_identity
+Missing topic index for ~justify_identity

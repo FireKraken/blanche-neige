@@ -41,3 +41,9 @@ s: ($trust<2 $friend!=1 I * be * [no not] * stranger~2) Uh, yes you are.
 s: ($trust>=2 $friend!=1 I * be * !~no * ~bro) I guess I do know you a bit better now.
 	$trust += 1
 	$friend = 1
+
+s:(trust<2 !no !not I * ~like * talking~1 * you) Uh, thanks?
+	$trust += 1
+
+s:(trust>=2 !no !not I * ~like * talking~1 * you) Thanks, I'm enjoying this too!
+	$trust += 1

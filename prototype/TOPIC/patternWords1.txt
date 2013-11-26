@@ -1,4 +1,4 @@
-﻿johny-on-the-spot
+﻿johnny-on-the-spot
 dollars
 coins
 wishing~1
@@ -24,6 +24,7 @@ rendez-vous
 homie
 solitary~6
 stranger~2
+talk~2
 care~8
 ain_'t
 unknown~3
@@ -36,6 +37,7 @@ will_you
 can_I
 may_I
 spend_the_night
+force~2
 traveler~1
 come~11
 visit~1
@@ -48,6 +50,7 @@ afraid~1
 bank~11
 believe~1
 fauna~1
+totes
 tension~5
 friendly~2
 schmoose~1

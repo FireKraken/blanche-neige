@@ -265,3 +265,225 @@ Command: :build 1
 Start: user:nick bot:snowwhite ip: rand:2583 (~justify_identity) 2 ==> What was it that you wanted again?  When:Tue Nov 26 12:22:48 2013 Version:3.53 Build0:1385484691 Build1:1385486385 Why: ~justify_identity.46.0 
 Command: :reset
 Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:22:51 2013 Why: ~justify_identity.1.0 
+Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> Who are you again?  When:Tue Nov 26 13:21:45 2013 Version:3.53 Build0:1385484691 Build1:1385486385 Why: ~justify_identity.45.0 
+Command: :up force
+
+For force:
+ Set hierarchy:
+ Wordnet hierarchy:
+  force~1: a putout of a base runner who is required to run 
+    is putout~1  an out resulting from a fielding play  
+       is out~1z a failure by a batter or runner to reach a base safely in baseball 
+          is failure~1z an act that fails 
+             is nonaccomplishment~1z an act that does not achieve its intended goal 
+                is act~1z something that people do or cause to happen 
+                   is event~1z something that happens at a given place and time 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~2: an act of aggression  
+    is hostility~1  violent action that is hostile and usually unprovoked 
+       is action~1z something done  
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~3: having legal validity 
+    is validity~2  the quality of having legal force or effectiveness 
+       is legality~1z lawfulness by virtue of conformity to a legal statute 
+          is lawfulness~1z the quality of conforming to law 
+             is quality~1z an essential and distinguishing attribute of something or someone 
+                is attribute~1z an abstraction belonging to or characteristic of an entity 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~4: physical energy or intensity 
+    is intensiveness~1  high level or degree 
+       is grade~1z a position on a scale of intensity or amount or quality 
+          is prop~3z a basic or essential attribute shared by all members of a class 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~5: a powerful effect or influence 
+    is influence~2  a power to affect persons or events especially power based on prestige etc 
+       is mightiness~1z possession of controlling influence 
+          is quality~1z an essential and distinguishing attribute of something or someone 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~6: a unit that is part of some military service 
+    is unit~3  an organization regarded as part of a larger social group 
+       is constitution~1z a group of people who work together 
+          is social_group~1z people sharing some social relation 
+             is group~1z any number of entities considered as a unit 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~7: a group of people having the power of effective action 
+    is social_group~1  people sharing some social relation 
+       is group~1z any number of entities considered as a unit 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~8: group of people willing to obey orders 
+    is organization~6  a group of people who work together 
+       is social_group~1z people sharing some social relation 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~9: one possessing or exercising power or influence or authority 
+    is causal_agency~1  any entity that produces an effect or is responsible for events or results 
+       is physical_entity~1z an entity that has physical existence 
+          is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~10: the influence that produces a change in a physical quantity 
+    is physical_phenomenon~1  a natural phenomenon involving the physical properties of matter and energy 
+       is natural_phenomenon~1z all phenomena that are not artificial 
+          is phenomenon~1z any state or process known through the senses rather than by intuition or reasoning 
+             is process~1z a sustained phenomenon or one marked by gradual changes through a series of states 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  force~11: impose urgently, importunately, or inexorably 
+  force~12: do forcibly 
+  force~13: cause to move by pulling 
+  force~14: force into or from an action or state, either physically or metaphorically 
+  force~15: squeeze like a wedge into a tight space 
+  force~16: take by force 
+  force~17: urge or force to an action 
+  force~18: move with force, 
+  force~19: to cause to do through pressure or necessity, by physical, moral or intellectual means : 
+Command: :up kill
+
+For kill:
+ Set hierarchy:
+ Wordnet hierarchy:
+  kill~1: the destruction of an enemy plane or ship or tank or missile 
+    is destruction~1  the termination of something by causing so much damage to it that it cannot be repaired or no longer exists 
+       is decision~1 the act of ending something 
+          is change_of_state~1z the act of changing something into something different in essential characteristics 
+             is change~1z the action of changing something 
+                is action~1z something done  
+                   is act~1z something that people do or cause to happen 
+                      is event~1z something that happens at a given place and time 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  kill~2: the act of terminating a life 
+    is conclusion~2  the act of ending something 
+       is change_of_state~1z the act of changing something into something different in essential characteristics 
+          is change~1z the action of changing something 
+             is action~1z something done  
+                is act~1z something that people do or cause to happen 
+                   is event~1z something that happens at a given place and time 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  kill~3: end or extinguish by forceful means 
+  kill~4: destroy a vitally essential quality of or in 
+  kill~5: cause to cease operating 
+  kill~6: tire out completely 
+  kill~7: mark for deletion, rub off, or erase 
+  kill~8: drink down entirely 
+  kill~9: cause to die 
+  kill~10: cause the death of, without intention 
+  kill~11: deprive of life 
+  kill~12: hit with great force 
+  kill~13: hit with so much force as to make a return impossible, in racket games 
+  kill~14: overwhelm with hilarity, pleasure, or admiration 
+  kill~15: be the source of great pain for 
+  kill~16: thwart the passage of 
+  kill~17: be fatal 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+Missing topic index for ~justify_identity
+
+Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> What was it that you wanted again?  When:Tue Nov 26 13:43:26 2013 Version:3.53 Build0:1385484691 Build1:1385490697 Why: ~justify_identity.48.0 
+Command: :up agreement
+
+For agreement:
+ Set hierarchy:
+ Wordnet hierarchy:
+  agreement~1: compatibility of observations 
+    is compatibility~1  capability of existing or performing in harmonious or congenial combination 
+       is characteristic~1z a distinguishing quality 
+          is quality~1z an essential and distinguishing attribute of something or someone 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  agreement~2: the thing arranged or agreed to 
+    is preparation~5  the cognitive process of thinking about what you will do in the event of something happening 
+       is mentation~1z the process of using your mind to consider something carefully 
+          is higher_cognitive_process~1z cognitive processes that presuppose the availability of knowledge and put it to use 
+             is mental_process~1z the performance of some composite cognitive activity 
+                is knowledge~1z the psychological result of perception and learning and reasoning 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  agreement~3: the statement of an exchange of promises 
+    is statement~4  a message that is stated or declared 
+       is message~2z what a communication that is about something is about 
+          is communication~1z something that is communicated by or to or between people or groups 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  agreement~4: the verbal act of agreeing 
+    is speech_act~1  the use of language to perform some act 
+       is act~1z something that people do or cause to happen 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  agreement~5: the determination of grammatical inflection on the basis of word relations 
+    is grammatical_relation~1  a linguistic relation established by grammar 
+       is linguistic_relation~1z a relation between linguistic forms or constituents 
+          is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  agreement~6: harmony of people's opinions or actions or characters 
+    is harmony~5  a harmonious state of things in general and of their properties  
+       is ordering~1z established customary state  
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up enjoy
+
+For enjoy:
+ Set hierarchy:
+ Wordnet hierarchy:
+  enjoy~1: take delight in 
+  enjoy~2: have benefit from 
+  enjoy~3: derive or receive pleasure from 
+  enjoy~4: get pleasure from 
+  enjoy~5: have for one's benefit 
+Command: :up talking
+
+For talking:
+ Set hierarchy:
+ Wordnet hierarchy:
+  talking~1: an exchange of ideas via conversation 
+    is conversation~1  the use of speech for informal exchange of views or ideas or information etc. 
+       is oral_communication~1z communication by word of mouth 
+          is auditory_communication~1z communication that relies on hearing 
+             is communication~1z something that is communicated by or to or between people or groups 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up speaking
+
+For speaking:
+ Set hierarchy:
+ Wordnet hierarchy:
+  speaking~1: the utterance of intelligible speech 
+    is vocalization~1  the use of uttered sounds for auditory communication 
+       is auditory_communication~1z communication that relies on hearing 
+          is communication~1z something that is communicated by or to or between people or groups 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  speaking~2: delivering an address to a public audience 
+    is speech~8  the act of delivering a formal spoken communication to an audience 
+       is speech_act~1z the use of language to perform some act 
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  speaking~3: capable of or involving speech or speaking 
+Command: :build 1

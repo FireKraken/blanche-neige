@@ -4385,3 +4385,23 @@ For well:
   well~20: with prudence or propriety 
   well~21: with great or especially intimate knowledge 
   well~22: entirely or fully 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 13:31:44 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm here to kill you ==> Get away from me you crazy woman!  When:Tue Nov 26 13:31:49 2013 Why: ~justify_identity.30.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  no ==> The door is shut, no one is hearing you.  When:Tue Nov 26 13:31:53 2013 Why: ~justify_identity.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 13:49:34 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i agree ==> Who are you again?  When:Tue Nov 26 13:49:38 2013 Why: ~justify_identity.47.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i heard about your stepmother ==> GAH! You again! What are you doing here, mother?  When:Tue Nov 26 13:49:54 2013 Why: ~justify_identity.17.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 13:50:07 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  who is trying to kill you? ==> Get away from me you crazy woman!  When:Tue Nov 26 13:50:34 2013 Why: ~justify_identity.30.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 13:51:03 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 1  who is trying to kill you? ==> My stempother wants to kill me so that she can claim to be the most beautiful living woman.  When:Tue Nov 26 13:51:11 2013 Why: ~assassination_plot.7.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  totes ==> I can't be too cautious with my stepmother wanting to kill me.  When:Tue Nov 26 13:51:31 2013 Why: ~assassination_plot.18.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  why is she trying to kill you? ==> Apparently she's jealous of my beauty and wants to kill me for that!  When:Tue Nov 26 13:51:43 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  totes ==> Thanks for taking my side.  When:Tue Nov 26 13:51:45 2013 Why: ~assassination_plot.12.0 
+Command: :build 1
+Command: :build 1
