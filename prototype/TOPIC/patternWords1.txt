@@ -48,6 +48,7 @@ afraid~1
 bank~11
 believe~1
 fauna~1
+tension~5
 friendly~2
 schmoose~1
 dead~1

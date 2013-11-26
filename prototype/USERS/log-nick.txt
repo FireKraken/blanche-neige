@@ -262,3 +262,6 @@ For need:
   need~6: have or feel a need for 
   need~7: require as useful, just, or proper 
 Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2583 (~justify_identity) 2 ==> What was it that you wanted again?  When:Tue Nov 26 12:22:48 2013 Version:3.53 Build0:1385484691 Build1:1385486385 Why: ~justify_identity.46.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:22:51 2013 Why: ~justify_identity.1.0 

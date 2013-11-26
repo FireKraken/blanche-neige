@@ -3959,3 +3959,429 @@ Command: :build 1
 Respond: user: bot:snowwhite ip: (~assassination_plot) 10  she's crazy ==> Why are you not leaving me alone?  When:Thu Nov 14 19:59:50 2013 Why: ~catchall.21.0 
 Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 14 19:59:51 2013 Why: ~justify_identity.1.0 
+Command: :up chuck
+
+For chuck:
+ Set hierarchy:
+ Wordnet hierarchy:
+  chuck~1: a holding device consisting of adjustable jaws that center a workpiece in a lathe or center a tool in a drill 
+    is holding_device~1  a device for holding something 
+       is twist~1 an instrumentality invented for a particular purpose 
+          is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+             is artefact~1z a man-made object taken as a whole 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  chuck~2: informal terms for a meal 
+    is fare~2  the food and drink that are regularly served or consumed 
+       is nutrient~1z any substance that can be metabolized by an animal to give energy and build tissue 
+          is substance~1z a particular kind or species of matter with uniform properties 
+             is matter~1z that which has mass and occupies space 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  chuck~3: the part of a forequarter from the neck to the ribs and including the shoulder blade 
+    is cut_of_beef~1  cut of meat from beef cattle 
+       is cut~1z a piece of meat that has been cut from an animal carcass 
+          is essence~2 the flesh of animals used as food 
+             is nutrient~1z any solid substance that is used as a source of nourishment 
+                is solid~1z matter that is solid at room temperature and pressure 
+                   is matter~1z that which has mass and occupies space 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  chuck~4: eject the contents of the stomach through the mouth 
+  chuck~5: pat or squeeze fondly or playfully, especially under the chin 
+  chuck~6: throw carelessly 
+  chuck~7: throw away 
+Command: :up chucks
+Command: :up throw
+
+For throw:
+ Set hierarchy:
+ Wordnet hierarchy:
+  throw~1: the act of throwing  
+    is propulsion~1  the act of propelling 
+       is act~1z something that people do or cause to happen 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  throw~2: casting an object in order to determine an outcome randomly 
+    is gambling~1  the act of playing for stakes in the hope of winning  
+       is refreshment~1z an activity that diverts or amuses or stimulates 
+          is activity~1z any specific behavior 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is vice~1z a specific form of evildoing 
+          is transgression~2z the act of transgressing 
+             is misconduct~1z activity that transgresses moral or civil law 
+                is activity~1z any specific behavior 
+                   is act~1z something that people do or cause to happen 
+                      is event~1z something that happens at a given place and time 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  throw~3: bedclothes consisting of a lightweight cloth covering that is casually thrown over something 
+    is bed_clothing~1  coverings that are used on a bed 
+       is cloth_covering~1z a covering made of cloth 
+          is coating~1 an artifact that covers something else 
+             is artefact~1z a man-made object taken as a whole 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  throw~4: the maximum movement available to a pivoted or reciprocating piece by a cam 
+    is movement~8  a natural event that involves a change in the position or location of something 
+       is natural_event~1z an event that happens 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  throw~5: a single chance or instance 
+    is chance~5  a possibility due to a favorable combination of circumstances 
+       is opening~8 capability of existing or happening or being true 
+          is organism~1z the state or fact of existing 
+             is state~1z the way something is with respect to its main attributes 
+                is attribute~1z an abstraction belonging to or characteristic of an entity 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  throw~6: be confusing or perplexing to 
+  throw~7: convey or communicate 
+  throw~8: utter with force 
+  throw~9: throw out onto a flat surface 
+  throw~10: place or put with great energy 
+  throw~11: propel through the air 
+  throw~12: cause to go on or to be engaged or set in operation 
+  throw~13: get rid of 
+  throw~14: cause to fall off 
+  throw~15: put or send forth 
+  throw~16: make on a potter's wheel 
+  throw~17: organize or be responsible for 
+  throw~18: cause to be confused emotionally 
+  throw~19: move violently, energetically, or carelessly 
+  throw~20: to put into a state or activity hastily, suddenly, or carelessly 
+Command: :up chase
+
+For chase:
+ Set hierarchy:
+ Wordnet hierarchy:
+  chase~1: the act of pursuing in an effort to overtake or capture 
+    is move~4  the act of changing location from one place to another 
+       is change~1z the action of changing something 
+          is action~1z something done  
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  chase~2: a rectangular metal frame used in letterpress printing to hold together the pages or columns of composed type that are printed at one time 
+    is frame~3  the framework for a pair of eyeglasses 
+       is framework~1z a structure supporting or containing something 
+          is supporting_structure~1z a structure that serves to support something 
+             is construction~4z a thing constructed 
+                is artefact~1z a man-made object taken as a whole 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  chase~3: cut a furrow into a columns 
+  chase~4: cut a groove into 
+  chase~5: go after with the intent to catch 
+  chase~6: pursue someone sexually or romantically 
+Command: :up vicious
+
+For vicious:
+ Set hierarchy:
+ Wordnet hierarchy:
+  vicious~1: marked by deep ill will 
+  vicious~2: able or disposed to inflict pain or suffering 
+  vicious~3: bringing or deserving severe rebuke or censure 
+  vicious~4: having the nature of vice 
+Command: :up hanged
+Command: :up evidence
+
+For evidence:
+ Set hierarchy:
+ Wordnet hierarchy:
+  evidence~1: your basis for belief or disbelief 
+    is information~2  knowledge acquired through study or experience or instruction 
+       is knowledge~1z the psychological result of perception and learning and reasoning 
+          is psychological_feature~1z a feature of the mental life of a living organism 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  evidence~2: an indication that makes something evident 
+    is indication~3  something that serves to indicate or suggest 
+       is communication~1z something that is communicated by or to or between people or groups 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  evidence~3: all the means by which any alleged matter of fact whose truth is investigated at judicial trial is established or disproved 
+    is information~3  a message received and understood 
+       is message~2z what a communication that is about something is about 
+          is communication~1z something that is communicated by or to or between people or groups 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  evidence~4: provide evidence for 
+  evidence~5: give evidence 
+  evidence~6: provide evidence for 
+Command: :up fuck
+
+For fuck:
+ Set hierarchy:
+ Wordnet hierarchy:
+  fuck~1: slang for sexual intercourse 
+    is relation~3  the act of sexual procreation between a man and a woman 
+       is sexual_practice~1z activities associated with sexual intercourse 
+          is activity~1z an organic process that takes place in the body 
+             is biological_process~1z a process occurring in living organisms 
+                is process~1z a sustained phenomenon or one marked by gradual changes through a series of states 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  fuck~2: have sexual intercourse with 
+Command: :up stole
+
+For stole:
+ Set hierarchy:
+ Wordnet hierarchy:
+  stole~1: a wide scarf worn about their shoulders by women 
+    is scarf~1  a garment worn around the head or neck or shoulders for warmth or decoration 
+       is garment~1z an article of clothing 
+          is habiliment~1z a covering designed to be worn on a person's body 
+             is coating~1 an artifact that covers something else 
+                is artefact~1z a man-made object taken as a whole 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is consumer_goods~1z goods intended for direct use or consumption 
+                is commodity~1z articles of commerce 
+                   is artefact~1z a man-made object taken as a whole 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up steal
+
+For steal:
+ Set hierarchy:
+ Wordnet hierarchy:
+  steal~1: a stolen base 
+    is baseball~1  a ball game played with a bat and ball between two teams of nine players 
+       is ball_game~1z a field game played with a ball 
+          is field_game~1z an outdoor game played on a field of specified dimensions 
+             is outdoor_game~1z an athletic game that is played outdoors 
+                is athletic_game~1z a game involving athletic activity 
+                   is game~1z a contest with rules to determine a winner 
+                      is activity~1z any specific behavior 
+                         is act~1z something that people do or cause to happen 
+                            is event~1z something that happens at a given place and time 
+                               is psychological_feature~1z a feature of the mental life of a living organism 
+                                  is abstraction~1z a general concept formed by extracting common features from specific examples 
+                                     is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                   is sport~1z an active diversion requiring physical exertion and competition 
+                      is refreshment~1z an activity that diverts or amuses or stimulates 
+                         is activity~1z any specific behavior 
+                            is act~1z something that people do or cause to happen 
+                               is event~1z something that happens at a given place and time 
+                                  is psychological_feature~1z a feature of the mental life of a living organism 
+                                     is abstraction~1z a general concept formed by extracting common features from specific examples 
+                                        is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  steal~2: an advantageous purchase 
+    is purchase~4  something acquired by purchase 
+       is acquisition~1z something acquired 
+          is transferred_possession~1z a possession whose ownership changes or lapses 
+             is possession~1z anything owned or possessed 
+                is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  steal~3: steal a base 
+  steal~4: move stealthily 
+  steal~5: take without the owner's consent 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:13:54 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  don't you remember me? ==> Sorry, but your face doesn't seem familiar  When:Tue Nov 26 12:14:53 2013 Why: ~justify_identity.27.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm an old friend of your brother's ==> You shouldn't be walking alone in the woods like that.  When:Tue Nov 26 12:15:01 2013 Why: ~justify_identity.18.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:15:58 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm an old friend of your brother's ==> Really? I never knew my real family very well. How are they doing?  When:Tue Nov 26 12:16:09 2013 Why: ~justify_identity.28.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  he died ==> Who are you again?  When:Tue Nov 26 12:16:13 2013 Why: ~justify_identity.45.0 
+Command: :up died
+
+For died:
+ Set hierarchy:
+ Wordnet hierarchy:
+  died~1:
+Command: :up death
+
+For death:
+ Set hierarchy:
+ Wordnet hierarchy:
+  death~1: the act of killing 
+    is kill~2  the act of terminating a life 
+       is decision~1 the act of ending something 
+          is change_of_state~1z the act of changing something into something different in essential characteristics 
+             is change~1z the action of changing something 
+                is action~1z something done  
+                   is act~1z something that people do or cause to happen 
+                      is event~1z something that happens at a given place and time 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  death~2: the event of dying or departure from life 
+    is alteration~3  an event that occurs when something passes from one state or phase to another 
+       is natural_event~1z an event that happens 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  death~3: the permanent end of all life functions in an organism or part of an organism 
+    is organic_phenomenon~1  a natural phenomenon involving living plants and animals 
+       is natural_phenomenon~1z all phenomena that are not artificial 
+          is phenomenon~1z any state or process known through the senses rather than by intuition or reasoning 
+             is process~1z a sustained phenomenon or one marked by gradual changes through a series of states 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  death~4: the absence of life or state of being dead 
+    is state~1  the way something is with respect to its main attributes 
+       is attribute~1z an abstraction belonging to or characteristic of an entity 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  death~5: a final state 
+    is state~1  the way something is with respect to its main attributes 
+       is attribute~1z an abstraction belonging to or characteristic of an entity 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  death~6: the time at which life ends 
+    is ending~5  the point in time at which something ends 
+       is breaker_point~1z an instant of time 
+          is quantity~1z how much there is or how many there are of something that you can quantify 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  death~7: the time when something ends 
+    is ending~5  the point in time at which something ends 
+       is breaker_point~1z an instant of time 
+          is quantity~1z how much there is or how many there are of something that you can quantify 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:17:53 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm an old friend of your father's ==> Really? I never knew my real family very well. How are they doing?  When:Tue Nov 26 12:18:01 2013 Why: ~justify_identity.28.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  he died ==> Who are you again?  When:Tue Nov 26 12:18:05 2013 Why: ~justify_identity.45.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:18:37 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm an old friend of your mother's ==> Really? I never knew my real family very well. How are they doing?  When:Tue Nov 26 12:18:44 2013 Why: ~justify_identity.28.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  she died ==> Who are you again?  When:Tue Nov 26 12:18:48 2013 Why: ~justify_identity.45.0 
+Command: :build 1
+Command: :up sickness
+
+For sickness:
+ Set hierarchy:
+ Wordnet hierarchy:
+  sickness~1: impairment of normal physiological function affecting part or all of an organism 
+    is ill_health~1  a state in which you are unable to function normally and without pain 
+       is pathological_state~1z a physical condition that is caused by disease 
+          is physiological_condition~1z the condition or state of the body or bodily functions 
+             is condition~6z a state at a particular time 
+                is state~1z the way something is with respect to its main attributes 
+                   is attribute~1z an abstraction belonging to or characteristic of an entity 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  sickness~2: the state that precedes vomiting 
+    is symptom~2  any sensation or change in bodily function that is experienced by a patient and is associated with a particular disease 
+       is yard~3 your basis for belief or disbelief 
+          is selective_information~1z knowledge acquired through study or experience or instruction 
+             is knowledge~1z the psychological result of perception and learning and reasoning 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  sickness~3: defectiveness or unsoundness 
+    is defectiveness~1  the state of being defective 
+       is imperfection~1z the state or an instance of being imperfect 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:19:52 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm an old friend of your uncle's ==> Really? I never knew my real family very well. How are they doing?  When:Tue Nov 26 12:20:03 2013 Why: ~justify_identity.28.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  he died ==> Oh no, that's awful!  When:Tue Nov 26 12:20:07 2013 Why: ~justify_identity.28.2 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:21:24 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm an old friend of your aunt's ==> Really? I never knew my real family very well. How are they doing?  When:Tue Nov 26 12:21:37 2013 Why: ~justify_identity.28.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  very well ==> Who are you again?  When:Tue Nov 26 12:21:41 2013 Why: ~justify_identity.45.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Nov 26 12:22:01 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm a friend of your brother ==> Really? I never knew my real family very well. How are they doing?  When:Tue Nov 26 12:22:08 2013 Why: ~justify_identity.28.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  great ==> That's great to hear!  When:Tue Nov 26 12:22:12 2013 Why: ~justify_identity.28.1 
+Command: :up well
+
+For well:
+ Set hierarchy:
+ Wordnet hierarchy:
+  well~1: a deep hole or shaft dug or drilled to obtain water or oil or gas or brine 
+    is excavation~3  a hole in the ground made by excavating 
+       is artefact~1z a man-made object taken as a whole 
+          is unit~1z an assemblage of parts that is regarded as a single entity 
+             is physical_object~1z a tangible and visible entity 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  well~2: an enclosed compartment in a ship or plane for holding something as e.g. fish or a plane's landing gear or for protecting something as e.g. a ship's pumps 
+    is compartment~1  a partitioned section, chamber, or separate room within a larger enclosed area 
+       is room~1z an area within a building enclosed by walls and floor and ceiling 
+          is area~1z a part of a structure having some specific characteristic or function 
+             is construction~4z a thing constructed 
+                is artefact~1z a man-made object taken as a whole 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  well~3: an open shaft through the floors of a building 
+    is shaft~6  a vertical passageway through a building 
+       is passageway~1z a passage between rooms or between buildings 
+          is transition~1 a way through or along which someone or something may pass 
+             is means~1 any artifact consisting of a road or path affording passage from one place to another 
+                is artefact~1z a man-made object taken as a whole 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  well~4: a cavity or vessel used to contain liquid 
+    is vessel~2  an object used as a container 
+       is container~1z any object that can be used to hold things 
+          is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+             is artefact~1z a man-made object taken as a whole 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  well~5: an abundant source 
+    is source~3  a document from which information is obtained 
+       is document~1z writing that provides information 
+          is committal_to_writing~1z the work of a writer 
+             is written_communication~1z communication by means of written symbols 
+                is communication~1z something that is communicated by or to or between people or groups 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  well~6: come up, as of a liquid 
+  well~7: wise or advantageous and hence advisable 
+  well~8: resulting favorably 
+  well~9: in good health especially after having suffered illness or injury 
+  well~10: in a good or proper or satisfactory manner or to a high standard (`good' is a nonstandard dialectal variant for `well') 
+  well~11: without unusual distress or resentment 
+  well~12: indicating high probability 
+  well~13: thoroughly or completely 
+  well~14: favorably 
+  well~15: to a suitable or appropriate extent or degree 
+  well~16: in financial comfort 
+  well~17: in a manner affording benefit or advantage 
+  well~18: to a great extent or degree 
+  well~19: with skill or in a pleasing manner 
+  well~20: with prudence or propriety 
+  well~21: with great or especially intimate knowledge 
+  well~22: entirely or fully 

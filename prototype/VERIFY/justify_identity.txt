@@ -17,11 +17,14 @@
  ~justify_identity.18.0 #! Need help tactics
  ~justify_identity.18.0 #! ----------------------------------------------------------------
  ~justify_identity.27.0 #! ----------------------------------------------------------------
- ~justify_identity.27.0 #! Other identities
+ ~justify_identity.27.0 #! Old acquiantance tactic
  ~justify_identity.27.0 #! ----------------------------------------------------------------
- ~justify_identity.41.0 #! ----------------------------------------------------------------
- ~justify_identity.41.0 #! Fishing for info
- ~justify_identity.41.0 #! ----------------------------------------------------------------
+ ~justify_identity.29.0 #! ----------------------------------------------------------------
+ ~justify_identity.29.0 #! Other identities
+ ~justify_identity.29.0 #! ----------------------------------------------------------------
  ~justify_identity.43.0 #! ----------------------------------------------------------------
- ~justify_identity.43.0 #! Topic-related gambits
+ ~justify_identity.43.0 #! Fishing for info
  ~justify_identity.43.0 #! ----------------------------------------------------------------
+ ~justify_identity.45.0 #! ----------------------------------------------------------------
+ ~justify_identity.45.0 #! Topic-related gambits
+ ~justify_identity.45.0 #! ----------------------------------------------------------------

@@ -120,7 +120,7 @@ s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
 #! Need help tactics
 #! ----------------------------------------------------------------
 
-s: (I * be * [old frail weak]) You shouldn't be walking alone in the woods like that.
+s: (!~friend I * be * [old frail weak]) You shouldn't be walking alone in the woods like that.
 
 s:(<<~acquire_imperatives help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
 	$purpose = 1
@@ -150,6 +150,23 @@ s:(<<I chase>>) You can go hide in the shed there, I'll say I haven't seen you.
 s:(I * [need want]) I don't think I can help you with that.
 
 
+#! ----------------------------------------------------------------
+#! Old acquiantance tactic
+#! ----------------------------------------------------------------
+
+u:(~remember * me) Sorry, but your face doesn't seem familiar
+
+u:(!no !not !~evilqueen I * be * ~friend * ~family_members) Really? I never knew my real family very well. How are they doing?
+	a: (~goodness) That's great to hear!
+		$trust += 1
+	a: (~badness) Oh no, that's awful!
+		$trust += 1
+
+#! ----------------------------------------------------------------
+#! Let's get violent! tactic
+#! ----------------------------------------------------------------
+
+u: 
 
 #! ----------------------------------------------------------------
 #! Other identities
