@@ -157,3 +157,6 @@ Command: :build1
 Command: :build 1
 Start: user:bob bot:snowwhite ip: rand:2948 (~justify_identity) 1 ==> Why are you not leaving me alone?  When:Thu Nov 14 15:23:19 2013 Version:3.53 Build0:1383759876 Build1:1383879523 Why: ~catchall.17.0 
 Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2945 (~justify_identity) 1 ==> What was it that you wanted again?  When:Wed Nov 27 14:09:02 2013 Version:3.53 Build0:1383759876 Build1:1384477174 Why: ~justify_identity.44.0 
+Start: user:bob bot:snowwhite ip: rand:2948 (~justify_identity) 1 ==> Not to be rude, but you're abusing your welcome.  When:Wed Nov 27 14:10:28 2013 Version:3.53 Build0:1385484691 Build1:1385492541 Why: ~catchall.23.0 
+Command: :build 1

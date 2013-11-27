@@ -25,3 +25,6 @@ u: (you * [lost bad] * memory) I don't remember not remembering anything.
 u: (you * [bad terrible] * host) I wish I could be more welcoming but the circumstances don't allow it.
 	a:(circumstances) ^reuse(justify_identity.TELLMEWHY)
 
+u: (<< you [be feel] [alone lonely] >>) You can hardly feel lonely living with seven dwarves. But it's true I sometimes long for human company.
+	$trust += 1
+

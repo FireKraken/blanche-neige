@@ -64,6 +64,9 @@ s: ($stepmother!=1 I * not * ~evilqueen) How do I know that?
 
 s: ($stepmother!=1 I * [hate~2 despise~1] ~evilqueen) She's not very popular.
 
+s:(<<I not [look resemble resemblance] ~evilqueen>>) True, but she's usually disguised.
+
+s:(<<I not [costume disguise] >>) That easy to say. My stepmother's a magician and can completely change her appearance.
 
 #! ----------------------------------------------------------------
 #! Topic related gambits

@@ -4405,3 +4405,169 @@ Respond: user: bot:snowwhite ip: (~assassination_plot) 3  why is she trying to k
 Respond: user: bot:snowwhite ip: (~assassination_plot) 4  totes ==> Thanks for taking my side.  When:Tue Nov 26 13:51:45 2013 Why: ~assassination_plot.12.0 
 Command: :build 1
 Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:10:36 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm just passing by ==> Who are you again?  When:Wed Nov 27 14:10:44 2013 Why: ~justify_identity.47.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm a stranger ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 27 14:10:50 2013 Why: ~justify_identity.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I'm hungry ==> What was it that you wanted again?  When:Wed Nov 27 14:11:01 2013 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'd like some food. ==> No thanks, I have all the like some food I need.  When:Wed Nov 27 14:11:08 2013 Why: ~catchall.15.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:22:14 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm just passing by ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 27 14:22:18 2013 Why: ~justify_identity.34.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  I'm hungry ==> You should one of those apples you have there.  When:Wed Nov 27 14:22:25 2013 Why: ~justify_identity.23.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  You want one? ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 14:22:29 2013 Why: ~sell_apple.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  A leprechaun ==> Who are you again?  When:Wed Nov 27 14:22:39 2013 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  A leprechaun ==> What was it that you wanted again?  When:Wed Nov 27 14:22:44 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  to give you apples ==> Shouldn't you be selling those rather than giving them away?  When:Wed Nov 27 14:22:50 2013 Why: ~justify_identity.5.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  I'll sell you one ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Wed Nov 27 14:22:58 2013 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  why? ==> Because strangers have tried to kill me recently.  When:Wed Nov 27 14:23:07 2013 Why: ~justify_identity.6.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  who? ==> It was actually my stepmother in disguise.  When:Wed Nov 27 14:23:10 2013 Why: ~justify_identity.6.2 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  why would she want to kill you? ==> Apparently she's jealous of my beauty and wants to kill me for that!  When:Wed Nov 27 14:23:16 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  That is stupid. ==> I can't think straight with all this stress.  When:Wed Nov 27 14:23:22 2013 Why: ~assassination_plot.19.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 12  I understand ==> Thanks for taking my side.  When:Wed Nov 27 14:23:27 2013 Why: ~assassination_plot.12.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 13  My apples are delicious ==> It does look good.  When:Wed Nov 27 14:23:37 2013 Why: ~sell_apple.10.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 14  How is it to live with dwarves? ==> I can't accept anything from you.  When:Wed Nov 27 14:23:42 2013 Why: ~sell_apple.31.0 
+Command: :up friendly
+
+For friendly:
+ Set hierarchy:
+ Wordnet hierarchy:
+  friendly~1: troops belonging to or allied with your own military forces 
+    is military_personnel~1  soldiers collectively 
+       is force_out~1 group of people willing to obey orders 
+          is constitution~1z a group of people who work together 
+             is social_group~1z people sharing some social relation 
+                is group~1z any number of entities considered as a unit 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  friendly~2: characteristic of or befitting a friend 
+  friendly~3: of or belonging to your own country's forces or those of an ally 
+  friendly~4: easy to understand or use 
+  friendly~5: inclined to help or support 
+Command: :up pleasant
+
+For pleasant:
+ Set hierarchy:
+ Wordnet hierarchy:
+  pleasant~1: having pleasing manners or behavior 
+  pleasant~2: affording pleasure 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:28:46 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  You live with dwarves? ==> Who are you again?  When:Wed Nov 27 14:28:52 2013 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  How is it to live with dwarves? ==> Sorry, are you here to sell apples?  When:Wed Nov 27 14:28:59 2013 Why: ~sell_apple.22.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 3  what is it like to live with dwarves? ==> It's a bit strange living with seven men half my size, but you get use to it.  When:Wed Nov 27 14:29:21 2013 Why: ~dwarves.16.0 
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:29:40 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  Is this the house of dwarves? ==> No, they're out at the moutain.  When:Wed Nov 27 14:29:45 2013 Why: ~dwarves.12.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:30:38 2013 Why: ~justify_identity.1.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:30:43 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  hi ==> Hello.  When:Wed Nov 27 14:30:44 2013 Why: ~catchall.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  Is this the house of dwarves? ==> This is their house but they're out at the mountain.  When:Wed Nov 27 14:30:49 2013 Why: ~dwarves.12.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 3  How is it to live with dwarves? ==> It's a bit strange living with seven men half my size, but you get use to it.  When:Wed Nov 27 14:30:55 2013 Why: ~dwarves.16.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Do you want an apple? ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 14:31:17 2013 Why: ~sell_apple.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I'm just an old woman ==> You shouldn't be walking alone in the woods like that.  When:Wed Nov 27 14:31:24 2013 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  Why? ==> Sorry, why what again?.  When:Wed Nov 27 14:31:27 2013 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  Why shouldn't I walk alone in the woods? ==> Who are you again?  When:Wed Nov 27 14:31:34 2013 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  I'm a leprechaun ==> What was it that you wanted again?  When:Wed Nov 27 14:33:40 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 9  I need shelter ==> I don't think I can help you with that.  When:Wed Nov 27 14:33:45 2013 Why: ~justify_identity.27.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 10  When will the dwarves arrive? ==> They will come back at dusk.  When:Wed Nov 27 14:34:18 2013 Why: ~dwarves.15.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 11  I want to wait ==> The dwarves told me not to let anyone in.  When:Wed Nov 27 14:34:26 2013 Why: ~dwarves.18.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 12  Do the dwarves like apple? ==> It's true that I'm tired of bread and cabbages every day.  When:Wed Nov 27 14:34:38 2013 Why: ~dwarves.7.0 
+Command: :build 1
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:37:49 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm bringing apples for the dwarves ==> Sorry, are you here to sell apples?  When:Wed Nov 27 14:37:55 2013 Why: ~sell_apple.22.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  yes ==> That's nice but I can't accept anything from strangers.  When:Wed Nov 27 14:37:59 2013 Why: ~sell_apple.22.1 
+Respond: user: bot:snowwhite ip: (~dwarves) 3  The apples are for the dwarves ==> The dwarves told me not to let anyone in.  When:Wed Nov 27 14:38:04 2013 Why: ~dwarves.19.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  You just need to take the apples ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 14:38:13 2013 Why: ~sell_apple.21.0 
+Command: :build 1
+Command: :rseet
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:41:19 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  I'm bringing apples for the dwarves ==> The dwarves didn't tell me about you, come back when they're there.  When:Wed Nov 27 14:41:24 2013 Why: ~dwarves.13.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  when? ==> At dusk.  When:Wed Nov 27 14:41:28 2013 Why: ~dwarves.13.1 
+Respond: user: bot:snowwhite ip: (~dwarves) 3  can I wait inside? ==> The dwarves told me not to let anyone in.  When:Wed Nov 27 14:41:34 2013 Why: ~dwarves.20.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 4  why? ==> Sorry, why what again?.  When:Wed Nov 27 14:41:36 2013 Why: ~catchall.4.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:46:36 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm here to sell these fine apples! ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Wed Nov 27 14:46:44 2013 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  why is that? ==> Because strangers have tried to kill me recently.  When:Wed Nov 27 14:46:49 2013 Why: ~justify_identity.6.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  Is that so?! ==> I can't think straight with all this stress.  When:Wed Nov 27 14:46:53 2013 Why: ~assassination_plot.19.0 
+Command: :build 1
+Command: :build 1
+Command: :rseet
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 14:48:22 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm just drifting ==> Who are you again?  When:Wed Nov 27 14:48:29 2013 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  a drifter ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 27 14:48:33 2013 Why: ~justify_identity.34.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I can sell you things ==> What was it that you wanted again?  When:Wed Nov 27 14:48:42 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  to sell an apple in fact ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Wed Nov 27 14:48:50 2013 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  why? ==> Because strangers have tried to kill me recently.  When:Wed Nov 27 14:48:56 2013 Why: ~justify_identity.6.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  that's horrible! ==> I know! This is so unfair!  When:Wed Nov 27 14:49:04 2013 Why: ~assassination_plot.10.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  poor thing ==> Thank you for the compassion.  When:Wed Nov 27 14:49:07 2013 Why: ~assassination_plot.11.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  here take an apple for comfort ==> No thanks, I don't trust you enough.  When:Wed Nov 27 14:49:20 2013 Why: ~sell_apple.23.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 9  but i'm your friend ==> I just met you.  When:Wed Nov 27 14:49:27 2013 Why: ~build_friendship.3.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 10  I want your good ==> The dwarves told me not to let anyone in.  When:Wed Nov 27 14:49:29 2013 Why: ~dwarves.21.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 11  who are the dwarves? ==> I live with seven little men.  When:Wed Nov 27 14:49:37 2013 Why: ~dwarves.14.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 12  that's odd ==> Why are you not leaving me alone?  When:Wed Nov 27 14:49:41 2013 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 13  Is it natural for a young girl to live with dwarves? ==> I can't think straight with all this stress.  When:Wed Nov 27 14:49:59 2013 Why: ~assassination_plot.19.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+13 Wed Nov 27 15:00:59 2013 in sentence: Is it natural for a young girl to live with dwarves? 
+    Missing topic index for ~build_friendship
+
+13 Wed Nov 27 15:00:59 2013 in sentence: Is it natural for a young girl to live with dwarves? 
+    Missing topic index for ~dwarves
+
+13 Wed Nov 27 15:00:59 2013 in sentence: Is it natural for a young girl to live with dwarves? 
+    Missing topic index for ~sell_apple
+
+13 Wed Nov 27 15:00:59 2013 in sentence: Is it natural for a young girl to live with dwarves? 
+    Missing topic index for ~assassination_plot
+
+13 Wed Nov 27 15:00:59 2013 in sentence: Is it natural for a young girl to live with dwarves? 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 15:01:03 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm here to save you ==> Who are you again?  When:Wed Nov 27 15:01:11 2013 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  your savior ==> What was it that you wanted again?  When:Wed Nov 27 15:01:14 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  to save you ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 27 15:01:16 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 4  Do you think it's normal to live with dwarves? ==> Is it wrong for a young girl to live with seven grown--albeit small--men? (~no) Oh dear, I had never thought of this that way. (~yes) It does feel right.  When:Wed Nov 27 15:01:25 2013 Why: ~dwarves.8.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 15:01:57 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  is it suitable for a young girl to live with dwarves? ==> Is it wrong for a young girl to live with seven grown--albeit small--men?  When:Wed Nov 27 15:02:05 2013 Why: ~dwarves.8.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  yes ==> It does feel right.  When:Wed Nov 27 15:02:14 2013 Why: ~dwarves.8.2 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Here, take an apple ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 15:02:27 2013 Why: ~sell_apple.23.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  an apple vendor ==> Why are you giving your apples away, then?  When:Wed Nov 27 15:02:32 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  It's just a sample ==> Oh, that makes sense.  When:Wed Nov 27 15:02:38 2013 Why: ~justify_identity.2.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  So, do you want one? ==> Not to be rude, but you're abusing your welcome.  When:Wed Nov 27 15:02:44 2013 Why: ~catchall.23.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  They are delicious ==> It does look good.  When:Wed Nov 27 15:03:28 2013 Why: ~sell_apple.10.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  take an apple ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Wed Nov 27 15:03:31 2013 Why: ~sell_apple.31.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 15:03:45 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  so, do you want an apple? ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 15:03:50 2013 Why: ~sell_apple.23.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  an apple fan ==> Who are you again?  When:Wed Nov 27 15:03:57 2013 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Bob l'eponge ==> What was it that you wanted again?  When:Wed Nov 27 15:04:02 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  to sell you an apple ==> Shouldn't you be selling those rather than giving them away?  When:Wed Nov 27 15:04:06 2013 Why: ~justify_identity.5.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I am ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 27 15:04:10 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  I'm not a stranger ==> Who are you then?  When:Wed Nov 27 15:04:14 2013 Why: ~justify_identity.9.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  an apple salesman ==> Why are you giving your apples away, then?  When:Wed Nov 27 15:04:18 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  Not all, just one ==> I can't be too cautious with my stepmother wanting to kill me.  When:Wed Nov 27 15:04:26 2013 Why: ~assassination_plot.18.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  why would she do that? ==> Sorry, why what again?.  When:Wed Nov 27 15:04:33 2013 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  Why would your stepmother kill you? ==> Apparently she's jealous of my beauty and wants to kill me for that!  When:Wed Nov 27 15:04:40 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~catchall) 11  that's crazy ==> You're not being very amiable.  When:Wed Nov 27 15:04:46 2013 Why: ~catchall.17.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 12  oops ==> Why are you not leaving me alone?  When:Wed Nov 27 15:05:15 2013 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 13  just take this apple ==> You mean one of those apples?  When:Wed Nov 27 15:05:20 2013 Why: ~sell_apple.20.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 14  exactly ==> I can't accept anything from you.  When:Wed Nov 27 15:05:24 2013 Why: ~sell_apple.33.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 15  I'm not your stepmother ==> How do I know that?  When:Wed Nov 27 15:05:32 2013 Why: ~assassination_plot.16.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 16  I don't look like her ==> I can't think straight with all this stress.  When:Wed Nov 27 15:05:39 2013 Why: ~assassination_plot.19.0 
+Command: :build 1

@@ -101,7 +101,7 @@ s:(you * [should ought] * [wary cautious careful "watch out"]) I'm being as caut
 #! Lost tactic
 #! ----------------------------------------------------------------
 
-s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach a carriage station.
+s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach a small inn.
 	$identity = 1
 	$purpose = 1
 
@@ -121,6 +121,8 @@ s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
 #! ----------------------------------------------------------------
 
 s: (!~friend I * be * [old frail weak]) You shouldn't be walking alone in the woods like that.
+	a:(why) Because of the wolves and all.
+		a:(wolf) I've never seen a wolf, but you would expect that in the forest.
 
 s:(<<~acquire_imperatives help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
 	$purpose = 1
@@ -133,16 +135,18 @@ s:(<<~agenoun [lonely~1 lonely~4 ~feeling_alone]>>) Poor woman. If only my stepm
 	$trust += 1
 	$purpose = 1
 
-u:([need want "give me" "do you have"] * [water drink ~beverage]) I can get you a glass of water if you want.
+u:(I * ["would like" need want "give me" "do you have"] * [water drink ~beverage]) I can get you a glass of water if you want.
 	$purpose = 1
 	a:(~yes) Here.
 		b:([thanks~2 thanks "thank you"]) No problem.
 	a:(~no) Ok.
 
+u:(I * ["would like" need want "give me" "do you have" be] * [food eat hungry famished]) You should one of those apples you have there. ^addtopic(~sell_apple)
+
 u:([need want "give me" "do you have" "will you"] * [help assist]) What do you need?
 	a: (_*) ^input(I need '_0) ^fail(sentence)  
 
-u:([need want "can I" "may I"] * [rest sleep "spend the night"]) Sorry, I can't let anyone in.
+u:([need want "can I" "may I"] * [rest sleep "spend the night" shelter]) Sorry, I can't let anyone in.
 	a:(why)^reuse(TELLMEWHY)
 
 s:(<<I chase>>) You can go hide in the shed there, I'll say I haven't seen you.
@@ -185,7 +189,7 @@ s:(!not I * name * be _*)
 	else { You told me already. }
 
 
-s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1])
+s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1 "passing by"])
 	$trust -= 1
 	That's odd, we rarely get visitors this deep in the woods.
 		a: ([arrive~1 visit~1 ~goodness] * [secluded~2 seclusion~2])

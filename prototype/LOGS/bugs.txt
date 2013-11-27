@@ -1707,3 +1707,19 @@ Missing topic index for ~justify_identity
    in identity.top at 169: s: (<<force~2 apple) You wouldn't dare!
 PATTERN-70 Failed to close <<Missing topic index for ~justify_identity
 Missing topic index for ~justify_identity
+   in dwarves.top at 34: u: (<< [normal natural suitable fitting moral think virtue virtuous] live with dwarf~2) Is it wrong for a young girl to live with seven grown--albeit small--men?
+PATTERN-70 Failed to close <<input:13 Wed Nov 27 15:00:59 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: Is it natural for a young girl to live with dwarves? at 
+Missing topic index for ~justify_identity
+input:13 Wed Nov 27 15:00:59 2013 Missing topic index for ~build_friendship
+ caller: callee:snowwhite in sentence: Is it natural for a young girl to live with dwarves? at 
+Missing topic index for ~build_friendship
+input:13 Wed Nov 27 15:00:59 2013 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: Is it natural for a young girl to live with dwarves? at 
+Missing topic index for ~dwarves
+input:13 Wed Nov 27 15:00:59 2013 Missing topic index for ~sell_apple
+ caller: callee:snowwhite in sentence: Is it natural for a young girl to live with dwarves? at 
+Missing topic index for ~sell_apple
+input:13 Wed Nov 27 15:00:59 2013 Missing topic index for ~assassination_plot
+ caller: callee:snowwhite in sentence: Is it natural for a young girl to live with dwarves? at 
+Missing topic index for ~assassination_plot

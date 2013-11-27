@@ -18,10 +18,10 @@ snatch~8
 limit~8
 dullard~2
 food~1
-lonely~1
 acquaintance~2
 rendez-vous
 homie
+lonely~1
 solitary~6
 stranger~2
 talk~2
@@ -30,6 +30,7 @@ ain_'t
 unknown~3
 trust~1
 assist~2
+would_like
 give_me
 do_you_have
 thanks~2
@@ -39,6 +40,7 @@ may_I
 spend_the_night
 force~2
 traveler~1
+passing_by
 come~11
 visit~1
 secret~12
@@ -62,6 +64,9 @@ house~2
 beautiful~1
 see_you
 oh
+gosh
+that_so
+don_'t_say
 not_making_sense
 not_making_any_sense
 mean_anything

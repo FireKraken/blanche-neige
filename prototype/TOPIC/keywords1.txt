@@ -4,7 +4,7 @@
 T~sell_apple ( eat it ~delicious give meal snack hungry hunger food sell buy ~fruit apple )
 T~assassination_plot ( ~evilqueen ~murderplot )
 T~justify_identity ( ~reliability_words be woman who ~peddler )
-T~dwarves ( ~mythical_intelligent_being dwarf~2 )
+T~dwarves ( dwarves ~mythical_intelligent_being dwarf~2 )
 ~bro ( ~friend best_friend ~role_ally homie bro )
 ~sing ( song sing~4 sing~3 )
 T~build_friendship ( ~sing solitary~6 lonely~1 ~feeling_alone ~befriend ~friend )

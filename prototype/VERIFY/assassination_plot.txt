@@ -11,6 +11,6 @@
  ~assassination_plot.14.0 #! ----------------------------------------------------------------
  ~assassination_plot.14.0 #! Not being stepmother
  ~assassination_plot.14.0 #! ----------------------------------------------------------------
- ~assassination_plot.18.0 #! ----------------------------------------------------------------
- ~assassination_plot.18.0 #! Topic related gambits
- ~assassination_plot.18.0 #! ----------------------------------------------------------------
+ ~assassination_plot.20.0 #! ----------------------------------------------------------------
+ ~assassination_plot.20.0 #! Topic related gambits
+ ~assassination_plot.20.0 #! ----------------------------------------------------------------
