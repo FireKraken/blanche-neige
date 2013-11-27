@@ -487,3 +487,5 @@ For speaking:
                       is entity~1z that which is perceived or known or inferred to have its own distinct existence 
   speaking~3: capable of or involving speech or speaking 
 Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 27 16:08:24 2013 Version:3.53 Build0:1385484691 Build1:1385582879 Why: ~justify_identity.50.0 
+Command: :build 1

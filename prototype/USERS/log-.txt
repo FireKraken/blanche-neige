@@ -4571,3 +4571,360 @@ Respond: user: bot:snowwhite ip: (~sell_apple) 14  exactly ==> I can't accept an
 Respond: user: bot:snowwhite ip: (~assassination_plot) 15  I'm not your stepmother ==> How do I know that?  When:Wed Nov 27 15:05:32 2013 Why: ~assassination_plot.16.0 
 Respond: user: bot:snowwhite ip: (~assassination_plot) 16  I don't look like her ==> I can't think straight with all this stress.  When:Wed Nov 27 15:05:39 2013 Why: ~assassination_plot.19.0 
 Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 16:08:44 2013 Why: ~justify_identity.1.0 
+Command: :up forgot
+
+For forgot:
+ Set hierarchy:
+ Wordnet hierarchy:
+  forgot~1:
+Command: :up forget
+
+For forget:
+ Set hierarchy:
+ Wordnet hierarchy:
+  forget~1: be unable to remember 
+  forget~2: dismiss from the mind 
+  forget~3: leave behind unintentionally 
+  forget~4: forget to do something 
+Command: :down faulty think
+
+Command: :down faulty_think
+
+Command: :down ~faulty_think
+confuse forget misapprehend misconceive misconstrue misidentify misinterpret misremember misunderstand 
+Command: :up name
+
+For name:
+ Set hierarchy:
+ Wordnet hierarchy:
+  name~1: by the sanction or authority of 
+    is sanction~2  the act of final authorization 
+       is authorisation~1z the act of conferring legality or sanction or formal warrant 
+          is direction~2z the act of managing something 
+             is social_control~1z control exerted by group action 
+                is group_action~1z action taken by a group of people 
+                   is event~1z something that happens at a given place and time 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                   is act~1z something that people do or cause to happen 
+                      is event~1z something that happens at a given place and time 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  name~2: a language unit by which a person or thing is known 
+    is language_unit~1  one of the natural units into which linguistic messages can be analyzed 
+       is share~2z something determined in relation to something that includes it 
+          is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  name~3: a defamatory or abusive word or phrase 
+    is calumny~2  a false accusation of an offense or a malicious misrepresentation of someone's words or actions 
+       is depreciation~1z a communication that belittles somebody or something 
+          is offence~3 an expression of lack of respect 
+             is message~2z what a communication that is about something is about 
+                is communication~1z something that is communicated by or to or between people or groups 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  name~4: a person's reputation 
+    is reputation~2  the state of being held in high esteem and honor 
+       is pureness~1z the state of being honored 
+          is standing~1z social or financial or professional status or reputation 
+             is position~1z the relative position or standing of things or especially persons in a society 
+                is state~1z the way something is with respect to its main attributes 
+                   is attribute~1z an abstraction belonging to or characteristic of an entity 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  name~5: determine or distinguish the nature of a problem or an illness through a diagnostic analysis 
+  name~6: identify as in botany or biology, for example 
+  name~7: give or make a list of 
+  name~8: mention and identify by name 
+  name~9: make reference to 
+  name~10: give the name or identifying characteristics of 
+  name~11: assign a specified proper name to 
+  name~12: create and charge with a task or function 
+  name~13: charge with a function 
+Command: :up cannot
+
+For cannot:
+ Set hierarchy:
+ Wordnet hierarchy:
+  cannot~1:
+Command: :up can't
+
+For can't:
+ Set hierarchy:
+ Wordnet hierarchy:
+  can't~1:
+Command: :build 0
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 16:22:14 2013 Why: ~justify_identity.1.0 
+Command: :up cannot
+
+For cannot:
+ Set hierarchy:
+ Wordnet hierarchy:
+  cannot~1:
+Command: :not
+Command: :up not
+
+For not:
+ Set hierarchy:
+ Wordnet hierarchy:
+  not~1: negation of a word or group of words 
+Command: :down ~negation
+never not 
+Command: :up friend
+
+For friend:
+ Set hierarchy:
+ Wordnet hierarchy:
+  friend~1: a person with whom you are acquainted 
+    is somebody~2  a human being 
+       is organism~1z a living thing that has the ability to act or function independently 
+          is living_thing~1z a living entity 
+             is unit~1z an assemblage of parts that is regarded as a single entity 
+                is physical_object~1z a tangible and visible entity 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  friend~2: an associate who provides cooperation or assistance 
+    is associate~3  a person who joins with others in some activity or endeavor 
+       is friction_match~1z a person who is of equal standing with another in a group 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  friend~3: a person you know well and regard with affection and trust 
+    is somebody~2  a human being 
+       is organism~1z a living thing that has the ability to act or function independently 
+          is living_thing~1z a living entity 
+             is unit~1z an assemblage of parts that is regarded as a single entity 
+                is physical_object~1z a tangible and visible entity 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  friend~4: a person who backs a politician or a team etc. 
+    is exponent~3  a person who pleads for a cause or propounds an idea 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up can
+
+For can:
+ Set hierarchy:
+ Wordnet hierarchy:
+  can~1: airtight sealed metal container for food or drink or paint etc. 
+    is container~1  any object that can be used to hold things 
+       is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+          is artefact~1z a man-made object taken as a whole 
+             is unit~1z an assemblage of parts that is regarded as a single entity 
+                is physical_object~1z a tangible and visible entity 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  can~2: a room or building equipped with one or more toilets 
+    is room~1  an area within a building enclosed by walls and floor and ceiling 
+       is area~1z a part of a structure having some specific characteristic or function 
+          is construction~4z a thing constructed 
+             is artefact~1z a man-made object taken as a whole 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  can~3: a plumbing fixture for defecation and urination 
+    is plumbing_fixture~1  a fixture for the distribution and use of water in a building 
+       is mending~1 an object firmly fixed in place 
+          is artefact~1z a man-made object taken as a whole 
+             is unit~1z an assemblage of parts that is regarded as a single entity 
+                is physical_object~1z a tangible and visible entity 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  can~4: the fleshy part of the human body that you sit on 
+    is body_part~1  any part of an organism such as an organ or extremity 
+       is small-arm~1 a portion of a natural object 
+          is thing~1z a separate and self-contained entity 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  can~5: a buoy with a round bottom and conical top 
+    is buoy~1  bright-colored 
+       is consultation~1 an indicator that orients you generally 
+          is indicator~1z a signal for attracting attention 
+             is sign~3z any nonverbal action or gesture that encodes a message 
+                is communication~1z something that is communicated by or to or between people or groups 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  can~6: the quantity contained in a can 
+    is containerful~1  the quantity that a container will hold 
+       is indefinite_quantity~1z an estimated quantity 
+          is quantity~1z how much there is or how many there are of something that you can quantify 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  can~7: preserve in a can or tin 
+  can~8: terminate the employment of 
+Command: :can't
+Command: :up can't
+
+For can't:
+ Set hierarchy:
+ Wordnet hierarchy:
+  can't~1:
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  "up cannot ==> Who are you again?  When:Wed Nov 27 16:23:17 2013 Why: ~justify_identity.49.0 
+Command: :up cannot
+
+For cannot:
+ Set hierarchy:
+ Wordnet hierarchy:
+  cannot~1:
+Command: :up unabl
+Command: :up unable
+
+For unable:
+ Set hierarchy:
+ Wordnet hierarchy:
+  unable~1: not having the necessary means or skill or know-how 
+  unable~2: lacking necessary physical or mental ability 
+  unable~3: lacking in power or forcefulness 
+Command: :up find
+
+For find:
+ Set hierarchy:
+ Wordnet hierarchy:
+  find~1: the act of discovering something 
+    is human_activity~1  something that people do or cause to happen 
+       is event~1z something that happens at a given place and time 
+          is psychological_feature~1z a feature of the mental life of a living organism 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  find~2: a productive insight 
+    is insight~3  the clear understanding of a complex situation 
+       is catch~1 the cognitive condition of someone who understands 
+          is knowing~1z a clear and certain mental apprehension 
+             is higher_cognitive_process~1z cognitive processes that presuppose the availability of knowledge and put it to use 
+                is mental_process~1z the performance of some composite cognitive activity 
+                   is knowledge~1z the psychological result of perception and learning and reasoning 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  find~3: accept and make use of one's personality, abilities, and situation 
+  find~4: receive a specified treatment  
+  find~5: come to believe on the basis of emotion, intuitions, or indefinite grounds 
+  find~6: make a discovery 
+  find~7: establish after a calculation, investigation, experiment, survey, or study 
+  find~8: decide on and make a declaration about 
+  find~9: make a discovery, make a new finding 
+  find~10: succeed in reaching 
+  find~11: perceive or be contemporaneous with 
+  find~12: discover or determine the existence, presence, or fact of 
+  find~13: perceive oneself to be in a certain condition or place 
+  find~14: obtain through effort or management 
+  find~15: get something or somebody for a specific purpose 
+  find~16: get or find back 
+  find~17: come upon, as if by accident 
+  find~18: come upon after searching 
+Command: :down get
+
+Command: :down ~get
+accrue accumulate acquire adopt appropriate batch collect compensate exact find 
+  garner gather get grab grip hunt obtain pick_up recompense recover 
+  regain remunerate repay retrieve serve stockpile take_up take 
+Command: :up home
+
+For home:
+ Set hierarchy:
+ Wordnet hierarchy:
+  home~1: housing that someone is living in 
+    is lodging~2  structures collectively in which people are housed 
+       is construction~4z a thing constructed 
+          is artefact~1z a man-made object taken as a whole 
+             is unit~1z an assemblage of parts that is regarded as a single entity 
+                is physical_object~1z a tangible and visible entity 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~2: an institution where people are cared for 
+    is institution~2  an establishment consisting of a building or complex of buildings where an organization for the promotion of some cause is situated 
+       is organization~1 a public or private structure including buildings and equipment for business or residence 
+          is construction~4z a thing constructed 
+             is artefact~1z a man-made object taken as a whole 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~3: base consisting of a rubber slab where the batter stands 
+    is bag~6  a place that the runner must touch before scoring 
+       is baseball_equipment~1z equipment used in playing baseball 
+          is sports_equipment~1z equipment needed to participate in a particular sport 
+             is equipment~1z an instrumentality needed for an undertaking or to perform a service 
+                is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+                   is artefact~1z a man-made object taken as a whole 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~4: a social unit living together 
+    is unit~3  an organization regarded as part of a larger social group 
+       is constitution~1z a group of people who work together 
+          is social_group~1z people sharing some social relation 
+             is group~1z any number of entities considered as a unit 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~5: the country or state or city where you live 
+    is location~1  a point or extent in space 
+       is physical_object~1z a tangible and visible entity 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~6: the place where you are stationed and from which missions start and end 
+    is location~1  a point or extent in space 
+       is physical_object~1z a tangible and visible entity 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~7: where you live at a particular time 
+    is residence~4  any address at which you dwell more than temporarily 
+       is savoir-faire~1 the place where a person or organization can be found or communicated with 
+          is geographical_point~1z a point on the surface of the Earth 
+             is breaker_point~1z the precise location of something 
+                is location~1z a point or extent in space 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~8: place where something began and flourished 
+    is beginning~4  the place where something begins, where it springs into being 
+       is breaker_point~1z the precise location of something 
+          is location~1z a point or extent in space 
+             is physical_object~1z a tangible and visible entity 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~9: an environment offering affection and security 
+    is environment~2  the totality of surrounding conditions 
+       is billet~1z the general state of things 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  home~10: return home accurately from a long distance 
+  home~11: provide with, or send to, a home 
+  home~12: inside the country 
+  home~13: used of your own ground 
+  home~14: relating to or being where one lives or where one's roots are 
+  home~15: at or to or in the direction of one's home or family 
+  home~16: to the fullest extent 
+  home~17: on or to the point aimed at 
