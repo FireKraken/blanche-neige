@@ -18,7 +18,7 @@ Reading topic ~build_friendship
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 109 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 115 of identity.top: cannot is unknown as a word in pattern
 
 ----Reading file nature.top
 Reading concept ~thewoods

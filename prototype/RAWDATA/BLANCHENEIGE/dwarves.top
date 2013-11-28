@@ -60,6 +60,13 @@ s: (<< apple dwarf~2 [bring deliver sell for] >>) The dwarves didn't tell me abo
 	a:(when) At dusk.
 
 #! ----------------------------------------------------------------
+#! Dwarven approval
+#! ----------------------------------------------------------------
+
+s:(dwarf * [apple] * [ok good accept acceptable "good for you"]) Well maybe if the dwarves said so...
+	$trust += 1
+
+#! ----------------------------------------------------------------
 #! Fishing for info
 #! ----------------------------------------------------------------
 

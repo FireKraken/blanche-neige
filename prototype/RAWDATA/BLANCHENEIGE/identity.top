@@ -65,6 +65,12 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 				b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
 				b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
 
+s:(<<dwarf apple ~buy>>) Thank heavens, finally some better food around here!
+	$trust += 1
+	$peddler = 1
+	$identity = 1
+	$purpose = 1
+
 #! ----------------------------------------------------------------
 #! Appeal to trust
 #! ----------------------------------------------------------------
@@ -166,6 +172,7 @@ s:(<<I chase>>) You can go hide in the shed there, I'll say I haven't seen you.
 
 s:(!you I * [need want]) I don't think I can help you with that.
 
+u:(I * [die dying ~sicknesses]) There's a doctor in the village nearby, they should be able to help you much better than I could.
 
 #! ----------------------------------------------------------------
 #! Old acquiantance tactic
@@ -178,6 +185,8 @@ u:(!no !not !~evilqueen I * be * ~friend * ~family_members) Really? I never knew
 		$trust += 1
 	a: (~badness) Oh no, that's awful!
 		$trust += 1
+
+s:(I * ~remember * you) Really? I don't think we've met before. Where should I remember you from?
 
 #! ----------------------------------------------------------------
 #! Let's get violent! tactic
@@ -261,4 +270,6 @@ t: ($identity!=1) Sorry but I was told not to trust any strangers.
 	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)
 		$plot = 1
 			b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
-			b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)		
+			b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
+	a:(["that's ok" "I understand" good fine understandable]) I'm glad that you understand my predicament.
+		$trust += 1		
