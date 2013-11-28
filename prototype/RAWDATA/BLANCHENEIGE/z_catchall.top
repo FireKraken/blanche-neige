@@ -31,7 +31,7 @@ u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
 #! ----------------------------------------------------------------
 
 s:([thanks "thank you" thank thanks~2 ~emothanks])  You're welcome. ^poptopic() ^keep() ^repeat()
-s:([oh dear "gosh"]) Uh-huh... ^poptopic() ^keep() ^repeat()
+s:([oh dear "gosh" totally]) Uh-huh... ^poptopic() ^keep() ^repeat()
 s:([maybe]) ... ^poptopic() ^keep() ^repeat()
 s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
 ?: ([really "that so" "don't say" incredible]) Yup. ^poptopic() ^keep() ^repeat()

@@ -1,7 +1,8 @@
 # this function is executed once for every new user chatting with snowwhite
 outputmacro: snowwhite()  # you get snowwhite by default
-$token = #DO_INTERJECTION_SPLITTING  | #DO_SUBSTITUTE_SYSTEM   | #DO_NUMBER_MERGE   | #DO_PROPERNAME_MERGE  | #DO_SPELLCHECK | #DO_POSTAG  | #DO_PARSE
+$token = #DO_INTERJECTION_SPLITTING     | #DO_NUMBER_MERGE   | #DO_PROPERNAME_MERGE  | #DO_SPELLCHECK | #DO_POSTAG  | #DO_PARSE
 
+# removed : | #DO_SUBSTITUTE_SYSTEM
 ^addtopic(~justify_identity)
 $control_main = ~control
 $userprompt = ^"$login: >"

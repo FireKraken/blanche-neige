@@ -1,5 +1,5 @@
-concept: ~murderplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder anxiety stress)
-concept: ~evilqueen (queen "evil queen" stepmother she)
+concept: ~murderplot (~plot plan plan~3 assassination murder scheme machination intrigue conspiracy cabal kill murder anxiety stress circumstances)
+concept: ~evilqueen (queen "evil queen" stepmother she stepmom)
 concept: ~agreement ("I know" "I agree" "I understand" "totally" "totes")
 
 topic: ~assassination_plot (~murderplot ~evilqueen)
@@ -20,6 +20,8 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 	a: (~NO) She's out of her mind.
 
 ?: ($stepmother!=1 << why ~evilqueen ~murderplot >>) Apparently she's jealous of my beauty and wants to kill me for that!
+	a:([silly ridiculous ludicrous preposterous bizarre absurd preposterous unbelievable grotesque farcical]) Isn't it?!
+		$trust+=1
 
 ?: ($stepmother!=1 who * ~evilqueen) Simply the kingdom's queen!
 
@@ -40,7 +42,8 @@ s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad po
 
 s: (poor * [thing you]) Thank you for the compassion.
 
-s: ($plot=1 ~agreement) Thanks for taking my side.
+
+s:($plot==1 <<[I my] [sympathy sympathize] you>>) That is nice of you.
 	$trust += 1
 
 #! ----------------------------------------------------------------

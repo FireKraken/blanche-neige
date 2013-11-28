@@ -160,3 +160,10 @@ Command: :build 1
 Start: user:bob bot:snowwhite ip: rand:2945 (~justify_identity) 1 ==> What was it that you wanted again?  When:Wed Nov 27 14:09:02 2013 Version:3.53 Build0:1383759876 Build1:1384477174 Why: ~justify_identity.44.0 
 Start: user:bob bot:snowwhite ip: rand:2948 (~justify_identity) 1 ==> Not to be rude, but you're abusing your welcome.  When:Wed Nov 27 14:10:28 2013 Version:3.53 Build0:1385484691 Build1:1385492541 Why: ~catchall.23.0 
 Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2948 (~dwarves) 1 ==> I'm going to close this door anytime soon now.  When:Wed Nov 27 21:16:11 2013 Version:3.53 Build0:1385587290 Build1:1385587326 Why: ~catchall.24.0 
+Command: :up thewoods
+Command: :up ~thewoods
+
+For ~thewoods:
+ Set hierarchy:
+Command: :build 1

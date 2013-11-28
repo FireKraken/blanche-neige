@@ -8,11 +8,11 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! Love of the woods tactics?
 #! ----------------------------------------------------------------
 
-s: (<<animal~1 ~goodness>>) Aren't they! Sometimes I sing with them!
+s: (<<animal~1 ~positivevalue>>) Aren't they! Sometimes I sing with them!
 	$trust += 1
 	$nature = 1
 
-s: (<<~thewoods  ~goodness>>) Yes, the trees are beautiful, aren't they?
+s: (<<~thewoods  ~positivevalue>>) Yes, the trees are beautiful, aren't they?
 	$trust += 1
 	$nature = 1
 

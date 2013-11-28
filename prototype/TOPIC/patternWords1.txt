@@ -29,6 +29,9 @@ care~8
 ain_'t
 unknown~3
 trust~1
+can_'t
+cannot
+make_my_way
 assist~2
 would_like
 give_me

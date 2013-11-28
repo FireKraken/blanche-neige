@@ -1,6 +1,6 @@
 concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer)
 
-topic: ~justify_identity (~peddler who woman be ~reliability_words )
+topic: ~justify_identity (~peddler woman be ~reliability_words help)
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
@@ -69,10 +69,11 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 #! Appeal to trust
 #! ----------------------------------------------------------------
 
-s:([I let] * [help assist]) I'll be fine, thank you.
+s:([I let] * [help assist] * you) I'll be fine, thank you.
 
 s:(I * [want wish] * [wellness~1 "well-being"]) That's what they all say.
 	a:(it * true) That's also what they all say.
+
 
 s: ([not no ain't] * stranger~1) Who are you then?
 
@@ -133,11 +134,14 @@ s: (!~friend I * be * [old frail weak]) You shouldn't be walking alone in the wo
 	a:(why) Because of the wolves and all.
 		a:(wolf) I've never seen a wolf, but you would expect that in the forest.
 
-s:(<<~acquire_imperatives help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
+s:(!you <<[~acquire_imperatives please need] help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
+	$purpose = 1
+	a:(why)^reuse(TELLMEWHY)
+
+s:(<<[help~1 scare die fear] ~thewoods>>) Just keep walking in a straight line and you'll make it out eventually.
 	$purpose = 1
 
-s:(<<help~1 ~thewoods>>) Just keep walking in a straight line and you'll make it out eventually.
-	$purpose = 1
+s:(<<I [feel be] [faint tired dizzy]>>) You can rest on this bench over there.
 
 s:(<<~agenoun [lonely~1 lonely~4 ~feeling_alone]>>) Poor woman. If only my stepmother hadn't disguised herself as an old woman to kill me, I would be more willing to help.
 	$identity = 1
@@ -160,7 +164,7 @@ u:([need want "can I" "may I"] * [rest sleep "spend the night" shelter]) Sorry, 
 
 s:(<<I chase>>) You can go hide in the shed there, I'll say I haven't seen you.
 
-s:(I * [need want]) I don't think I can help you with that.
+s:(!you I * [need want]) I don't think I can help you with that.
 
 
 #! ----------------------------------------------------------------
@@ -182,8 +186,9 @@ u:(!no !not !~evilqueen I * be * ~friend * ~family_members) Really? I never knew
 s: (<<force~2 apple>>) You wouldn't dare!
 	$trust -= 1
 
-s: (kill you) Get away from me you crazy woman!
-	$end = 1
+#! Would fire "I've killed your stepmother"
+#!s: (kill "you") Get away from me you crazy woman!
+#!	$end = 1
 
 #! ----------------------------------------------------------------
 #! Other identities

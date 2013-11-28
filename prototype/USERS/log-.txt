@@ -4928,3 +4928,430 @@ For home:
   home~15: at or to or in the direction of one's home or family 
   home~16: to the fullest extent 
   home~17: on or to the point aimed at 
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:17:27 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help, I have no place to go ==> Who are you again?  When:Wed Nov 27 21:17:35 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm bobo ==> What was it that you wanted again?  When:Wed Nov 27 21:17:58 2013 Why: ~justify_identity.51.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  please help, I have no place to go ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 27 21:18:00 2013 Why: ~justify_identity.52.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:18:28 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help, i have no place to go ==> I see. Well I'm not interested in any apples.  When:Wed Nov 27 21:18:33 2013 Why: ~justify_identity.3.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:19:35 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help I have nowhere to go ==> Who are you again?  When:Wed Nov 27 21:19:41 2013 Why: ~justify_identity.50.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:20:06 2013 Why: ~justify_identity.1.0 
+Command: :prepare please help, I have nowhere to go
+
+Original User Input: please help, I have nowhere to go
+Tokenized: please  help  ,  I  have  nowhere  to  go  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Substituted: help  ,  I  have  nowhere  to  go  
+Abandoning indirect object at nowhere nonanimate
+badparse: subject in zone immediately before verb
+Abandoning indirect object at nowhere nonanimate
+badparse: subject in zone immediately before verb
+badparse Tagged POS 7 words: help (<Verbal MAINSUBJECT VERB2 Noun_infinitive)  , (Comma Verbal>)  I (SUBJECT2 Pronoun_subject)  have (MAINVERB Verb_present)  nowhere (MAINOBJECT Noun_singular)  to (<Verbal OBJECT_COMPLEMENT To_infinitive)  go (VERB2 Noun_infinitive Verbal>)  
+  MainSentence: have (nowhere)  (to)   PRESENT 
+ Verbal: help , 
+ Verbal: to go 
+
+
+Concepts: 
+
+1: help raw=  +~noun_mass(1)  +~noun_infinitive(1)  +~noun(1)  +~verb(1)  +~kindergarten(1)  +~verbal(1-2) +help(1)  +T~justify_identity (1) 
+.  +~help(1)  +~possession_verbs(1)  +~social_verbs(1)  +~animate_verbs(1)  +~verbs(1)  +~active_verbs(1) 
+.  +~causal_to_infinitive_verbs(1)  +~special_english_attributes(1)  +~goodness(1)  +assist~2(1)  +~nounroot(1)  +~samaritan(1)  // 
+1: help canonical=  //  +Help(1)  
+
+2: , raw=  +~comma(2)  +,(2)  +~system_joiner(2)  // 
+2: , canonical=  //  
+
+3: I raw=  +~pronoun(3)  +~pronoun_subject(3)  +~pronoun_bits(3)  +~kindergarten(3)  +~subject2(3)  +I(3)  +~letters(3)  // 
+3: I canonical=  //  
+
+4: have raw=  +~verb_present(4)  +~verb_tenses(4)  +~verb(4)  +~kindergarten(4)  +~mainverb(4)  +have(4)  +~omittable_that_verbs(4) 
+.  +~special_english_attributes(4)  +~own(4)  +~possession_verbs(4)  +~social_verbs(4)  +~animate_verbs(4)  +~verbs(4)  +~active_verbs(4)  +~auxverblist(4) 
+.  +~possession_states(4)  +~static_verbs(4)  +~mental_states(4)  +~causal_to_infinitive_verbs(4)  // 
+4: have canonical=  //  +Have(4)  
+
+5: nowhere raw=  +~noun_abstract(5)  +~noun(5)  +~noun_singular(5)  +~noun_bits(5)  +~kindergarten(5)  +~basic_form(5)  +~mainobject(5) 
+.  +nowhere(5)  +~region(5)  +~markers(5)  +~artifacts(5)  +~objects(5)  +~nounlist(5)  +~human_data(5)  +~nounroot(5)  // 
+5: nowhere canonical=  //  +Nowhere(5)  
+
+6: to raw=  +~lowercase_title(6)  +~to_infinitive(6)  +~kindergarten(6)  +~objectcomplement(6)  +~verbal(6-7) +to(6) 
+.  +~directionpreposition(6)  +~spacepreposition(6)  +~prepositionroot(6)  +~focus(6)  +~directions(6)  // 
+6: to canonical=  //  +To(6)  
+
+7: go raw=  +~noun_mass(7)  +~noun_infinitive(7)  +~noun(7)  +~verb(7)  +~kindergarten(7)  +~basic_form(7)  +~verb2(7)  +go(7)  +~linkingverb(7) 
+.  +~inanimate_move_verbs(7)  +~inanimate_verbs(7)  +~verbs(7)  +~moving_to(7)  +~animate_move_verbs(7)  +~animate_verbs(7)  +~active_verbs(7) 
+.  +effort~3(7)  +~nounroot(7)  // 
+7: go canonical=  //  +Go(7)  
+
+    sequences=
+ +~noun_infinitive(6-7)
+TokenFlags: SUBSTITUTES PRESENT USERINPUT FAULTY_PARSE 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:20:40 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I need help ==> I'll be fine, thank you.  When:Wed Nov 27 21:20:41 2013 Why: ~justify_identity.7.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:21:30 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I need help ==> I wish that I could help you but the dwarves told me to be wary of strangers.  When:Wed Nov 27 21:21:31 2013 Why: ~justify_identity.21.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:21:35 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help ==> Who are you again?  When:Wed Nov 27 21:21:42 2013 Why: ~justify_identity.50.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:22:20 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help me! ==> Who are you again?  When:Wed Nov 27 21:22:22 2013 Why: ~justify_identity.50.0 
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:22:34 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help ==> Who are you again?  When:Wed Nov 27 21:22:36 2013 Why: ~justify_identity.50.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:22:38 2013 Why: ~justify_identity.1.0 
+Command: :prepare please help
+
+Original User Input: please help
+Tokenized: please  help  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Substituted: help  
+Tagged POS 1 words: help (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_noun)  
+
+Concepts: 
+
+1: help raw=  +~adjectivenoun(1)  +~noun_mass(1)  +~verb_present(1)  +~verb_tenses(1)  +~verb_infinitive(1) 
+.  +~noun_infinitive(1)  +~noun(1)  +~verb(1)  +~noun_singular(1)  +~noun_bits(1)  +~kindergarten(1)  +help(1)  +T~justify_identity (1)  +~help(1) 
+.  +~possession_verbs(1)  +~social_verbs(1)  +~animate_verbs(1)  +~verbs(1)  +~active_verbs(1)  +~causal_to_infinitive_verbs(1) 
+.  +~special_english_attributes(1)  +~goodness(1)  +assist~2(1)  +~nounroot(1)  +~samaritan(1)  // 
+1: help canonical=  //  +Help(1)  
+
+    sequences=
+TokenFlags: SUBSTITUTES PRESENT USERINPUT 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:24:23 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help ==> Who are you again?  When:Wed Nov 27 21:24:27 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  please help ==> I wish that I could help you but the dwarves told me to be wary of strangers.  When:Wed Nov 27 21:24:28 2013 Why: ~justify_identity.21.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:24:34 2013 Why: ~justify_identity.1.0 
+Command: :prepare please help
+
+Original User Input: please help
+Tokenized: please  help  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK POSTAG PARSE 
+Substituted: help  
+Tagged POS 1 words: help (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_noun)  
+
+Concepts: 
+
+1: help raw=  +~adjectivenoun(1)  +~noun_mass(1)  +~verb_present(1)  +~verb_tenses(1)  +~verb_infinitive(1) 
+.  +~noun_infinitive(1)  +~noun(1)  +~verb(1)  +~noun_singular(1)  +~noun_bits(1)  +~kindergarten(1)  +help(1)  +T~justify_identity (1)  +~help(1) 
+.  +~possession_verbs(1)  +~social_verbs(1)  +~animate_verbs(1)  +~verbs(1)  +~active_verbs(1)  +~causal_to_infinitive_verbs(1) 
+.  +~special_english_attributes(1)  +~goodness(1)  +assist~2(1)  +~nounroot(1)  +~samaritan(1)  // 
+1: help canonical=  //  +Help(1)  
+
+    sequences=
+TokenFlags: SUBSTITUTES PRESENT USERINPUT 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:24:59 2013 Why: ~justify_identity.1.0 
+Command: :prepare please help
+
+Original User Input: please help
+Tokenized: please  help  
+TokenControls: NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Tagged POS 2 words: please (Noun_infinitive Verb_infinitive Verb_present Adverb_basic)  help (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_noun)  
+
+Concepts: 
+
+1: please raw=  +~verb_present(1)  +~verb_tenses(1)  +~verb_infinitive(1)  +~noun_infinitive(1)  +~noun(1)  +~verb(1)  +~adverb(1) 
+.  +~adverb_normal(1)  +~kindergarten(1)  +~basic_form(1)  +please(1)  +~misc_positive_emotions(1)  +~emotional_verbs(1) 
+.  +~nonverbal_communication_verbs(1)  +~communicate_verbs(1)  +~social_verbs(1)  +~animate_verbs(1)  +~verbs(1)  +~nonverbal_signs(1)  +~emotions(1) 
+.  +~tool(1)  +~sensations(1)  +~attributes(1)  +~nounlist(1)  +~goodness(1)  // 
+1: please canonical=  //  +Please(1)  
+
+2: help raw=  +~adjectivenoun(2)  +~noun_mass(2)  +~verb_present(2)  +~verb_tenses(2)  +~verb_infinitive(2)  +~noun(2)  +~verb(2) 
+.  +~noun_singular(2)  +~noun_bits(2)  +~kindergarten(2)  +help(2)  +T~justify_identity (2)  +~help(2)  +~possession_verbs(2)  +~social_verbs(2) 
+.  +~animate_verbs(2)  +~verbs(2)  +~active_verbs(2)  +~causal_to_infinitive_verbs(2)  +~special_english_attributes(2) 
+.  +~goodness(2)  +assist~2(2)  +~nounroot(2)  +~samaritan(2)  // 
+2: help canonical=  //  +Help(2)  
+
+    sequences=
+TokenFlags: PRESENT USERINPUT 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help me ==> I wish that I could help you but the dwarves told me to be wary of strangers.  When:Wed Nov 27 21:25:21 2013 Why: ~justify_identity.21.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:25:23 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help me, I have no place to go ==> I wish that I could help you but the dwarves told me to be wary of strangers.  When:Wed Nov 27 21:25:31 2013 Why: ~justify_identity.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I fear I will die in the woods out there ==> Just keep walking in a straight line and you'll make it out eventually.  When:Wed Nov 27 21:25:38 2013 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  you are so cold ==> Who are you again?  When:Wed Nov 27 21:25:50 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Will you help me if I give you an apple? ==> I'll be fine, thank you.  When:Wed Nov 27 21:26:08 2013 Why: ~justify_identity.7.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:28:48 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I need help ==> I wish that I could help you but the dwarves told me to be wary of strangers.  When:Wed Nov 27 21:28:54 2013 Why: ~justify_identity.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Will you help me if I give you an apple? ==> What do you need?  When:Wed Nov 27 21:29:04 2013 Why: ~justify_identity.26.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I need shelter ==> Sorry, I can't let anyone in.  When:Wed Nov 27 21:29:21 2013 Why: ~justify_identity.27.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Will you help me if I give you an apple? ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 21:29:25 2013 Why: ~sell_apple.24.0 
+Command: :up ridiculous
+
+For ridiculous:
+ Set hierarchy:
+ Wordnet hierarchy:
+  ridiculous~1: inspiring scornful pity 
+  ridiculous~2: broadly or extravagantly humorous 
+  ridiculous~3: incongruous 
+Command: :up absurd
+
+For absurd:
+ Set hierarchy:
+ Wordnet hierarchy:
+  absurd~1: a situation in which life seems irrational and meaningless 
+    is situation~4  the general state of things 
+       is state~1z the way something is with respect to its main attributes 
+          is attribute~1z an abstraction belonging to or characteristic of an entity 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  absurd~2: inconsistent with reason or logic or common sense 
+  absurd~3: incongruous 
+Command: :up incongruous
+
+For incongruous:
+ Set hierarchy:
+ Wordnet hierarchy:
+  incongruous~1: lacking in harmony or compatibility or appropriateness 
+Command: :up silly
+
+For silly:
+ Set hierarchy:
+ Wordnet hierarchy:
+  silly~1: a word used for misbehaving children 
+    is kid~1  a young person of either sex 
+       is juvenile_person~1z a young person, not fully developed 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  silly~2: dazed from or as if from repeated blows 
+  silly~3: inspiring scornful pity 
+  silly~4: lacking seriousness 
+  silly~5: ludicrous, foolish 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:32:58 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm here to save you ==> Who are you again?  When:Wed Nov 27 21:33:03 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm your savior ==> What was it that you wanted again?  When:Wed Nov 27 21:33:07 2013 Why: ~justify_identity.51.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I want to save you ==> I don't think I can help you with that.  When:Wed Nov 27 21:33:12 2013 Why: ~justify_identity.29.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I've killed your stepmother ==> Get away from me you crazy woman!  When:Wed Nov 27 21:34:01 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:35:06 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I've killed your stepmother ==> Get away from me you crazy woman!  When:Wed Nov 27 21:35:10 2013 Why: ~justify_identity.33.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:36:09 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  why does your stepmom want to kill you? ==> Sorry, why what again?.  When:Wed Nov 27 21:36:16 2013 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  why does your stepmom want to kill you? ==> Who are you again?  When:Wed Nov 27 21:36:18 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  why does your stepmother want to kill you? ==> GAH! You again! What are you doing here, mother?  When:Wed Nov 27 21:36:35 2013 Why: ~justify_identity.19.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:37:41 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 1  Why does your stepmom want to kill you? ==> Apparently she's jealous of my beauty and wants to kill me for that!  When:Wed Nov 27 21:37:48 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  that is ridiculous ==> Isn't it?!  When:Wed Nov 27 21:37:54 2013 Why: ~assassination_plot.5.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  Totally ==> I can't be too cautious with my stepmother wanting to kill me.  When:Wed Nov 27 21:38:02 2013 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~praise_nature) 4  I was young once, and envy can be cruel ==> Aren't they! Sometimes I sing with them!  When:Wed Nov 27 21:39:21 2013 Why: ~praise_nature.1.0 
+Command: :up nice
+
+For nice:
+ Set hierarchy:
+ Wordnet hierarchy:
+  nice~1: exhibiting courtesy and politeness 
+  nice~2: excessively fastidious and easily disgusted 
+  nice~3: pleasant or pleasing or agreeable in nature or appearance 
+  nice~4: done with delicacy and skill 
+  nice~5: socially or conventionally correct 
+Command: :prepare I was young once and envy can be cruel
+
+Original User Input: I was young once and envy can be cruel
+Tokenized: I  was  young  once  and  envy  can  be  cruel  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Tagged POS 9 words: I (MAINSUBJECT Pronoun_subject)  was/be (MAINVERB Verb_past)  young (Adjective_basic)  once/1 (MAINOBJECT Noun_cardinal)  and (CONJUNCT_NOUN Conjunction_coordinate)  envy (MAINOBJECT Noun_singular)  can (Aux_verb_present)  be (<Verbal VERB2 Verb_infinitive)  cruel (SUBJECT_COMPLEMENT Adjective_basic Verbal>)  
+  MainSentence: (I)  was (young once)  + (envy)  + (cruel)    PAST 
+ Coordinate Noun: and (once/envy) 
+ Verbal: be cruel 
+
+
+Concepts: 
+
+1: I raw=  +~pronoun(1)  +~pronoun_subject(1)  +~pronoun_bits(1)  +~kindergarten(1)  +~mainsubject(1)  +I(1)  +~letters(1)  // 
+1: I canonical=  //  
+
+2: was raw=  +~verb_past(2)  +~verb(2)  +~kindergarten(2)  +~mainverb(2)  +was(2)  +~linkingverb(2)  +~auxverblist(2)  +~equals(2)  // 
+2: be canonical=  +be(2)  +T~justify_identity (2)  +~tobe(2)  +~be_verbs(2)  +~special_activities_verbs(2)  +~animate_verbs(2)  +~verbs(2) 
+.  +~active_verbs(2)  +~states_of_being(2)  +~static_verbs(2)  +~usefulfactverb(2)  //  +Was(2)  
+
+3: young raw=  +~adjective(3)  +~adjective_normal(3)  +~kindergarten(3)  +~basic_form(3)  +young(3)  +~recentlist(3)  +~nonadult(3) 
+.  +~age_words(3)  +~age_gender(3)  +~goodness(3)  +~when_adjectives(3)  +~time_adjectives(3)  +~adjectives(3)  +~appearance(3) 
+.  +~appearance_adjectives(3)  +~physical_properties_adjectives(3)  +~age_adjectives(3)  +fauna~1(3)  +T~praise_nature (3)  +~nounroot(3)  // 
+3: young canonical=  //  +Young(3)  
+
+4: once raw=  +~noun(4)  +~noun_cardinal(4)  +~noun_bits(4)  +~kindergarten(4)  +~timeword(4)  +~basic_form(4)  +~prep_time(4) 
+.  +~mainobject(4)  +~number(4)  +once(4)  +~timepreposition(4)  +~prepositionroot(4)  +~rarely(4)  +~frequency_adverbs(4) 
+.  +~time_adverbs(4)  +~adverbs(4)  // 
+4: 1 canonical=  +1(4)  //  +Once(4)  
+
+5: and raw=  +~lowercase_title(5)  +~conjunction_coordinate(5)  +~conjunction_bits(5)  +~kindergarten(5)  +and(5) 
+.  +~system_joiner(5)  // 
+5: and canonical=  //  +AND(5)  
+
+6: envy raw=  +~noun_abstract(6)  +~noun_mass(6)  +~noun(6)  +~noun_singular(6)  +~noun_bits(6)  +~mainobject(6)  +envy(6)  +~badness(6) 
+.  +~nounroot(6)  // 
+6: envy canonical=  //  
+
+7: can raw=  +~aux_verb_present(7)  +~aux_verb_tenses(7)  +~aux_verb(7)  +~kindergarten(7)  +can(7)  +~auxverblist(7)  +~act(7) 
+.  +~generic_do_verbs(7)  +~animate_verbs(7)  +~verbs(7)  +~unitmeasure(7)  +~solid_containers(7)  +~containers(7)  +~contains(7)  +~lockable(7) 
+.  +~functions(7)  +~closeable(7)  +~artifacts(7)  +~objects(7)  +~nounlist(7)  +~human_data(7)  +~liquid_containers(7)  +~nounroot(7)  // 
+7: can canonical=  //  +Can(7)  
+
+8: be raw=  +~verb_infinitive(8)  +~verb(8)  +~kindergarten(8)  +~verb2(8)  +~verbal(8-9) +be(8)  +T~justify_identity (8)  +~linkingverb(8) 
+.  +~tobe(8)  +~be_verbs(8)  +~special_activities_verbs(8)  +~animate_verbs(8)  +~verbs(8)  +~active_verbs(8)  +~auxverblist(8) 
+.  +~states_of_being(8)  +~static_verbs(8)  +~usefulfactverb(8)  // 
+8: be canonical=  //  +Be(8)  
+
+9: cruel raw=  +~adjective(9)  +~adjective_normal(9)  +~grade3_4(9)  +~basic_form(9)  +~subjectcomplement(9)  +cruel(9)  +~badness(9) 
+.  +~insult_psychology_adjectives(9)  +~insults(9)  +T~catchall (9)  +~psychology_adjectives(9)  +~living_properties_adjectives(9) 
+.  +~animation_adjectives(9)  +~physical_properties_adjectives(9)  +~adjectives(9)  // 
+9: cruel canonical=  //  +Cruel(9)  
+
+    sequences=
+TokenFlags: PAST USERINPUT 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:42:19 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I was young once and envy can be cruel ==> Who are you again?  When:Wed Nov 27 21:42:25 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I was young once and envy can be cruel ==> What was it that you wanted again?  When:Wed Nov 27 21:42:27 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I was young once and envy can be cruel ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 27 21:42:29 2013 Why: ~justify_identity.51.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I was young once and envy can be cruel ==> Why are you not leaving me alone?  When:Wed Nov 27 21:42:30 2013 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  why won't you speak to strangers? ==> Sorry, why what again?.  When:Wed Nov 27 21:44:53 2013 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  Why won't you eat this apple? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Wed Nov 27 21:45:03 2013 Why: ~sell_apple.22.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  I sympathize with you ==> I can't think straight with all this stress.  When:Wed Nov 27 21:45:13 2013 Why: ~assassination_plot.21.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:46:42 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  Why won't you take this apple? ==> You mean one of those apples?  When:Wed Nov 27 21:46:47 2013 Why: ~sell_apple.21.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  yes ==> I can't be too cautious with my stepmother wanting to kill me.  When:Wed Nov 27 21:46:49 2013 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  You have my sympathies ==> I can't think straight with all this stress.  When:Wed Nov 27 21:46:56 2013 Why: ~assassination_plot.21.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  You have my sympathies ==> Why are you not leaving me alone?  When:Wed Nov 27 21:46:58 2013 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  why does she want to kill you? ==> Apparently she's jealous of my beauty and wants to kill me for that!  When:Wed Nov 27 21:47:06 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  you have my sympathy ==> The dwarves told me not to let anyone in.  When:Wed Nov 27 21:47:11 2013 Why: ~dwarves.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  I sympathy you ==> Who are you again?  When:Wed Nov 27 21:47:53 2013 Why: ~justify_identity.50.0 
+Command: :prepare you have my sympathy
+
+Original User Input: you have my sympathy
+Tokenized: you  have  my  sympathy  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Abandoning indirect object at sympathy nonanimate
+Abandoning indirect object at sympathy nonanimate
+Tagged POS 4 words: you (MAINSUBJECT Pronoun_subject)  have (MAINVERB Verb_present)  my/I (Pronoun_possessive)  sympathy (MAINOBJECT Noun_singular)  
+  MainSentence: (you)  have (my sympathy)    PRESENT 
+
+
+Concepts: 
+
+1: you raw=  +~pronoun(1)  +~pronoun_subject(1)  +~pronoun_bits(1)  +~kindergarten(1)  +~mainsubject(1)  +you(1)  +T~snowwhite (1)  // 
+1: you canonical=  //  +You(1)  
+
+2: have raw=  +~verb_present(2)  +~verb_tenses(2)  +~verb(2)  +~kindergarten(2)  +~mainverb(2)  +have(2)  +~omittable_that_verbs(2) 
+.  +~special_english_attributes(2)  +~own(2)  +~possession_verbs(2)  +~social_verbs(2)  +~animate_verbs(2)  +~verbs(2)  +~active_verbs(2)  +~auxverblist(2) 
+.  +~possession_states(2)  +~static_verbs(2)  +~mental_states(2)  +~causal_to_infinitive_verbs(2)  // 
+2: have canonical=  //  +Have(2)  
+
+3: my raw=  +~pronoun(3)  +~pronoun_possessive(3)  +~possessive_bits(3)  +~kindergarten(3)  +my(3)  // 
+3: I canonical=  +I(3)  +~letters(3)  //  
+
+4: sympathy raw=  +~noun_abstract(4)  +~noun_mass(4)  +~noun(4)  +~noun_singular(4)  +~noun_bits(4)  +~grade3_4(4)  +~mainobject(4) 
+.  +sympathy(4)  +~feeling_sympathy(4)  +~feeling_words(4)  +~emotions(4)  +~tool(4)  +~sensations(4)  +~attributes(4)  +~nounlist(4) 
+.  +~goodness(4)  +~nounroot(4)  // 
+4: sympathy canonical=  //  +Sympathy(4)  
+
+    sequences=
+TokenFlags: PRESENT USERINPUT 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  I'm trying to sympathize with you ==> That is nice of you.  When:Wed Nov 27 21:48:59 2013 Why: ~justify_identity.9.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:49:34 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  why don't you want an apple? ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 21:49:42 2013 Why: ~sell_apple.24.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  why don't you want an apple? ==> Shouldn't you be selling those rather than giving them away?  When:Wed Nov 27 21:49:44 2013 Why: ~justify_identity.5.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  why don't you want an apple? ==> No thanks, I don't trust you enough.  When:Wed Nov 27 21:49:45 2013 Why: ~sell_apple.26.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  why don't you want an apple? ==> I still don't trust you enough to eat that.  When:Wed Nov 27 21:49:47 2013 Why: ~sell_apple.27.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  why no trust? ==> Sorry, why what again?.  When:Wed Nov 27 21:49:50 2013 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  why don't you trust me? ==> I can't accept anything from you.  When:Wed Nov 27 21:49:55 2013 Why: ~sell_apple.34.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  why? ==> Because you're a stranger.  When:Wed Nov 27 21:49:57 2013 Why: ~sell_apple.34.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  why don't you trust strangers? ==> Who are you again?  When:Wed Nov 27 21:50:03 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 9  Why does your stepmother want to kill you? ==> GAH! You again! What are you doing here, mother?  When:Wed Nov 27 21:50:13 2013 Why: ~justify_identity.20.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:54:50 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  take this apple ==> You mean one of those apples?  When:Wed Nov 27 21:54:55 2013 Why: ~sell_apple.21.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  yes ==> I can't be too cautious with my stepmother wanting to kill me.  When:Wed Nov 27 21:54:57 2013 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  why does she want to kill you? ==> Apparently she's jealous of my beauty and wants to kill me for that!  When:Wed Nov 27 21:55:26 2013 Why: ~assassination_plot.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  I sympathize with you ==> I can't think straight with all this stress.  When:Wed Nov 27 21:55:32 2013 Why: ~assassination_plot.21.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 21:58:55 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  take this apple ==> You mean one of those apples?  When:Wed Nov 27 21:59:23 2013 Why: ~sell_apple.21.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  yes ==> I can't be too cautious with my stepmother wanting to kill me.  When:Wed Nov 27 21:59:27 2013 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  I sympathize with you ==> That is nice of you.  When:Wed Nov 27 22:00:13 2013 Why: ~assassination_plot.12.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  poor thing ==> Thank you for the compassion.  When:Wed Nov 27 22:00:16 2013 Why: ~assassination_plot.11.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  Here take this apple, it's a metaphor for youth ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 22:00:34 2013 Why: ~sell_apple.24.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  I'll die in the woods if you don't let me in ==> Just keep walking in a straight line and you'll make it out eventually.  When:Wed Nov 27 22:01:06 2013 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  I'm the grandmother of one of the dwarves ==> I think I would recognize a family member.  When:Wed Nov 27 22:03:00 2013 Why: ~justify_identity.36.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  we have the same nose ==> Who are you again?  When:Wed Nov 27 22:03:18 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  could you just taste my apple? ==> No thanks, I don't trust you enough.  When:Wed Nov 27 22:03:31 2013 Why: ~sell_apple.26.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 22:03:40 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Here take an apple ==> Who are you to be offering apples to strangers?  When:Wed Nov 27 22:03:45 2013 Why: ~sell_apple.24.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  a vendor ==> Why are you giving your apples away, then?  When:Wed Nov 27 22:03:50 2013 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  first one is free ==> Oh, that makes sense.  When:Wed Nov 27 22:03:57 2013 Why: ~justify_identity.2.2 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I only want to be friendly ==> I don't think I can help you with that.  When:Wed Nov 27 22:04:21 2013 Why: ~justify_identity.29.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  I only want to be friendly ==> I can't be too cautious with my stepmother wanting to kill me.  When:Wed Nov 27 22:04:22 2013 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  of dear that's horrible ==> I know! This is so unfair!  When:Wed Nov 27 22:04:31 2013 Why: ~assassination_plot.10.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  oh dear, I'm tired ==> I can't think straight with all this stress.  When:Wed Nov 27 22:04:45 2013 Why: ~assassination_plot.21.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 8  I feel faint ==> The dwarves told me not to let anyone in.  When:Wed Nov 27 22:04:58 2013 Why: ~dwarves.21.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  Please help ==> I can't accept anything from you.  When:Wed Nov 27 22:06:21 2013 Why: ~sell_apple.34.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 22:06:24 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help ==> Who are you again?  When:Wed Nov 27 22:06:25 2013 Why: ~justify_identity.49.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  please help ==> I can't trust your word on that.  When:Wed Nov 27 22:06:27 2013 Why: ~justify_identity.40.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  please help ==> What was it that you wanted again?  When:Wed Nov 27 22:06:27 2013 Why: ~justify_identity.50.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 22:07:00 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help ==> Who are you again?  When:Wed Nov 27 22:07:01 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  please help ==> I can't trust your word on that.  When:Wed Nov 27 22:07:03 2013 Why: ~justify_identity.41.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  please help ==> What was it that you wanted again?  When:Wed Nov 27 22:07:04 2013 Why: ~justify_identity.51.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  please help ==> Sorry but I was told not to trust any strangers.  When:Wed Nov 27 22:07:25 2013 Why: ~justify_identity.52.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  please help ==> Why are you not leaving me alone?  When:Wed Nov 27 22:07:26 2013 Why: ~catchall.21.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+5 Wed Nov 27 22:08:08 2013 in sentence: please help 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 22:08:15 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  please help ==> I wish that I could help you but the dwarves told me to be wary of strangers.  When:Wed Nov 27 22:08:16 2013 Why: ~justify_identity.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  why? ==> Sorry, why what again?.  When:Wed Nov 27 22:08:21 2013 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  why should you be wary of strangers? ==> Who are you again?  When:Wed Nov 27 22:08:28 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  why should you be wary of strangers? ==> That's odd, we rarely get visitors this deep in the woods.  When:Wed Nov 27 22:08:29 2013 Why: ~justify_identity.36.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 22:10:10 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm friend with the dwarves ==> Who are you again?  When:Wed Nov 27 22:10:19 2013 Why: ~justify_identity.50.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  I'm friend with the dwarves ==> They never mentioned you.  When:Wed Nov 27 22:10:20 2013 Why: ~dwarves.10.0 

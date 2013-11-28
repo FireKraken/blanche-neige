@@ -28,6 +28,8 @@ u:(I will [eat taste try have] * apple) That is somewhat convincing but you coul
 u:([I here take have give] * [~currency dollars gold silver coins money cash]) You're giving me money to taste your apple? This is getting really suspicious.
 	$trust -= 1
 
+?:(<<help [for against pay] apple>>) I'm not looking for a reward, it's just the circumstances. ^addtopic(~assassination_plot)
+
 #! ----------------------------------------------------------------
 #! Threatening
 #! ----------------------------------------------------------------

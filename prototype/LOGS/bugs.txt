@@ -1723,3 +1723,7 @@ Missing topic index for ~sell_apple
 input:13 Wed Nov 27 15:00:59 2013 Missing topic index for ~assassination_plot
  caller: callee:snowwhite in sentence: Is it natural for a young girl to live with dwarves? at 
 Missing topic index for ~assassination_plot
+   in simplecontrol.top at 5: #! removed : | #DO_SUBSTITUTE_SYSTEM
+FILE-1 Unknown top-level declaration #! in RAWDATA/BLANCHENEIGE/simplecontrol.topinput:5 Wed Nov 27 22:08:08 2013 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: please help at 
+Missing topic index for ~justify_identity
