@@ -3,7 +3,7 @@
 ~takethis ( would_you_care_to_join_me would_you_care_for how_about would_you_like take_this )
 T~sell_apple ( eat it ~delicious give meal snack hungry hunger food sell buy ~fruit apple )
 T~assassination_plot ( ~evilqueen ~murderplot )
-T~justify_identity ( help ~reliability_words be woman ~peddler )
+T~justify_identity ( help ~reliability_words woman ~peddler )
 T~dwarves ( dwarves ~mythical_intelligent_being dwarf~2 )
 ~bro ( ~friend best_friend ~role_ally homie bro )
 ~sing ( song sing~4 sing~3 )
