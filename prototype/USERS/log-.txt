@@ -5355,3 +5355,43 @@ Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Nov 27 22:10:10 2013 Why: ~justify_identity.1.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm friend with the dwarves ==> Who are you again?  When:Wed Nov 27 22:10:19 2013 Why: ~justify_identity.50.0 
 Respond: user: bot:snowwhite ip: (~dwarves) 2  I'm friend with the dwarves ==> They never mentioned you.  When:Wed Nov 27 22:10:20 2013 Why: ~dwarves.10.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 28 13:44:27 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  the dwarves ordered these apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Thu Nov 28 13:44:34 2013 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  the dwarves ordered these apples ==> Yes they've been very good to me  When:Thu Nov 28 13:44:45 2013 Why: ~dwarves.9.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Thu Nov 28 13:45:48 2013 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  the dwarves ordered some apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Thu Nov 28 13:47:16 2013 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  the dwarves ordered these apples ==> Thank heavens, finally some better food around here!  When:Thu Nov 28 13:47:27 2013 Why: ~justify_identity.7.0 
+Command: :up dying
+
+For dying:
+ Set hierarchy:
+ Wordnet hierarchy:
+  dying~1: the time when something ends 
+    is ending~5  the point in time at which something ends 
+       is breaker_point~1z an instant of time 
+          is quantity~1z how much there is or how many there are of something that you can quantify 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  dying~2: in or associated with the process of passing from life or ceasing to be 
+  dying~3: eagerly desirous 
+Command: :up sick
+
+For sick:
+ Set hierarchy:
+ Wordnet hierarchy:
+  sick~1: people who are sick 
+    is people~1  any group of human beings (men or women or children) collectively 
+       is group~1z any number of entities considered as a unit 
+          is abstraction~1z a general concept formed by extracting common features from specific examples 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  sick~2: eject the contents of the stomach through the mouth 
+  sick~3: shockingly repellent 
+  sick~4: deeply affected by a strong feeling 
+  sick~5: having a strong distaste from surfeit 
+  sick~6: affected with madness or insanity 
+  sick~7: lacking in intensity or brightness 
+  sick~8: affected by an impairment of normal physical or mental function 
+  sick~9: feeling nausea 

@@ -79,7 +79,21 @@ u: (<< apple you ugly >>) That's interesting, but I'm not very fond of magic.
 u: (<<~takethis ~food>>) You mean one of those apples?
 	a:(~Yes)
 		^input(take this apple)
-	b:(~No) Do you have anything else to eat?
+	a:(~No) Do you have anything else to eat?
+
+#! ----------------------------------------------------------------
+#! Apple is Magical (in a good way)
+#! ----------------------------------------------------------------
+
+s: (<<apple [magical ~magic_force]>>) Really? Is that why only half of it is shiny?
+	a:(~Yes) Cool!
+		$trust += 1
+	a:(~No) Lame.
+
+s: (<<apple [protect defend help]>>) Is it a magical Stepmother-murder-plot-preventing apple? Because otherwise I don't want it.
+	a:(~Yes) I highly doubt that.
+		$trust -= 1
+	a:(~No) Good, I was being sarcastic anyways.
 
 #! ----------------------------------------------------------------
 #! Fishing for info

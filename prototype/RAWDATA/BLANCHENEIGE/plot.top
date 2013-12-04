@@ -42,7 +42,6 @@ s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad po
 
 s: (poor * [thing you]) Thank you for the compassion.
 
-
 s:($plot==1 <<[I my] [sympathy sympathize] you>>) That is nice of you.
 	$trust += 1
 
