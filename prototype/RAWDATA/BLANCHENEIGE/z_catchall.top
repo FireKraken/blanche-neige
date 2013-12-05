@@ -9,7 +9,9 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! ----------------------------------------------------------------
 
 u: ([~emohello ~emohowzit hello hi "good morning"]) Hello.
-u: ([~emohello ~emohowzit hello hi "good morning"]) You're quite the greeter.
+u: ([~emohowzit]) Ok, considering the circumstances.
+?: (are * you * [good ok fine]) Ok, considering the circumstances.
+u: ([~emohello ~emohowzit hello hi "good morning"]) You're so very polite.
 u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
 	$end = 1
 

@@ -112,7 +112,7 @@ s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach 
 	$identity = 1
 	$purpose = 1
 
-s:(I * [can't cannot unable ~negation] * [find "make my way" "make it"] * [home town city]) Well there's a little path over there that should help you find your way back.
+s:(I * [can't "can not" unable ~negation] * [find "make my way" "make it"] * [home town city]) Well there's a little path over there that should help you find your way back.
 
 #! ----------------------------------------------------------------
 #! Amnesia tactic
@@ -126,7 +126,7 @@ s:(I *  ~faulty_think * [me my] * ~identity) Oh you poor old thing! I knew they 
 #! Vader tactic (I am your stepmother)
 #! ----------------------------------------------------------------
 
-s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
+s: (!not I * be * ~evilqueen) GAH! You again! What are you doing here, mother?
 	$threatened += 1
 	$stepmother = 1
 	$identity = 1
