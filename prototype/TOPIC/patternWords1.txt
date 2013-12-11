@@ -30,7 +30,7 @@ ain_'t
 unknown~3
 trust~1
 can_'t
-can_not
+cannot
 make_my_way
 assist~2
 would_like
@@ -54,8 +54,6 @@ there_are
 afraid~1
 bank~11
 believe~1
-that_'s_ok
-I_understand
 fauna~1
 totes
 tension~5

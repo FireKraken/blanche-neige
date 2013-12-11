@@ -56,7 +56,7 @@ s: ($stepmother==1 I * want * [friendly~2 chat~3]) Somehow I doubt that, given o
 #! Not being stepmother
 #! ----------------------------------------------------------------
 
-s: ($stepmother!=1 << ~evilqueen be [dead~1 away~3]>>)
+s: ($stepmother!=1 ~evilqueen * [dead~1 away~3])
 	$trust += 1
 	Really!? That's great news!
 

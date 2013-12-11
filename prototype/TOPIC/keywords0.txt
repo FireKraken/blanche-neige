@@ -2869,7 +2869,7 @@
 ~legal_harm ( sentence extradite enforce court-martial convict charge blame arrest arraign accuse )
 ~legal_help ( reprieve pardon commute appeal )
 ~legal_lawmaking ( rescind repeal petition overrule countermand amend )
-~like ( #! worship venerate value trust treasure savor revel_in respect require relish prize prefer need love like interested_in indulge_in idolize go_for favor favorite fancy exalt esteem enjoy dote_on desire delight_in deify cherish care care_for care_about be_partial_to be_keen_on attached_to are_big_on approve adore )
+~like ( worship venerate value trust treasure savor revel_in respect require relish prize prefer need love like interested_in indulge_in idolize go_for favor favorite fancy exalt esteem enjoy dote_on desire delight_in deify cherish care care_for care_about be_partial_to be_keen_on attached_to are_big_on approve adore )
 ~linkingverb ( were was turn taste stay sound smell seem run remain prove look lie keep is grow go get feel be being been become are appear am )
 ~live ( stay shelter reside rent occupy nest lodge live live_with inhabit infest frequent exist dwell domicile board abide )
 ~lose_verbs ( tax place leech ~deacquiring_verbs )
