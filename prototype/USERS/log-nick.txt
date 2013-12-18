@@ -901,3 +901,9 @@ Command: :down ~buy
 buy misspend order overpay overspend pay prepay purchase reimburse shop 
   underpay underspend 
 Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2586 (~assassination_plot) 0 ==> I can't think straight with all this stress.  When:Wed Dec 18 12:26:49 2013 Version:3.53 Build0:1385587290 Build1:1385664343 Why: ~assassination_plot.21.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Dec 18 12:26:56 2013 Why: ~justify_identity.1.0 
+Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> Who are you again?  When:Wed Dec 18 12:27:53 2013 Version:3.53 Build0:1385587290 Build1:1385664343 Why: ~justify_identity.52.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Dec 18 12:28:01 2013 Why: ~justify_identity.1.0 

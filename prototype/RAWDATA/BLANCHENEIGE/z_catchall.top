@@ -36,7 +36,7 @@ s:([maybe]) ... ^poptopic() ^keep() ^repeat()
 s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
 ?: ([really "that so" "don't say" incredible]) Yup. ^poptopic() ^keep() ^repeat()
 u: (!I [here take have] * ) No thanks. ^poptopic() ^keep() ^repeat()
-u: ([nonsense "not making sense" "not making any sense" "mean anything" "means nothing"]) Sorry, I lost my train of thought. What were we taling about? ^poptopic()
+u: ([nonsense "not making sense" "not making any sense" "mean anything" "means nothing"]) Sorry, I lost my train of thought. What were we talking about? ^poptopic()
 
 #! ----------------------------------------------------------------
 #! Threatening and insulting

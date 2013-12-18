@@ -192,12 +192,11 @@ s:(I * ~remember * you) Really? I don't think we've met before. Where should I r
 #! Let's get violent! tactic
 #! ----------------------------------------------------------------
 
-s: (<<force~2 apple>>) You wouldn't dare!
+s: (<<[force~2 forcefeed "force feed"] apple>>) You wouldn't dare!
 	$trust -= 1
 
-#! Would fire "I've killed your stepmother"
-#!s: (kill "you") Get away from me you crazy woman!
-#!	$end = 1
+s: (!evilqueen kill "you") Get away from me you crazy woman!
+	$end = 1
 
 #! ----------------------------------------------------------------
 #! Other identities

@@ -72,7 +72,7 @@ u: (<< you apple pie >>) The dwarves would love this but they won't eat anything
 	$dwarves = 1
 
 u: (<< apple you ugly >>) That's interesting, but I'm not very fond of magic.
-	a:(why) My stepmother has been using magic to kill me.
+	a:(why) My stepmother has tried using magic to kill me.
 		$plot = 1
 		^addtopic(~assassination_plot)
 

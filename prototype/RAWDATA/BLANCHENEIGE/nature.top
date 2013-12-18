@@ -8,7 +8,7 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! Love of the woods tactics?
 #! ----------------------------------------------------------------
 
-s: (<<animal~1 ~positivevalue>>) Aren't they! Sometimes I sing with them!
+s: (<<animal~1 ~positivevalue>>) Sometimes I sing with them!
 	$trust += 1
 	$nature = 1
 
