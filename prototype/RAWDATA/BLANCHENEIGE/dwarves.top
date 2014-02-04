@@ -1,4 +1,4 @@
-topic: ~dwarves (dwarf~2 ~mythical_intelligent_being dwarves)
+topic: ~dwarves (dwarf~2 ~mythical_intelligent_being dwarves house)
 
 #! Possible related pronouns
 u: (_they) ^mark(dwarf _0)  ^repeat() ^keep() 
@@ -16,15 +16,12 @@ s: ([they dwarf~2] * [keep prison~1 ~jail kidnap~1 confine~2])
 
 s: ([they dwarf~2] * stupid~1)
 	$trust += 1
-	Yeah, I guess they are kinda dumb. Can you believe that they thought the earth was round?
+	Yeah, I guess they are a little bit silly sometimes. Can you believe that they thought the earth was round?
 
 s: ([they dwarf~2] * unpleasant_person~1)
 	$trust -= 1
 	Don't talk like that about these generous creatures!
 
-s: (~acquiring_verbs * ~fruit * [they dwarf~2])
-	$trust -= 1
-	That seems like an awful lot for a merchant to just give away.
 
 u: ( << you [dwarf~2] [food~1 apple] [give feed] >>)
 	We mostly eat cabbages. I admit I'm a bit tired of that.
@@ -50,7 +47,7 @@ s: ([they dwarf~2] * ~goodness) Yes they've been very good to me
 
 s: ( << friend~1 dwarf~2 I >>) They never mentioned you.
 
-?: ( << I dwarf~2 [meet see appointment rendez-vous] >>) Come back when they're there.
+?: ( << I dwarf~2 [meet see appointment rendez-vous] >>) You can come back when they're there.
 	a:(when) At dusk.
 
 ?: (<< dwarf~2 be [home house inside here available] >>) This is their house but they're out at the mountain.
@@ -81,6 +78,7 @@ s:(dwarf * [apple] * [ok good accept acceptable "good for you"]) Well maybe if t
 ?: (<<[how like] dwarf~2 live>>) It's a bit strange living with seven men half my size, but you get used to it.
 
 ?: (<<be dwarf~2 [friendly nice pleasant affable amiable attentive helpful loving sympathetic kind tender fond]>>) Yes, they're great.
+	$trust += 1
 
 u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
 	I guess the dwarves could like apples but they won't eat anything coming from a stranger.
@@ -88,11 +86,15 @@ u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
 
 ?: (<< I wait [inside house] >>) The dwarves forbid me to let anyone it. At the end of the road you'll find a small inn.
 
+?:(<< who live house >>) Oh, this is the house of the seven dwarves.
+	$dwarves=1
+
 #! ----------------------------------------------------------------
 #! Topic-related Gambits
 #! ----------------------------------------------------------------
 
-t: The dwarves told me not to let anyone in.
+t: 	[The dwarves really insisted that I not to let anyone in.]
+	[The dwarves know that I'm naturally friendly so they made me promise to be wary of strangers.]
 	a:([smart good clever]) Yes, they are nobody's fools.
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
 t: ($dwarves==1) The dwarves would think I'm really stupid if I accept another gift from a stranger.

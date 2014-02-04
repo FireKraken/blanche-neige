@@ -212,3 +212,6 @@ For accept:
   accept~10: take on as one's own the expenses or debts of another person 
   accept~11: be designed to hold or take 
 Command: :build 1
+Start: user:jonathan bot:snowwhite ip: rand:3222 (~justify_identity) 5 ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:21:47 2014 Version:3.53 Build0:1385587290 Build1:1385664343 Why: ~justify_identity.1.0 
+Respond: user:jonathan bot:snowwhite ip: (~justify_identity) 6  I'm apple picking ==> Who are you again?  When:Tue Feb 04 13:21:55 2014 Why: ~justify_identity.52.0 
+Command: :build 1

@@ -13,6 +13,8 @@ consent~2
 effort~3
 dwarf~2
 too~1
+how_come
+tell_me
 prison~1
 snatch~8
 limit~8
@@ -32,6 +34,7 @@ trust~1
 can_'t
 cannot
 make_my_way
+don_'t_know
 assist~2
 would_like
 give_me
@@ -41,7 +44,10 @@ will_you
 can_I
 may_I
 spend_the_night
+running_after
 force~2
+forcefeed
+evilqueen
 traveler~1
 passing_by
 come~11
@@ -54,6 +60,8 @@ there_are
 afraid~1
 bank~11
 believe~1
+that_'s_ok
+I_understand
 fauna~1
 totes
 tension~5

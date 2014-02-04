@@ -5,6 +5,7 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 ?: (you * like * [living here house~2]) I sort of got used to it.
 
 s: (you * [be look] * [beautiful~1 pretty]) Thank you, but my beauty has brought me only misery.
+	$trust += 1
 	a:(why) My stepmother has been trying to kill me because she thinks I look better than her.
 		$plot = 1
 		^addtopic(~assassination_plot)

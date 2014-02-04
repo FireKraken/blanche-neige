@@ -5395,3 +5395,269 @@ For sick:
   sick~7: lacking in intensity or brightness 
   sick~8: affected by an impairment of normal physical or mental function 
   sick~9: feeling nausea 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:26:35 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm picking apples ==> Sorry, are you here to sell apples?  When:Tue Feb 04 13:26:39 2014 Why: ~sell_apple.27.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:27:50 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm picking apples ==> Sorry, are you here to sell apples?  When:Tue Feb 04 13:27:53 2014 Why: ~sell_apple.27.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:29:50 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm picking apples ==> Who are you again?  When:Tue Feb 04 13:29:54 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  picking apples ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 13:30:02 2014 Why: ~justify_identity.48.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:30:23 2014 Why: ~justify_identity.1.0 
+Command: :prepare I'm picking apples
+
+Original User Input: I'm picking apples
+Tokenized: I'm  picking  apples  
+TokenControls: NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Name/Number-merged Input: i'm  picking  apples  
+badparse: no main verb
+badparse: no main verb
+badparse: no main verb
+badparse: no main verb
+badparse Tagged POS 3 words: I'm (Noun_unknown)  picking/pick (<Verbal MAINSUBJECT VERB2 Noun_gerund)  apples/apple (OBJECT2 Noun_plural Verbal>)  
+
+Concepts: 
+
+1: i'm raw=  +~noun(1)  +I'm(1)  // 
+1: I'm canonical=  //  
+
+2: picking raw=  +~noun_abstract(2)  +~noun(2)  +~verb(2)  +~noun_gerund(2)  +~noun_bits(2)  +~kindergarten(2)  +~verbal(2-3) +picking(2) 
+.  +~nounroot(2)  // 
+2: pick canonical=  +pick(2)  +~choose(2)  +~judgement_verbs(2)  +~mental_verbs(2)  +~animate_verbs(2)  +~verbs(2)  +~murderplot(2) 
+.  +T~assassination_plot (2)  +~tool(2)  +~hardware_store(2)  +~store_type(2)  +~store(2)  +~attributes(2)  +~nounlist(2)  //  +Picking(2)  
+
+3: apples raw=  +~noun(3)  +~noun_plural(3)  +~noun_bits(3)  +~kindergarten(3)  +~object2(3)  +apples(3)  // 
+3: apple canonical=  +apple(3)  +T~justify_identity (3)  +T~sell_apple (3)  +~green_other(3)  +~green(3)  +~colors(3)  +~color_adjectives(3) 
+.  +~esthetic_adjectives(3)  +~physical_properties_adjectives(3)  +~adjectives(3)  +~food(3)  +~tool(3)  +~restaurant(3)  +~store_type(3)  +~store(3) 
+.  +~attributes(3)  +~nounlist(3)  +~foodbeverage(3)  +~supermarket(3)  +~convenience_store(3)  +~nutrient(3)  +~objects(3)  +~throwable(3) 
+.  +~functions(3)  +~eatable(3)  +~carryable(3)  +~fruit(3)  +~nounroot(3)  +~flammable_property(3)  +~plants(3)  +~plantlist(3)  +~nursery(3) 
+.  +~animate_thing(3)  +~animal_kingdoms(3)  //  
+
+    sequences=
+TokenFlags: PRESENT USERINPUT FAULTY_PARSE 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  bob ==> Who are you again?  When:Tue Feb 04 13:31:23 2014 Why: ~justify_identity.54.0 
+Command: :prepare I'm picking apples
+
+Original User Input: I'm picking apples
+Tokenized: I'm  picking  apples  
+TokenControls: NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Name/Number-merged Input: i'm  picking  apples  
+badparse: no main verb
+badparse: no main verb
+badparse: no main verb
+badparse: no main verb
+badparse Tagged POS 3 words: I'm (Noun_unknown)  picking/pick (<Verbal MAINSUBJECT VERB2 Noun_gerund)  apples/apple (OBJECT2 Noun_plural Verbal>)  
+
+Concepts: 
+
+1: i'm raw=  +~noun(1)  +I'm(1)  // 
+1: I'm canonical=  //  
+
+2: picking raw=  +~noun_abstract(2)  +~noun(2)  +~verb(2)  +~noun_gerund(2)  +~noun_bits(2)  +~kindergarten(2)  +~verbal(2-3) +picking(2) 
+.  +~nounroot(2)  // 
+2: pick canonical=  +pick(2)  +~choose(2)  +~judgement_verbs(2)  +~mental_verbs(2)  +~animate_verbs(2)  +~verbs(2)  +~murderplot(2) 
+.  +T~assassination_plot (2)  +~tool(2)  +~hardware_store(2)  +~store_type(2)  +~store(2)  +~attributes(2)  +~nounlist(2)  //  +Picking(2)  
+
+3: apples raw=  +~noun(3)  +~noun_plural(3)  +~noun_bits(3)  +~kindergarten(3)  +~object2(3)  +apples(3)  // 
+3: apple canonical=  +apple(3)  +T~justify_identity (3)  +T~sell_apple (3)  +~green_other(3)  +~green(3)  +~colors(3)  +~color_adjectives(3) 
+.  +~esthetic_adjectives(3)  +~physical_properties_adjectives(3)  +~adjectives(3)  +~food(3)  +~tool(3)  +~restaurant(3)  +~store_type(3)  +~store(3) 
+.  +~attributes(3)  +~nounlist(3)  +~foodbeverage(3)  +~supermarket(3)  +~convenience_store(3)  +~nutrient(3)  +~objects(3)  +~throwable(3) 
+.  +~functions(3)  +~eatable(3)  +~carryable(3)  +~fruit(3)  +~nounroot(3)  +~flammable_property(3)  +~plants(3)  +~plantlist(3)  +~nursery(3) 
+.  +~animate_thing(3)  +~animal_kingdoms(3)  //  
+
+    sequences=
+TokenFlags: PRESENT USERINPUT FAULTY_PARSE 
+Command: :prepare I'm a grouse
+
+Original User Input: I'm a grouse
+Tokenized: I'm  a  grouse  
+TokenControls: NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Name/Number-merged Input: i'm  a  grouse  
+Spelling fixed: aim  a  grouse  
+Tagged POS 3 words: aim (MAINVERB Verb_infinitive)  a (Determiner)  grouse (MAINOBJECT Noun_singular)  
+  MainSentence: aim (a grouse)    PRESENT 
+
+
+Concepts: 
+
+1: aim raw=  +~verb_infinitive(1)  +~verb(1)  +~kindergarten(1)  +~mainverb(1)  +aim(1)  +~fight(1)  +~compete_verbs(1)  +~role_verbs(1) 
+.  +~social_verbs(1)  +~animate_verbs(1)  +~verbs(1)  +~directions(1)  +~goodness(1)  +~nounroot(1)  // 
+1: aim canonical=  //  
+
+2: a raw=  +~determiner(2)  +~determiner_bits(2)  +~kindergarten(2)  +a(2)  +~letters(2)  +~determinerlist(2)  // 
+2: a canonical=  //  
+
+3: grouse raw=  +~noun(3)  +~noun_singular(3)  +~noun_bits(3)  +~mainobject(3)  +grouse(3)  +~quotable_verbs(3) 
+.  +~special_english_attributes(3)  +~omittable_that_verbs(3)  +~tell(3)  +~speak_verbs(3)  +~communicate_verbs(3)  +~social_verbs(3) 
+.  +~animate_verbs(3)  +~verbs(3)  +~badness(3)  +~bird(3)  +~pet_animals(3)  +~pet_store(3)  +~store_type(3)  +~store(3)  +~attributes(3)  +~nounlist(3) 
+.  +~animals(3)  +~rideable(3)  +~functions(3)  +~eatable(3)  +~burnable(3)  +~beings(3)  +~tool(3)  +~animate_thing(3)  +~objects(3) 
+.  +~animal_kingdoms(3)  +fauna~1(3)  +T~praise_nature (3)  +~nounroot(3)  +~meat(3)  +~food(3)  +~restaurant(3)  +~foodbeverage(3)  +~supermarket(3) 
+.  +~convenience_store(3)  +~nutrient(3)  +~throwable(3)  +~carryable(3)  +~butchery(3)  // 
+3: grouse canonical=  //  
+
+    sequences=
+TokenFlags: SPELLCHECK PRESENT USERINPUT 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  I am picking apples ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 13:31:53 2014 Why: ~justify_identity.48.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:31:55 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  i am picking apples ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 13:31:58 2014 Why: ~justify_identity.48.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:32:01 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm picking apples ==> Who are you again?  When:Tue Feb 04 13:32:06 2014 Why: ~justify_identity.54.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:32:31 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm picking apples ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 13:32:35 2014 Why: ~justify_identity.48.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:32:37 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm picking aples ==> Who are you again?  When:Tue Feb 04 13:32:41 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm picking ap ==> What was it that you wanted again?  When:Tue Feb 04 13:32:44 2014 Why: ~justify_identity.55.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:32:45 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm picking apples ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 13:32:50 2014 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> Interesting.  When:Tue Feb 04 13:32:52 2014 Why: ~justify_identity.48.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  do you want one^ ==> Who are you again?  When:Tue Feb 04 13:32:57 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  do you want one? ==> Sorry but I was told not to trust any strangers.  When:Tue Feb 04 13:33:02 2014 Why: ~justify_identity.56.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:33:04 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm picking apples ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 13:33:07 2014 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> Interesting.  When:Tue Feb 04 13:33:08 2014 Why: ~justify_identity.48.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  do you want one? ==> Who are you again?  When:Tue Feb 04 13:33:13 2014 Why: ~justify_identity.54.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:34:03 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm apple picking ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 13:34:07 2014 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  yes ==> Interesting.  When:Tue Feb 04 13:34:08 2014 Why: ~justify_identity.48.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  do you want one? ==> Who are you to be offering apples to strangers?  When:Tue Feb 04 13:34:13 2014 Why: ~sell_apple.26.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 13:39:38 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm apple picking ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 13:39:43 2014 Why: ~justify_identity.48.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  yes, and they're beautiful ==> Interesting.  When:Tue Feb 04 13:39:50 2014 Why: ~justify_identity.48.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Do you want one? ==> Who are you to be offering apples to strangers?  When:Tue Feb 04 13:39:55 2014 Why: ~sell_apple.26.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4    ==> Who are you again?  When:Tue Feb 04 13:39:56 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I'm just a passerby ==> That's odd, we rarely get visitors this deep in the woods.  When:Tue Feb 04 13:40:29 2014 Why: ~justify_identity.40.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  I've walked a long way ==> Sorry but I was told not to trust any strangers.  When:Tue Feb 04 13:40:45 2014 Why: ~justify_identity.56.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  I have forgotten who I am ==> I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 04 14:07:32 2014 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  I forgot my identity ==> I can't think straight with all this stress.  When:Tue Feb 04 14:07:39 2014 Why: ~assassination_plot.21.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 9  I forgot my name ==> The dwarves told me not to let anyone in.  When:Tue Feb 04 14:07:49 2014 Why: ~dwarves.22.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:08:57 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I forgot who I am ==> Oh you poor old thing! I knew they should have beefed up security at the nursing home. Can I help you in some way?  When:Tue Feb 04 14:09:00 2014 Why: ~justify_identity.18.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:17:31 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm picking apples ==> I wasn't aware there were apple trees around.  When:Tue Feb 04 14:17:42 2014 Why: ~justify_identity.47.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  yes ==> Interesting.  When:Tue Feb 04 14:17:43 2014 Why: ~justify_identity.47.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  want one? ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 04 14:17:46 2014 Why: ~sell_apple.25.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I have too many ==> Who are you again?  When:Tue Feb 04 14:17:50 2014 Why: ~justify_identity.53.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I'm just an old woman ==> You shouldn't be walking alone in the woods like that.  When:Tue Feb 04 14:17:56 2014 Why: ~justify_identity.20.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  why? ==> Because of the wolves and all.  When:Tue Feb 04 14:17:59 2014 Why: ~justify_identity.20.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  There are wolves? ==> I hate to be like that but I really need to be wary of strangers  When:Tue Feb 04 14:18:03 2014 Why: ~justify_identity.55.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  Why? ==> Because the two last strangers that came here tried to kill me.  When:Tue Feb 04 14:18:19 2014 Why: ~justify_identity.55.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  oh dear! ==> I can't think straight with all this stress.  When:Tue Feb 04 14:18:24 2014 Why: ~assassination_plot.21.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 10  I understand ==> The dwarves really insisted that I not to let anyone in.  When:Tue Feb 04 14:18:29 2014 Why: ~dwarves.22.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  : ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 04 14:20:07 2014 Why: ~assassination_plot.20.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:20:08 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I have too many apples ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 04 14:20:15 2014 Why: ~sell_apple.25.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Your neighbor ==> Who are you again?  When:Tue Feb 04 14:20:23 2014 Why: ~justify_identity.53.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Your neighbor ==> Sorry, but what was it that you wanted again?  When:Tue Feb 04 14:20:25 2014 Why: ~justify_identity.54.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:23:38 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm your neighbor ==> Have you moved in recently? I don't remember seeing you.  When:Tue Feb 04 14:23:43 2014 Why: ~justify_identity.51.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> Welcome in the neighborhood. Too bad I can't be very welcoming these days.  When:Tue Feb 04 14:23:45 2014 Why: ~justify_identity.51.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  why? ==> The dwarves told me not to trust anyone.  When:Tue Feb 04 14:23:51 2014 Why: ~justify_identity.11.0.51.2 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  why? ==> Because strangers have tried to kill me recently.  When:Tue Feb 04 14:23:58 2014 Why: ~justify_identity.11.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  but I'm not a stranger ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 04 14:24:06 2014 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  Here's an apple ==> Sorry, are you here to sell apples?  When:Tue Feb 04 14:24:12 2014 Why: ~sell_apple.26.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  no, I want to give it to you ==> Then what are you doing here?  When:Tue Feb 04 14:24:19 2014 Why: ~sell_apple.26.3 
+Respond: user: bot:snowwhite ip: (~snowwhite) 8  You're ugly ==> If only that was true!  When:Tue Feb 04 14:25:16 2014 Why: ~snowwhite.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  why? ==> Then my stepmother would leave me alone!  When:Tue Feb 04 14:25:19 2014 Why: ~snowwhite.3.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  oh ==> I can't think straight with all this stress.  When:Tue Feb 04 14:25:21 2014 Why: ~assassination_plot.21.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  Poor thing ==> Thank you for the compassion.  When:Tue Feb 04 14:25:24 2014 Why: ~assassination_plot.11.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:26:26 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I hear you live with dwarves ==> Who are you again?  When:Tue Feb 04 14:26:30 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Just a neighbor ==> Have you moved in recently? I don't remember seeing you.  When:Tue Feb 04 14:26:35 2014 Why: ~justify_identity.51.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  yes ==> Welcome in the neighborhood. Too bad I can't be very welcoming these days.  When:Tue Feb 04 14:26:36 2014 Why: ~justify_identity.51.1 
+Respond: user: bot:snowwhite ip: (~dwarves) 4  Is it normal to live with dwarves? ==> Is it wrong for a young girl to live with seven grown--albeit small--men?  When:Tue Feb 04 14:26:45 2014 Why: ~dwarves.7.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 5  yes ==> It does feel right.  When:Tue Feb 04 14:26:48 2014 Why: ~dwarves.7.2 
+Respond: user: bot:snowwhite ip: (~build_friendship) 6  I'm your friend ==> I just met you.  When:Tue Feb 04 14:27:05 2014 Why: ~build_friendship.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  Now we are friends ==> Sorry, but what was it that you wanted again?  When:Tue Feb 04 14:27:12 2014 Why: ~justify_identity.55.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  I'm here to give you an apple ==> Sorry, are you here to sell apples?  When:Tue Feb 04 14:27:19 2014 Why: ~sell_apple.26.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  no just give ==> That's nice but I really can't accept anything in the circumstances.  When:Tue Feb 04 14:27:24 2014 Why: ~sell_apple.26.4 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  what circumstances? ==> My stempother wants to kill me so that she can claim to be the most beautiful living woman.  When:Tue Feb 04 14:27:28 2014 Why: ~assassination_plot.7.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  what a bitch! ==> I really wish my stepmother wasn't trying to kill me  When:Tue Feb 04 14:27:39 2014 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 12  I understand ==> Uh-huh...  When:Tue Feb 04 14:27:44 2014 Why: ~catchall.13.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 13  This apple will cheer you up! ==> I can't think straight with all this stress.  When:Tue Feb 04 14:27:53 2014 Why: ~assassination_plot.21.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 14  Do you want a massage? ==> The dwarves really insisted that I not to let anyone in.  When:Tue Feb 04 14:28:04 2014 Why: ~dwarves.22.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 15  Where are they? ==> Digging the mountain for ore.  When:Tue Feb 04 14:28:09 2014 Why: ~dwarves.15.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 16  They are really nice ==> Yes they've been very good to me  When:Tue Feb 04 14:28:14 2014 Why: ~dwarves.8.0 
+Respond: user: bot:snowwhite ip: (~catchall) 17  hey! ==> Hello.  When:Tue Feb 04 14:28:33 2014 Why: ~catchall.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:28:34 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  hey! ==> Hello.  When:Tue Feb 04 14:28:36 2014 Why: ~catchall.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  These apples are very sweet ==> Sorry, are you here to sell apples?  When:Tue Feb 04 14:28:59 2014 Why: ~sell_apple.26.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  yes ==> That's nice but I can't accept anything from strangers.  When:Tue Feb 04 14:29:03 2014 Why: ~sell_apple.26.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  These apples are very sweet ==> Who are you again?  When:Tue Feb 04 14:29:05 2014 Why: ~justify_identity.54.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:29:31 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm here to sell apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Tue Feb 04 14:29:37 2014 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  these apples are super sweet ==> It's nothing personal, you know, it's just not a good moment  When:Tue Feb 04 14:29:42 2014 Why: ~sell_apple.35.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  my apples are sweet ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 04 14:30:00 2014 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  This apple is delicious! ==> It does look good.  When:Tue Feb 04 14:30:11 2014 Why: ~sell_apple.11.0 
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:30:15 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  this apple is delicious ==> It does look good.  When:Tue Feb 04 14:30:18 2014 Why: ~sell_apple.11.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:30:20 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  these apples are delicious ==> It does look good.  When:Tue Feb 04 14:30:27 2014 Why: ~sell_apple.11.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:30:28 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  these apples are sweet ==> Sorry, are you here to sell apples?  When:Tue Feb 04 14:30:32 2014 Why: ~sell_apple.26.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  these apples are sweet ==> Who are you again?  When:Tue Feb 04 14:30:35 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  these apples are sweet ==> Sorry, but what was it that you wanted again?  When:Tue Feb 04 14:30:35 2014 Why: ~justify_identity.55.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  these apples are sweet ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 04 14:30:36 2014 Why: ~justify_identity.56.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  these apples are tasty ==> It does look good.  When:Tue Feb 04 14:30:45 2014 Why: ~sell_apple.11.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:31:02 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  these apples are super sweet ==> It does look good.  When:Tue Feb 04 14:31:05 2014 Why: ~sell_apple.11.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  want one? ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 04 14:31:14 2014 Why: ~sell_apple.25.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I want your good ==> Who are you again?  When:Tue Feb 04 14:31:19 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm just an old woman ==> You shouldn't be walking alone in the woods like that.  When:Tue Feb 04 14:31:26 2014 Why: ~justify_identity.20.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  why not ==> Because of the wolves and all.  When:Tue Feb 04 14:31:31 2014 Why: ~justify_identity.20.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  wolves? ==> Sorry, but what was it that you wanted again?  When:Tue Feb 04 14:31:34 2014 Why: ~justify_identity.55.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:32:14 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm just an old woman ==> You shouldn't be walking alone in the woods like that.  When:Tue Feb 04 14:32:18 2014 Why: ~justify_identity.20.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  why ==> Because of the wolves and all.  When:Tue Feb 04 14:32:20 2014 Why: ~justify_identity.20.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  wolves? ==> Who are you again?  When:Tue Feb 04 14:32:23 2014 Why: ~justify_identity.54.0 
+Command: :build 1
+Command: :rset
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 04 14:32:42 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm an old woman ==> You shouldn't be walking alone in the woods like that.  When:Tue Feb 04 14:32:45 2014 Why: ~justify_identity.20.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  why ==> Because of the wolves and all.  When:Tue Feb 04 14:32:48 2014 Why: ~justify_identity.20.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  wolves? ==> I've never seen a wolf, but you would expect that in the forest.  When:Tue Feb 04 14:32:50 2014 Why: ~justify_identity.20.2 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Do you want an apple? ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 04 14:32:57 2014 Why: ~sell_apple.25.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 5  I'm your old friend ==> I just met you.  When:Tue Feb 04 14:33:07 2014 Why: ~build_friendship.3.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 6  I've changed ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 04 14:33:14 2014 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  Why don't you trust me? ==> Who are you again?  When:Tue Feb 04 14:33:24 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  I'm a stranger ==> That's odd, we rarely get visitors this deep in the woods.  When:Tue Feb 04 14:33:34 2014 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 9  I like to walk ==> Sorry, but what was it that you wanted again?  When:Tue Feb 04 14:33:42 2014 Why: ~justify_identity.55.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 10  To give you an apple ==> Shouldn't you be selling those rather than giving them away?  When:Tue Feb 04 14:33:46 2014 Why: ~justify_identity.5.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 11  I have too many  ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 04 14:33:53 2014 Why: ~justify_identity.56.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 12  What circumstances? ==> My stempother wants to kill me so that she can claim to be the most beautiful living woman.  When:Tue Feb 04 14:34:01 2014 Why: ~assassination_plot.7.0 

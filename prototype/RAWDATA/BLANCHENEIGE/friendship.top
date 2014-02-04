@@ -50,5 +50,5 @@ s:(trust>=2 !no !not I * ~like * talking~1 * you) Thanks, I'm enjoying this too!
 
 s:($trust<2 $friend!=1 !no !not I * ~like * you) That's nice...
 
-s:($trust>=2 $friend!=1 ~no ~not I * ~like * you)Aw, thanks!
+s:($trust>=2 $friend!=1 !no !not  I * ~like * you)Aw, thanks!
 	$trust += 1

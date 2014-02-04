@@ -1,6 +1,6 @@
 concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer)
 
-topic: ~justify_identity (~peddler woman ~reliability_words help)
+topic: ~justify_identity (~peddler woman ~reliability_words help apple)
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
@@ -37,7 +37,9 @@ s: ($offered!=1 ~peddler)
 		$peddler = 1
 		$identity = 1
 		$purpose = 1
-		I see. Well I'm not interested in any apples.
+		I see. And you're selling apples I suppose?
+	a: (~yes) That's nice but I don't need any.
+	b: (~no) Oh. Then what is this apple about?
 
 s:($peddler ~peddler) Yes, we've already established that you are an itinerant apples salesperson.
 
@@ -65,17 +67,13 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 				b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
 				b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
 
-s:(<<dwarf apple ~buy>>) Thank heavens, finally some better food around here!
-	$trust += 1
-	$peddler = 1
-	$identity = 1
-	$purpose = 1
+
 
 #! ----------------------------------------------------------------
 #! Appeal to trust
 #! ----------------------------------------------------------------
 
-s:([I let] * [help assist] * you) I'll be fine, thank you.
+s:([I let] * [help assist] * you) That is sweet, but I'll be fine, thank you.
 
 s:(I * [want wish] * [wellness~1 "well-being"]) That's what they all say.
 	a:(it * true) That's also what they all say.
@@ -102,7 +100,8 @@ s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 
 ?:([what how way can] [help assistance assist]) No, I'll be fine, thanks.
 
-s:(you * [should ought] * [wary cautious careful "watch out"]) I'm being as cautious as I can.
+s:(you * [should ought] * [wary cautious careful "watch out"]) I'm being as cautious as I can, thank you.
+	$trust += 1
 
 #! ----------------------------------------------------------------
 #! Lost tactic
@@ -118,7 +117,7 @@ s:(I * [can't cannot unable ~negation] * [find "make my way" "make it"] * [home 
 #! Amnesia tactic
 #! ----------------------------------------------------------------
 
-s:(I *  ~faulty_think * [me my] * ~identity) Oh you poor old thing! I knew they should have beefed up security at the nursing home. Can I help you in some way?
+s:(<< I [forget "don't know"] who [be name identity] >>) Oh you poor old thing! I knew they should have beefed up security at the nursing home. Can I help you in some way?
 	$identity = 1
 	$trust += 1
 
@@ -131,6 +130,7 @@ s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
 	$stepmother = 1
 	$identity = 1
 	$plot = 1
+	$trust -= 2
 
 #! ----------------------------------------------------------------
 #! Need help tactics
@@ -138,7 +138,7 @@ s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
 
 s: (!~friend I * be * [old frail weak]) You shouldn't be walking alone in the woods like that.
 	a:(why) Because of the wolves and all.
-		a:(wolf) I've never seen a wolf, but you would expect that in the forest.
+		b:([wolf wolves]) I've never seen a wolf, but you would expect that in the forest.
 
 s:(!you <<[~acquire_imperatives please need] help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
 	$purpose = 1
@@ -160,7 +160,7 @@ u:(I * ["would like" need want "give me" "do you have"] * [water drink ~beverage
 		b:([thanks~2 thanks "thank you"]) No problem.
 	a:(~no) Ok.
 
-u:(I * ["would like" need want "give me" "do you have" be] * [food eat hungry famished]) You should one of those apples you have there. ^addtopic(~sell_apple)
+u:(I * ["would like" need want "give me" "do you have" be] * [food eat hungry famished]) You should eat one of those apples you have there. ^addtopic(~sell_apple)
 
 u:([need want "give me" "do you have" "will you"] * [help assist]) What do you need?
 	a: (_*) ^input(I need '_0) ^fail(sentence)  
@@ -168,7 +168,7 @@ u:([need want "give me" "do you have" "will you"] * [help assist]) What do you n
 u:([need want "can I" "may I"] * [rest sleep "spend the night" shelter]) Sorry, I can't let anyone in.
 	a:(why)^reuse(TELLMEWHY)
 
-s:(<<I chase>>) You can go hide in the shed there, I'll say I haven't seen you.
+s:(<<I [chase "running after"]>>) You can go hide in the shed there, I'll say I haven't seen you.
 
 s:(!you I * [need want]) I don't think I can help you with that.
 
@@ -230,13 +230,14 @@ s: ([official~2 collector ~occupation_law government~4]) The government doesn't 
 
 s: (I * be * ~samaritan) I can't trust your word on that.
 
-?: ([may can] * [come enter]) That is out of the question.
+?: ([may can] * [come enter]) I'm usually more hospitable but I can't let anyone in at the moment.
+	a:(why) ^reuse(justify_identity.TELLMEWHY)
 
 s: (I * be * [unpleasant_person~1 annoying]) Now that you mention it...
 
-s: (I * [pick] * apple) I wasn't aware there were apple trees around. ^addtopic(~sell_apple)
+s: (<< I [pick] apple >>) I wasn't aware there were apple trees around. ^addtopic(~sell_apple)
 	$purpose = 1
-	a:([~yes "there are" indeed]) Interesting. 
+	a:([~yes "there are" indeed]) Interesting. ^addtopic(~sell_apple)
 
 s: (I * ["grown-up" adult]) I wasn't even born when you were a child.
 
@@ -245,6 +246,12 @@ s: (!queen I * be * ~royalty) I think I would recognize you.
 s: (I * [disguise costume]) What is your real identity, then?
 	a: (_*) ^input(I am '_0) ^fail(sentence) 
 
+s: (<<I be neighbor>>) Have you moved in recently? I don't remember seeing you.
+	a: (~yes) Welcome in the neighborhood. Too bad I can't be very welcoming these days.
+		$identity = 1
+		b:(why) ^reuse(justify_identity.TELLMEWHY)
+	b: (~no) Sorry but your face really doesn't ring a bell.
+		$identity = 1
 
 #! ----------------------------------------------------------------
 #! Fishing for info
@@ -263,9 +270,10 @@ s: (I * [disguise costume]) What is your real identity, then?
 t:($identity!=1) Who are you again?
 	a: (_*) ^input(I am '_0) ^fail(sentence)  
 
-t:($purpose!=1) What was it that you wanted again?
+t:($purpose!=1) Sorry, but what was it that you wanted again?
 
-t: ($identity!=1) Sorry but I was told not to trust any strangers.
+t: ($identity!=1) 	[I hate to be like that but I really need to be wary of strangers]
+					[I'm usually very friendly but in the circumstances I can't trust anyone]
 	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)
 		$plot = 1
 			b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)

@@ -18,7 +18,9 @@ Reading topic ~build_friendship
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 115 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 114 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 195 of identity.top: forcefeed is unknown as a word in pattern
+*** Warning- line 198 of identity.top: evilqueen is unknown as a word in pattern
 
 ----Reading file nature.top
 Reading concept ~thewoods
@@ -45,7 +47,7 @@ Reading topic ~snowwhite
 Reading topic ~catchall
 
 WARNING SUMMARY: 
-5 spelling warnings and 0 more serious warnings
+7 spelling warnings and 0 more serious warnings
     
 
 Finished compile

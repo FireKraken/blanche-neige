@@ -74,6 +74,7 @@ s:(<<I not [costume disguise] >>) That easy to say. My stepmother's a magician a
 #! Topic related gambits
 #! ----------------------------------------------------------------
 
-t: ($plot!=1 $stepmother!=1) I can't be too cautious with my stepmother wanting to kill me.
+t: 	[You know, I can't be too cautious with my stepmother wanting to kill me.]
+	[I really wish my stepmother wasn't trying to kill me]
 	$plot = 1
-t: ($plot==1 $stepmother!=1) I can't think straight with all this stress.
+t:  I can't think straight with all this stress.
