@@ -1,6 +1,6 @@
 concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer)
 
-topic: ~justify_identity (~peddler woman ~reliability_words help apple)
+topic: ~justify_identity (~peddler woman ~reliability_words help apple name)
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
@@ -12,6 +12,7 @@ t: 	Hi, what brings you to this part of the woods?
 	$threatened = 0
 	$trust = 0
 	$end = 0
+	$name = ""
 
 #! ----------------------------------------------------------------
 #! Pose as peddler tactic
@@ -24,13 +25,18 @@ s: ($offered==1 ~peddler) Why are you giving your apples away, then?
 		$peddler = 1
 		$identity = 1
 		$purpose = 1
-		Oh, that makes sense. 
+		Oh, that makes sense.
 	a: (first * free)
 		$trust += 1
 		$peddler = 1
 		$identity = 1
 		$purpose = 1
-		Oh, that makes sense. 
+		Oh, that makes sense.
+	a: ([sell selling])
+		$peddler = 1
+		$identity = 1
+		$purpose = 1
+		Oh, I was under the impression that they were free.
 
 s: ($offered!=1 ~peddler) 
 		$trust += 1
@@ -131,6 +137,19 @@ s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
 	$identity = 1
 	$plot = 1
 	$trust -= 2
+		a: (chat) You keep trying to kill me! What could you possibly want to talk to me about?
+			b: (I * [surrender "give up" "calling it quits"])Wow, that's surprisingly nice of you.
+			$trust += 3
+			b: (kill * you) Not today, mother! I'm locking this door until you leave!
+			$end = 1
+			b: (apple) I'm not falling into another one of your traps.
+			$threatened += 1
+		a: (I * [surrender "give up" "calling it quits"])Wow, that's surprisingly nice of you.
+			$trust += 3
+		a: (kill * you) Not today, mother! I'm locking this door until you leave!
+			$end = 1
+		a: (apple) I'm not falling into another one of your traps.
+			$threatened += 1
 
 #! ----------------------------------------------------------------
 #! Need help tactics
@@ -192,7 +211,7 @@ s:(I * ~remember * you) Really? I don't think we've met before. Where should I r
 #! Let's get violent! tactic
 #! ----------------------------------------------------------------
 
-s: (<<[force~2 forcefeed "force feed"] apple>>) You wouldn't dare!
+s: (<<[force~2 "forcefeed" "force feed"] apple>>) You wouldn't dare!
 	$trust -= 1
 
 s: (!evilqueen kill "you") Get away from me you crazy woman!
@@ -202,14 +221,20 @@ s: (!evilqueen kill "you") Get away from me you crazy woman!
 #! Other identities
 #! ----------------------------------------------------------------
 
-s:(I * name * be _*) My name is Snow White.
+s:(I * name * be _*) 
+	if ($name == "") { My name is Snow White.
 	$name = '_0
-	$identity = 1
+	$identity = 1 }
+	else if ($name == '_0){ I know, you already told me. ^keep() ^reuse()}
+	else {What? Didn't you say that your name is $name? ^keep() ^reuse()}
 
 s:(!not I * name * be _*) 
-	if ($name != '_0) { But you told me your name was $name! }
-	else { You told me already. }
+	if ($name != '_0) { But you told me your name was $name! ^keep() ^reuse()}
+	else { You told me already. ^keep() ^reuse()}
 
+?:(what * my* name) 
+	if ($name != "") { Your name is $name. ^keep() ^reuse()}
+	else { You haven't told me your name yet ^keep() ^reuse()}
 
 s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1 "passing by"])
 	$trust -= 1
@@ -235,7 +260,7 @@ s: (I * be * ~samaritan) I can't trust your word on that.
 
 s: (I * be * [unpleasant_person~1 annoying]) Now that you mention it...
 
-s: (<< I [pick] apple >>) I wasn't aware there were apple trees around. ^addtopic(~sell_apple)
+s: (<< I [pick picking] apple >>) I wasn't aware there were apple trees around. ^addtopic(~sell_apple)
 	$purpose = 1
 	a:([~yes "there are" indeed]) Interesting. ^addtopic(~sell_apple)
 

@@ -907,3 +907,5 @@ Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what 
 Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> Who are you again?  When:Wed Dec 18 12:27:53 2013 Version:3.53 Build0:1385587290 Build1:1385664343 Why: ~justify_identity.52.0 
 Command: :reset
 Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Dec 18 12:28:01 2013 Why: ~justify_identity.1.0 
+Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> Who are you again?  When:Wed Feb 05 13:26:24 2014 Version:3.53 Build0:1385587290 Build1:1385664343 Why: ~justify_identity.52.0 
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 1  my name is nick ==> My name is Snow White.  When:Wed Feb 05 13:26:31 2014 Why: ~justify_identity.36.0 

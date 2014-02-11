@@ -5661,3 +5661,118 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 9  I like to walk ==> Sorry
 Respond: user: bot:snowwhite ip: (~justify_identity) 10  To give you an apple ==> Shouldn't you be selling those rather than giving them away?  When:Tue Feb 04 14:33:46 2014 Why: ~justify_identity.5.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 11  I have too many  ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 04 14:33:53 2014 Why: ~justify_identity.56.0 
 Respond: user: bot:snowwhite ip: (~assassination_plot) 12  What circumstances? ==> My stempother wants to kill me so that she can claim to be the most beautiful living woman.  When:Tue Feb 04 14:34:01 2014 Why: ~assassination_plot.7.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:27:35 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm apple picking ==> I wasn't aware there were apple trees around.  When:Tue Feb 11 11:27:46 2014 Why: ~justify_identity.47.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  I'm your evil stepmother ==> You're not being very amiable.  When:Tue Feb 11 11:27:56 2014 Why: ~catchall.17.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:28:43 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm your evil stepmother ==> GAH! You again! What are you doing here, mother?  When:Tue Feb 11 11:28:50 2014 Why: ~justify_identity.19.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  i'm here to chat ==> You keep trying to kill me! What could you possibly want to talk to me about?  When:Tue Feb 11 11:28:54 2014 Why: ~justify_identity.19.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I give up ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 11:29:01 2014 Why: ~justify_identity.55.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:29:51 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm evil stepmother ==> GAH! You again! What are you doing here, mother?  When:Tue Feb 11 11:29:57 2014 Why: ~justify_identity.19.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm here to chat ==> You keep trying to kill me! What could you possibly want to talk to me about?  When:Tue Feb 11 11:30:03 2014 Why: ~justify_identity.19.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I surrender ==> Wow, that's surprisingly nice of you.  When:Tue Feb 11 11:30:07 2014 Why: ~justify_identity.19.2 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm here to kill you ==> Get away from me you crazy woman!  When:Tue Feb 11 11:30:14 2014 Why: ~justify_identity.36.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:30:37 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I was apple picking ==> I wasn't aware there were apple trees around.  When:Tue Feb 11 11:30:46 2014 Why: ~justify_identity.47.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:50:18 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is nick ==> My name is Snow White.  When:Tue Feb 11 11:50:24 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  what's my name ==> Your name is nick. else {You haven't told me your name yet}  When:Tue Feb 11 11:50:27 2014 Why: ~justify_identity.39.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:51:31 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is Nick ==> My name is Snow White.  When:Tue Feb 11 11:51:34 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  what's my name ==> Your name is Nick.  When:Tue Feb 11 11:51:37 2014 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  My name is John ==> But you told me your name was Nick!  When:Tue Feb 11 11:51:45 2014 Why: ~justify_identity.38.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:51:50 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  what's my name ==> You haven't told me your name yet  When:Tue Feb 11 11:52:03 2014 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  no my name is nick ==> My name is Snow White.  When:Tue Feb 11 11:53:50 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  what is my name ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 11:53:54 2014 Why: ~justify_identity.56.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  what's my name ==> Your name is nick.  When:Tue Feb 11 11:55:56 2014 Why: ~justify_identity.39.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:56:00 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  what's my name ==> You haven't told me your name yet  When:Tue Feb 11 11:56:05 2014 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  my name is nick ==> My name is Snow White.  When:Tue Feb 11 11:56:08 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  what's my name? ==> Your name is nick.  When:Tue Feb 11 11:56:12 2014 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  my name is joe ==> But you told me your name was nick!  When:Tue Feb 11 11:56:21 2014 Why: ~justify_identity.38.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  my name is nick ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 11:56:25 2014 Why: ~justify_identity.56.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  my name is nick ==> I know, you already told me.  When:Tue Feb 11 11:56:53 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  my name is bob ==> What? Didn't you say that your name is nick?  When:Tue Feb 11 11:56:57 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 8  my name is james ==> The dwarves know that I'm naturally friendly so they made me promise to be wary of strangers.  When:Tue Feb 11 11:57:04 2014 Why: ~dwarves.22.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 9  my name is mark ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 11:57:14 2014 Why: ~catchall.21.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:57:18 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is nick ==> My name is Snow White.  When:Tue Feb 11 11:57:23 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  my name is joe ==> What? Didn't you say that your name is nick?  When:Tue Feb 11 11:57:26 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  my name is mick ==> But you told me your name was nick!  When:Tue Feb 11 11:57:31 2014 Why: ~justify_identity.38.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  my name is bob ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 11:57:39 2014 Why: ~justify_identity.56.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:58:52 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is nick ==> My name is Snow White.  When:Tue Feb 11 11:58:54 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  my name is joe ==> What? Didn't you say that your name is nick?  When:Tue Feb 11 11:58:57 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  my name is mike ==> But you told me your name was nick!  When:Tue Feb 11 11:59:01 2014 Why: ~justify_identity.38.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  my name is bob ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 11:59:05 2014 Why: ~justify_identity.56.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  my name is nick ==> I know, you already told me.  When:Tue Feb 11 12:00:23 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  my name is nick2 ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 12:00:28 2014 Why: ~catchall.21.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:01:44 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is nick ==> My name is Snow White.  When:Tue Feb 11 12:01:48 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  my name is nick ==> You told me already.  When:Tue Feb 11 12:01:51 2014 Why: ~justify_identity.38.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  my name is nick ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 12:01:56 2014 Why: ~justify_identity.56.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  my name is john ==> But you told me your name was nick!  When:Tue Feb 11 12:02:15 2014 Why: ~justify_identity.38.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  my name is bob ==> I really wish my stepmother wasn't trying to kill me  When:Tue Feb 11 12:02:18 2014 Why: ~assassination_plot.20.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:05:07 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is nick ==> My name is Snow White.  When:Tue Feb 11 12:05:12 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  my name is nick ==> You told me already.  When:Tue Feb 11 12:05:15 2014 Why: ~justify_identity.38.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  my name is nick ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 12:05:19 2014 Why: ~justify_identity.56.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  my name is joe ==> But you told me your name was nick!  When:Tue Feb 11 12:05:23 2014 Why: ~justify_identity.38.0 
+Command: :prepare my name is bob
+
+Original User Input: my name is bob
+Tokenized: my  name  is  bob  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Tagged POS 4 words: my/I (Pronoun_possessive)  name (MAINSUBJECT Noun_singular)  is/be (MAINVERB Verb_present_3ps)  bob (<Verbal MAINOBJECT VERB2 Noun_infinitive Verbal>)  
+  MainSentence: (my name)  is  PRESENT 
+ Verbal: bob 
+
+
+Concepts: 
+
+1: my raw=  +~pronoun(1)  +~pronoun_possessive(1)  +~possessive_bits(1)  +~kindergarten(1)  +my(1)  // 
+1: I canonical=  +I(1)  +~letters(1)  //  
+
+2: name raw=  +~noun_abstract(2)  +~noun(2)  +~noun_singular(2)  +~noun_bits(2)  +~kindergarten(2)  +~mainsubject(2)  +name(2) 
+.  +T~justify_identity (2)  +~classify(2)  +~judgement_verbs(2)  +~mental_verbs(2)  +~animate_verbs(2)  +~verbs(2) 
+.  +~causal_to_infinitive_verbs(2)  +~special_english_attributes(2)  +~factitive_noun_verbs(2)  +~factitive_adjective_verbs(2)  +~name(2) 
+.  +~identity(2)  +~societal_data(2)  +~human_data(2)  +~nounroot(2)  // 
+2: name canonical=  //  +Name(2)  
+
+3: is raw=  +~verb_present_3ps(3)  +~verb_tenses(3)  +~verb(3)  +~kindergarten(3)  +~mainverb(3)  +is(3)  +~linkingverb(3) 
+.  +~auxverblist(3)  +~wordnetpropogate(3)  +~equals(3)  // 
+3: be canonical=  +be(3)  +~tobe(3)  +~be_verbs(3)  +~special_activities_verbs(3)  +~animate_verbs(3)  +~verbs(3)  +~active_verbs(3) 
+.  +~states_of_being(3)  +~static_verbs(3)  +~usefulfactverb(3)  //  +Is(3)  
+
+4: bob raw=  +~noun_human(4)  +~malename(4)  +~he(4)  +~age_gender(4)  +~noun_firstname(4)  +~noun_he(4)  +~noun_abstract(4)  +~verb(4) 
+.  +~mainobject(4)  +~verb2(4)  +~verbal(4)  +bob(4)  +~remain_stationary(4)  +~body_verbs(4)  +~animate_verbs(4)  +~verbs(4)  +~active_verbs(4) 
+.  +~groom(4)  +~bodily_activities_verbs(4)  +~usefulfactverb(4)  +~vehicles_land(4)  +~vehicle(4)  +~tool(4)  +~rideable(4) 
+.  +~functions(4)  +~enterable(4)  +~auto_dealer(4)  +~store_type(4)  +~store(4)  +~attributes(4)  +~nounlist(4)  +~artifacts(4)  +~objects(4) 
+.  +~human_data(4)  +~nounroot(4)  +~transport_vehicles(4)  //  +Bob(4) 
+4: bob canonical=  //  
+
+    sequences=
+TokenFlags: PRESENT USERINPUT 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  my name is bob ==> I really wish my stepmother wasn't trying to kill me  When:Tue Feb 11 12:06:01 2014 Why: ~assassination_plot.20.0 

@@ -326,3 +326,68 @@ For lonely:
   lonely~3: characterized by or preferring solitude 
   lonely~4: lacking companions or companionship 
 Command: :build 1
+Start: user:test bot:snowwhite ip: rand:3094 (~justify_identity) 5 ==> Who are you again?  When:Tue Feb 11 10:58:35 2014 Version:3.53 Build0:1385587290 Build1:1391542356 Why: ~justify_identity.54.0 
+Command: :reset
+Respond: user:test bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 10:58:39 2014 Why: ~justify_identity.1.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 1  Would you like an apple? ==> You mean one of those apples?  When:Tue Feb 11 10:58:54 2014 Why: ~sell_apple.21.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 2  Yes. ==> Who are you again?  When:Tue Feb 11 10:58:58 2014 Why: ~justify_identity.54.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 3  Is that a no? ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 10:59:11 2014 Why: ~justify_identity.55.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 4  The apples are very sweet ==> It does look good.  When:Tue Feb 11 10:59:19 2014 Why: ~sell_apple.11.0 
+Respond: user:test bot:snowwhite ip: (~catchall) 5  hey there ==> Hello.  When:Tue Feb 11 10:59:30 2014 Why: ~catchall.1.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 6  i'm off ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Tue Feb 11 10:59:37 2014 Why: ~catchall.21.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 7  where are we ==> I don't know, look at a map.  When:Tue Feb 11 10:59:56 2014 Why: ~catchall.5.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 8  how do you not know where you are? ==> How what?  When:Tue Feb 11 11:00:14 2014 Why: ~catchall.6.0 
+Respond: user:test bot:snowwhite ip: (~catchall) 9  how are you ==> You're quite the greeter.  When:Tue Feb 11 11:00:19 2014 Why: ~catchall.2.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 10  yes ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 11 11:00:29 2014 Why: ~catchall.23.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 11  no there isn't ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 11 11:00:35 2014 Why: ~justify_identity.56.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 12  have an apple ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 11 11:00:47 2014 Why: ~sell_apple.25.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 13  I sell apples ==> Shouldn't you be selling those rather than giving them away?  When:Tue Feb 11 11:00:54 2014 Why: ~justify_identity.5.0 
+Respond: user:test bot:snowwhite ip: (~assassination_plot) 14  nope ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 11 11:01:04 2014 Why: ~assassination_plot.20.0 
+Respond: user:test bot:snowwhite ip: (~assassination_plot) 15  alright ==> I can't think straight with all this stress.  When:Tue Feb 11 11:01:08 2014 Why: ~assassination_plot.21.0 
+Respond: user:test bot:snowwhite ip: (~dwarves) 16  that's cool ==> The dwarves really insisted that I not to let anyone in.  When:Tue Feb 11 11:01:12 2014 Why: ~dwarves.22.0 
+Respond: user:test bot:snowwhite ip: (~dwarves) 17  good idea ==> Yes, they are nobody's fools.  When:Tue Feb 11 11:01:16 2014 Why: ~dwarves.22.1 
+Respond: user:test bot:snowwhite ip: (~dwarves) 18  yeah, ok there ==> I'm going to close this door anytime soon now.  When:Tue Feb 11 11:01:25 2014 Why: ~catchall.24.0 
+Command: :reset
+Respond: user:test bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:01:49 2014 Why: ~justify_identity.1.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 1  want an apple? ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 11 11:01:54 2014 Why: ~sell_apple.25.0 
+Respond: user:test bot:snowwhite ip: (~justify_identity) 2  your mom ==> Who are you again?  When:Tue Feb 11 11:01:59 2014 Why: ~justify_identity.54.0 
+Command: :reset
+Respond: user:test bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:02:02 2014 Why: ~justify_identity.1.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 1  apple ==> Sorry, are you here to sell apples?  When:Tue Feb 11 11:02:03 2014 Why: ~sell_apple.26.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 2  yes ==> That's nice but I can't accept anything from strangers.  When:Tue Feb 11 11:02:05 2014 Why: ~sell_apple.26.1 
+Command: :reset
+Respond: user:test bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 11:02:52 2014 Why: ~justify_identity.1.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 1  apple ==> Sorry, are you here to sell apples?  When:Tue Feb 11 11:02:55 2014 Why: ~sell_apple.26.0 
+Respond: user:test bot:snowwhite ip: (~sell_apple) 2  Yes. ==> That's nice but I can't accept anything from strangers.  When:Tue Feb 11 11:02:57 2014 Why: ~sell_apple.26.1 
+Start: user:test bot:snowwhite ip: rand:3091 (~justify_identity) 2 ==> Who are you again?  When:Tue Feb 11 11:27:02 2014 Version:3.53 Build0:1385587290 Build1:1391542356 Why: ~justify_identity.54.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+Missing topic index for ~sell_apple
+
+Missing topic index for ~justify_identity
+
+Command: :build 1
+Start: user:test bot:snowwhite ip: rand:3092 (~justify_identity) 2 ==> I hate to be like that but I really need to be wary of strangers  When:Tue Feb 11 11:36:04 2014 Version:3.53 Build0:1385587290 Build1:1392136184 Why: ~justify_identity.56.0 
+Respond: user:test bot:snowwhite ip: (~catchall) 3  hi snow white ==> Hello.  When:Tue Feb 11 11:36:08 2014 Why: ~catchall.1.0 
+Respond: user:test bot:snowwhite ip: (~catchall) 4  hi, snow white ==> You're quite the greeter.  When:Tue Feb 11 11:36:18 2014 Why: ~catchall.2.0 
+Start: user:test bot:snowwhite ip: rand:3099 (~assassination_plot) 4 ==> I really wish my stepmother wasn't trying to kill me  When:Tue Feb 11 11:47:54 2014 Version:3.53 Build0:1385587290 Build1:1392136184 Why: ~assassination_plot.20.0 
+Command: :build 1
+Missing topic index for ~sell_apple
+
+Missing topic index for ~catchall
+
+Missing topic index for ~justify_identity
+
+Missing topic index for ~assassination_plot
+
+Command: :build 1
+Missing topic index for ~sell_apple
+
+Missing topic index for ~catchall
+
+Missing topic index for ~justify_identity
+
+Missing topic index for ~assassination_plot
+
+Command: :build 1

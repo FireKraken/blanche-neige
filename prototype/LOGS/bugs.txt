@@ -1727,3 +1727,18 @@ Missing topic index for ~assassination_plot
 FILE-1 Unknown top-level declaration #! in RAWDATA/BLANCHENEIGE/simplecontrol.topinput:5 Wed Nov 27 22:08:08 2013 Missing topic index for ~justify_identity
  caller: callee:snowwhite in sentence: please help at 
 Missing topic index for ~justify_identity
+   in identity.top at 250: s: (<< I * [pick picking] * apple >>) I wasn't aware there were apple trees around. ^addtopic(~sell_apple)
+PATTERN-45 Cannot have wildcard * inside << >>Missing topic index for ~justify_identity
+Missing topic index for ~sell_apple
+Missing topic index for ~justify_identity
+   in dwarves.top at 29:   a: <<try apple>> I guess it could make for a nice change.
+RULE-3 Missing pattern for rule   in identity.top at 235: q:(what * my* name)
+RULE-1 Illegal rejoinder level q:Missing topic index for ~sell_apple
+Missing topic index for ~catchall
+Missing topic index for ~justify_identity
+Missing topic index for ~assassination_plot
+   in identity.top at 235: q:(what * my* name)
+RULE-1 Illegal rejoinder level q:Missing topic index for ~sell_apple
+Missing topic index for ~catchall
+Missing topic index for ~justify_identity
+Missing topic index for ~assassination_plot

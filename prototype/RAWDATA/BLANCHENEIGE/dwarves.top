@@ -10,11 +10,11 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! Undermine dwarves tactic
 #! ----------------------------------------------------------------
 
-s: ([they dwarf~2] * [keep prison~1 ~jail kidnap~1 confine~2]) 
+u: ([they dwarf~2] * [keep prison~1 ~jail kidnap~1 confine~2]) 
 	You think so? ... they seem so nice.
 	$trust += 1
 
-s: ([they dwarf~2] * stupid~1)
+u: ([they dwarf~2] * stupid~1)
 	$trust += 1
 	Yeah, I guess they are a little bit silly sometimes. Can you believe that they thought the earth was round?
 
@@ -26,6 +26,8 @@ s: ([they dwarf~2] * unpleasant_person~1)
 u: ( << you [dwarf~2] [food~1 apple] [give feed] >>)
 	We mostly eat cabbages. I admit I'm a bit tired of that.
 	$trust += 1
+		a: (<<try apple>>) I guess it could make for a nice change.
+		$trust += 1
 
 
 u: (<< [normal natural suitable fitting moral think virtue virtuous proper] live with dwarf~2>>) Is it wrong for a young girl to live with seven grown--albeit small--men?
