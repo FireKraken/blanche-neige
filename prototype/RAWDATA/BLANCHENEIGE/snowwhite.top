@@ -1,7 +1,8 @@
 topic: ~Snowwhite (you host)
 
-u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
-u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
+u: ($end==1) ^reuse(~catchall.DOORCLOSED)
+u: ($end==2 [booya booyah]) ^reuse(~catchall.RESURRECT)
+u: ($end==2) ^reuse(~catchall.ISDEAD)
 
 ?: (you * like * [living here house~2]) I sort of got used to it.
 

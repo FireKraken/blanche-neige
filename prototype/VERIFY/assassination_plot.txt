@@ -1,16 +1,16 @@
  ~assassination_plot.0.0 #! Possible related pronouns
- ~assassination_plot.5.0 #! ----------------------------------------------------------------
- ~assassination_plot.5.0 #! fishing for more info
- ~assassination_plot.5.0 #! ----------------------------------------------------------------
- ~assassination_plot.12.0 #! ----------------------------------------------------------------
- ~assassination_plot.12.0 #! Compassion move
- ~assassination_plot.12.0 #! ----------------------------------------------------------------
- ~assassination_plot.15.0 #! ----------------------------------------------------------------
- ~assassination_plot.15.0 #! Truce tactic
- ~assassination_plot.15.0 #! ----------------------------------------------------------------
+ ~assassination_plot.6.0 #! ----------------------------------------------------------------
+ ~assassination_plot.6.0 #! fishing for more info
+ ~assassination_plot.6.0 #! ----------------------------------------------------------------
+ ~assassination_plot.13.0 #! ----------------------------------------------------------------
+ ~assassination_plot.13.0 #! Compassion move
+ ~assassination_plot.13.0 #! ----------------------------------------------------------------
  ~assassination_plot.16.0 #! ----------------------------------------------------------------
- ~assassination_plot.16.0 #! Not being stepmother
+ ~assassination_plot.16.0 #! Truce tactic
  ~assassination_plot.16.0 #! ----------------------------------------------------------------
- ~assassination_plot.22.0 #! ----------------------------------------------------------------
- ~assassination_plot.22.0 #! Topic related gambits
- ~assassination_plot.22.0 #! ----------------------------------------------------------------
+ ~assassination_plot.17.0 #! ----------------------------------------------------------------
+ ~assassination_plot.17.0 #! Not being stepmother
+ ~assassination_plot.17.0 #! ----------------------------------------------------------------
+ ~assassination_plot.23.0 #! ----------------------------------------------------------------
+ ~assassination_plot.23.0 #! Topic related gambits
+ ~assassination_plot.23.0 #! ----------------------------------------------------------------

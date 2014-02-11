@@ -5,6 +5,8 @@ Reading concept ~samaritan
 *** Warning- line 2 of apple.top: johnny-on-the-spot is not a known word. Is it misspelled?
 Reading concept ~takethis
 Reading topic ~sell_apple
+*** Warning- line 15 of apple.top: booya is unknown as a word in pattern
+*** Warning- line 15 of apple.top: booyah is unknown as a word in pattern
 
 ----Reading file dwarves.top
 Reading concept ~insult
@@ -21,8 +23,8 @@ Reading topic ~build_friendship
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 126 of identity.top: cannot is unknown as a word in pattern
-*** Warning- line 223 of identity.top: evilqueen is unknown as a word in pattern
+*** Warning- line 127 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 224 of identity.top: evilqueen is unknown as a word in pattern
 
 ----Reading file plot.top
 Reading concept ~murderplot
@@ -43,8 +45,6 @@ Reading topic ~snowwhite
 
 ----Reading file z_catchall.top
 Reading topic ~catchall
-*** Warning- line 74 of z_catchall.top: booya is unknown as a word in pattern
-*** Warning- line 74 of z_catchall.top: booyah is unknown as a word in pattern
 
 WARNING SUMMARY: 
 9 spelling warnings and 0 more serious warnings

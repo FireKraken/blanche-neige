@@ -1,4 +1,6 @@
 ﻿johnny-on-the-spot
+booya
+booyah
 dollars
 coins
 wishing~1
@@ -89,5 +91,3 @@ not_making_any_sense
 mean_anything
 means_nothing
 blow~2
-booya
-booyah
