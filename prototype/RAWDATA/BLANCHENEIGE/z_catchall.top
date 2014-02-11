@@ -10,6 +10,13 @@ u: RESURRECT ($end==2 [booya booyah]) Snow White's corpse suddenly begins to mov
 u: ISDEAD($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 
 #! ----------------------------------------------------------------
+#! Too long
+#! ----------------------------------------------------------------
+
+t: (be) if (%length > 12) { You're as verbose as my English teacher. One thing at the time please. } ^keep() ^repeat() ^poptopic()
+
+
+#! ----------------------------------------------------------------
 #! Politeness
 #! ----------------------------------------------------------------
 

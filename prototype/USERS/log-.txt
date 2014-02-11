@@ -32,3 +32,18 @@ Respond: user: bot:snowwhite ip: (~catchall) 4  have an apple ==> All right, I'l
 Respond: user: bot:snowwhite ip: (~catchall) 5  hahaha ==> Snow White lies dead at your feet.  When:Tue Feb 11 15:45:55 2014 Why: ~catchall.2.0 
 Respond: user: bot:snowwhite ip: (~catchall) 6  hello ==> Snow White lies dead at your feet.  When:Tue Feb 11 15:45:57 2014 Why: ~catchall.2.0 
 Respond: user: bot:snowwhite ip: (~catchall) 7  booya ==> Snow White's corpse suddenly begins to move. She springs to her feet and proclaims "Ha Ha! You have spoken the magical phrase that raises the dead! This time I shall not be so easily fooled by your tricks, vile woman!"  When:Tue Feb 11 15:45:59 2014 Why: ~catchall.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:02:20 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I am bob and bob is me and I am bob and bob is me ==> Who are you again?  When:Tue Feb 11 16:02:34 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I am bob and bob is me and I am bob and bob is me ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:02:36 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I am bob and bob is me and I am bob and bob is me ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 11 16:02:36 2014 Why: ~justify_identity.62.0 
+Respond: user: bot:snowwhite ip: (~catchall) 4  I am bob and bob is me and I am bob and bob is me ==> You're as verbose as my English teacher. One thing at the time please.  When:Tue Feb 11 16:02:37 2014 Why: ~catchall.3.0 
+Respond: user: bot:snowwhite ip: (~catchall) 5  I am bob and bob is me and I am bob and bob is me ==> You're as verbose as my English teacher. One thing at the time please.  When:Tue Feb 11 16:02:37 2014 Why: ~catchall.3.0 
+Respond: user: bot:snowwhite ip: (~catchall) 6  I am bob and bob is me and I am bob and bob is me ==> You're as verbose as my English teacher. One thing at the time please.  When:Tue Feb 11 16:02:37 2014 Why: ~catchall.3.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:03:36 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I am bob and bob is me and I am bob and bob is me ==> Who are you again?  When:Tue Feb 11 16:03:39 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I am bob and bob is me and I am bob and bob is me ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:03:40 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I am bob and bob is me and I am bob and bob is me ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 11 16:03:41 2014 Why: ~justify_identity.62.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I am bob and bob is me and I am bob and bob is me ==> You're as verbose as my English teacher. One thing at the time please.  When:Tue Feb 11 16:04:03 2014 Why: ~catchall.3.0 
