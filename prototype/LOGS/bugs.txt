@@ -1747,4 +1747,14 @@ Expecting responder for topic ~dwarves, got ~insultMissing topic index for ~dwar
 Missing topic index for ~justify_identity
 Missing topic index for ~dwarves
    in script1.txt at 4: TOPIC: ~dwarves 0 0 0 0 10 dwarves.top
-not ptr start of responder 2 ~dwarves 00011 - killing data
+not ptr start of responder 2 ~dwarves 00011 - killing data   in friendship.top at 7: $friend = 0
+Expecting responder for topic ~build_friendship, got $friendMissing topic index for ~sell_apple
+Missing topic index for ~assassination_plot
+Missing topic index for ~justify_identity
+   in dwarves.top at 77: u: (<<[they dwarf~2] [no not won't "will not"] [know "find out"]) The problem isn't whether or not they know. It's a question of my own safety!
+PATTERN-70 Failed to close <<input:1 Tue Feb 11 14:14:47 2014 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I'm a poor old woman at 
+Missing topic index for ~justify_identity
+input:1 Tue Feb 11 14:14:47 2014 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I'm a poor old woman at 
+Missing topic index for ~justify_identity

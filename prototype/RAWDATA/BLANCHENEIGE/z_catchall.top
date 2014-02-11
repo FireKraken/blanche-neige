@@ -70,7 +70,11 @@ t: Goodbye then, have a safe trip.
 
 u: (build 1) Are you trying to compile me again?
 u: (reset) You won't get rid of me that easily!
+u: ($end==2 [booya booyah]) Snow White's corpse suddenly begins to move. She springs to her feet and proclaims "Ha Ha! You have spoken the magical phrase that raises the dead! This time I shall not be so easily fooled by your tricks, vile woman!"
+	$trust = 0
+	$end = 0
 
+u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 
 #! Reusable explanation
 t: TELLMEWHY () Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)

@@ -10,6 +10,7 @@ u: (_her) ^mark(queen _0)  ^repeat() ^keep()
 u: (_it) ^mark(plot _0)  ^repeat() ^keep() 
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 
 #! ----------------------------------------------------------------
 #! fishing for more info
@@ -17,7 +18,7 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
 ?: ($stepmother!=1 [(how * ~murderplot) (what * ~evilqueen * give)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
 	a: (~YES) You read too much gothic fiction.
-	a: (~NO) She's out of her mind.
+	a: ([~NO ~badness]) She's out of her mind.
 
 ?: ($stepmother!=1 << why ~evilqueen ~murderplot >>) Apparently she's jealous of my beauty and wants to kill me for that!
 	a:([silly ridiculous ludicrous preposterous bizarre absurd preposterous unbelievable grotesque farcical]) Isn't it?!
@@ -31,6 +32,8 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
 ?: ($stepmother!=1 stress~3) I have to sleep with one eye open since my stepmother keeps trying to kill me!
 	$plot = 1
+
+u: ([how "tell me"] ~murderplot) 
 
 #! ----------------------------------------------------------------
 #! Compassion move

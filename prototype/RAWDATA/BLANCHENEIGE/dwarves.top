@@ -7,6 +7,7 @@ u: (_they) ^mark(dwarf _0)  ^repeat() ^keep()
 u: (_them) ^mark(dwarf _0)  ^repeat() ^keep() 
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 
 #! ----------------------------------------------------------------
 #! Undermine dwarves tactic
@@ -51,7 +52,7 @@ s: ([they dwarf~2] * ~goodness) Yes they've been very good to me
 #! Relation of the dwarves tactic
 #! ----------------------------------------------------------------
 
-s: ( << friend~1 dwarf~2 I >>) They never mentioned you.
+s: ( << friend~1 [dwarf~2 they] I >>) They never mentioned you.
 
 ?: ( << I dwarf~2 [meet see appointment rendez-vous] >>) You can come back when they're there.
 	a:(when) At dusk.
@@ -68,6 +69,12 @@ s: (<< apple dwarf~2 [bring deliver sell for] >>) The dwarves didn't tell me abo
 
 s:(dwarf * [apple] * [ok good accept acceptable "good for you"]) Well maybe if the dwarves said so...
 	$trust += 1
+
+#! ----------------------------------------------------------------
+#! Other Tactics
+#! ----------------------------------------------------------------
+
+u: (<<[they dwarf~2] [no not won't "will not"] [know "find out"]>>) The problem isn't whether or not they know. It's a question of my own safety!
 
 #! ----------------------------------------------------------------
 #! Fishing for info

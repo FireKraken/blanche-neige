@@ -5927,3 +5927,58 @@ For trap:
   trap~10: catch in or as if in a trap 
   trap~11: hold or catch as if in a trap 
   trap~12: place in a confining or embarrassing position 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 13:40:03 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  the animals are nice ==> Who are you again?  When:Tue Feb 11 13:40:13 2014 Why: ~justify_identity.56.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 13:41:02 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 1  the animals are nice ==> Sometimes I sing with them!  When:Tue Feb 11 13:41:05 2014 Why: ~build_friendship.11.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 13:53:13 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm an apple peddler ==> I see. And you're selling apples I suppose?  When:Tue Feb 11 13:53:23 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> That's nice but I don't need any.  When:Tue Feb 11 13:53:26 2014 Why: ~justify_identity.4.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  they're quite tasty ==> It does look good.  When:Tue Feb 11 13:53:36 2014 Why: ~sell_apple.12.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  are you hungry? ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 11 13:53:41 2014 Why: ~catchall.24.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 5  the dwarves are nice ==> Yes they've been very good to me  When:Tue Feb 11 13:53:53 2014 Why: ~dwarves.10.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 6  have an apple ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Tue Feb 11 13:53:56 2014 Why: ~sell_apple.34.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  haha ==> Snow White lies dead at your feet.  When:Tue Feb 11 13:53:59 2014 Why: ~sell_apple.6.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  woot ==> Snow White lies dead at your feet.  When:Tue Feb 11 13:54:02 2014 Why: ~sell_apple.6.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  booya ==> Snow White lies dead at your feet.  When:Tue Feb 11 13:58:04 2014 Why: ~sell_apple.6.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 10  booya ==> Snow White lies dead at your feet.  When:Tue Feb 11 13:58:41 2014 Why: ~sell_apple.6.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 13:59:04 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm an apple peddler ==> I see. And you're selling apples I suppose?  When:Tue Feb 11 13:59:23 2014 Why: ~justify_identity.4.0 
+Command: :build 1
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~catchall) 2  hello ==> Hello.  When:Tue Feb 11 14:02:07 2014 Why: ~catchall.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:02:10 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I sell applles ==> Who are you again?  When:Tue Feb 11 14:02:14 2014 Why: ~justify_identity.57.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I sell apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Tue Feb 11 14:02:18 2014 Why: ~justify_identity.7.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  it's free ==> I'm sorry to be like that but I just can't accept anything from anyone.  When:Tue Feb 11 14:02:24 2014 Why: ~sell_apple.36.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  it's tasty ==> It does look good.  When:Tue Feb 11 14:02:29 2014 Why: ~sell_apple.12.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 5  the dwarves are nice ==> Yes they've been very good to me  When:Tue Feb 11 14:02:35 2014 Why: ~dwarves.10.0 
+Respond: user: bot:snowwhite ip: (~catchall) 6  have an apple ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Tue Feb 11 14:02:38 2014 Why: ~sell_apple.34.0 
+Respond: user: bot:snowwhite ip: (~catchall) 7  hehe ==> Snow White lies dead at your feet.  When:Tue Feb 11 14:02:41 2014 Why: ~catchall.29.0 
+Respond: user: bot:snowwhite ip: (~catchall) 8  booya ==> Snow White's corpse suddenly begins to move. She springs to her feet and proclaims "Ha Ha! You have spoken the magical phrase that raises the dead! This time I shall not be so easily fooled by your tricks, vile woman!"  When:Tue Feb 11 14:02:44 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  oh no ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Tue Feb 11 14:02:50 2014 Why: ~catchall.21.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:04:19 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm a poor old woman ==> You shouldn't be walking alone in the woods like that.  When:Tue Feb 11 14:04:26 2014 Why: ~justify_identity.21.0 
+Command: :build 1
+Missing topic index for ~justify_identity
+
+1 Tue Feb 11 14:14:47 2014 in sentence: I'm a poor old woman 
+    Missing topic index for ~justify_identity
+
+1 Tue Feb 11 14:14:47 2014 in sentence: I'm a poor old woman 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:14:56 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 1  You're pretty ==> Thank you, but my beauty has brought me only misery.  When:Tue Feb 11 14:14:59 2014 Why: ~snowwhite.3.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 2  You're pretty ==> Are you trying to hit on to me?  When:Tue Feb 11 14:15:08 2014 Why: ~snowwhite.4.0 
+Command: :build 1

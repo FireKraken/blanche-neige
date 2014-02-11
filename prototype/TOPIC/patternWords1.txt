@@ -23,11 +23,14 @@ dullard~2
 food~1
 acquaintance~2
 rendez-vous
+won_'t
+will_not
 homie
 lonely~1
 solitary~6
 stranger~2
 talk~2
+fauna~1
 care~8
 ain_'t
 unknown~3
@@ -50,6 +53,7 @@ running_after
 force~2
 forcefeed
 evilqueen
+""
 traveler~1
 passing_by
 come~11
@@ -64,7 +68,6 @@ bank~11
 believe~1
 that_'s_ok
 I_understand
-fauna~1
 totes
 tension~5
 friendly~2
@@ -85,3 +88,5 @@ not_making_any_sense
 mean_anything
 means_nothing
 blow~2
+booya
+booyah

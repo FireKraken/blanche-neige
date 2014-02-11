@@ -522,3 +522,12 @@ For take:
   take~41: be capable of holding or containing 
   take~42: have with oneself 
   take~43: be designed to hold or take 
+Start: user:test bot:snowwhite ip: rand:3096 (~justify_identity) 4 ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Tue Feb 11 13:38:40 2014 Version:3.53 Build0:1385587290 Build1:1392139494 Why: ~catchall.21.0 
+Command: :build 1
+Missing topic index for ~sell_apple
+
+Missing topic index for ~assassination_plot
+
+Missing topic index for ~justify_identity
+
+Command: :build 1

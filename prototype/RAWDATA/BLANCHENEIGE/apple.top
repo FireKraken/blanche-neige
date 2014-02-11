@@ -12,7 +12,7 @@ u: (_one) ^mark(apple _0)  ^repeat() ^keep()
 u: (_this) ^mark(apple _0)  ^repeat() ^keep() 
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
-
+u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 
 #! ----------------------------------------------------------------
 #! "I will have one too tactic"
@@ -106,7 +106,8 @@ s: (<<apple [protect defend help]>>) This apple can protect me from my stepmothe
 #! ----------------------------------------------------------------
 
 	
-t: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+t: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
+	$end = 2
 
 u: ($identity!=1 $offered!=1 !they !dwarf~2 [~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] * [apple one it] ) 
 	$offered = 1
@@ -127,7 +128,8 @@ u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy
 u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) Stop waving that apple in my face.
 u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) There are other people in this world that could want this apple!
 u: ($trust<3 !~insults !unpleasant_person~1 [~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
-u: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!
+u: ($trust==3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
+	$end = 2
 
 s:(I * have * too~1 * apple) There's no such thing as too many apples.
 

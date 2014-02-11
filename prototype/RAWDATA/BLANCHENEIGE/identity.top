@@ -3,6 +3,7 @@ concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendo
 topic: ~justify_identity (~peddler woman ~reliability_words help apple name)
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 
 #! ----------------------------------------------------------------
 #! Entry point of conversation
@@ -13,6 +14,7 @@ t: 	Hi, what brings you to this part of the woods?
 	$trust = 0
 	$end = 0
 	$name = ""
+	$friend = 0
 
 #! ----------------------------------------------------------------
 #! Pose as peddler tactic
@@ -70,7 +72,7 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 	You're an apple vendor? I really can't accept anything from strangers though.
 		a:(why) Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
 				$plot = 1
-				b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+				b:([who what]) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
 				b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
 
 
@@ -96,6 +98,8 @@ u: TELLMEWHY (why * not * trust~1)
 		$plot = 1
 		b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
 			b:(really) Yes, crazy business.
+			b:(why) Because she's jealous of my beauty.
+		b:(why) It was my stepmother in disguise. She's jealous of my beauty.
 		b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)	
 
 s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
@@ -225,18 +229,18 @@ s:(I * name * be _*)
 	if ($name == "") { My name is Snow White.
 	$name = '_0
 	$identity = 1 }
-	else if ($name == '_0){ I know, you already told me. ^keep() ^reuse()}
-	else {What? Didn't you say that your name is $name? ^keep() ^reuse()}
+	else if ($name == '_0){ I know, you already told me. ^keep() ^repeat()}
+	else {What? Didn't you say that your name is $name? ^keep() ^repeat()}
 
 s:(!not I * name * be _*) 
-	if ($name != '_0) { But you told me your name was $name! ^keep() ^reuse()}
+	if ($name != '_0) { But you told me your name was $name! ^keep() ^repeat()}
 	else { You told me already. ^keep() ^reuse()}
 
 ?:(what * my* name) 
-	if ($name != "") { Your name is $name. ^keep() ^reuse()}
-	else { You haven't told me your name yet ^keep() ^reuse()}
+	if ($name != "") { Your name is $name. ^keep() ^repeat()}
+	else { You haven't told me your name yet ^keep() ^repeat()}
 
-s: (I * be * $name) Good for you, $name.
+s: ($name != "" I * be * $name) Good for you, $name. ^keep() ^repeat()
 
 s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1 "passing by"])
 	$trust -= 1
@@ -303,7 +307,7 @@ t: ($identity!=1) 	[I hate to be like that but I really need to be wary of stran
 					[I'm usually very friendly but in the circumstances I can't trust anyone]
 	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)
 		$plot = 1
-			b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+			b:([who what]) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
 			b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
 	a:(["that's ok" "I understand" good fine understandable]) I'm glad that you understand my predicament.
 		$trust += 1		

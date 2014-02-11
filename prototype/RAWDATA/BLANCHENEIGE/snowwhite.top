@@ -1,6 +1,7 @@
 topic: ~Snowwhite (you host)
 
 u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
+u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 
 ?: (you * like * [living here house~2]) I sort of got used to it.
 
@@ -9,6 +10,7 @@ s: (you * [be look] * [beautiful~1 pretty]) Thank you, but my beauty has brought
 	a:(why) My stepmother has been trying to kill me because she thinks I look better than her.
 		$plot = 1
 		^addtopic(~assassination_plot)
+s: (you * [be look] * [beautiful~1 pretty]) Are you trying to hit on to me?
 
 s: (you * be * ugly) If only that was true!
 	a: (why) Then my stepmother would leave me alone!
