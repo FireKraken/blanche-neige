@@ -16,7 +16,7 @@ u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 #! fishing for more info
 #! ----------------------------------------------------------------
 
-?: ($stepmother!=1 [(how * ~murderplot) (what * ~evilqueen * give)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
+?: HOWKILL ($stepmother!=1 [(how * ~murderplot) (what * ~evilqueen * give)]) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. Can you imagine such a thing?
 	a: (~YES) You read too much gothic fiction.
 	a: ([~NO ~badness]) She's out of her mind.
 
@@ -33,7 +33,7 @@ u: ($end==2) Snow White lies dead at your feet. ^keep() ^repeat()
 ?: ($stepmother!=1 stress~3) I have to sleep with one eye open since my stepmother keeps trying to kill me!
 	$plot = 1
 
-u: ([how "tell me"] ~murderplot) 
+u: ([how ~speak_verbs] ~murderplot) ^reuse(HOWKILL)
 
 #! ----------------------------------------------------------------
 #! Compassion move

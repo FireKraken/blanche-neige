@@ -10,27 +10,27 @@
  ~justify_identity.17.0 #! ----------------------------------------------------------------
  ~justify_identity.17.0 #! Lost tactic
  ~justify_identity.17.0 #! ----------------------------------------------------------------
- ~justify_identity.19.0 #! ----------------------------------------------------------------
- ~justify_identity.19.0 #! Amnesia tactic
- ~justify_identity.19.0 #! ----------------------------------------------------------------
  ~justify_identity.20.0 #! ----------------------------------------------------------------
- ~justify_identity.20.0 #! Vader tactic (I am your stepmother)
+ ~justify_identity.20.0 #! Amnesia tactic
  ~justify_identity.20.0 #! ----------------------------------------------------------------
  ~justify_identity.21.0 #! ----------------------------------------------------------------
- ~justify_identity.21.0 #! Need help tactics
+ ~justify_identity.21.0 #! Vader tactic (I am your stepmother)
  ~justify_identity.21.0 #! ----------------------------------------------------------------
- ~justify_identity.33.0 #! ----------------------------------------------------------------
- ~justify_identity.33.0 #! Old acquiantance tactic
- ~justify_identity.33.0 #! ----------------------------------------------------------------
- ~justify_identity.36.0 #! ----------------------------------------------------------------
- ~justify_identity.36.0 #! Let's get violent! tactic
- ~justify_identity.36.0 #! ----------------------------------------------------------------
- ~justify_identity.38.0 #! ----------------------------------------------------------------
- ~justify_identity.38.0 #! Other identities
- ~justify_identity.38.0 #! ----------------------------------------------------------------
- ~justify_identity.55.0 #! ----------------------------------------------------------------
- ~justify_identity.55.0 #! Fishing for info
- ~justify_identity.55.0 #! ----------------------------------------------------------------
+ ~justify_identity.22.0 #! ----------------------------------------------------------------
+ ~justify_identity.22.0 #! Need help tactics
+ ~justify_identity.22.0 #! ----------------------------------------------------------------
+ ~justify_identity.34.0 #! ----------------------------------------------------------------
+ ~justify_identity.34.0 #! Old acquiantance tactic
+ ~justify_identity.34.0 #! ----------------------------------------------------------------
+ ~justify_identity.37.0 #! ----------------------------------------------------------------
+ ~justify_identity.37.0 #! Let's get violent! tactic
+ ~justify_identity.37.0 #! ----------------------------------------------------------------
+ ~justify_identity.39.0 #! ----------------------------------------------------------------
+ ~justify_identity.39.0 #! Other identities
+ ~justify_identity.39.0 #! ----------------------------------------------------------------
  ~justify_identity.57.0 #! ----------------------------------------------------------------
- ~justify_identity.57.0 #! Topic-related gambits
+ ~justify_identity.57.0 #! Fishing for info
  ~justify_identity.57.0 #! ----------------------------------------------------------------
+ ~justify_identity.59.0 #! ----------------------------------------------------------------
+ ~justify_identity.59.0 #! Topic-related gambits
+ ~justify_identity.59.0 #! ----------------------------------------------------------------

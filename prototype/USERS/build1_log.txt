@@ -21,8 +21,8 @@ Reading topic ~build_friendship
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 124 of identity.top: cannot is unknown as a word in pattern
-*** Warning- line 221 of identity.top: evilqueen is unknown as a word in pattern
+*** Warning- line 126 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 223 of identity.top: evilqueen is unknown as a word in pattern
 
 ----Reading file plot.top
 Reading concept ~murderplot
@@ -43,8 +43,8 @@ Reading topic ~snowwhite
 
 ----Reading file z_catchall.top
 Reading topic ~catchall
-*** Warning- line 73 of z_catchall.top: booya is unknown as a word in pattern
-*** Warning- line 73 of z_catchall.top: booyah is unknown as a word in pattern
+*** Warning- line 74 of z_catchall.top: booya is unknown as a word in pattern
+*** Warning- line 74 of z_catchall.top: booyah is unknown as a word in pattern
 
 WARNING SUMMARY: 
 9 spelling warnings and 0 more serious warnings

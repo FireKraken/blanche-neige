@@ -117,11 +117,13 @@ s:(you * [should ought] * [wary cautious careful "watch out"]) I'm being as caut
 #! Lost tactic
 #! ----------------------------------------------------------------
 
-s:( I * be * [lost disoriented astray]) Simply follow the path and you'll reach a small inn.
+s: (I * be * [lost disoriented astray]) Simply follow the path and you'll reach a small inn.
 	$identity = 1
 	$purpose = 1
 
-s:(I * [can't cannot unable ~negation] * [find "make my way" "make it"] * [home town city]) Well there's a little path over there that should help you find your way back.
+s: (it * ~temperature_adjectives * [outside out "out here"]) Sorry, but the temperature isn't really my concern right now.
+
+s: (I * [can't cannot unable ~negation] * [find "make my way" "make it"] * [home town city]) Well there's a little path over there that should help you find your way back.
 
 #! ----------------------------------------------------------------
 #! Amnesia tactic
@@ -283,6 +285,9 @@ s: (<<I be neighbor>>) Have you moved in recently? I don't remember seeing you.
 		b:(why) ^reuse(justify_identity.TELLMEWHY)
 	b: (~no) Sorry but your face really doesn't ring a bell.
 		$identity = 1
+
+?: (I * ~moving_escape) Yes, bye!
+	$end = 1
 
 #! ----------------------------------------------------------------
 #! Fishing for info

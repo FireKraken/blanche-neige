@@ -5982,3 +5982,212 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brin
 Respond: user: bot:snowwhite ip: (~snowwhite) 1  You're pretty ==> Thank you, but my beauty has brought me only misery.  When:Tue Feb 11 14:14:59 2014 Why: ~snowwhite.3.0 
 Respond: user: bot:snowwhite ip: (~snowwhite) 2  You're pretty ==> Are you trying to hit on to me?  When:Tue Feb 11 14:15:08 2014 Why: ~snowwhite.4.0 
 Command: :build 1
+Command: :build 1
+Command: :BUILD 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  tell me about the murder plots ==> I really wish my stepmother wasn't trying to kill me  When:Tue Feb 11 14:27:59 2014 Why: ~assassination_plot.22.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  tell me about the murder ==> I can't think straight with all this stress.  When:Tue Feb 11 14:28:28 2014 Why: ~assassination_plot.23.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  tell me about the murder ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 14:29:28 2014 Why: ~catchall.21.0 
+Command: :prepare tell me about the murder
+
+Original User Input: tell me about the murder
+Tokenized: tell  me  about  the  murder  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Tagged POS 5 words: tell (MAINVERB Verb_infinitive)  me/I (MAINOBJECT Pronoun_object)  about (<Phrase Preposition)  the/a (Determiner)  murder (OBJECT2 Noun_singular Phrase>)  
+  MainSentence: tell (me)    PRESENT 
+  Phrase: about the murder 
+
+
+Concepts: 
+
+1: tell raw=  +~verb_infinitive(1)  +~verb(1)  +~kindergarten(1)  +~mainverb(1)  +tell(1)  +~quotable_verbs(1) 
+.  +~special_english_attributes(1)  +~omittable_that_verbs(1)  +~explain(1)  +~tell(1)  +~speak_verbs(1)  +~communicate_verbs(1)  +~social_verbs(1) 
+.  +~animate_verbs(1)  +~verbs(1)  +~causal_to_infinitive_verbs(1)  // 
+1: tell canonical=  //  +Tell(1)  
+
+2: me raw=  +~pronoun(2)  +~pronoun_object(2)  +~pronoun_bits(2)  +~kindergarten(2)  +~mainobject(2)  +me(2)  // 
+2: I canonical=  +I(2)  +~letters(2)  //  
+
+3: about raw=  +~preposition(3)  +~kindergarten(3)  +~basic_form(3)  +~prep_location(3)  +~phrase(3)  +about(3) 
+.  +~relationpreposition(3)  +~prepositionroot(3)  +~placepreposition(3)  +~spacepreposition(3)  +~focus(3)  +~place_adverbs(3)  +~adverbs(3)  // 
+3: about canonical=  //  +About(3)  
+
+4: the raw=  +~lowercase_title(4)  +~determiner(4)  +~determiner_bits(4)  +~kindergarten(4)  +the(4)  +~determinerlist(4) 
+.  +~good_intelligence_adjectives(4)  +~intelligence_adjectives(4)  +~adjectives(4)  // 
+4: a canonical=  +a(4)  +~letters(4)  //  +The(4)  
+
+5: murder raw=  +~noun_role(5)  +~noun_mass(5)  +~noun(5)  +~noun_singular(5)  +~noun_bits(5)  +~object2(5)  +murder(5)  +~murderplot(5) 
+.  +T~assassination_plot (5)  +~kill(5)  +~fatal_to_other(5)  +~damage_fatal(5)  +~damage_verbs(5)  +T~catchall (5)  +~health_verbs(5) 
+.  +~animate_verbs(5)  +~verbs(5)  +~active_verbs(5)  +~crimes_of_violence(5)  +~crimes(5)  +~badness(5)  +~nounroot(5)  // 
+5: murder canonical=  //  +Murder(5)  
+ +~repeatinput1(1) 
+    sequences=
+ +tell_me(1-2)
+
+
+
+TokenFlags: PRESENT USERINPUT 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:31:29 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  tell me about the murder ==> Who are you again?  When:Tue Feb 11 14:31:35 2014 Why: ~justify_identity.57.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  tell me about the murder attempts ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 14:31:43 2014 Why: ~justify_identity.58.0 
+Command: :prepare leave
+
+Original User Input: leave
+Tokenized: leave  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Tagged POS 1 words: leave (Noun_infinitive Noun_singular Verb_infinitive Verb_present Adjective_noun)  
+
+Concepts: 
+
+1: leave raw=  +~adjectivenoun(1)  +~noun_abstract(1)  +~verb_present(1)  +~verb_tenses(1)  +~verb_infinitive(1) 
+.  +~noun_infinitive(1)  +~noun(1)  +~verb(1)  +~noun_singular(1)  +~noun_bits(1)  +~kindergarten(1)  +leave(1)  +~drop_object(1)  +~drop_verbs(1) 
+.  +~deacquiring_verbs(1)  +~lose_verbs(1)  +~possession_verbs(1)  +~social_verbs(1)  +~animate_verbs(1)  +~verbs(1)  +~active_verbs(1) 
+.  +~moving_escape(1)  +~animate_move_verbs(1)  +~factitive_noun_verbs(1)  +~special_english_attributes(1) 
+.  +~factitive_adjective_verbs(1)  +~nounroot(1)  // 
+1: leave canonical=  //  +Leave(1)  
+
+    sequences=
+TokenFlags: PRESENT USERINPUT 
+Command: :up leave
+
+For leave:
+ Set hierarchy:
+ Wordnet hierarchy:
+  leave~1: the act of departing politely 
+    is going~1  the act of departing 
+       is act~1z something that people do or cause to happen 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  leave~2: permission to do something 
+    is permission~2  approval to do something 
+       is approving~1 a message expressing a favorable opinion 
+          is message~2z what a communication that is about something is about 
+             is communication~1z something that is communicated by or to or between people or groups 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  leave~3: the period of time during which you are absent from work or duty 
+    is time_off~1  a time period when you are not required to work 
+       is stop~7 an amount of time 
+          is fundamental_measure~1z one of the four quantities that are the basis of systems of measurement 
+             is quantity~1z how much there is or how many there are of something that you can quantify 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  leave~4: leave unchanged or undisturbed or refrain from taking 
+  leave~5: be survived by after one's death 
+  leave~6: leave behind unintentionally 
+  leave~7: go and leave behind, either intentionally or by neglect or forgetfulness 
+  leave~8: go away from a place 
+  leave~9: move out of or depart from 
+  leave~10: leave or give by will after one's death 
+  leave~11: transmit  
+  leave~12: put into the care or protection of someone 
+  leave~13: remove oneself from an association with or participation in 
+  leave~14: have as a result or residue 
+  leave~15: make a possibility or provide opportunity for 
+  leave~16: act or be so as to become in a specified state 
+  leave~17: have left or have as a remainder 
+Command: :build 1
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~catchall) 3  I'm leaving ==> Goodbye.  When:Tue Feb 11 14:34:10 2014 Why: ~catchall.3.0 
+Respond: user: bot:snowwhite ip: (~catchall) 4  ok ==> The door is shut, no one is hearing you.  When:Tue Feb 11 14:34:38 2014 Why: ~catchall.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:34:40 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  should I leave? ==> Bye then!  When:Tue Feb 11 14:34:45 2014 Why: ~justify_identity.55.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:36:27 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  should I leave? ==> Who are you again?  When:Tue Feb 11 14:36:30 2014 Why: ~justify_identity.57.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:37:01 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  hello ==> Hello.  When:Tue Feb 11 14:37:02 2014 Why: ~catchall.1.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  hello ==> You're quite the greeter.  When:Tue Feb 11 14:37:04 2014 Why: ~catchall.2.0 
+Respond: user: bot:snowwhite ip: (~catchall) 3  hello ==> Yes, I am well aware of your presence by now.  When:Tue Feb 11 14:37:06 2014 Why: ~catchall.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  should I leave? ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Tue Feb 11 14:37:16 2014 Why: ~catchall.22.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  Do you want me to leave? ==> Yes, bye!  When:Tue Feb 11 14:37:25 2014 Why: ~justify_identity.55.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  ok ==> The door is shut, no one is hearing you.  When:Tue Feb 11 14:37:52 2014 Why: ~justify_identity.0.0 
+Command: :up cold
+
+For cold:
+ Set hierarchy:
+ Wordnet hierarchy:
+  cold~1: the absence of heat 
+    is pressor~1  any agent that causes a narrowing of an opening of a blood vessel: cold or stress or nicotine or epinephrine or norepinephrine or angiotensin or vasopressin or certain drugs 
+       is agentive_role~1 an active and efficient cause 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is temperature~1  the degree of hotness or coldness of a body or environment 
+       is physical_property~1z any property used to characterize matter and energy and their interactions 
+          is prop~3z a basic or essential attribute shared by all members of a class 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is fundamental_measure~1z one of the four quantities that are the basis of systems of measurement 
+          is quantity~1z how much there is or how many there are of something that you can quantify 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  cold~2: the sensation produced by low temperatures 
+    is temperature~2  the somatic sensation of cold or heat 
+       is somatic_sense~1z the perception of tactual or proprioceptive or gut sensations 
+          is sensing~1 the process of perceiving 
+             is basic_cognitive_process~1z cognitive processes involved in obtaining and storing knowledge 
+                is mental_process~1z the performance of some composite cognitive activity 
+                   is knowledge~1z the psychological result of perception and learning and reasoning 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  cold~3: a mild viral infection involving the nose and respiratory passages  
+    is communicable_disease~1  a disease that can be communicated from one person to another 
+       is disease~1z an impairment of health or a condition of abnormal functioning 
+          is malady~1z impairment of normal physiological function affecting part or all of an organism 
+             is health_problem~1z a state in which you are unable to function normally and without pain 
+                is pathological_state~1z a physical condition that is caused by disease 
+                   is physiological_condition~1z the condition or state of the body or bodily functions 
+                      is condition~6z a state at a particular time 
+                         is state~1z the way something is with respect to its main attributes 
+                            is attribute~1z an abstraction belonging to or characteristic of an entity 
+                               is abstraction~1z a general concept formed by extracting common features from specific examples 
+                                  is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is respiratory_disease~1  a disease affecting the respiratory system 
+       is disease~1z an impairment of health or a condition of abnormal functioning 
+          is malady~1z impairment of normal physiological function affecting part or all of an organism 
+             is health_problem~1z a state in which you are unable to function normally and without pain 
+                is pathological_state~1z a physical condition that is caused by disease 
+                   is physiological_condition~1z the condition or state of the body or bodily functions 
+                      is condition~6z a state at a particular time 
+                         is state~1z the way something is with respect to its main attributes 
+                            is attribute~1z an abstraction belonging to or characteristic of an entity 
+                               is abstraction~1z a general concept formed by extracting common features from specific examples 
+                                  is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  cold~4: lacking the warmth of life 
+  cold~5: of a seeker 
+  cold~6: unconscious from a blow or shock or intoxication 
+  cold~7: feeling or showing no enthusiasm 
+  cold~8: having lost freshness through passage of time 
+  cold~9: having a low or inadequate temperature or feeling a sensation of coldness or having been made cold by e.g. ice or refrigeration 
+  cold~10: extended meanings 
+  cold~11: without compunction or human feeling 
+  cold~12: sexually unresponsive 
+  cold~13: so intense as to be almost uncontrollable 
+  cold~14: lacking originality or spontaneity 
+  cold~15: marked by errorless familiarity 
+  cold~16: giving no sensation of warmth 
+Command: :build 1
+Command: :build 1
+Command: :build 1
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:42:51 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  It's cold out ==> Sorry, are you here to sell apples?  When:Tue Feb 11 14:42:54 2014 Why: ~sell_apple.27.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  build 1 ==> Are you trying to compile me again?  When:Tue Feb 11 14:43:10 2014 Why: ~catchall.27.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 14:46:25 2014 Why: ~justify_identity.2.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  it's cold out ==> Sorry, but the temperature isn't really my concern right now.  When:Tue Feb 11 14:46:55 2014 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  hi ==> Hello.  When:Tue Feb 11 14:47:10 2014 Why: ~catchall.1.0 
