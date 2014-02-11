@@ -14,3 +14,32 @@ TCP 127.0.0.1 closed connection prematurelly
 TCP 127.0.0.1 closed connection prematurelly
 TCP 127.0.0.1 closed connection prematurelly
 TCP 127.0.0.1 closed connection prematurelly
+Server ready
+  127.0.0.1 wade/ Feb 11 15:31:28 time:15/0 msg: Hello?  =>  Hello.   <=
+  127.0.0.1 wade/ Feb 11 15:31:36 time:16/16 msg: Hi, my name is Ash.  =>  You're quite the greeter.   <=
+  127.0.0.1 wade/ Feb 11 15:31:43 time:31/15 msg: What's my name?  =>  You haven't told me your name yet   <=
+  127.0.0.1 wade/ Feb 11 15:31:48 time:31/16 msg: My name is Ash.  =>  My name is Snow White.   <=
+  127.0.0.1 wade/ Feb 11 15:31:57 time:15/15 msg: What's my name?  =>  Your name is Ash.   <=
+  127.0.0.1 wade/ Feb 11 15:32:13 time:15/15 msg: My name is Brian.  =>  But you told me your name was Ash!   <=
+  127.0.0.1 wade/ Feb 11 15:32:21 time:16/16 msg: My name is Ash.  =>  You told me already.   <=
+  127.0.0.1 wade/ Feb 11 15:32:32 time:16/16 msg: I'm selling these fine apples.  =>  You're an apple vendor? I really can't accept anything from strangers though.   <=
+  127.0.0.1 wade/ Feb 11 15:33:04 time:15/15 msg: They're delicious.  =>  It does look good.   <=
+  127.0.0.1 wade/ Feb 11 15:33:12 time:16/16 msg: The dwarves are nice.  =>  Yes they've been very good to me   <=
+  127.0.0.1 wade/ Feb 11 15:33:18 time:16/16 msg: Animals are nice.  =>  Sometimes I sing with them!   <=
+  127.0.0.1 wade/ Feb 11 15:33:31 time:15/15 msg: The woods are nice.  =>  Yes, the trees are beautiful, aren't they?   <=
+  127.0.0.1 wade/ Feb 11 15:33:37 time:16/16 msg: Have an apple.  =>  All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!   <=
+  127.0.0.1 wade/ Feb 11 15:33:50 time:16/16 msg: Hello?  =>  Yes, I am well aware of your presence by now.   <=
+  127.0.0.1 wade/ Feb 11 15:34:02 time:15/15 msg: Booyah?  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1 wade/ Feb 11 15:34:33 time:16/16 msg: Booyah.  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1 wade/ Feb 11 15:34:58 time:31/16 msg: :reset  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1 wade/ Feb 11 15:35:07 time:16/16 msg: Dwarves are nice.  =>  Yes they've been very good to me   <=
+  127.0.0.1 wade/ Feb 11 15:35:11 time:16/0 msg: Animals are nice.  =>  Sometimes I sing with them!   <=
+  127.0.0.1 wade/ Feb 11 15:35:15 time:15/15 msg: Woods are nice.  =>  Yes, the trees are beautiful, aren't they?   <=
+  127.0.0.1 wade/ Feb 11 15:35:20 time:16/16 msg: You are also nice.  =>  You know, I can't be too cautious with my stepmother wanting to kill me.   <=
+  127.0.0.1 wade/ Feb 11 15:35:33 time:15/15 msg: I'm an apple salesperson  =>  Sorry, are you here to sell apples?   <=
+  127.0.0.1 wade/ Feb 11 15:35:45 time:15/15 msg: Yup.  =>  That's nice but I can't accept anything from strangers.   <=
+  127.0.0.1 wade/ Feb 11 15:35:51 time:32/16 msg: They're delicious.  =>  It does look good.   <=
+  127.0.0.1 wade/ Feb 11 15:35:56 time:0/0 msg: Have an apple.  =>  Excuse me, but who are you to be offering apples to strangers?   <=
+  127.0.0.1 wade/ Feb 11 15:36:09 time:31/31 msg: It's a sample.  =>  All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!   <=
+  127.0.0.1 wade/ Feb 11 15:36:29 time:15/15 msg: Haha.  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1 wade/ Feb 11 15:36:36 time:15/15 msg: Booyah.  =>  Snow White lies dead at your feet.   <=
