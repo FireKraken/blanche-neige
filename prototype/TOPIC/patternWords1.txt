@@ -15,6 +15,7 @@ dwarf~2
 too~1
 how_come
 tell_me
+losers
 prison~1
 snatch~8
 limit~8

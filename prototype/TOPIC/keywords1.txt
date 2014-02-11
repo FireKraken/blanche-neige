@@ -4,6 +4,7 @@
 T~sell_apple ( eat it ~delicious give meal snack hungry hunger food sell buy ~fruit apple )
 T~assassination_plot ( ~evilqueen ~murderplot )
 T~justify_identity ( name apple help ~reliability_words woman ~peddler )
+~insult ( losers loser lame blow suck )
 T~dwarves ( house dwarves ~mythical_intelligent_being dwarf~2 )
 ~bro ( I_like_you ~friend best_friend ~role_ally homie bro )
 ~sing ( song sing~4 sing~3 )

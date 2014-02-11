@@ -20,7 +20,7 @@ t: 	Hi, what brings you to this part of the woods?
 
 		
 s: ($offered==1 ~peddler) Why are you giving your apples away, then?
-	a: (~example)
+	a: ([~example promotion special sale])
 		$trust += 1
 		$peddler = 1
 		$identity = 1
@@ -235,6 +235,8 @@ s:(!not I * name * be _*)
 ?:(what * my* name) 
 	if ($name != "") { Your name is $name. ^keep() ^reuse()}
 	else { You haven't told me your name yet ^keep() ^reuse()}
+
+s: (I * be * $name) Good for you, $name.
 
 s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1 "passing by"])
 	$trust -= 1

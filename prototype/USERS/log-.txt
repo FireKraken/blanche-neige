@@ -5776,3 +5776,154 @@ Concepts:
     sequences=
 TokenFlags: PRESENT USERINPUT 
 Respond: user: bot:snowwhite ip: (~assassination_plot) 5  my name is bob ==> I really wish my stepmother wasn't trying to kill me  When:Tue Feb 11 12:06:01 2014 Why: ~assassination_plot.20.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  i am nick ==> I can't think straight with all this stress.  When:Tue Feb 11 12:10:13 2014 Why: ~assassination_plot.21.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  I am nic ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 12:10:22 2014 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  I am nick ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 11 12:10:29 2014 Why: ~catchall.23.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:10:32 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  my name is nick ==> My name is Snow White.  When:Tue Feb 11 12:10:35 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I am nick ==> Good for you, nick.  When:Tue Feb 11 12:10:37 2014 Why: ~justify_identity.40.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:10:45 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I am nick ==> Who are you again?  When:Tue Feb 11 12:10:50 2014 Why: ~justify_identity.56.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  my name is nick ==> My name is Snow White.  When:Tue Feb 11 12:10:54 2014 Why: ~justify_identity.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I am Nick ==> Good for you, nick.  When:Tue Feb 11 12:10:57 2014 Why: ~justify_identity.40.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm actually lost ==> Simply follow the path and you'll reach a small inn.  When:Tue Feb 11 12:13:26 2014 Why: ~justify_identity.16.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:13:38 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm selling apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Tue Feb 11 12:13:42 2014 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I was just passing by ==> That's odd, we rarely get visitors this deep in the woods.  When:Tue Feb 11 12:13:47 2014 Why: ~justify_identity.41.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I'm actually lost ==> Simply follow the path and you'll reach a small inn.  When:Tue Feb 11 12:13:50 2014 Why: ~justify_identity.16.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 4  the dwarves suck ==> The dwarves know that I'm naturally friendly so they made me promise to be wary of strangers.  When:Tue Feb 11 12:14:03 2014 Why: ~dwarves.22.0 
+Command: :build 1
+Missing topic index for ~dwarves
+
+Missing topic index for ~justify_identity
+
+Missing topic index for ~dwarves
+
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:21:15 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  the dwarves suck ==> Don't talk like that about these generous creatures!  When:Tue Feb 11 12:21:21 2014 Why: ~dwarves.5.0 
+Command: :rest
+Respond: user: bot:snowwhite ip: (~dwarves) 2  the dwarves are lame ==> The dwarves really insisted that I not to let anyone in.  When:Tue Feb 11 12:21:30 2014 Why: ~dwarves.22.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~dwarves) 3  the dwarves are lame ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 12:22:05 2014 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 4  the dwarves suck ==> I don't want to keep you standing here, I'm sure you have much to do  When:Tue Feb 11 12:22:16 2014 Why: ~catchall.23.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:22:28 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  the dwarves suck ==> Don't talk like that about these generous creatures!  When:Tue Feb 11 12:22:32 2014 Why: ~dwarves.5.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:22:35 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  the dwarves blow ==> Don't talk like that about these generous creatures!  When:Tue Feb 11 12:22:39 2014 Why: ~dwarves.5.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:22:44 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  the dwarves are losers ==> Don't talk like that about these generous creatures!  When:Tue Feb 11 12:22:51 2014 Why: ~dwarves.5.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:22:55 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  the dwarves are lame ==> Don't talk like that about these generous creatures!  When:Tue Feb 11 12:22:59 2014 Why: ~dwarves.5.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 12:25:32 2014 Why: ~justify_identity.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  the dwarves have trapped you in this house ==> You think so?... they seem so nice.  When:Tue Feb 11 12:25:45 2014 Why: ~dwarves.3.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  have you been kidnapped? ==> No, I'm free to leave if I want to.  When:Tue Feb 11 12:25:53 2014 Why: ~dwarves.4.0 
+Command: :up trap
+
+For trap:
+ Set hierarchy:
+ Wordnet hierarchy:
+  trap~1: the act of concealing yourself and lying in wait to attack by surprise 
+    is coup_de_main~1  an attack without warning 
+       is onrush~1z an offensive against an enemy (using weapons) 
+          is operation~1z activity by a military or naval force  
+             is activity~1z any specific behavior 
+                is act~1z something that people do or cause to happen 
+                   is event~1z something that happens at a given place and time 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trap~2: a hazard on a golf course 
+    is hazard~1  an obstacle on a golf course 
+       is obstacle~1z an obstruction that stands in the way 
+          is impediment~1z any structure that makes progress difficult 
+             is construction~4z a thing constructed 
+                is artefact~1z a man-made object taken as a whole 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trap~3: a device in which something can be caught and penned 
+    is device~2  an instrumentality invented for a particular purpose 
+       is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+          is artefact~1z a man-made object taken as a whole 
+             is unit~1z an assemblage of parts that is regarded as a single entity 
+                is physical_object~1z a tangible and visible entity 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trap~4: a light two-wheeled carriage 
+    is carriage~2  a vehicle with wheels drawn by one or more horses 
+       is horse-drawn_vehicle~1z a wheeled vehicle drawn by one or more horses 
+          is wheeled_vehicle~1z a vehicle that moves on wheels and usually has a container for transporting things or people 
+             is container~1z any object that can be used to hold things 
+                is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+                   is artefact~1z a man-made object taken as a whole 
+                      is unit~1z an assemblage of parts that is regarded as a single entity 
+                         is physical_object~1z a tangible and visible entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is vehicle~1z a conveyance that transports people or objects 
+                is transportation~2 something that serves as a means of transportation 
+                   is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+                      is artefact~1z a man-made object taken as a whole 
+                         is unit~1z an assemblage of parts that is regarded as a single entity 
+                            is physical_object~1z a tangible and visible entity 
+                               is physical_entity~1z an entity that has physical existence 
+                                  is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trap~5: a device to hurl clay pigeons into the air for trapshooters 
+    is mechanical_device~1  mechanism consisting of a device that works on mechanical principles 
+       is mechanics~1 device consisting of a piece of machinery 
+          is twist~1 an instrumentality invented for a particular purpose 
+             is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+                is artefact~1z a man-made object taken as a whole 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trap~6: drain consisting of a U-shaped section of drainpipe that holds liquid and so prevents a return flow of sewer gas 
+    is drain~3  a pipe through which liquid is carried away 
+       is piping~1z a long tube made of metal or plastic that is used to carry water or oil or gas etc. 
+          is tube~2z conduit consisting of a long hollow object used to hold and conduct objects or liquids or gases 
+             is conduit~1z a passage through which water or electric wires can pass 
+                is transition~1 a way through or along which someone or something may pass 
+                   is means~1 any artifact consisting of a road or path affording passage from one place to another 
+                      is artefact~1z a man-made object taken as a whole 
+                         is unit~1z an assemblage of parts that is regarded as a single entity 
+                            is physical_object~1z a tangible and visible entity 
+                               is physical_entity~1z an entity that has physical existence 
+                                  is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trap~7: informal terms for the mouth 
+    is oral_cavity~1  the opening through which food is taken in and vocalizations emerge 
+       is rima~1z a narrow elongated opening or fissure between two symmetrical parts 
+          is porta~1z an aperture or hole that opens into a bodily cavity 
+             is transition~1 a path or channel or duct through or along which something may pass 
+                is construction~4z a particular complex anatomical part of a living thing 
+                   is body_part~1z any part of an organism such as an organ or extremity 
+                      is small-arm~1 a portion of a natural object 
+                         is thing~1z a separate and self-contained entity 
+                            is physical_entity~1z an entity that has physical existence 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trap~8: something that catches you unawares 
+    is plan~2  an arrangement scheme 
+       is constitution~1z an organized structure for arranging or classifying 
+          is construction~4z the complex composition of knowledge as elements and their combinations 
+             is knowledge~1z the psychological result of perception and learning and reasoning 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  trap~9: to hold fast or prevent from moving 
+  trap~10: catch in or as if in a trap 
+  trap~11: hold or catch as if in a trap 
+  trap~12: place in a confining or embarrassing position 

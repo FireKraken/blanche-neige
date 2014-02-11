@@ -25,7 +25,7 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 
 ?: ($stepmother!=1 who * ~evilqueen) Simply the kingdom's queen!
 
-?: ($stepmother!=1 [what who] * ~murderplot) My stempother wants to kill me so that she can claim to be the most beautiful living woman.
+?: ($stepmother!=1 [what who] * ~murderplot) My stepmother wants to kill me so that she can claim to be the most beautiful living woman.
 
 ?: ($stepmother!=1 ~evilqueen * ~murderplot * you) Yes, she's evil and is jealous of my beauty!
 

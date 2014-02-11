@@ -7,6 +7,8 @@ Reading concept ~takethis
 Reading topic ~sell_apple
 
 ----Reading file dwarves.top
+Reading concept ~insult
+*** Warning- line 1 of dwarves.top: "lame" is not a known word. Is it misspelled?
 Reading topic ~dwarves
 
 ----Reading file friendship.top
@@ -46,7 +48,7 @@ Reading topic ~snowwhite
 Reading topic ~catchall
 
 WARNING SUMMARY: 
-6 spelling warnings and 0 more serious warnings
+7 spelling warnings and 0 more serious warnings
     
 
 Finished compile

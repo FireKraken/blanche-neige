@@ -1,3 +1,5 @@
+concept: ~insult (suck blow "lame" loser losers)
+
 topic: ~dwarves (dwarf~2 ~mythical_intelligent_being dwarves house)
 
 #! Possible related pronouns
@@ -10,15 +12,17 @@ u: ($end==1) The door is shut, no one is hearing you. ^keep() ^repeat()
 #! Undermine dwarves tactic
 #! ----------------------------------------------------------------
 
-u: ([they dwarf~2] * [keep prison~1 ~jail kidnap~1 confine~2]) 
+u: ([they dwarf~2] * [keep prison~1 ~jail kidnap~1 confine~2 trap hostage]) 
 	You think so? ... they seem so nice.
 	$trust += 1
+
+?: (<<you [keep prison~1 ~jail kidnap~1 confine~2 trap hostage]>>) No, I'm free to leave if I want to.
 
 u: ([they dwarf~2] * stupid~1)
 	$trust += 1
 	Yeah, I guess they are a little bit silly sometimes. Can you believe that they thought the earth was round?
 
-s: ([they dwarf~2] * unpleasant_person~1)
+s: ([they dwarf~2] * [unpleasant_person~1 ~insult])
 	$trust -= 1
 	Don't talk like that about these generous creatures!
 
@@ -31,9 +35,9 @@ u: ( << you [dwarf~2] [food~1 apple] [give feed] >>)
 
 
 u: (<< [normal natural suitable fitting moral think virtue virtuous proper] live with dwarf~2>>) Is it wrong for a young girl to live with seven grown--albeit small--men?
-	a:(~no) Oh dear, I had never thought of this that way.
+	a:(no) Oh dear, I had never thought of this that way.
 		$trust += 1
-	a:(~yes) It does feel right.
+	a:(yes) It does feel right.
 		$trust += 1
 
 #! ----------------------------------------------------------------
@@ -83,7 +87,7 @@ s:(dwarf * [apple] * [ok good accept acceptable "good for you"]) Well maybe if t
 	$trust += 1
 
 u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
-	I guess the dwarves could like apples but they won't eat anything coming from a stranger.
+	I guess the dwarves might like apples but they won't eat anything coming from a stranger.
 	a: (why) They're a bit paranoid.
 
 ?: (<< I wait [inside house] >>) The dwarves forbid me to let anyone it. At the end of the road you'll find a small inn.

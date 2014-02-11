@@ -1742,3 +1742,9 @@ RULE-1 Illegal rejoinder level q:Missing topic index for ~sell_apple
 Missing topic index for ~catchall
 Missing topic index for ~justify_identity
 Missing topic index for ~assassination_plot
+   in dwarves.top at 2: ~insult (suck blow lame loser losers)
+Expecting responder for topic ~dwarves, got ~insultMissing topic index for ~dwarves
+Missing topic index for ~justify_identity
+Missing topic index for ~dwarves
+   in script1.txt at 4: TOPIC: ~dwarves 0 0 0 0 10 dwarves.top
+not ptr start of responder 2 ~dwarves 00011 - killing data
