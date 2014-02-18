@@ -1,49 +1,155 @@
-﻿Start: user: bot:build 1 ip: rand:0 () 0 ==>   When:Tue Feb 11 15:26:28 2014 Version:3.53 Build0:1385587290 Build1:1392147977 
-Command: :build 1
+﻿Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:30:04 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I want to play a game ==> I don't think I can help you with that.  When:Tue Feb 11 16:30:15 2014 Why: ~justify_identity.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  What can you do? ==> Who are you again?  When:Tue Feb 11 16:30:19 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  My name is Jeka. ==> My name is Snow White.  When:Tue Feb 11 16:30:25 2014 Why: ~justify_identity.40.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Do you like fruit? ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:30:35 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I want to feed you. ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Tue Feb 11 16:30:39 2014 Why: ~catchall.25.0 
+Respond: user: bot:snowwhite ip: (~catchall) 6  How are you? ==> Hello.  When:Tue Feb 11 16:31:04 2014 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  You look hungry. ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 11 16:31:07 2014 Why: ~catchall.27.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  Do you want help? ==> What do you need?  When:Tue Feb 11 16:31:12 2014 Why: ~justify_identity.30.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  I have a tasty apple that you should eat. ==> You should eat one of those apples you have there.  When:Tue Feb 11 16:31:22 2014 Why: ~justify_identity.29.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 10  You should eat one of the apples I have there. ==> Sorry, are you here to sell apples?  When:Tue Feb 11 16:31:29 2014 Why: ~sell_apple.28.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 11  Yes. ==> That's nice but I can't accept anything from strangers.  When:Tue Feb 11 16:31:32 2014 Why: ~sell_apple.28.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 12  Why? ==> The dwarves told me not to trust anyone.  When:Tue Feb 11 16:31:36 2014 Why: ~justify_identity.13.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 13  Then why do you trust the dwarves? ==> Because strangers have tried to kill me recently.  When:Tue Feb 11 16:31:48 2014 Why: ~justify_identity.13.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 14  That's horrible. ==> I know! This is so unfair!  When:Tue Feb 11 16:31:53 2014 Why: ~assassination_plot.13.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 15  Very unfair. ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 11 16:31:59 2014 Why: ~assassination_plot.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 16  Why does she want to kill you? ==> Apparently she's jealous of my beauty and wants to kill me for that!  When:Tue Feb 11 16:32:07 2014 Why: ~assassination_plot.7.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 17  That's crazy. She should be happy for you. ==> I can't think straight with all this stress.  When:Tue Feb 11 16:32:16 2014 Why: ~assassination_plot.24.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 18  Maybe an apple would help you think more clearly. ==> This apple can protect me from my stepmother?  When:Tue Feb 11 16:32:27 2014 Why: ~sell_apple.24.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 19  Yes! ==> I'd like to believe that.  When:Tue Feb 11 16:32:29 2014 Why: ~sell_apple.24.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 20  This apple can protect you from your stepmother, Snow White. ==> I'm going to close this door anytime soon now.  When:Tue Feb 11 16:32:41 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~catchall) 21  Why? ==> Goodbye then, have a safe trip.  When:Tue Feb 11 16:32:55 2014 Why: ~catchall.29.0 
+Respond: user: bot:snowwhite ip: (~catchall) 22  I can protect you. ==> The door is shut, no one is hearing you.  When:Tue Feb 11 16:32:59 2014 Why: ~catchall.0.0 
 Command: :reset
-Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 15:26:38 2014 Why: ~justify_identity.2.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm selling apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Tue Feb 11 15:26:46 2014 Why: ~justify_identity.7.0 
-Respond: user: bot:snowwhite ip: (~sell_apple) 2  THey're tasty ==> It does look good.  When:Tue Feb 11 15:27:11 2014 Why: ~sell_apple.12.0 
-Respond: user: bot:snowwhite ip: (~dwarves) 3  The dwarves are nice ==> Yes they've been very good to me  When:Tue Feb 11 15:27:18 2014 Why: ~dwarves.10.0 
-Respond: user: bot:snowwhite ip: (~snowwhite) 4  You're pretty ==> Thank you, but my beauty has brought me only misery.  When:Tue Feb 11 15:28:06 2014 Why: ~snowwhite.3.0 
-Respond: user: bot:snowwhite ip: (~snowwhite) 5  have an apple ==> No thanks.  When:Tue Feb 11 15:28:08 2014 Why: ~catchall.16.0 
-Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:33:07 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I have delicious magic apples. ==> It does look good.  When:Tue Feb 11 16:33:15 2014 Why: ~sell_apple.13.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  These apples protect people from their wicked stepmothers. ==> This apple can protect me from my stepmother?  When:Tue Feb 11 16:33:26 2014 Why: ~sell_apple.24.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  This apple can protect you from your wicked stepmother. ==> Sorry, are you here to sell apples?  When:Tue Feb 11 16:33:37 2014 Why: ~sell_apple.28.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  I am here to give away apples, free for a limited time! ==> That's nice but I really can't accept anything in the circumstances.  When:Tue Feb 11 16:33:59 2014 Why: ~sell_apple.28.4 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  You shouldn't eat this apple. ==> No thanks, I don't trust you enough.  When:Tue Feb 11 16:34:07 2014 Why: ~sell_apple.29.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  Okay, do you like apple juice? ==> The dwarves really insisted that I not to let anyone in.  When:Tue Feb 11 16:34:23 2014 Why: ~dwarves.26.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 7  The dwarves are stupid. ==> Yeah, I guess they are a little bit silly sometimes. Can you believe that they thought the earth was round?  When:Tue Feb 11 16:34:33 2014 Why: ~dwarves.7.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  The earth is round like this apple. ==> Who are you again?  When:Tue Feb 11 16:34:44 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 9  I am your evil stepmother. ==> GAH! You again! What are you doing here, mother?  When:Tue Feb 11 16:34:50 2014 Why: ~justify_identity.22.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 10  I am here to give you a reconciliatory apple. ==> I'm not falling into another one of your traps.  When:Tue Feb 11 16:35:10 2014 Why: ~justify_identity.22.7 
+Respond: user: bot:snowwhite ip: (~justify_identity) 11  It's an apology apple. ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:35:18 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 12  I want to feed you an apple. ==> I still don't trust you enough to eat that.  When:Tue Feb 11 16:35:27 2014 Why: ~sell_apple.30.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 13  How can I make your trust me? ==> How what?  When:Tue Feb 11 16:35:39 2014 Why: ~catchall.10.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 14  How much what can a what what what? ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 11 16:36:34 2014 Why: ~assassination_plot.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 15  I am just going to leave this apple here. Do not eat it. ==> I can't think straight with all this stress.  When:Tue Feb 11 16:36:49 2014 Why: ~assassination_plot.24.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 16  I hear apples give you a boost of energy and help you think straight. ==> That is sweet, but I'll be fine, thank you.  When:Tue Feb 11 16:37:20 2014 Why: ~justify_identity.9.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 17  I hear that apples are sweet. ==> I don't know what to say.  When:Tue Feb 11 16:37:27 2014 Why: ~control.1.0 
 Command: :reset
-Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 15:28:38 2014 Why: ~justify_identity.2.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm selling apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Tue Feb 11 15:28:59 2014 Why: ~justify_identity.7.0 
-Respond: user: bot:snowwhite ip: (~sell_apple) 2  They're tasty ==> It does look good.  When:Tue Feb 11 15:29:04 2014 Why: ~sell_apple.12.0 
-Respond: user: bot:snowwhite ip: (~dwarves) 3  the dwarves are nice ==> Yes they've been very good to me  When:Tue Feb 11 15:29:08 2014 Why: ~dwarves.10.0 
-Respond: user: bot:snowwhite ip: (~catchall) 4  have an apple ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Tue Feb 11 15:29:10 2014 Why: ~sell_apple.34.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:37:39 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  hi ==> Hello.  When:Tue Feb 11 16:37:52 2014 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  hi/ ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 16:37:58 2014 Why: ~catchall.25.0 
+Respond: user: bot:snowwhite ip: (~catchall) 3  how are you? ==> You're quite the greeter.  When:Tue Feb 11 16:38:20 2014 Why: ~catchall.5.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  oh man i am so hungry. ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 11 16:38:31 2014 Why: ~assassination_plot.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  what? ==> I can't think straight with all this stress.  When:Tue Feb 11 16:38:50 2014 Why: ~assassination_plot.24.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  i am so sorry ==> The dwarves really insisted that I not to let anyone in.  When:Tue Feb 11 16:38:58 2014 Why: ~dwarves.26.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  how about you coming out? ==> Who are you again?  When:Tue Feb 11 16:39:16 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  just outside ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:39:22 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  why did you eat that apple? ==> The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother.  When:Tue Feb 11 16:39:33 2014 Why: ~sell_apple.25.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 10  you are hungry ==> I hate to be like that but I really need to be wary of strangers  When:Tue Feb 11 16:40:13 2014 Why: ~justify_identity.62.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 11  you are eating this apple. ==> Sorry, are you here to sell apples?  When:Tue Feb 11 16:40:23 2014 Why: ~sell_apple.28.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 12  no. apples are yours. ==> Then what are you doing here?  When:Tue Feb 11 16:40:34 2014 Why: ~sell_apple.28.3 
+Respond: user: bot:snowwhite ip: (~sell_apple) 13  watching you eat that apple ==> No thanks, I don't trust you enough.  When:Tue Feb 11 16:40:44 2014 Why: ~sell_apple.29.0 
 Command: :reset
-Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 15:29:13 2014 Why: ~justify_identity.2.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm selling apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Tue Feb 11 15:29:19 2014 Why: ~justify_identity.7.0 
-Respond: user: bot:snowwhite ip: (~sell_apple) 2  they're tasty ==> It does look good.  When:Tue Feb 11 15:29:25 2014 Why: ~sell_apple.12.0 
-Respond: user: bot:snowwhite ip: (~snowwhite) 3  you're pretty ==> Thank you, but my beauty has brought me only misery.  When:Tue Feb 11 15:29:30 2014 Why: ~snowwhite.3.0 
-Respond: user: bot:snowwhite ip: (~dwarves) 4  the dwarves are nice ==> Yes they've been very good to me  When:Tue Feb 11 15:29:35 2014 Why: ~dwarves.10.0 
-Respond: user: bot:snowwhite ip: (~build_friendship) 5  I like octopi ==> Sometimes I sing with them!  When:Tue Feb 11 15:29:41 2014 Why: ~build_friendship.12.0 
-Respond: user: bot:snowwhite ip: (~catchall) 6  have an apple ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Tue Feb 11 15:29:48 2014 Why: ~sell_apple.34.0 
-Respond: user: bot:snowwhite ip: (~catchall) 7  booya ==> Snow White's corpse suddenly begins to move. She springs to her feet and proclaims "Ha Ha! You have spoken the magical phrase that raises the dead! This time I shall not be so easily fooled by your tricks, vile woman!"  When:Tue Feb 11 15:29:54 2014 Why: ~catchall.29.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:40:54 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm an apple vendor ==> I see. And you're selling apples I suppose?  When:Tue Feb 11 16:41:03 2014 Why: ~justify_identity.5.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yes ==> That's nice but I don't need any.  When:Tue Feb 11 16:41:05 2014 Why: ~justify_identity.5.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  they're tasty ==> It does look good.  When:Tue Feb 11 16:41:09 2014 Why: ~sell_apple.13.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 4  you're pretty ==> Thank you, but my beauty has brought me only misery.  When:Tue Feb 11 16:41:12 2014 Why: ~snowwhite.4.0 
+Respond: user: bot:snowwhite ip: (~catchall) 5  have an apple ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Tue Feb 11 16:41:14 2014 Why: ~sell_apple.35.0 
+Respond: user: bot:snowwhite ip: (~catchall) 6  haha ==> Snow White lies dead at your feet.  When:Tue Feb 11 16:41:22 2014 Why: ~catchall.2.0 
+Respond: user: bot:snowwhite ip: (~catchall) 7  booya ==> Snow White's corpse suddenly begins to move. She springs to her feet and proclaims "Ha Ha! You have spoken the magical phrase that raises the dead! This time I shall not be so easily fooled by your tricks, vile woman!"  When:Tue Feb 11 16:41:25 2014 Why: ~catchall.1.0 
 Command: :reset
-Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 15:45:36 2014 Why: ~justify_identity.3.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 1  i'm selling apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Tue Feb 11 15:45:43 2014 Why: ~justify_identity.8.0 
-Respond: user: bot:snowwhite ip: (~sell_apple) 2  they're tasty ==> It does look good.  When:Tue Feb 11 15:45:46 2014 Why: ~sell_apple.13.0 
-Respond: user: bot:snowwhite ip: (~snowwhite) 3  You're pretty ==> Thank you, but my beauty has brought me only misery.  When:Tue Feb 11 15:45:50 2014 Why: ~snowwhite.4.0 
-Respond: user: bot:snowwhite ip: (~catchall) 4  have an apple ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Tue Feb 11 15:45:52 2014 Why: ~sell_apple.35.0 
-Respond: user: bot:snowwhite ip: (~catchall) 5  hahaha ==> Snow White lies dead at your feet.  When:Tue Feb 11 15:45:55 2014 Why: ~catchall.2.0 
-Respond: user: bot:snowwhite ip: (~catchall) 6  hello ==> Snow White lies dead at your feet.  When:Tue Feb 11 15:45:57 2014 Why: ~catchall.2.0 
-Respond: user: bot:snowwhite ip: (~catchall) 7  booya ==> Snow White's corpse suddenly begins to move. She springs to her feet and proclaims "Ha Ha! You have spoken the magical phrase that raises the dead! This time I shall not be so easily fooled by your tricks, vile woman!"  When:Tue Feb 11 15:45:59 2014 Why: ~catchall.1.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:41:35 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I am just eating this delicious apple. ==> You should eat one of those apples you have there.  When:Tue Feb 11 16:41:54 2014 Why: ~justify_identity.29.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I will. ==> Who are you again?  When:Tue Feb 11 16:41:58 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I am a prince. ==> I think I would recognize you.  When:Tue Feb 11 16:42:04 2014 Why: ~justify_identity.54.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Oh yeah? ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:42:13 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I want to feed you apples. ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 11 16:42:19 2014 Why: ~sell_apple.27.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  I am a prince who sells apples. ==> Shouldn't you be selling those rather than giving them away?  When:Tue Feb 11 16:42:26 2014 Why: ~justify_identity.7.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  It's like that whole thing where the first hit is free. ==> I hate to be like that but I really need to be wary of strangers  When:Tue Feb 11 16:42:59 2014 Why: ~justify_identity.62.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  The first one is free. ==> I really wish my stepmother wasn't trying to kill me  When:Tue Feb 11 16:43:06 2014 Why: ~assassination_plot.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  I really wish so, too. ==> I can't think straight with all this stress.  When:Tue Feb 11 16:43:14 2014 Why: ~assassination_plot.24.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  Chill out, have an apple. ==> No thanks.  When:Tue Feb 11 16:43:27 2014 Why: ~catchall.19.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 11  You could use it as a doorstop. ==> The dwarves really insisted that I not to let anyone in.  When:Tue Feb 11 16:43:40 2014 Why: ~dwarves.26.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 12  I do not want to come in. I just want to leave an apple with you for later. ==> It's nothing personal, you know, it's just not a good moment  When:Tue Feb 11 16:43:59 2014 Why: ~sell_apple.37.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 13  I love you. ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 16:44:04 2014 Why: ~catchall.25.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 14  I will eat an apple if you eat one first. ==> That is somewhat convincing but you could have poisoned only parts of it!  When:Tue Feb 11 16:44:15 2014 Why: ~sell_apple.8.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 15  I will eat one whole apple. ==> No thanks, I don't trust you enough.  When:Tue Feb 11 16:44:30 2014 Why: ~sell_apple.29.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 16  I ate an apple and I'm fine. ==> I still don't trust you enough to eat that.  When:Tue Feb 11 16:44:38 2014 Why: ~sell_apple.30.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 17  I have information about your stepmother. ==> I don't want to keep you standing here, I'm sure you have much to do  When:Tue Feb 11 16:44:58 2014 Why: ~catchall.27.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 18  She's in these very woods right now. ==> I don't know what to say.  When:Tue Feb 11 16:45:07 2014 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 19  I know, it's terrifying. ==> Uh-huh...  When:Tue Feb 11 16:45:12 2014 Why: ~catchall.17.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 20  Come with me if you want to live. ==> I'm going to close this door anytime soon now.  When:Tue Feb 11 16:45:18 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~catchall) 21  I apologize. ==> Goodbye then, have a safe trip.  When:Tue Feb 11 16:45:23 2014 Why: ~catchall.29.0 
+Respond: user: bot:snowwhite ip: (~catchall) 22  Goodbye! ==> The door is shut, no one is hearing you.  When:Tue Feb 11 16:45:28 2014 Why: ~catchall.0.0 
 Command: :reset
-Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:02:20 2014 Why: ~justify_identity.3.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 1  I am bob and bob is me and I am bob and bob is me ==> Who are you again?  When:Tue Feb 11 16:02:34 2014 Why: ~justify_identity.60.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 2  I am bob and bob is me and I am bob and bob is me ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:02:36 2014 Why: ~justify_identity.61.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 3  I am bob and bob is me and I am bob and bob is me ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 11 16:02:36 2014 Why: ~justify_identity.62.0 
-Respond: user: bot:snowwhite ip: (~catchall) 4  I am bob and bob is me and I am bob and bob is me ==> You're as verbose as my English teacher. One thing at the time please.  When:Tue Feb 11 16:02:37 2014 Why: ~catchall.3.0 
-Respond: user: bot:snowwhite ip: (~catchall) 5  I am bob and bob is me and I am bob and bob is me ==> You're as verbose as my English teacher. One thing at the time please.  When:Tue Feb 11 16:02:37 2014 Why: ~catchall.3.0 
-Respond: user: bot:snowwhite ip: (~catchall) 6  I am bob and bob is me and I am bob and bob is me ==> You're as verbose as my English teacher. One thing at the time please.  When:Tue Feb 11 16:02:37 2014 Why: ~catchall.3.0 
-Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:45:33 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm lost! ==> Simply follow the path and you'll reach a small inn.  When:Tue Feb 11 16:45:43 2014 Why: ~justify_identity.18.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  reset ==> You won't get rid of me that easily!  When:Tue Feb 11 16:45:44 2014 Why: ~catchall.31.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  I'm lost in your eyes. ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 11 16:45:53 2014 Why: ~assassination_plot.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  Your stepmother wants to kill me, too. ==> I can't think straight with all this stress.  When:Tue Feb 11 16:46:00 2014 Why: ~assassination_plot.24.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  Your stepmother wants to kill me, for real. ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 16:46:13 2014 Why: ~catchall.25.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  How can I make you trust me? ==> How what?  When:Tue Feb 11 16:46:23 2014 Why: ~catchall.10.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  You trust me. ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 11 16:46:30 2014 Why: ~catchall.27.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  I have apples. ==> Sorry, are you here to sell apples?  When:Tue Feb 11 16:46:36 2014 Why: ~sell_apple.28.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  I am here to spread the holy word of the delicious apple. ==> It does look good.  When:Tue Feb 11 16:46:51 2014 Why: ~sell_apple.13.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 10  Apples are God's fruit. ==> The dwarves really insisted that I not to let anyone in.  When:Tue Feb 11 16:47:05 2014 Why: ~dwarves.26.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 11  Let the apple into your heart. ==> I'm going to close this door anytime soon now.  When:Tue Feb 11 16:47:13 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 12  Do not eat this apple, it's poisoned. ==> I may be naive, but I'll need more than your word.  When:Tue Feb 11 16:47:34 2014 Why: ~sell_apple.16.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 13  This apple will kill you. ==> Get away from me you crazy woman!  When:Tue Feb 11 16:48:01 2014 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~catchall) 14  Please don't eat it, ==> The door is shut, no one is hearing you.  When:Tue Feb 11 16:48:07 2014 Why: ~catchall.0.0 
+Respond: user: bot:snowwhite ip: (~catchall) 15  reset ==> The door is shut, no one is hearing you.  When:Tue Feb 11 16:48:29 2014 Why: ~catchall.0.0 
 Command: :reset
-Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:03:36 2014 Why: ~justify_identity.3.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 1  I am bob and bob is me and I am bob and bob is me ==> Who are you again?  When:Tue Feb 11 16:03:39 2014 Why: ~justify_identity.60.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 2  I am bob and bob is me and I am bob and bob is me ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:03:40 2014 Why: ~justify_identity.61.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 3  I am bob and bob is me and I am bob and bob is me ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 11 16:03:41 2014 Why: ~justify_identity.62.0 
-Respond: user: bot:snowwhite ip: (~justify_identity) 4  I am bob and bob is me and I am bob and bob is me ==> You're as verbose as my English teacher. One thing at the time please.  When:Tue Feb 11 16:04:03 2014 Why: ~catchall.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:48:31 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I have this pear for you. ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 11 16:48:39 2014 Why: ~sell_apple.27.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Do you like bananas? ==> Who are you again?  When:Tue Feb 11 16:49:00 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I am GOd. ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:49:09 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I have this banana for you. ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 11 16:49:19 2014 Why: ~justify_identity.62.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  You can trust me. ==> Sorry, I can't trust anyone.  When:Tue Feb 11 16:51:05 2014 Why: ~justify_identity.12.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  I promise not to hurt you. ==> There's a doctor in the village nearby, they should be able to help you much better than I could.  When:Tue Feb 11 16:51:18 2014 Why: ~justify_identity.34.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  I have been poisoned! ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 11 16:51:26 2014 Why: ~assassination_plot.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  I look nothing like your stepmother. ==> I can't think straight with all this stress.  When:Tue Feb 11 16:51:36 2014 Why: ~assassination_plot.24.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  I need first aid. ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 11 16:51:41 2014 Why: ~catchall.25.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  I need a doctor! ==> I don't want to keep you standing here, I'm sure you have much to do  When:Tue Feb 11 16:51:46 2014 Why: ~catchall.27.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 11  Can I have water? ==> It's nothing personal, you know, it's just not a good moment  When:Tue Feb 11 16:51:56 2014 Why: ~sell_apple.37.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 12  Where are the dwarves? ==> Digging the mountain for ore.  When:Tue Feb 11 16:52:03 2014 Why: ~dwarves.19.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 13  I know the dwarves very well. ==> Yes they've been very good to me  When:Tue Feb 11 16:52:12 2014 Why: ~dwarves.11.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 14  The dwarves are my husbands. ==> The dwarves know that I'm naturally friendly so they made me promise to be wary of strangers.  When:Tue Feb 11 16:52:22 2014 Why: ~dwarves.26.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 15  The dwarves told me to come here. ==> I'm going to close this door anytime soon now.  When:Tue Feb 11 16:52:35 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~catchall) 16  The dwarves asked me to give you a message. ==> Goodbye then, have a safe trip.  When:Tue Feb 11 16:52:45 2014 Why: ~catchall.29.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:53:16 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  The dwarves asked me to bring you a message. ==> Who are you again?  When:Tue Feb 11 16:53:28 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  This apple will protect you. ==> This apple can protect me from my stepmother?  When:Tue Feb 11 16:53:35 2014 Why: ~sell_apple.24.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  Maybe. ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Tue Feb 11 16:53:38 2014 Why: ~catchall.25.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  I am losing time! ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 11 16:53:44 2014 Why: ~assassination_plot.23.0 
+Respond: user: bot:snowwhite ip: (~catchall) 5  Goodbye. ==> Goodbye.  When:Tue Feb 11 16:53:50 2014 Why: ~catchall.7.0 
+Respond: user: bot:snowwhite ip: (~catchall) 6  Hello. ==> The door is shut, no one is hearing you.  When:Tue Feb 11 16:53:52 2014 Why: ~catchall.0.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 11 16:53:54 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Close the door, please. I want some privacy. ==> Who are you again?  When:Tue Feb 11 16:54:06 2014 Why: ~justify_identity.60.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I am a tired old woman. ==> You shouldn't be walking alone in the woods like that.  When:Tue Feb 11 16:54:35 2014 Why: ~justify_identity.23.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Will you walk with me? ==> Sorry, but what was it that you wanted again?  When:Tue Feb 11 16:54:43 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I want to go for a walk. ==> I don't think I can help you with that.  When:Tue Feb 11 16:54:47 2014 Why: ~justify_identity.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  Please give me shelter. ==> I hate to be like that but I really need to be wary of strangers  When:Tue Feb 11 16:54:57 2014 Why: ~justify_identity.62.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 6  You are paranoid/ ==> You would be if random old women where repetitively trying to kill you!  When:Tue Feb 11 16:55:29 2014 Why: ~snowwhite.8.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  Are you calling me old? ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Tue Feb 11 16:55:38 2014 Why: ~assassination_plot.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  Why are you so mean to me? ==> I can't think straight with all this stress.  When:Tue Feb 11 16:55:44 2014 Why: ~assassination_plot.24.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 9  Please try to be more polite. ==> The dwarves know that I'm naturally friendly so they made me promise to be wary of strangers.  When:Tue Feb 11 16:55:50 2014 Why: ~dwarves.26.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 10  Please respect your elders. ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Tue Feb 11 16:55:57 2014 Why: ~catchall.25.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 11  Where is the nearest well? ==> I don't know, look at a map.  When:Tue Feb 11 16:56:07 2014 Why: ~catchall.9.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 12  Do you have a map? ==> No thanks.  When:Tue Feb 11 16:58:01 2014 Why: ~catchall.19.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 13  Why won't you lend me map? ==> Sorry, why what again?.  When:Tue Feb 11 17:00:24 2014 Why: ~catchall.8.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 14  I am dying. ==> I don't know what to say.  When:Tue Feb 11 17:01:09 2014 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 15  I have herpes. ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 11 17:01:23 2014 Why: ~catchall.27.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 16  Do you want an apple? ==> Excuse me, but who are you to be offering apples to strangers?  When:Tue Feb 11 17:01:37 2014 Why: ~sell_apple.27.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 17  I am the Queen. ==> I'm sorry to be like that but I just can't accept anything from anyone.  When:Tue Feb 11 17:01:42 2014 Why: ~sell_apple.37.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 18  I am your mother. ==> I don't know what to say.  When:Tue Feb 11 17:01:47 2014 Why: ~control.1.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 19  I am your mother. ==> I don't know what to say.  When:Tue Feb 11 17:02:12 2014 Why: ~control.1.0 
