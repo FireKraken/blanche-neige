@@ -61,34 +61,66 @@ Server ready
   127.0.0.1 wade/ Feb 11 16:09:49 time:32/16 msg: Booyah 2: Electric Booyah-loo  =>  Snow White lies dead at your feet.   <=
 Server ready
   127.0.0.1 player/ Feb 18 15:16:04 time:0/0 msg: :reset  =>  Hi, what brings you to this part of the woods?   <=
+  
   127.0.0.1 player/ Feb 18 15:16:13 time:16/0 msg: I'm selling these fine apples.  =>  You're an apple vendor? I really can't accept anything from strangers though.   <=
+  
   127.0.0.1 player/ Feb 18 15:16:43 time:15/0 msg: They're delicious.  =>  It does look good.   <=
+  
   127.0.0.1 player/ Feb 18 15:16:52 time:0/0 msg: Would you like to try an apple?  =>  You mean one of those apples?   <=
+  
   127.0.0.1 player/ Feb 18 15:16:54 time:16/16 msg: Yes.  =>  It's nothing personal, you know, it's just not a good moment   <=
+  
   127.0.0.1 player/ Feb 18 15:16:58 time:15/15 msg: Why not?  =>  The dwarves told me not to trust anyone.   <=
+  
   127.0.0.1 player/ Feb 18 15:17:07 time:0/0 msg: Where are the dwarves?  =>  Digging the mountain for ore.   <=
+  
   127.0.0.1 player/ Feb 18 15:17:21 time:16/16 msg: Do you trust the dwarves?  =>  The dwarves really insisted that I not to let anyone in.   <=
+  
   127.0.0.1 player/ Feb 18 15:17:31 time:15/15 msg: The dwarves are creepy.  =>  The dwarves would think I'm really stupid if I accept another gift from a stranger.   <=
+  
   127.0.0.1 player/ Feb 18 15:17:59 time:0/0 msg: My name is oldlady.  =>  You shouldn't be walking alone in the woods like that.   <=
+  
   127.0.0.1 player/ Feb 18 15:18:04 time:15/15 msg: What is my name?  =>  You haven't told me your name yet   <=
+  
   127.0.0.1 player/ Feb 18 15:18:11 time:16/16 msg: My name is Steve.  =>  My name is Snow White.   <=
+  
   127.0.0.1 player/ Feb 18 15:18:15 time:0/0 msg: What is my name?  =>  Your name is Steve.   <=
+  
   127.0.0.1 player/ Feb 18 15:18:23 time:0/0 msg: The dwarves are nice.  =>  Yes they've been very good to me   <=
+  
   127.0.0.1 player/ Feb 18 15:18:29 time:0/0 msg: I like turtles.  =>  Sometimes I sing with them!   <=
+  
   127.0.0.1 player/ Feb 18 15:18:34 time:0/0 msg: The woods are nice.  =>  Yes, the trees are beautiful, aren't they?   <=
+  
   127.0.0.1 player/ Feb 18 15:18:42 time:0/0 msg: You are very pretty.  =>  Thank you, but my beauty has brought me only misery.   <=
+  
   127.0.0.1 player/ Feb 18 15:18:48 time:16/16 msg: Have an apple.  =>  All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!   <=
+  
   127.0.0.1 player/ Feb 18 15:18:56 time:0/0 msg: Booyah.  =>  Snow White lies dead at your feet.   <=
+
 Server ready
   127.0.0.1 player/ Feb 18 15:20:10 time:0/0 msg: :reset  =>  Hi, what brings you to this part of the woods?   <=
+  
   127.0.0.1 player/ Feb 18 15:20:28 time:0/0 msg: I wish to murder my stepdaughter.  =>  Who are you again?   <=
+  
   127.0.0.1 player/ Feb 18 15:20:58 time:31/31 msg: I'm very famous.  =>  Sorry, but what was it that you wanted again?   <=
+  
   127.0.0.1 player/ Feb 18 15:21:43 time:16/16 msg: I'm looking to kill the fairest woman in the land.  =>  I hate to be like that but I really need to be wary of strangers   <=
+  
   127.0.0.1 player/ Feb 18 15:22:03 time:0/0 msg: You seem very fair yourself.  =>  The dwarves really insisted that I not to let anyone in.   <=
+  
   127.0.0.1 player/ Feb 18 15:26:12 time:62/47 msg: The paleness of your skin reminds me of the flakey, crystalline precipitation of water that sometimes falls from the clouds in most temperate climates, when the axis of the Earth in our hemisphere orients away from the Sun.  =>  I'm sure you mean well but how could I trust you?   <=
+  
   127.0.0.1 player/ Feb 18 15:34:06 time:0/0 msg: My name rhymes with "Weevil Tween".  =>  I hate to be rude but there's an awful lot to do in this house   <=
+  
   127.0.0.1 player/ Feb 18 15:34:22 time:16/16 msg: Or was it my title?  =>  Sorry, are you here to sell apples?   <=
+  
   127.0.0.1 player/ Feb 18 15:34:30 time:15/15 msg: Um, yes.  =>  That's nice but I can't accept anything from strangers.   <=
+  
   127.0.0.1 player/ Feb 18 15:34:45 time:16/16 msg: Why not?  =>  The dwarves told me not to trust anyone.   <=
+  
   127.0.0.1 player/ Feb 18 15:35:27 time:15/15 msg: Hey, did you get that bodice lace I sent you?  =>  Hello.   <=
+  
   127.0.0.1 player/ Feb 18 15:35:49 time:16/0 msg: I didn't know your size, it may have been too tight.  =>  Uh-huh...   <=
+
+Server ready
