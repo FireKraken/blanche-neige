@@ -1,6 +1,7 @@
 ﻿johnny-on-the-spot
 booya
 booyah
+i
 dollars
 coins
 wishing~1
@@ -21,7 +22,12 @@ losers
 prison~1
 snatch~8
 limit~8
+chores
+work~1
+dishes
 dullard~2
+it_is
+earth_is_round
 food~1
 acquaintance~2
 rendez-vous
@@ -66,6 +72,8 @@ seclusion~2
 official~2
 government~4
 there_are
+groceries
+something_to_eat
 afraid~1
 bank~11
 believe~1

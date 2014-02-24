@@ -4,6 +4,9 @@ u: ($end==1) ^reuse(~catchall.DOORCLOSED)
 u: ($end==2 [booya booyah]) ^reuse(~catchall.RESURRECT)
 u: ($end==2) ^reuse(~catchall.ISDEAD)
 
+?: (who * be * you) I'm Snow White.
+?: (and you are) Snow White.
+
 ?: (you * like * [living here house~2]) I sort of got used to it.
 
 s: (you * [be look] * [beautiful~1 pretty]) Thank you, but my beauty has brought me only misery.
@@ -18,7 +21,8 @@ s: (you * be * ugly) If only that was true!
 		$plot = 1
 		^addtopic(~assassination_plot)
 
-s: (you * be * _unpleasant_person~1) Your mother is '_0.
+u: (<< you be [_unpleasant_person~1 _mean]  >>) Your mother is '_0.
+
 
 u: (you * be * paranoid) You would be if random old women where repetitively trying to kill you!
 

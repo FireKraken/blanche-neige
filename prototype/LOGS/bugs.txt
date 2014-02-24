@@ -1758,3 +1758,62 @@ Missing topic index for ~justify_identity
 input:1 Tue Feb 11 14:14:47 2014 Missing topic index for ~justify_identity
  caller: callee:snowwhite in sentence: I'm a poor old woman at 
 Missing topic index for ~justify_identity
+   in apple.top at 22: u:(<< I [eat taste try have bite] apple) That is somewhat convincing but you could have poisoned only parts of it!
+PATTERN-70 Failed to close <<   in identity.top at 318: u: (<< you want [food~1 fare meal snack groceries ration sustenance nourishment "something to eat"]) Thank you but the dwarves provide me with everything I need... as long as I cook it.
+PATTERN-70 Failed to close <<input:6 Mon Feb 24 14:45:00 2014 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~dwarves
+input:6 Mon Feb 24 14:45:00 2014 Missing topic index for ~sell_apple
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~sell_apple
+input:6 Mon Feb 24 14:45:00 2014 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~justify_identity
+input:6 Mon Feb 24 14:45:00 2014 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~dwarves
+   in identity.top at 318: u: (<< you want [food~1 fare meal snack groceries ration sustenance nourishment "something to eat"]) Thank you but the dwarves provide me with everything I need... as long as I cook it.
+PATTERN-70 Failed to close <<input:6 Mon Feb 24 14:45:13 2014 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~dwarves
+input:6 Mon Feb 24 14:45:13 2014 Missing topic index for ~sell_apple
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~sell_apple
+input:6 Mon Feb 24 14:45:13 2014 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~justify_identity
+input:6 Mon Feb 24 14:45:14 2014 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~dwarves
+input:7 Mon Feb 24 14:45:14 2014 Missing topic index for ~control
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~control
+input:6 Mon Feb 24 14:45:15 2014 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~dwarves
+input:6 Mon Feb 24 14:45:15 2014 Missing topic index for ~sell_apple
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~sell_apple
+input:6 Mon Feb 24 14:45:15 2014 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~justify_identity
+input:6 Mon Feb 24 14:45:15 2014 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: I'm poisoned at 
+Missing topic index for ~dwarves
+   in dwarves.top at 107: ?: (<< dwarf~2 be [there in home inside around]) No, they've gone to work.
+PATTERN-70 Failed to close <<   in plot.top at 69: s: (<<~evilqueen  [want try]  [kill capture hurt ~damage_verbs]  me) Oh! Poor thing! How I understand you! It's not for me to invite you in the dwarves' house but you can go hide in this shed.
+PATTERN-70 Failed to close <<input:10 Mon Feb 24 15:40:07 2014 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: Actually, your stepmother is trying to kill me too at 
+Missing topic index for ~dwarves
+input:10 Mon Feb 24 15:40:07 2014 Missing topic index for ~sell_apple
+ caller: callee:snowwhite in sentence: Actually, your stepmother is trying to kill me too at 
+Missing topic index for ~sell_apple
+input:10 Mon Feb 24 15:40:07 2014 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: Actually, your stepmother is trying to kill me too at 
+Missing topic index for ~justify_identity
+input:10 Mon Feb 24 15:40:07 2014 Missing topic index for ~assassination_plot
+ caller: callee:snowwhite in sentence: Actually, your stepmother is trying to kill me too at 
+Missing topic index for ~assassination_plot
+input:10 Mon Feb 24 15:40:07 2014 Missing topic index for ~dwarves
+ caller: callee:snowwhite in sentence: Actually, your stepmother is trying to kill me too at 
+Missing topic index for ~dwarves

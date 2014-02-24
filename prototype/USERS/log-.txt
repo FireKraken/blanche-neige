@@ -153,3 +153,632 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 16  Do you want an apple? =
 Respond: user: bot:snowwhite ip: (~sell_apple) 17  I am the Queen. ==> I'm sorry to be like that but I just can't accept anything from anyone.  When:Tue Feb 11 17:01:42 2014 Why: ~sell_apple.37.0 
 Respond: user: bot:snowwhite ip: (~sell_apple) 18  I am your mother. ==> I don't know what to say.  When:Tue Feb 11 17:01:47 2014 Why: ~control.1.0 
 Respond: user: bot:snowwhite ip: (~sell_apple) 19  I am your mother. ==> I don't know what to say.  When:Tue Feb 11 17:02:12 2014 Why: ~control.1.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 13:52:15 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  Do you like fruits? ==> Sure, everyone likes fruits.  When:Mon Feb 24 13:52:22 2014 Why: ~sell_apple.27.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  do you want one? ==> Excuse me, but who are you to be offering apples to strangers?  When:Mon Feb 24 13:52:27 2014 Why: ~sell_apple.29.0 
+Command: :up malnutrition
+
+For malnutrition:
+ Set hierarchy:
+ Wordnet hierarchy:
+  malnutrition~1: a state of poor nutrition 
+    is deficiency_disease~1  any disease caused by a lack of an essential nutrient 
+       is disease~1z an impairment of health or a condition of abnormal functioning 
+          is malady~1z impairment of normal physiological function affecting part or all of an organism 
+             is health_problem~1z a state in which you are unable to function normally and without pain 
+                is pathological_state~1z a physical condition that is caused by disease 
+                   is physiological_condition~1z the condition or state of the body or bodily functions 
+                      is condition~6z a state at a particular time 
+                         is state~1z the way something is with respect to its main attributes 
+                            is attribute~1z an abstraction belonging to or characteristic of an entity 
+                               is abstraction~1z a general concept formed by extracting common features from specific examples 
+                                  is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up food
+
+For food:
+ Set hierarchy:
+ Wordnet hierarchy:
+  food~1: any substance that can be metabolized by an animal to give energy and build tissue 
+    is substance~2  a particular kind or species of matter with uniform properties 
+       is matter~1z that which has mass and occupies space 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  food~2: anything that provides mental stimulus for thinking 
+    is content~2  the sum or range of what has been perceived, discovered, or learned 
+       is knowledge~1z the psychological result of perception and learning and reasoning 
+          is psychological_feature~1z a feature of the mental life of a living organism 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  food~3: any solid substance that is used as a source of nourishment 
+    is solid~3  matter that is solid at room temperature and pressure 
+       is matter~1z that which has mass and occupies space 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up chore
+
+For chore:
+ Set hierarchy:
+ Wordnet hierarchy:
+  chore~1: a specific piece of work required to be done as a duty or for a specific fee 
+    is duty~1  work that you are obliged to perform for moral or legal reasons 
+       is work~1z activity directed toward making or doing something 
+          is activity~1z any specific behavior 
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up cook
+
+For cook:
+ Set hierarchy:
+ Wordnet hierarchy:
+  cook~1: someone who cooks food 
+    is skilled_worker~1  a worker who has acquired special skills 
+       is worker~1z a person who works at a specific occupation 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  cook~2: transform and make suitable for consumption by heating 
+  cook~3: transform by heating 
+  cook~4: prepare for eating by applying heat 
+  cook~5: prepare a hot meal 
+  cook~6: tamper, with the purpose of deception 
+Command: :up servant
+
+For servant:
+ Set hierarchy:
+ Wordnet hierarchy:
+  servant~1: a person working in the service of another 
+    is worker~2  a person who works at a specific occupation 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  servant~2: in a subordinate position 
+    is subordinateness~1  secondary importance 
+       is low_quality~1 the state of being inferior 
+          is lowliness~1z a position of inferior status 
+             is position~1z the relative position or standing of things or especially persons in a society 
+                is state~1z the way something is with respect to its main attributes 
+                   is attribute~1z an abstraction belonging to or characteristic of an entity 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up yes
+
+For yes:
+ Set hierarchy:
+ Wordnet hierarchy:
+  yes~1: an affirmative 
+    is affirmative~1  a reply of affirmation 
+       is affirmation~1z a statement asserting the existence or the truth of something 
+          is asseveration~1z a declaration that is made emphatically 
+             is resolution~6 a statement that is emphatic and explicit 
+                is financial_statement~1z a message that is stated or declared 
+                   is message~2z what a communication that is about something is about 
+                      is communication~1z something that is communicated by or to or between people or groups 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up indeed
+
+For indeed:
+ Set hierarchy:
+ Wordnet hierarchy:
+  indeed~1:
+  indeed~2: an expression of surprise or skepticism or irony etc. 
+  indeed~3: in truth  
+Command: :reconcile
+Command: :up reconcile
+
+For reconcile:
+ Set hierarchy:
+ Wordnet hierarchy:
+  reconcile~1: bring into consonance or accord 
+  reconcile~2: make compatible with (another) 
+  reconcile~3: accept as inevitable 
+  reconcile~4: come to terms 
+Command: :up reconciliation
+
+For reconciliation:
+ Set hierarchy:
+ Wordnet hierarchy:
+  reconciliation~1: getting two things to correspond 
+    is leveling~1  the act of making equal or uniform 
+       is act~1z something that people do or cause to happen 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  reconciliation~2: the reestablishing of cordial relations 
+    is cooperation~2  joint operation or action 
+       is group_action~1z action taken by a group of people 
+          is event~1z something that happens at a given place and time 
+             is psychological_feature~1z a feature of the mental life of a living organism 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up kill
+
+For kill:
+ Set hierarchy:
+ Wordnet hierarchy:
+  kill~1: the destruction of an enemy plane or ship or tank or missile 
+    is destruction~1  the termination of something by causing so much damage to it that it cannot be repaired or no longer exists 
+       is decision~1 the act of ending something 
+          is change_of_state~1z the act of changing something into something different in essential characteristics 
+             is change~1z the action of changing something 
+                is action~1z something done  
+                   is act~1z something that people do or cause to happen 
+                      is event~1z something that happens at a given place and time 
+                         is psychological_feature~1z a feature of the mental life of a living organism 
+                            is abstraction~1z a general concept formed by extracting common features from specific examples 
+                               is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  kill~2: the act of terminating a life 
+    is conclusion~2  the act of ending something 
+       is change_of_state~1z the act of changing something into something different in essential characteristics 
+          is change~1z the action of changing something 
+             is action~1z something done  
+                is act~1z something that people do or cause to happen 
+                   is event~1z something that happens at a given place and time 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  kill~3: end or extinguish by forceful means 
+  kill~4: destroy a vitally essential quality of or in 
+  kill~5: cause to cease operating 
+  kill~6: tire out completely 
+  kill~7: mark for deletion, rub off, or erase 
+  kill~8: drink down entirely 
+  kill~9: cause to die 
+  kill~10: cause the death of, without intention 
+  kill~11: deprive of life 
+  kill~12: hit with great force 
+  kill~13: hit with so much force as to make a return impossible, in racket games 
+  kill~14: overwhelm with hilarity, pleasure, or admiration 
+  kill~15: be the source of great pain for 
+  kill~16: thwart the passage of 
+  kill~17: be fatal 
+Command: :up hurt
+
+For hurt:
+ Set hierarchy:
+ Wordnet hierarchy:
+  hurt~1: the act of damaging something or someone 
+    is change_of_integrity~1  the act of changing the unity or wholeness of something 
+       is change~1z the action of changing something 
+          is action~1z something done  
+             is act~1z something that people do or cause to happen 
+                is event~1z something that happens at a given place and time 
+                   is psychological_feature~1z a feature of the mental life of a living organism 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  hurt~2: a damage or loss 
+    is damage~4  the occurrence of a change for the worse 
+       is adjustment~1 an event that occurs when something passes from one state or phase to another 
+          is natural_event~1z an event that happens 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  hurt~3: feelings of mental or physical pain 
+    is pain~3  emotional distress 
+       is feeling~1z the experiencing of affective and emotional states 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  hurt~4: psychological suffering 
+    is pain~3  emotional distress 
+       is feeling~1z the experiencing of affective and emotional states 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  hurt~5: any physical damage to the body caused by violence or accident or fracture etc. 
+    is ill_health~1  a state in which you are unable to function normally and without pain 
+       is pathological_state~1z a physical condition that is caused by disease 
+          is physiological_condition~1z the condition or state of the body or bodily functions 
+             is condition~6z a state at a particular time 
+                is state~1z the way something is with respect to its main attributes 
+                   is attribute~1z an abstraction belonging to or characteristic of an entity 
+                      is abstraction~1z a general concept formed by extracting common features from specific examples 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  hurt~6: give trouble or pain to 
+  hurt~7: feel pain or be in pain 
+  hurt~8: cause damage or affect negatively 
+  hurt~9: cause emotional anguish or make miserable 
+  hurt~10: hurt the feelings of 
+  hurt~11: feel physical pain 
+  hurt~12: be the source of pain 
+  hurt~13: damaged inanimate objects or their value 
+  hurt~14: suffering from physical injury especially that suffered in battle 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I'm poisoned ==> Excuse me, but who are you again?  When:Mon Feb 24 14:44:23 2014 Why: ~justify_identity.61.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm poisoned ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 14:44:24 2014 Why: ~justify_identity.62.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I'm poisoned ==> I hate to be like that but I really need to be wary of strangers  When:Mon Feb 24 14:44:25 2014 Why: ~justify_identity.63.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  I'm poisoned ==> The dwarves really insisted that I not to let anyone in.  When:Mon Feb 24 14:44:26 2014 Why: ~dwarves.26.0 
+Command: :build 1
+Missing topic index for ~dwarves
+
+6 Mon Feb 24 14:45:00 2014 in sentence: I'm poisoned 
+    Missing topic index for ~sell_apple
+
+6 Mon Feb 24 14:45:00 2014 in sentence: I'm poisoned 
+    Missing topic index for ~justify_identity
+
+6 Mon Feb 24 14:45:00 2014 in sentence: I'm poisoned 
+    Missing topic index for ~dwarves
+
+6 Mon Feb 24 14:45:00 2014 in sentence: I'm poisoned 
+    Command: :build 1
+Missing topic index for ~dwarves
+
+6 Mon Feb 24 14:45:13 2014 in sentence: I'm poisoned 
+    Missing topic index for ~sell_apple
+
+6 Mon Feb 24 14:45:13 2014 in sentence: I'm poisoned 
+    Missing topic index for ~justify_identity
+
+6 Mon Feb 24 14:45:14 2014 in sentence: I'm poisoned 
+    Missing topic index for ~dwarves
+
+6 Mon Feb 24 14:45:14 2014 in sentence: I'm poisoned 
+    Missing topic index for ~control
+
+7 Mon Feb 24 14:45:14 2014 in sentence: I'm poisoned 
+    Respond: user: bot:snowwhite ip: () 7  I'm poisoned ==>   When:Mon Feb 24 14:45:14 2014 
+Missing topic index for ~dwarves
+
+6 Mon Feb 24 14:45:15 2014 in sentence: I'm poisoned 
+    Missing topic index for ~sell_apple
+
+6 Mon Feb 24 14:45:15 2014 in sentence: I'm poisoned 
+    Missing topic index for ~justify_identity
+
+6 Mon Feb 24 14:45:15 2014 in sentence: I'm poisoned 
+    Missing topic index for ~dwarves
+
+6 Mon Feb 24 14:45:15 2014 in sentence: I'm poisoned 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 14:45:27 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm poisoned ==> There's a doctor in the village nearby, they should be able to help you much better than I could.  When:Mon Feb 24 14:45:29 2014 Why: ~justify_identity.42.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 14:46:12 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I look nothing lile your stepmother ==> Excuse me, but who are you again?  When:Mon Feb 24 14:46:18 2014 Why: ~justify_identity.73.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I look nothing lile your stepmother ==> GAH! You again! What are you doing here, mother?  When:Mon Feb 24 14:46:19 2014 Why: ~justify_identity.24.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I look nothing lile your stepmother ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 14:46:21 2014 Why: ~justify_identity.74.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  I look nothing like your stepmother ==> I really wish my stepmother wasn't trying to kill me  When:Mon Feb 24 14:46:27 2014 Why: ~assassination_plot.28.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 14:47:40 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I look like your stepmother ==> Excuse me, but who are you again?  When:Mon Feb 24 14:47:46 2014 Why: ~justify_identity.73.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I look like your stepmother ==> GAH! You again! What are you doing here, mother?  When:Mon Feb 24 14:47:47 2014 Why: ~justify_identity.24.0 
+Command: :prepare I look like stepmother
+
+Original User Input: I look like stepmother
+Tokenized: I  look  like  stepmother  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Tagged POS 4 words: I (MAINSUBJECT Pronoun_subject)  look (MAINVERB Verb_present)  like (<Verbal MAINOBJECT VERB2 Noun_infinitive)  stepmother (OBJECT_COMPLEMENT Noun_singular Verbal>)  
+  MainSentence: (I)  look (stepmother)    PRESENT 
+ Verbal: like stepmother 
+
+
+Concepts: 
+
+1: I raw=  +~pronoun(1)  +~pronoun_subject(1)  +~pronoun_bits(1)  +~kindergarten(1)  +~mainsubject(1)  +I(1)  +~letters(1)  // 
+1: I canonical=  //  
+
+2: look raw=  +~verb_present(2)  +~verb_tenses(2)  +~verb(2)  +~kindergarten(2)  +~mainverb(2)  +look(2)  +~watch(2)  +~vision_verbs(2) 
+.  +~linkingverb(2)  +~tobe(2)  +~be_verbs(2)  +~special_activities_verbs(2)  +~animate_verbs(2)  +~verbs(2)  +~active_verbs(2) 
+.  +~sensory_states(2)  +~static_verbs(2)  +~states_of_being(2)  +~classactions(2)  +~acquire_imperatives(2)  +~nounroot(2)  // 
+2: look canonical=  //  +Look(2)  
+
+3: like raw=  +~noun_abstract(3)  +~verb(3)  +~kindergarten(3)  +~basic_form(3)  +~mainobject(3)  +~verb2(3)  +~verbal(3-4) +like(3) 
+.  +~omittable_that_verbs(3)  +~special_english_attributes(3)  +~like(3)  +~opinion_verbs(3)  +~judgement_verbs(3)  +~mental_verbs(3) 
+.  +~animate_verbs(3)  +~verbs(3)  +~opinion(3)  +~opinionset(3)  +~mental_states(3)  +~static_verbs(3)  +~causal_to_infinitive_verbs(3) 
+.  +~factitive_noun_verbs(3)  +~factitive_adjective_verbs(3)  +~relationpreposition(3)  +~prepositionroot(3)  +~similar(3) 
+.  +~positivevalue(3)  +~comparisons(3)  +~goodness(3)  +~nounroot(3)  +like~5(3)  // 
+3: like canonical=  //  +Like(3)  
+
+4: stepmother raw=  +~noun_human(4)  +~femalename(4)  +~she(4)  +~age_gender(4)  +~noun_she(4)  +~noun_role(4)  +~noun(4)  +~noun_singular(4) 
+.  +~noun_bits(4)  +~kindergarten(4)  +~objectcomplement(4)  +stepmother(4)  +~evilqueen(4)  +T~assassination_plot (4) 
+.  +~family_adult_female(4)  +~family_adult(4)  +~family_members(4)  +~role_family(4)  +~role(4)  +~styles(4)  +~attributes(4)  +~nounlist(4)  +~adult(4) 
+.  +~nounroot(4)  // 
+4: stepmother canonical=  //  
+ +~repeatinput1(1) 
+    sequences=
+ +look_like(2-3)
+
+TokenFlags: PRESENT USERINPUT 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 14:49:00 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I look stepmother ==> Excuse me, but who are you again?  When:Mon Feb 24 14:49:02 2014 Why: ~justify_identity.73.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I look stepmother ==> GAH! You again! What are you doing here, mother?  When:Mon Feb 24 14:49:04 2014 Why: ~justify_identity.24.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I look stepmother ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 14:49:05 2014 Why: ~justify_identity.74.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  I look stepmother ==> I really wish my stepmother wasn't trying to kill me  When:Mon Feb 24 14:49:07 2014 Why: ~assassination_plot.28.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 14:50:16 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I look stepmotehr ==> Excuse me, but who are you again?  When:Mon Feb 24 14:50:19 2014 Why: ~justify_identity.73.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I look stepmother ==> Wait, are you saying you are my stepmother disguised as an old woman?  When:Mon Feb 24 14:50:21 2014 Why: ~justify_identity.24.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  indeed ==> GAH! You again! What are you doing here, mother?  When:Mon Feb 24 14:50:25 2014 Why: ~justify_identity.24.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I look nothing like her ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 14:50:33 2014 Why: ~justify_identity.74.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  I look nothing like her ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Mon Feb 24 14:50:35 2014 Why: ~assassination_plot.28.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  I don't resemble your stepmother ==> True, but she's usually disguised.  When:Mon Feb 24 14:51:00 2014 Why: ~assassination_plot.26.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  I need help ==> I wish that I could help you but the dwarves told me to be wary of strangers.  When:Mon Feb 24 14:52:02 2014 Why: ~justify_identity.30.0 
+Command: :up husband
+
+For husband:
+ Set hierarchy:
+ Wordnet hierarchy:
+  husband~1: a married man 
+    is mate~7  a person's partner in marriage 
+       is spousal_equivalent~1z a person with whom you cohabit and share a long-term sexual relationship 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is relation~1z a person related by blood or marriage 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  husband~2: use cautiously and frugally 
+Command: :up ~role_romantic
+
+For ~role_romantic:
+ Set hierarchy:
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:03:31 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  why are you so mean? ==> Excuse me, but who are you again?  When:Mon Feb 24 15:03:34 2014 Why: ~justify_identity.75.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  why are you so mean? ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 15:03:35 2014 Why: ~justify_identity.76.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  why are you so mean? ==> Sorry, why what again?.  When:Mon Feb 24 15:03:36 2014 Why: ~catchall.8.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  why are you so mean? ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Mon Feb 24 15:03:37 2014 Why: ~justify_identity.77.0 
+Command: :build 1
+Command: :reset<
+Command: :reset<
+Respond: user: bot:snowwhite ip: (~justify_identity) 5    ==> I'm sure you mean well but how could I trust you?  When:Mon Feb 24 15:04:35 2014 Why: ~catchall.26.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:04:37 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~snowwhite) 1  why are you so mean? ==> Your mother is mean.  When:Mon Feb 24 15:04:39 2014 Why: ~snowwhite.7.0 
+Command: :up ~noun
+
+For ~noun:
+ Set hierarchy:
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:08:55 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Do you have a map? ==> Excuse me, but who are you again?  When:Mon Feb 24 15:09:01 2014 Why: ~justify_identity.76.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Do you have a map? ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 15:09:02 2014 Why: ~justify_identity.77.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Do you have a map? ==> I don't have a map  When:Mon Feb 24 15:09:03 2014 Why: ~catchall.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  Do you have a map? ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Mon Feb 24 15:09:04 2014 Why: ~justify_identity.78.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  Do you want a map? ==> I don't want a map  When:Mon Feb 24 15:09:13 2014 Why: ~catchall.22.0 
+Command: :up herpes
+
+For herpes:
+ Set hierarchy:
+ Wordnet hierarchy:
+  herpes~1: any of the animal viruses that cause painful blisters on the skin 
+    is animal_virus~1  an animal pathogen that is a virus 
+       is virus~1z ultramicroscopic infectious agent that replicates itself only within cells of living hosts 
+          is microorganism~1z any organism of microscopic size 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is infective_agent~1z an agent capable of producing infection 
+             is agentive_role~1 an active and efficient cause 
+                is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  herpes~2: viral diseases causing eruptions of the skin or mucous membrane 
+    is infectious_disease~1  a disease transmitted only by a specific kind of contact 
+       is communicable_disease~1z a disease that can be communicated from one person to another 
+          is disease~1z an impairment of health or a condition of abnormal functioning 
+             is malady~1z impairment of normal physiological function affecting part or all of an organism 
+                is health_problem~1z a state in which you are unable to function normally and without pain 
+                   is pathological_state~1z a physical condition that is caused by disease 
+                      is physiological_condition~1z the condition or state of the body or bodily functions 
+                         is condition~6z a state at a particular time 
+                            is state~1z the way something is with respect to its main attributes 
+                               is attribute~1z an abstraction belonging to or characteristic of an entity 
+                                  is abstraction~1z a general concept formed by extracting common features from specific examples 
+                                     is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  I'm the queen ==> Wait, are you saying you are my stepmother disguised as an old woman?  When:Mon Feb 24 15:10:17 2014 Why: ~justify_identity.24.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  I am your mother ==> I think I would recognize a family member.  When:Mon Feb 24 15:10:31 2014 Why: ~justify_identity.55.0 
+Command: :build 1
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:11:32 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm selling apples ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Mon Feb 24 15:11:39 2014 Why: ~justify_identity.9.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  why? ==> Because strangers have tried to kill me recently.  When:Mon Feb 24 15:11:44 2014 Why: ~justify_identity.9.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  really? ==> I really wish my stepmother wasn't trying to kill me  When:Mon Feb 24 15:11:49 2014 Why: ~assassination_plot.28.0 
+Command: :prepare really?
+
+Original User Input: really?
+Tokenized: really  ?  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Substituted: ~emosurprise  
+Tagged POS 1 words: ~emosurprise ()  
+
+Concepts: 
+
+1: ~emosurprise raw=  +~emosurprise(1)  +~interjections(1)  +~feeling_words(1)  +~emotions(1)  +~tool(1)  +~sensations(1)  +~attributes(1) 
+.  +~nounlist(1)  // 
+1: ~emosurprise canonical=  //  
+
+    sequences=
+TokenFlags: INTERJECTIONS PRESENT USERINPUT 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:13:53 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  Argh! ==> Hmm.  When:Mon Feb 24 15:13:55 2014 Why: ~catchall.14.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  geez ==> So there.  When:Mon Feb 24 15:17:53 2014 Why: ~catchall.14.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:17:54 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  c'mon ==> Excuse me, but who are you again?  When:Mon Feb 24 15:17:58 2014 Why: ~justify_identity.76.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  yeah ==> So there.  When:Mon Feb 24 15:18:01 2014 Why: ~catchall.14.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  uh-huh! ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 15:18:06 2014 Why: ~justify_identity.77.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  hu hu ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Mon Feb 24 15:18:09 2014 Why: ~justify_identity.78.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:18:13 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I want to give you an apple ==> Excuse me, but who are you to be offering apples to strangers?  When:Mon Feb 24 15:18:19 2014 Why: ~sell_apple.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm the mayor ==> Excuse me, but who are you again?  When:Mon Feb 24 15:18:28 2014 Why: ~justify_identity.76.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 3  an old friend ==> I just met you.  When:Mon Feb 24 15:19:16 2014 Why: ~build_friendship.5.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 4  you don't remember me? ==> I'm sure you mean well but how could I trust you?  When:Mon Feb 24 15:19:23 2014 Why: ~catchall.29.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 5  what can I do for you to trust me? ==> I don't want to keep you standing here, I'm sure you have much to do  When:Mon Feb 24 15:20:07 2014 Why: ~catchall.31.0 
+Respond: user: bot:snowwhite ip: (~build_friendship) 6  How can I make you trust me? ==> How what?  When:Mon Feb 24 15:20:15 2014 Why: ~catchall.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  How will you trust? ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 15:20:24 2014 Why: ~justify_identity.77.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  Why don't you want an apple? ==> Shouldn't you be selling those rather than giving them away?  When:Mon Feb 24 15:20:38 2014 Why: ~justify_identity.8.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 9  Ok, I'll sell you an apple ==> Oï.  When:Mon Feb 24 15:20:53 2014 Why: ~catchall.14.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 10  I'll sell you an apple ==> You're an apple vendor? I really can't accept anything from strangers though.  When:Mon Feb 24 15:21:02 2014 Why: ~justify_identity.9.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  why is that? ==> Because strangers have tried to kill me recently.  When:Mon Feb 24 15:21:21 2014 Why: ~justify_identity.9.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 12  I'm not a stranger ==> Who are you then?  When:Mon Feb 24 15:21:26 2014 Why: ~justify_identity.12.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 13  I'm your neighbor ==> Have you moved in recently? I don't remember seeing you.  When:Mon Feb 24 15:21:59 2014 Why: ~justify_identity.66.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 14  I've changed ==> Whoever you are, I'm sorry to say you haven't changed for the better.  When:Mon Feb 24 15:22:03 2014 Why: ~justify_identity.57.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 15  Are the dwarves there? ==> The dwarves really insisted that I not to let anyone in.  When:Mon Feb 24 15:22:13 2014 Why: ~dwarves.32.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 16  why? ==> The dwarves told me not to trust anyone.  When:Mon Feb 24 15:23:12 2014 Why: ~justify_identity.14.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 17  They are wise ==> I know I sound impolite but I'm sure you would do the same  When:Mon Feb 24 15:23:17 2014 Why: ~sell_apple.43.0 
+Command: :up clever
+
+For clever:
+ Set hierarchy:
+ Wordnet hierarchy:
+  clever~1: showing inventiveness and skill 
+  clever~2: showing self-interest and shrewdness in dealing with others 
+  clever~3: mentally quick and resourceful 
+Command: :up wise
+
+For wise:
+ Set hierarchy:
+ Wordnet hierarchy:
+  wise~1: a way of doing or being 
+    is manner~2  how something is done or how it happens 
+       is prop~3z a basic or essential attribute shared by all members of a class 
+          is attribute~1z an abstraction belonging to or characteristic of an entity 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  wise~2: improperly forward or bold 
+  wise~3: evidencing the possession of inside information 
+  wise~4: marked by the exercise of good judgment or common sense in practical matters 
+  wise~5: having or prompted by wisdom or discernment 
+Command: :up gentle
+
+For gentle:
+ Set hierarchy:
+ Wordnet hierarchy:
+  gentle~1: stroke soothingly 
+  gentle~2: cause to be more favorably inclined 
+  gentle~3: give a title to someone 
+  gentle~4: marked by moderate steepness 
+  gentle~5: having little impact 
+  gentle~6: having or showing a kindly or tender nature 
+  gentle~7: quiet and soothing 
+  gentle~8: soft and mild 
+  gentle~9: belonging to or characteristic of the nobility or aristocracy 
+  gentle~10: easily handled or managed 
+Command: :up
+Command: :up amiable
+
+For amiable:
+ Set hierarchy:
+ Wordnet hierarchy:
+  amiable~1: diffusing warmth and friendliness 
+  amiable~2: disposed to please 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:29:41 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Hi ==> Hello.  When:Mon Feb 24 15:29:42 2014 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  Are the dwarves home? ==> This is their house but they're out at the mountain.  When:Mon Feb 24 15:29:46 2014 Why: ~dwarves.18.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 3  When will they come back? ==> They will come back at dusk.  When:Mon Feb 24 15:29:56 2014 Why: ~dwarves.27.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 4  I have a messge for them ==> The dwarves know that I'm naturally friendly so they made me promise to be wary of strangers.  When:Mon Feb 24 15:30:00 2014 Why: ~dwarves.34.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 5  I have a message for them ==> What's the message?  When:Mon Feb 24 15:30:08 2014 Why: ~dwarves.17.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  They'll be late ==> That doesn't sound like them. Their messages are always in rhyme.  When:Mon Feb 24 15:30:12 2014 Why: ~dwarves.17.1 
+Respond: user: bot:snowwhite ip: (~dwarves) 7  Can I wait for them? ==> The dwarves would think I'm really stupid if I accept another gift from a stranger.  When:Mon Feb 24 15:30:26 2014 Why: ~dwarves.35.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 8  They're clever ==> Yes, they're nobody's fools.  When:Mon Feb 24 15:32:08 2014 Why: ~dwarves.13.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 9  And they're nice ==> They've been very good to me.  When:Mon Feb 24 15:32:13 2014 Why: ~dwarves.14.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 10  Do you do all their dishes? ==> Excuse me, but who are you again?  When:Mon Feb 24 15:32:22 2014 Why: ~justify_identity.77.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 11  Do you do the dwarves' dishes? ==> It's true they treat me a bit like their servant.  When:Mon Feb 24 15:32:51 2014 Why: ~dwarves.7.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 12  Is it normal for a girl to live with seven men? ==> Sorry, are you here to sell apples?  When:Mon Feb 24 15:33:02 2014 Why: ~sell_apple.34.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 13  actually, yes ==> That's nice but I can't accept anything from strangers.  When:Mon Feb 24 15:33:08 2014 Why: ~sell_apple.34.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 14  you want to simply taste it? ==> Excuse me, but who are you to be offering apples to strangers?  When:Mon Feb 24 15:33:19 2014 Why: ~sell_apple.33.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 15  I'm a friend of the dwarves ==> They never mentioned you.  When:Mon Feb 24 15:33:27 2014 Why: ~dwarves.15.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 16  Who are you? ==> I really wish my stepmother wasn't trying to kill me  When:Mon Feb 24 15:34:04 2014 Why: ~assassination_plot.28.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 17  Why ? ==> Sorry, why what again?.  When:Mon Feb 24 15:35:19 2014 Why: ~catchall.8.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 18  Why is she trying to kill you? ==> Apparently she's jealous of my beauty and wants to kill me for that!  When:Mon Feb 24 15:35:28 2014 Why: ~assassination_plot.7.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 19  That's ridiculous. ==> Isn't it?!  When:Mon Feb 24 15:35:34 2014 Why: ~assassination_plot.7.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 20  I hate your stepmother ==> I can't think straight with all this stress.  When:Mon Feb 24 15:35:42 2014 Why: ~assassination_plot.29.0 
+Respond: user: bot:snowwhite ip: (~catchall) 21  I think your stepmother is on a journey ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Mon Feb 24 15:36:19 2014 Why: ~sell_apple.32.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:36:39 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm traveling ==> Excuse me, but who are you again?  When:Mon Feb 24 15:36:44 2014 Why: ~justify_identity.77.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm a traveler ==> That's odd, we rarely get visitors this deep in the woods.  When:Mon Feb 24 15:36:49 2014 Why: ~justify_identity.55.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  These woods are beautiful ==> Sorry, but what was it that you wanted again?  When:Mon Feb 24 15:37:38 2014 Why: ~justify_identity.78.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I'm just passing by ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Mon Feb 24 15:37:44 2014 Why: ~justify_identity.79.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  Here, do you want an apple? ==> Excuse me, but who are you to be offering apples to strangers?  When:Mon Feb 24 15:37:53 2014 Why: ~sell_apple.33.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  the mayor ==> The government doesn't really reach here.  When:Mon Feb 24 15:38:05 2014 Why: ~justify_identity.59.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 7  that will change ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Mon Feb 24 15:38:12 2014 Why: ~assassination_plot.28.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  You are right ==> I can't think straight with all this stress.  When:Mon Feb 24 15:38:20 2014 Why: ~assassination_plot.29.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  you should calm down ==> Easy to say when no one is trying to kill you!  When:Mon Feb 24 15:38:24 2014 Why: ~assassination_plot.17.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 10  Actually, your stepmother is trying to kill me too ==> The dwarves really insisted that I not to let anyone in.  When:Mon Feb 24 15:38:36 2014 Why: ~dwarves.34.0 
+Command: :build 1
+Missing topic index for ~dwarves
+
+10 Mon Feb 24 15:40:07 2014 in sentence: Actually, your stepmother is trying to kill me too 
+    Missing topic index for ~sell_apple
+
+10 Mon Feb 24 15:40:07 2014 in sentence: Actually, your stepmother is trying to kill me too 
+    Missing topic index for ~justify_identity
+
+10 Mon Feb 24 15:40:07 2014 in sentence: Actually, your stepmother is trying to kill me too 
+    Missing topic index for ~assassination_plot
+
+10 Mon Feb 24 15:40:07 2014 in sentence: Actually, your stepmother is trying to kill me too 
+    Missing topic index for ~dwarves
+
+10 Mon Feb 24 15:40:08 2014 in sentence: Actually, your stepmother is trying to kill me too 
+    Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Mon Feb 24 15:40:16 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 1  Your stepmother is trying to kill me! ==> Oh! Poor thing! How I understand you! It's not for me to invite you in the dwarves' house but you can go hide in this shed.  When:Mon Feb 24 15:40:23 2014 Why: ~assassination_plot.19.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 2  that is not very nice ==> You know, I can't be too cautious with my stepmother wanting to kill me.  When:Mon Feb 24 15:40:34 2014 Why: ~assassination_plot.28.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  I understand ==> Uh-huh...  When:Mon Feb 24 15:40:39 2014 Why: ~catchall.18.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  I sympathize ==> That is nice of you.  When:Mon Feb 24 15:41:10 2014 Why: ~assassination_plot.15.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 5  Look at this delicious apple ==> It does look good.  When:Mon Feb 24 15:41:20 2014 Why: ~sell_apple.14.0 
+Respond: user: bot:snowwhite ip: (~catchall) 6  you want to taste? ==> All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!  When:Mon Feb 24 15:41:24 2014 Why: ~sell_apple.41.0 

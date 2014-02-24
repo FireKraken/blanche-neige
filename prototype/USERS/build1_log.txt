@@ -1,4 +1,4 @@
-﻿
+
 ----Reading file apple.top
 Reading concept ~delicious
 Reading concept ~samaritan
@@ -23,8 +23,8 @@ Reading topic ~build_friendship
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 127 of identity.top: cannot is unknown as a word in pattern
-*** Warning- line 224 of identity.top: evilqueen is unknown as a word in pattern
+*** Warning- line 138 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 245 of identity.top: evilqueen is unknown as a word in pattern
 
 ----Reading file plot.top
 Reading concept ~murderplot

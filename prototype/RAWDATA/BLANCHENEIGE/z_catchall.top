@@ -1,4 +1,4 @@
-topic: ~catchall (~emohello ~emohowzit ~emogoodbye ~insults ~damage_verbs really thank thanks~2 ~emothanks)
+topic: ~catchall (~emohello ~emohowzit ~emogoodbye ~emosurprise ~interjections ~insults ~damage_verbs really thank thanks~2 ~emothanks)
 
 #! Gambits to fall back on when input doesn't trigger anything more precise
 
@@ -20,9 +20,9 @@ t: (be) if (%length > 12) { You're as verbose as my English teacher. One thing a
 #! Politeness
 #! ----------------------------------------------------------------
 
-u: ([~emohello ~emohowzit hello hi "good morning"]) Hello.
-u: ([~emohello ~emohowzit hello hi "good morning"]) You're quite the greeter.
-u: ([~emohello ~emohowzit hello hi "good morning"]) Yes, I am well aware of your presence by now.
+u: ([~emohello ~emohowzit hello hi "good morning"]) Hello. ^poptopic()
+u: ([~emohello ~emohowzit hello hi "good morning"]) You're quite the greeter. ^poptopic()
+u: ([~emohello ~emohowzit hello hi "good morning"]) Yes, I am well aware of your presence by now. ^poptopic()
 u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
 	$end = 1
 
@@ -43,12 +43,16 @@ u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
 #! Generic propositions
 #! ----------------------------------------------------------------
 
+#! s:(~interjections) [hmm.][Uh-huh.] [Oï.] [So there.] ^poptopic() ^keep() ^repeat()
+s:(<< I lose time>>) Nobody's keeping you.
 s:([thanks "thank you" thank thanks~2 ~emothanks])  You're welcome. ^poptopic() ^keep() ^repeat()
 s:([oh dear "gosh" totally]) Uh-huh... ^poptopic() ^keep() ^repeat()
 s:([maybe]) ... ^poptopic() ^keep() ^repeat()
 s: (I * [understand see know]) Uh-huh... ^poptopic() ^keep() ^repeat()
 ?: ([really "that so" "don't say" incredible]) Yup. ^poptopic() ^keep() ^repeat()
-u: (!I [here take have] * ) No thanks. ^poptopic() ^keep() ^repeat()
+s: (!I [here take have] * ) No thanks. ^poptopic() ^keep() ^repeat()
+?: (<< you have _~noun >>) I don't have a '_0 ^poptopic() ^keep() ^repeat()
+?: (<< you [want need] _~noun >>) I don't want a '_0 ^poptopic() ^keep() ^repeat()
 u: ([nonsense "not making sense" "not making any sense" "mean anything" "means nothing"]) Sorry, I lost my train of thought. What were we talking about? ^poptopic()
 
 #! ----------------------------------------------------------------

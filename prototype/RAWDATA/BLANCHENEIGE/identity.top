@@ -1,6 +1,6 @@
 concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer)
 
-topic: ~justify_identity (~peddler woman ~reliability_words help apple name)
+topic: ~justify_identity (~peddler woman ~reliability_words help apple name "I am" "I'm")
 
 u: ($end==1) ^reuse(~catchall.DOORCLOSED)
 u: ($end==2 [booya booyah]) ^reuse(~catchall.RESURRECT)
@@ -40,6 +40,13 @@ s: ($offered==1 ~peddler) Why are you giving your apples away, then?
 		$identity = 1
 		$purpose = 1
 		Oh, I was under the impression that they were free.
+
+s: ($offered==1 first * free)
+		$trust += 1
+		$peddler = 1
+		$identity = 1
+		$purpose = 1
+		Oh, that makes sense.
 
 s: ($offered!=1 ~peddler) 
 		$trust += 1
@@ -88,7 +95,7 @@ s:(I * [want wish] * [wellness~1 "well-being"]) That's what they all say.
 	a:(it * true) That's also what they all say.
 
 
-s: ([not no ain't] * stranger~1) Who are you then?
+s: ([not no ain't] * stranger~1) Yes you are.
 
 u: ([trust believe] * I) Sorry, I can't trust anyone.
 
@@ -114,6 +121,10 @@ s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 s:(you * [should ought] * [wary cautious careful "watch out"]) I'm being as cautious as I can, thank you.
 	$trust += 1
 
+?: (<<how make you trust me>>) If you would eat that apple yourself, I could be tempted.
+
+u: (<< you no remember I>>) No I don't, sorry.
+
 #! ----------------------------------------------------------------
 #! Lost tactic
 #! ----------------------------------------------------------------
@@ -138,25 +149,27 @@ s:(<< I [forget "don't know"] who [be name identity] >>) Oh you poor old thing! 
 #! Vader tactic (I am your stepmother)
 #! ----------------------------------------------------------------
 
-s: (!not I * be *  ~evilqueen) GAH! You again! What are you doing here, mother?
+s: (!not I * be *  ~evilqueen) Wait, are you saying you are my stepmother disguised as an old woman?
+	a: (~yes) GAH! You again! What are you doing here, mother?
+		$threatened += 1
+		$stepmother = 1
+		$identity = 1
+		$plot = 1
+		$trust -= 2
+	a:(~no) Phew, my mind is playing me tricks.
+
+s: ($stepmother==1 chat) You keep trying to kill me! What could you possibly want to talk to me about?
+
+s: ($stepmother==1 I * [surrender "give up" "calling it quits" reconcile reconciliation apologize apology "make up"])Wow, that's surprisingly nice of you.
+	$trust += 3
+
+s: ($stepmother==1 i * kill * you) Not today, mother! I'm locking this door until you leave!
+	$end = 1
+
+s: ($stepmother==1 apple) I'm not falling into another one of your traps.
 	$threatened += 1
-	$stepmother = 1
-	$identity = 1
-	$plot = 1
-	$trust -= 2
-		a: (chat) You keep trying to kill me! What could you possibly want to talk to me about?
-			b: (I * [surrender "give up" "calling it quits"])Wow, that's surprisingly nice of you.
-			$trust += 3
-			b: (kill * you) Not today, mother! I'm locking this door until you leave!
-			$end = 1
-			b: (apple) I'm not falling into another one of your traps.
-			$threatened += 1
-		a: (I * [surrender "give up" "calling it quits"])Wow, that's surprisingly nice of you.
-			$trust += 3
-		a: (kill * you) Not today, mother! I'm locking this door until you leave!
-			$end = 1
-		a: (apple) I'm not falling into another one of your traps.
-			$threatened += 1
+
+
 
 #! ----------------------------------------------------------------
 #! Need help tactics
@@ -180,7 +193,7 @@ s:(<<~agenoun [lonely~1 lonely~4 ~feeling_alone]>>) Poor woman. If only my stepm
 	$trust += 1
 	$purpose = 1
 
-u:(I * ["would like" need want "give me" "do you have"] * [water drink ~beverage]) I can get you a glass of water if you want.
+u:(<< I ["would like" can need want "give me" "do you have"] [water drink ~beverage] >>) I can get you a glass of water if you want.
 	$purpose = 1
 	a:(~yes) Here.
 		b:([thanks~2 thanks "thank you"]) No problem.
@@ -191,14 +204,22 @@ u:(I * ["would like" need want "give me" "do you have" be] * [food eat hungry fa
 u:([need want "give me" "do you have" "will you"] * [help assist]) What do you need?
 	a: (_*) ^input(I need '_0) ^fail(sentence)  
 
-u:([need want "can I" "may I"] * [rest sleep "spend the night" shelter]) Sorry, I can't let anyone in.
+u:([need want "can I" "may I" "give me"] * [rest sleep "spend the night" shelter]) Sorry, I can't let anyone in.
 	a:(why)^reuse(TELLMEWHY)
 
 s:(<<I [chase "running after"]>>) You can go hide in the shed there, I'll say I haven't seen you.
 
 s:(!you I * [need want]) I don't think I can help you with that.
 
-u:(I * [die dying ~sicknesses]) There's a doctor in the village nearby, they should be able to help you much better than I could.
+u:(!not !you << I [die dying ~sicknesses]>>) There's a doctor in the village nearby, they should be able to help you much better than I could.
+
+s:(<< I hungry >>) Well, you could eat this apple right there... unless it's poisoned!
+
+s:(I * "poisoned") There's a doctor in the village nearby, they should be able to help you much better than I could.
+
+s:(I * need * [doctor medical nurse treatment]) There's a doctor in the village nearby, they should be able to help you much better than I could.
+
+u:(<< respect elder >>) I'll respect my elders again when they stop attempting to my life.
 
 #! ----------------------------------------------------------------
 #! Old acquiantance tactic
@@ -246,9 +267,9 @@ s:(!not I * name * be _*)
 s: ($name != "" I * be * $name) Good for you, $name. ^keep() ^repeat()
 
 s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1 "passing by"])
-	$trust -= 1
 	That's odd, we rarely get visitors this deep in the woods.
-		a: ([arrive~1 visit~1 ~goodness] * [secluded~2 seclusion~2])
+		$identity = 1
+		a: ([arrive~1 visit~1 ] * [secluded~2 seclusion~2])
 			$trust += 1
 			$traveller = 1
 			$identity = 1
@@ -260,7 +281,8 @@ u: (we * be * [family related parent]) I don't recognize you.
 
 s: (I * changed) Whoever you are, I'm sorry to say you haven't changed for the better.
 	
-s: ([official~2 collector ~occupation_law government~4]) The government doesn't really reach here.
+s: ([official~2 collector ~occupation_law government~4 mayor lord]) The government doesn't really reach here.
+	$identity=1
 
 s: (I * be * ~samaritan) I can't trust your word on that.
 
@@ -290,6 +312,24 @@ s: (<<I be neighbor>>) Have you moved in recently? I don't remember seeing you.
 ?: (I * ~moving_escape) Yes, bye!
 	$end = 1
 
+u: (<< play ~game >>) That's nice but I'm not in the mood to play.
+	$purpose = 1
+	a:(why) ^reuse(justify_identity.TELLMEWHY)
+
+s: (I * be * God) Is that all you can think of?
+
+u: (<< walk with me >>) A stroll in the woods would be nice but I can't leave this house at the moment.
+	a:(why) ^reuse(justify_identity.TELLMEWHY)
+
+#! ----------------------------------------------------------------
+#! Save you from starving
+#! ----------------------------------------------------------------
+
+u: (I * feed * you)  That's nice but I have everything I need.
+u: (<< you [malnutrition starving hungry malnourished undernourished famished haggard] >>) I assure you that I'm fine. This house is full of food.
+u: (<< you want [food~1 fare meal snack groceries ration sustenance nourishment "something to eat"] >>) Thank you but the dwarves provide me with everything I need... as long as I cook it.
+	$dwarves = 1
+
 #! ----------------------------------------------------------------
 #! Fishing for info
 #! ----------------------------------------------------------------
@@ -304,7 +344,7 @@ s: (<<I be neighbor>>) Have you moved in recently? I don't remember seeing you.
 #! Topic-related gambits
 #! ----------------------------------------------------------------
 
-t:($identity!=1) Who are you again?
+t:($identity!=1) Excuse me, but who are you again?
 	a: (_*) ^input(I am '_0) ^fail(sentence)  
 
 t:($purpose!=1) Sorry, but what was it that you wanted again?
