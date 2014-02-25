@@ -49,7 +49,7 @@ u: (<< I here save you >>) That would be great, but what can you do?
 u: (<< I [~damage_verbs hunt capture punish kidnap spell dissuade] ~evilqueen >>) You would really do that?! Thanks!
 	$trust += 1
 
-u: (<< you not [hide flee escape avoid] [always forever eternally] >>) I know, but I don't know what to do.
+u: (<< you not [hide~5 flee escape avoid] [always forever eternally] >>) I know, but I don't know what to do.
 	$trust += 1
 
 u: (<< you [why should ought could] ~damage_verbs ~evilqueen >>) I'm just a frail young girl. I was raised to believe that this was a job for a prince.

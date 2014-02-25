@@ -82,6 +82,7 @@ that_'s_ok
 I_understand
 totes
 tension~5
+hide~5
 feel_you
 friendly~2
 schmoose~1

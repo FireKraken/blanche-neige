@@ -1,0 +1,61 @@
+﻿Start: user:koko bot:snowwhite ip: rand:1838 (~justify_identity) 0 ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 12:54:09 2014 Version:3.53 Build0:1393347034 Build1:1393349812 Why: ~justify_identity.3.0 
+Respond: user:koko bot:snowwhite ip: (~justify_identity) 1  You can't hide forever ==> Excuse me, but I don't understand who you are and what you're doing here.  When:Tue Feb 25 12:54:13 2014 Why: ~justify_identity.80.0 
+Command: :prepare you can't hide
+
+Original User Input: you can't hide
+Tokenized: you  can't  hide  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Substituted: you  can  not  hide  
+Tagged POS 4 words: you (MAINSUBJECT Pronoun_subject)  can (Aux_verb_present)  not (NOT Adverb_basic)  hide (MAINVERB Verb_infinitive)  
+  MainSentence: (you)  (NOT!) can hide  PRESENT 
+
+
+Concepts: 
+
+1: you raw=  +~pronoun(1)  +~pronoun_subject(1)  +~pronoun_bits(1)  +~kindergarten(1)  +~mainsubject(1)  +you(1)  +T~snowwhite (1)  // 
+1: you canonical=  //  +You(1)  
+
+2: can raw=  +~aux_verb_present(2)  +~aux_verb_tenses(2)  +~aux_verb(2)  +~kindergarten(2)  +can(2)  +~auxverblist(2)  +~act(2) 
+.  +~generic_do_verbs(2)  +~animate_verbs(2)  +~verbs(2)  +~unitmeasure(2)  +~solid_containers(2)  +~containers(2)  +~contains(2)  +~lockable(2) 
+.  +~functions(2)  +~closeable(2)  +~artifacts(2)  +~objects(2)  +~nounlist(2)  +~human_data(2)  +~liquid_containers(2)  +~nounroot(2)  // 
+2: can canonical=  //  +Can(2)  
+
+3: not raw=  +~adverb(3)  +~adverb_normal(3)  +~kindergarten(3)  +~basic_form(3)  +not(3)  +~negation(3)  +~badness(3)  // 
+3: not canonical=  //  +Not(3)  
+
+4: hide raw=  +~verb_infinitive(4)  +~verb(4)  +~kindergarten(4)  +~mainverb(4)  +hide(4)  +~disappear(4)  +~vision_verbs(4)  +~nounroot(4) 
+.  +~animal_product(4)  // 
+4: hide canonical=  //  
+
+    sequences=
+TokenFlags: CONTRACTIONS PRESENT USERINPUT 
+Respond: user:koko bot:snowwhite ip: (~justify_identity) 2  you can't flee ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 12:57:14 2014 Why: ~justify_identity.81.0 
+Command: :prepare you can't flee
+
+Original User Input: you can't flee
+Tokenized: you  can't  flee  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Substituted: you  can  not  flee  
+Tagged POS 4 words: you (MAINSUBJECT Pronoun_subject)  can (Aux_verb_present)  not (NOT Adverb_basic)  flee (MAINVERB Verb_infinitive)  
+  MainSentence: (you)  (NOT!) can flee  PRESENT 
+
+
+Concepts: 
+
+1: you raw=  +~pronoun(1)  +~pronoun_subject(1)  +~pronoun_bits(1)  +~kindergarten(1)  +~mainsubject(1)  +you(1)  +T~snowwhite (1)  // 
+1: you canonical=  //  +You(1)  
+
+2: can raw=  +~aux_verb_present(2)  +~aux_verb_tenses(2)  +~aux_verb(2)  +~kindergarten(2)  +can(2)  +~auxverblist(2)  +~act(2) 
+.  +~generic_do_verbs(2)  +~animate_verbs(2)  +~verbs(2)  +~unitmeasure(2)  +~solid_containers(2)  +~containers(2)  +~contains(2)  +~lockable(2) 
+.  +~functions(2)  +~closeable(2)  +~artifacts(2)  +~objects(2)  +~nounlist(2)  +~human_data(2)  +~liquid_containers(2)  +~nounroot(2)  // 
+2: can canonical=  //  +Can(2)  
+
+3: not raw=  +~adverb(3)  +~adverb_normal(3)  +~kindergarten(3)  +~basic_form(3)  +not(3)  +~negation(3)  +~badness(3)  // 
+3: not canonical=  //  +Not(3)  
+
+4: flee raw=  +~verb_infinitive(4)  +~verb(4)  +~grade5_6(4)  +~mainverb(4)  +flee(4)  +~moving_escape(4)  +~animate_move_verbs(4) 
+.  +~animate_verbs(4)  +~verbs(4)  +~active_verbs(4)  // 
+4: flee canonical=  //  
+
+    sequences=
+TokenFlags: CONTRACTIONS PRESENT USERINPUT 

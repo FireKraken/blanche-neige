@@ -37,3 +37,59 @@ Concepts:
     sequences=
 TokenFlags: CONTRACTIONS PRESENT USERINPUT 
 Command: :build 1
+Start: user:bobo bot:snowwhite ip: rand:381 (~justify_identity) 2 ==> Who are you again? What do you want?  When:Tue Feb 25 13:27:38 2014 Version:3.53 Build0:1393347034 Build1:1393349812 Why: ~justify_identity.80.0 
+Command: :reset
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:27:47 2014 Why: ~justify_identity.3.0 
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 1  I hide too ==> Who are you again? What do you want?  When:Tue Feb 25 13:27:49 2014 Why: ~justify_identity.80.0 
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 2  I hide too ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 13:27:51 2014 Why: ~justify_identity.81.0 
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 3  I hide too ==> I hate to be like that but I really need to be wary of strangers  When:Tue Feb 25 13:27:52 2014 Why: ~justify_identity.82.0 
+Command: :build 1
+Start: user:bobo bot:snowwhite ip: rand:384 (~dwarves) 3 ==> The dwarves really insisted that I not to let anyone in and I know they want me to be safe.  When:Tue Feb 25 13:51:04 2014 Version:3.53 Build0:1393347034 Build1:1393353049 Why: ~dwarves.36.0 
+Command: :reset
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:51:05 2014 Why: ~justify_identity.3.0 
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 1  I hide too ==> Who are you again? What do you want?  When:Tue Feb 25 13:51:07 2014 Why: ~justify_identity.80.0 
+Command: :prepare I hide to
+
+Original User Input: I hide to
+Tokenized: I  hide  to  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Tagged POS 3 words: I (MAINSUBJECT Pronoun_subject)  hide (MAINVERB Verb_present)  to (Particle)  
+  MainSentence: (I)  hide  PRESENT 
+
+
+Concepts: 
+
+1: I raw=  +~pronoun(1)  +~pronoun_subject(1)  +~pronoun_bits(1)  +~kindergarten(1)  +~mainsubject(1)  +I(1)  +~letters(1)  // 
+1: I canonical=  //  
+
+2: hide raw=  +~verb_present(2)  +~verb_tenses(2)  +~verb(2)  +~kindergarten(2)  +~mainverb(2)  +hide(2)  +~disappear(2)  +~vision_verbs(2) 
+.  +~nounroot(2)  +~animal_product(2)  +hide~5(2)  // 
+2: hide canonical=  //  
+
+3: to raw=  +~lowercase_title(3)  +~particle(3)  +~kindergarten(3)  +to(3)  +~directionpreposition(3)  +~spacepreposition(3) 
+.  +~prepositionroot(3)  +~focus(3)  +~directions(3)  // 
+3: to canonical=  //  +To(3)  
+
+    sequences=
+TokenFlags: PRESENT USERINPUT 
+Command: :prepare I hide too
+
+Original User Input: I hide too
+Tokenized: I  hide  too  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Substituted: I  hide  
+Tagged POS 2 words: I (MAINSUBJECT Pronoun_subject)  hide (MAINVERB Verb_present)  
+  MainSentence: (I)  hide  PRESENT 
+
+
+Concepts: 
+
+1: I raw=  +~pronoun(1)  +~pronoun_subject(1)  +~pronoun_bits(1)  +~kindergarten(1)  +~mainsubject(1)  +I(1)  +~letters(1)  // 
+1: I canonical=  //  
+
+2: hide raw=  +~verb_present(2)  +~verb_tenses(2)  +~verb(2)  +~kindergarten(2)  +~mainverb(2)  +hide(2)  +~disappear(2)  +~vision_verbs(2) 
+.  +~nounroot(2)  +~animal_product(2)  +hide~5(2)  // 
+2: hide canonical=  //  
+
+    sequences=
+TokenFlags: SUBSTITUTES PRESENT USERINPUT 

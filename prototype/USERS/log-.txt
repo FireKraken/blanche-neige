@@ -980,3 +980,83 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 1  do you need help? ==> Ex
 Respond: user: bot:snowwhite ip: (~justify_identity) 2  do you need help? ==> I can't trust your word on that.  When:Tue Feb 25 12:29:05 2014 Why: ~justify_identity.62.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 3  do you need help? ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 12:29:08 2014 Why: ~justify_identity.80.0 
 Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:28:18 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I eat too ==> Who are you again? What do you want?  When:Tue Feb 25 13:28:19 2014 Why: ~justify_identity.80.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  I eat too ==> You should eat one of those apples you have there.  When:Tue Feb 25 13:28:20 2014 Why: ~justify_identity.39.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 3  I eat someone ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Tue Feb 25 13:28:26 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  I eat someone ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 25 13:28:28 2014 Why: ~catchall.30.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:28:30 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I eat also ==> Who are you again? What do you want?  When:Tue Feb 25 13:28:40 2014 Why: ~justify_identity.80.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:28:57 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm also hiding ==> Who are you again? What do you want?  When:Tue Feb 25 13:29:05 2014 Why: ~justify_identity.80.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm also hiding ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 13:29:06 2014 Why: ~justify_identity.81.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I'm also hiding ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 25 13:29:07 2014 Why: ~justify_identity.82.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  you can't hide forever ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 25 13:30:04 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  you can't hide forever ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 25 13:30:06 2014 Why: ~catchall.30.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  you can't avoid her forever ==> I know, but I don't know what to do.  When:Tue Feb 25 13:30:21 2014 Why: ~assassination_plot.17.0 
+Command: :up hide
+
+For hide:
+ Set hierarchy:
+ Wordnet hierarchy:
+  hide~1: body covering of a living animal 
+    is body_covering~1  any covering for the body or a body part 
+       is coating~1 a natural object that covers or envelops 
+          is natural_object~1z an object occurring naturally 
+             is unit~1z an assemblage of parts that is regarded as a single entity 
+                is physical_object~1z a tangible and visible entity 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  hide~2: the dressed skin of an animal 
+    is animal_skin~1  the outer covering of an animal 
+       is animal_product~1z a product made from animal material 
+          is animal_material~1z material derived from animals 
+             is stuff~1z the tangible substance that goes into the makeup of a physical object 
+                is substance~1z the real physical matter of which a person or thing consists 
+                   is matter~1z that which has mass and occupies space 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                   is share~2z something determined in relation to something that includes it 
+                      is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  hide~3: make undecipherable or imperceptible by obscuring or concealing 
+  hide~4: cover as if with a shroud 
+  hide~5: prevent from being seen or discovered 
+  hide~6: be or go into hiding 
+Command: :build 1
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:30:53 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  you can't hide forever ==> Who are you again? What do you want?  When:Tue Feb 25 13:30:58 2014 Why: ~justify_identity.80.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  you can't hide forever ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 13:30:59 2014 Why: ~justify_identity.81.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  you can't avoid forever ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 25 13:31:03 2014 Why: ~justify_identity.82.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  you can't avoid her forever ==> I know, but I don't know what to do.  When:Tue Feb 25 13:31:21 2014 Why: ~assassination_plot.17.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:31:23 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 1  You can't hide from her forever ==> I know, but I don't know what to do.  When:Tue Feb 25 13:31:29 2014 Why: ~assassination_plot.17.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I'm also hiding from someone ==> From my stepmother?  When:Tue Feb 25 13:31:38 2014 Why: ~justify_identity.48.0 
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:31:40 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I also hide from someone ==> From my stepmother?  When:Tue Feb 25 13:31:44 2014 Why: ~justify_identity.48.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:31:45 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I also hide ==> Who are you again? What do you want?  When:Tue Feb 25 13:31:47 2014 Why: ~justify_identity.80.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I also hide ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 13:31:50 2014 Why: ~justify_identity.81.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I also hide ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 25 13:31:51 2014 Why: ~justify_identity.82.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I too hide ==> From my stepmother?  When:Tue Feb 25 13:32:04 2014 Why: ~justify_identity.48.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:32:05 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I hide too ==> Who are you again? What do you want?  When:Tue Feb 25 13:32:08 2014 Why: ~justify_identity.80.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I hide too ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 13:32:10 2014 Why: ~justify_identity.81.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 13:34:11 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I hide too ==> Who are you again? What do you want?  When:Tue Feb 25 13:34:14 2014 Why: ~justify_identity.80.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  I hide too ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 13:34:15 2014 Why: ~justify_identity.81.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I hide too ==> I'm usually very friendly but in the circumstances I can't trust anyone  When:Tue Feb 25 13:34:16 2014 Why: ~justify_identity.82.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  I hide too ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 25 13:34:16 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I hide too ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 25 13:34:17 2014 Why: ~catchall.30.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  I too hide ==> From my stepmother?  When:Tue Feb 25 13:34:19 2014 Why: ~justify_identity.48.0 

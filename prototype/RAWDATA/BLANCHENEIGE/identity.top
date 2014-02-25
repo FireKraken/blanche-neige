@@ -234,7 +234,7 @@ u:(!not !you << I [die dying ~sicknesses]>>) There's a doctor in the village nea
 
 s:(<< I hungry >>) Well, you could eat this apple right there... unless it's poisoned!
 
-s:(I * "poisoned") There's a doctor in the village nearby, they should be able to help you much better than I could.
+s:(!apple I * "poisoned") There's a doctor in the village nearby, they should be able to help you much better than I could.
 
 s:(I * need * [doctor medical nurse treatment]) There's a doctor in the village nearby, they should be able to help you much better than I could.
 
