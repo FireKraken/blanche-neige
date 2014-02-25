@@ -49,7 +49,7 @@
 ~normalized_adjectives ( normal~a enhanced~a degraded~a )
 ~gas_adjectives ( plasma~a gas~a gaseous~a )
 ~gender_adjectives ( neuter~a male~a hermaphroditic~a female~a )
-~good_intelligence_adjectives ( wise~a the shrewd~a sharp~a sassy~a resourceful~a ready~a quick~a quick-witted~a pointed~a pert~a on nimble~a nervy~a knowing~a keen~a ingenious~a good~a genius~a eggheaded~a effective~a crafty~a clever~a canny~a brisk~a brilliant~a bright~a brainy~a bold~a ball~a astute~a apt~a alert~a agile~a adept~a acute~a )
+~good_intelligence_adjectives ( wise~a the shrewd~a sharp~a sassy~a resourceful~a ready~a quick~a quick-witted~a pointed~a pert~a on nimble~a nervy~a knowing~a keen~a ingenious~a genius~a eggheaded~a effective~a crafty~a clever~a canny~a brisk~a brilliant~a bright~a brainy~a bold~a ball~a astute~a apt~a alert~a agile~a adept~a acute~a )
 ~hardness_adjectives ( soft~a malleable~a impenetrable~a hard~a )
 ~health_adjectives ( sleeping~a sickly~a healthy~a extinct~a dying~a dead~a alive~a )
 ~insult_psychology_adjectives ( wretched~a worthless~a wicked~a vulgar~a venomous~a vengeful~a uptight~a unsuitable~a undesirable~a truculent~a tiresome~a thoughtless~a terrible~a tacky~a sulky~a strange~a stingy~a spendthrift~a snobbish~a silly~a selfish~a ruthless~a repulsive~a quarrelsome~a pathetic~a obnoxious~a noisy~a nasty~a naive~a mean~a malicious~a lazy~a lacking~a ignorant~a horrible~a grumpy~a gruesome~a greedy~a foolish~a filthy~a evil~a domineering~a disturbed~a disagreeable~a deranged~a demonic~a defective~a deceitful~a 

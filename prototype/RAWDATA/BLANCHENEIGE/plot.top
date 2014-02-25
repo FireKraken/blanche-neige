@@ -2,12 +2,13 @@ concept: ~murderplot (~plot plan plan~3 assassination murder scheme machination 
 concept: ~evilqueen (queen "evil queen" stepmother she stepmom)
 concept: ~agreement ("I know" "I agree" "I understand" "totally" "totes")
 
-topic: ~assassination_plot (~murderplot ~evilqueen)
+topic: ~assassination_plot (~murderplot ~evilqueen save)
 
 #! Possible related pronouns
 u: (_she) ^mark(queen _0)  ^repeat() ^keep() 
 u: (_her) ^mark(queen _0)  ^repeat() ^keep() 
 u: (_it) ^mark(plot _0)  ^repeat() ^keep() 
+u: (_that) ^mark(plot _0)  ^repeat() ^keep() 
 
 u: ($end==1) ^reuse(~catchall.DOORCLOSED)
 u: ($end==2 [booya booyah]) ^reuse(~catchall.RESURRECT)
@@ -35,6 +36,23 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 	$plot = 1
 
 u: ([how ~speak_verbs] ~murderplot) ^reuse(HOWKILL)
+
+
+#! ----------------------------------------------------------------
+#! Offer to solve problem
+#! ----------------------------------------------------------------
+
+u: (<< I can help >>) That would be great, but what can you do?
+
+u: (<< I here save you >>) That would be great, but what can you do?
+
+u: (<< I [~damage_verbs hunt capture punish kidnap spell dissuade] ~evilqueen >>) You would really do that?! Thanks!
+	$trust += 1
+
+u: (<< you not [hide flee escape avoid] [always forever eternally] >>) I know, but I don't know what to do.
+	$trust += 1
+
+u: (<< you [why should ought could] ~damage_verbs ~evilqueen >>) I'm just a frail young girl. I was raised to believe that this was a job for a prince.
 
 #! ----------------------------------------------------------------
 #! Compassion move
@@ -68,6 +86,7 @@ s: ($stepmother==1 I * want * [friendly~2 chat~3]) Somehow I doubt that, given o
 
 s: (<<~evilqueen  [want try]  [kill capture hurt ~damage_verbs]  me >>) Oh! Poor thing! How I understand you! It's not for me to invite you in the dwarves' house but you can go hide in this shed.
 	$trust += 1
+	$purpose = 1
 
 u: (<< ~evilqueen [information info news scoop rumor] >>) Tell me more!
 

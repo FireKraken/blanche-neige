@@ -11,7 +11,9 @@ Reading topic ~sell_apple
 ----Reading file dwarves.top
 Reading concept ~insult
 *** Warning- line 1 of dwarves.top: "lame" is not a known word. Is it misspelled?
+Reading concept ~niceperson
 Reading topic ~dwarves
+*** Warning- line 57 of dwarves.top: genious is unknown as a word in pattern
 
 ----Reading file friendship.top
 Reading concept ~bro
@@ -23,8 +25,8 @@ Reading topic ~build_friendship
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 138 of identity.top: cannot is unknown as a word in pattern
-*** Warning- line 245 of identity.top: evilqueen is unknown as a word in pattern
+*** Warning- line 153 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 271 of identity.top: evilqueen is unknown as a word in pattern
 
 ----Reading file plot.top
 Reading concept ~murderplot
@@ -47,7 +49,7 @@ Reading topic ~snowwhite
 Reading topic ~catchall
 
 WARNING SUMMARY: 
-9 spelling warnings and 0 more serious warnings
+10 spelling warnings and 0 more serious warnings
     
 
 Finished compile

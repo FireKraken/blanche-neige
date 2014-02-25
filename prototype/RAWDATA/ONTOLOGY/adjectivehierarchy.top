@@ -46,7 +46,7 @@ concept: ~gas_adjectives (gaseous~a gas~a plasma~a )
 concept: ~gender_adjectives (female~a hermaphroditic~a male~a neuter~a )
 concept: ~good_appearance (attractive_looking attractive~a beautiful~a good-looking~a good_looking gorgeous~a great_looking handsome~a lovely~a nice~a pretty~a scenic~a stunning~a )
 concept: ~good_intelligence_adjectives (acute~a adept~a agile~a alert~a apt~a astute~a ball~a bold~a brainy~a bright~a brilliant~a brisk~a canny~a clever~a crafty~a effective~a eggheaded~a 
-          genius~a good~a ingenious~a keen~a knowing~a nervy~a nimble~a on pert~a pointed~a quick-witted~a quick~a ready~a resourceful~a sassy~a sharp~a shrewd~a the wise~a )
+          genius~a ingenious~a keen~a knowing~a nervy~a nimble~a on pert~a pointed~a quick-witted~a quick~a ready~a resourceful~a sassy~a sharp~a shrewd~a the wise~a )
 concept: ~good_quality_adjectives (best~a excellent~a fine~a first-rate~a good~a great~a matchless~a outstanding~a peerless~a superb~a superior~a unrivaled~a )
 concept: ~hardness_adjectives (hard~a impenetrable~a malleable~a soft~a )
 concept: ~health_adjectives (alive~a dead~a dying~a extinct~a healthy~a sickly~a sleeping~a )

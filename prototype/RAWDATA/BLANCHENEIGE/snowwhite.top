@@ -28,6 +28,12 @@ u: (you * be * paranoid) You would be if random old women where repetitively try
 
 u: (you * be * amnesiac) I don't remember being amnesiac.
 
+u: (you * be * ~niceperson) That's very nice of you to say.
+	$trust += 1
+
+u: (you * be * ~good_intelligence_adjectives) You're the first one to tell me that.
+	$trust += 1
+
 u: (you * [lost bad] * memory) I don't remember not remembering anything.
 
 u: (you * [bad terrible] * host) I wish I could be more welcoming but the circumstances don't allow it.

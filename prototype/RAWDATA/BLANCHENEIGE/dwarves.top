@@ -1,4 +1,5 @@
 concept: ~insult (suck blow "lame" loser losers)
+concept: ~niceperson (nice good affable amiable compassionate considerate cool pleasant sweet likable charming fun lovely great)
 
 topic: ~dwarves (dwarf~2 ~mythical_intelligent_being dwarves house cook)
 
@@ -53,10 +54,13 @@ u: (<< [normal natural suitable fitting moral think virtue virtuous proper] live
 #! Praise dwarves tactic
 #! ----------------------------------------------------------------
 
-s: (<< dwarf~2 be [wise clever ~good_intelligence_adjectives] >>) Yes, they're nobody's fools.
+s: (<< dwarf~2 be [wise clever intelligent brilliant bright crafty genious shrewd] >>) Yes, they're nobody's fools.
 	$trust += 1
 
-s: (<< dwarf~2 be [nice good affable amiable compassionate considerate cool pleasant sweet likable charming fun lovely ] >>) They've been very good to me.
+s: (!friend << dwarf~2 be ~niceperson >>) They've been very good to me.
+	$trust += 1
+
+s: (!not << I [like love appreciate] dwarf~2 >>) I like them too.
 	$trust += 1
 
 #! ----------------------------------------------------------------
@@ -66,7 +70,7 @@ s: (<< dwarf~2 be [nice good affable amiable compassionate considerate cool plea
 s: ( << friend~1 [dwarf~2 they] I >>) They never mentioned you.
 	$identity=1
 
-u: ( << I dwarf~2 [meet see appointment rendez-vous come] >>) You can come back when they're there.
+u: ( << I dwarf~2 [~vision_verbs meet "see" appointment rendez-vous come] >>) You can come back when they're there.
 	a:(when) At dusk.
 
 s: (<< dwarf~2 [I you] message>>) What's the message?
@@ -132,8 +136,7 @@ u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
 #! Topic-related Gambits
 #! ----------------------------------------------------------------
 
-t: 	[The dwarves really insisted that I not to let anyone in.]
+t: 	[The dwarves really insisted that I not to let anyone in and I know they want me to be safe.]
 	[The dwarves know that I'm naturally friendly so they made me promise to be wary of strangers.]
-	a:([smart good clever]) Yes, they are nobody's fools.
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
 t: ($dwarves==1 $offered==1) The dwarves would think I'm really stupid if I accept another gift from a stranger.

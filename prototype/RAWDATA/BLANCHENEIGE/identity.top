@@ -89,7 +89,7 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 #! Appeal to trust
 #! ----------------------------------------------------------------
 
-s:([I let] * [help assist] * you) That is sweet, but I'll be fine, thank you.
+u:(<< [want let need]  [help assist]  you>>) That is sweet, but I'll be fine, thank you.
 
 s:(I * [want wish] * [wellness~1 "well-being"]) That's what they all say.
 	a:(it * true) That's also what they all say.
@@ -112,16 +112,31 @@ u: TELLMEWHY (why * not * trust~1)
 
 s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 
-?: (you * be * ~friend) I'm not in a good disposition to make new friends.
-	a:(why) Because of that assassination plot thing. ^addtopic(~assassination_plot)
-		$plot = 1
+u: (<< I want be ~friend>>) 
+	if (%input > 5) { 
+		It's true I feel I'm getting to know you. 
+		$trust += 1
+		$identity = 1
+	}
+	else {
+		We've just met!
+	}
 
+u: (<< we talk long>> ) 
+	if (%input > 5) { 
+		It's true I feel I'm getting to know you. 
+		$trust += 1
+		$identity = 1
+	}
+	else {
+		We've just met!
+	}
 ?:([what how way can] [help assistance assist]) No, I'll be fine, thanks.
 
 s:(you * [should ought] * [wary cautious careful "watch out"]) I'm being as cautious as I can, thank you.
 	$trust += 1
 
-?: (<<how make you trust me>>) If you would eat that apple yourself, I could be tempted.
+?: (<<make you trust me>>) If you would eat that apple yourself, I could be tempted.
 
 u: (<< you no remember I>>) No I don't, sorry.
 
@@ -136,6 +151,8 @@ s: (I * be * [lost disoriented astray]) Simply follow the path and you'll reach 
 s: (it * ~temperature_adjectives * [outside out "out here"]) Sorry, but the temperature isn't really my concern right now.
 
 s: (I * [can't cannot unable ~negation] * [find "make my way" "make it"] * [home town city]) Well there's a little path over there that should help you find your way back.
+
+s: (<< [get become] [dark night late] >>) It must be your eyesight, it's just past noon.
 
 #! ----------------------------------------------------------------
 #! Amnesia tactic
@@ -179,6 +196,8 @@ s: (!~friend I * be * [old frail weak]) You shouldn't be walking alone in the wo
 	a:(why) Because of the wolves and all.
 		b:([wolf wolves]) I've never seen a wolf, but you would expect that in the forest.
 
+s:(<< [want need] [chat talk company] [someone people] >>) Come back when the dwarves are here, you'll see plenty of company.
+
 s:(!you <<[~acquire_imperatives please need] help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
 	$purpose = 1
 	a:(why)^reuse(TELLMEWHY)
@@ -201,7 +220,7 @@ u:(<< I ["would like" can need want "give me" "do you have"] [water drink ~bever
 
 u:(I * ["would like" need want "give me" "do you have" be] * [food eat hungry famished]) You should eat one of those apples you have there. ^addtopic(~sell_apple)
 
-u:([need want "give me" "do you have" "will you"] * [help assist]) What do you need?
+u:(<<[i me] [need want "give me" "do you have" "will you"] [help assist] >>) What do you need?
 	a: (_*) ^input(I need '_0) ^fail(sentence)  
 
 u:([need want "can I" "may I" "give me"] * [rest sleep "spend the night" shelter]) Sorry, I can't let anyone in.
@@ -209,7 +228,7 @@ u:([need want "can I" "may I" "give me"] * [rest sleep "spend the night" shelter
 
 s:(<<I [chase "running after"]>>) You can go hide in the shed there, I'll say I haven't seen you.
 
-s:(!you I * [need want]) I don't think I can help you with that.
+#! s:(!you I * [need want]) I don't think I can help you with that.
 
 u:(!not !you << I [die dying ~sicknesses]>>) There's a doctor in the village nearby, they should be able to help you much better than I could.
 
@@ -221,6 +240,13 @@ s:(I * need * [doctor medical nurse treatment]) There's a doctor in the village 
 
 u:(<< respect elder >>) I'll respect my elders again when they stop attempting to my life.
 
+s:(<< I hide [too also someone] >>) From my stepmother?
+	a:(~yes)  Oh! Poor thing! How I understand you! It's not for me to invite you in the dwarves' house but you can go hide in this shed.
+		$trust += 1
+		$purpose = 1
+	a:(~propername) You should go see the Sheriff in town.
+	a:(~no) From whom then?
+		b:() You should go see the Sheriff in town.
 #! ----------------------------------------------------------------
 #! Old acquiantance tactic
 #! ----------------------------------------------------------------
@@ -306,7 +332,7 @@ s: (<<I be neighbor>>) Have you moved in recently? I don't remember seeing you.
 	a: (~yes) Welcome in the neighborhood. Too bad I can't be very welcoming these days.
 		$identity = 1
 		b:(why) ^reuse(justify_identity.TELLMEWHY)
-	b: (~no) Sorry but your face really doesn't ring a bell.
+	a: (~no) Sorry but your face really doesn't ring a bell.
 		$identity = 1
 
 ?: (I * ~moving_escape) Yes, bye!
@@ -344,7 +370,7 @@ u: (<< you want [food~1 fare meal snack groceries ration sustenance nourishment 
 #! Topic-related gambits
 #! ----------------------------------------------------------------
 
-t:($identity!=1) Excuse me, but who are you again?
+t:($identity!=1) [Excuse me, but I don't understand who you are and what you're doing here.] [Who are you again? What do you want?]
 	a: (_*) ^input(I am '_0) ^fail(sentence)  
 
 t:($purpose!=1) Sorry, but what was it that you wanted again?

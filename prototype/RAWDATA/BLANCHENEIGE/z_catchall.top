@@ -44,7 +44,7 @@ u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
 #! ----------------------------------------------------------------
 
 #! s:(~interjections) [hmm.][Uh-huh.] [Oï.] [So there.] ^poptopic() ^keep() ^repeat()
-s:(<< I lose time>>) Nobody's keeping you.
+s:(<< I lose time>>) Nobody's keeping you. ^poptopic() ^keep() ^repeat()
 s:([thanks "thank you" thank thanks~2 ~emothanks])  You're welcome. ^poptopic() ^keep() ^repeat()
 s:([oh dear "gosh" totally]) Uh-huh... ^poptopic() ^keep() ^repeat()
 s:([maybe]) ... ^poptopic() ^keep() ^repeat()

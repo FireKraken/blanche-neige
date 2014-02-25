@@ -19,7 +19,7 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 #! "I will have one too tactic"
 #! ----------------------------------------------------------------
 
-u:(<< I [eat taste try have bite] apple >>) That is somewhat convincing but you could have poisoned only parts of it!
+u:(!you << I [eat taste try bite] apple >>) That is somewhat convincing but you could have poisoned only parts of it!
 	$trust += 1
 
 u:(<< i eat apple whole >>) That's easy: you eat the good apple and give me the poisoned one.
@@ -49,7 +49,7 @@ u: (<<apple [~delicious tasty "sweet"]>>)
 	$trust += 1
 	It does look good.
 
-u: (<<apple [cheap bargain "low price" "good price"]>>) Price is not the issue here.
+u: (<<apple [cheap bargain "low price" "good price" free gratis]>>) Price is not the issue here.
 	a:(what) Trust is the issue.
 
 u: (<<apple magical~1>>)
@@ -108,6 +108,10 @@ s:(<<apple [protect defend help]>>) Yes, you've said that. It's a tempting thoug
 
 ?: (<< you like ~fruit >>) Sure, everyone likes fruits.
 
+u: (<< [why would] i poison [apple food] >>) Because you could be my stepmother who wants to kill me disguised as an innocent old woman.
+
+
+
 #! ----------------------------------------------------------------
 #! Offer apple
 #! ----------------------------------------------------------------
@@ -119,18 +123,18 @@ s: (<< you not should eat apple >>) Thank you for the warning.
 t: ($trust>=3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
 	$end = 2
 
-u: ($identity!=1 $offered!=1 !they !dwarf~2 [~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] * [apple one it] ) 
+u: ($identity!=1 $offered!=1 !they !dwarf~2 [share ~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] * [apple one it] ) 
 	$offered = 1
 	Excuse me, but who are you to be offering apples to strangers? ^addtopic(~justify_identity)
 	
-u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
-	a:(~yes) That's nice but I can't accept anything from strangers.
-		$purpose = 1
-		$peddler = 1
-		b:(why) ^reuse(justify_identity.TELLMEWHY)
-	a:(!give ~no) Then what are you doing here?
-	a:(give) That's nice but I really can't accept anything in the circumstances.
-		b:(why) ^reuse(justify_identity.TELLMEWHY)
+ u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
+#!	a:(~yes) That's nice but I can't accept anything from strangers.
+#!		$purpose = 1
+#!		$peddler = 1
+#!		b:(why) ^reuse(justify_identity.TELLMEWHY)
+#!	a:(!give ~no) Then what are you doing here?
+#!	a:(give) That's nice but I really can't accept anything in the circumstances.
+#!		b:(why) ^reuse(justify_identity.TELLMEWHY)
 
 u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No thanks, I don't trust you enough.
 u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) I still don't trust you enough to eat that.
@@ -148,6 +152,6 @@ s:(I * have * too~1 * apple) There's no such thing as too many apples.
 #! ----------------------------------------------------------------
 
 t: ($offered==1) 	[I'm sorry to be like that but I just can't accept anything from anyone.]
-					[It's nothing personal, you know, it's just not a good moment]
-					[I know I sound impolite but I'm sure you would do the same]
+					[It's not that I don't like apples, it's just that I can't trust anyone]
+					[I know I sound impolite but I'm sure you would do the same if you feared to be poisoned.]
 	a:([why "how come" explain "tell me"]) ^reuse(justify_identity.TELLMEWHY) 

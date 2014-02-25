@@ -29,6 +29,7 @@ dullard~2
 it_is
 earth_is_round
 food~1
+genious
 acquaintance~2
 rendez-vous
 won_'t
@@ -81,6 +82,7 @@ that_'s_ok
 I_understand
 totes
 tension~5
+feel_you
 friendly~2
 schmoose~1
 dead~1

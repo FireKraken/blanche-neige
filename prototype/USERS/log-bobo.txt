@@ -1,0 +1,39 @@
+﻿Start: user:bobo bot:snowwhite ip: rand:378 (~justify_identity) 0 ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 12:13:38 2014 Version:3.53 Build0:1393347034 Build1:1393348234 Why: ~justify_identity.3.0 
+Command: :reset
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Feb 25 12:13:39 2014 Why: ~justify_identity.3.0 
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 1  I'm hiding from someone ==> Excuse me, but who are you again?  When:Tue Feb 25 12:13:43 2014 Why: ~justify_identity.80.0 
+Respond: user:bobo bot:snowwhite ip: (~justify_identity) 2  I'm hiding from someone ==> Sorry, but what was it that you wanted again?  When:Tue Feb 25 12:13:45 2014 Why: ~justify_identity.81.0 
+Command: :prepare you can't hide always
+
+Original User Input: you can't hide always
+Tokenized: you  can't  hide  always  
+TokenControls: DO_SUBSTITUTE_SYSTEM NUMBER_MERGE PROPERNAME_MERGE SPELLCHECK INTERJECTION_SPLITTING POSTAG PARSE 
+Substituted: you  can  not  hide  always  
+Tagged POS 5 words: you (MAINSUBJECT Pronoun_subject)  can (Aux_verb_present)  not (NOT Adverb_basic)  hide (MAINVERB Verb_infinitive)  always (Adverb_basic)  
+  MainSentence: (you)  (NOT!) can hide  PRESENT 
+
+
+Concepts: 
+
+1: you raw=  +~pronoun(1)  +~pronoun_subject(1)  +~pronoun_bits(1)  +~kindergarten(1)  +~mainsubject(1)  +you(1)  +T~snowwhite (1)  // 
+1: you canonical=  //  +You(1)  
+
+2: can raw=  +~aux_verb_present(2)  +~aux_verb_tenses(2)  +~aux_verb(2)  +~kindergarten(2)  +can(2)  +~auxverblist(2)  +~act(2) 
+.  +~generic_do_verbs(2)  +~animate_verbs(2)  +~verbs(2)  +~unitmeasure(2)  +~solid_containers(2)  +~containers(2)  +~contains(2)  +~lockable(2) 
+.  +~functions(2)  +~closeable(2)  +~artifacts(2)  +~objects(2)  +~nounlist(2)  +~human_data(2)  +~liquid_containers(2)  +~nounroot(2)  // 
+2: can canonical=  //  +Can(2)  
+
+3: not raw=  +~adverb(3)  +~adverb_normal(3)  +~kindergarten(3)  +~basic_form(3)  +not(3)  +~negation(3)  +~badness(3)  // 
+3: not canonical=  //  +Not(3)  
+
+4: hide raw=  +~verb_infinitive(4)  +~verb(4)  +~kindergarten(4)  +~mainverb(4)  +hide(4)  +~disappear(4)  +~vision_verbs(4)  +~nounroot(4) 
+.  +~animal_product(4)  // 
+4: hide canonical=  //  
+
+5: always raw=  +~adverb(5)  +~adverb_normal(5)  +~kindergarten(5)  +~timeword(5)  +~basic_form(5)  +always(5)  +~always(5) 
+.  +~frequency_adverbs(5)  +~time_adverbs(5)  +~adverbs(5)  // 
+5: always canonical=  //  +Always(5)  
+ +~repeatinput1(1) 
+    sequences=
+TokenFlags: CONTRACTIONS PRESENT USERINPUT 
+Command: :build 1
