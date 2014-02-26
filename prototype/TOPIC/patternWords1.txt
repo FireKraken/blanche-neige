@@ -12,6 +12,8 @@ witching~2
 health~2
 dwarf~1
 like~5
+less_beautiful
+bad_looking
 consent~2
 effort~3
 dwarf~2
@@ -26,7 +28,7 @@ limit~8
 chores
 work~1
 dishes
-dullard~2
+simple~1
 it_is
 earth_is_round
 food~1
@@ -35,6 +37,7 @@ acquaintance~2
 rendez-vous
 won_'t
 will_not
+trust_yourself
 homie
 lonely~1
 solitary~6
@@ -75,6 +78,8 @@ government~4
 there_are
 groceries
 something_to_eat
+living_thing_1z
+danger~4
 afraid~1
 bank~11
 believe~1

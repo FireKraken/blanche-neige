@@ -22,7 +22,7 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 	a: (~YES) You read too much gothic fiction.
 	a: ([~NO ~badness]) She's out of her mind.
 
-?: ($stepmother!=1 << why ~evilqueen ~murderplot >>) Apparently she's jealous of my beauty and wants to kill me for that!
+?: ($stepmother!=1 << why [~evilqueen they stranger] ~murderplot >>) Apparently my stepmother's jealous of my beauty and wants to kill me for that!
 	a:([silly ridiculous ludicrous preposterous bizarre absurd preposterous unbelievable grotesque farcical]) Isn't it?!
 		$trust+=1
 
@@ -107,12 +107,13 @@ s:(<<I not [look resemble resemblance] ~evilqueen>>) True, but she's usually dis
 
 s:(<<I not [costume disguise] >>) That easy to say. My stepmother's a magician and can completely change her appearance.
 
+
 #! ----------------------------------------------------------------
 #! Topic related gambits
 #! ----------------------------------------------------------------
 
-t: 	[You know, I can't be too cautious with my stepmother wanting to kill me.]
-	[I really wish my stepmother wasn't trying to kill me]
+t: 	[I really wish my stepmother wasn't trying to kill me]
+	[It will be hard for me to trust anyone when I know my stepmother could be disguised to kill me.]
 	$plot = 1
 	a:(I * too) I see you understand.
 		$trust += 1

@@ -2,7 +2,7 @@ concept: ~delicious (delicious delectable savory yummy tasty)
 concept: ~samaritan (samaritan do-gooder humanitarian johnny-on-the-spot helpfulness~2)
 concept: ~takethis ("take this" "would you like" "how about" "would you care for" "would you care to join me")
 
-topic: ~sell_apple (apple ~fruit buy sell food hunger hungry snack meal give ~delicious it eat)
+topic: ~sell_apple (apple ~fruit buy sell food hunger hungry snack meal give ~delicious it eat gift present)
 
 #! Possible related pronouns
 u: (_it) ^mark(apple _0)  ^repeat() ^keep() 
@@ -10,6 +10,7 @@ u: (_them) ^mark(apple _0)  ^repeat() ^keep()
 u: (_they) ^mark(apple _0)  ^repeat() ^keep() 
 u: (_one) ^mark(apple _0)  ^repeat() ^keep() 
 u: (_this) ^mark(apple _0)  ^repeat() ^keep() 
+
 
 u: ($end==1) ^reuse(~catchall.DOORCLOSED)
 u: ($end==2 [booya booyah]) ^reuse(~catchall.RESURRECT)
@@ -75,7 +76,8 @@ u: (dwarf~1 * like~5 * apple) They do, but they're very picky when it comes to t
 u: (<< you apple pie >>) The dwarves would love this but they won't eat anything they haven't grown themselves.
 	$dwarves = 1
 
-u: (<< apple you ugly >>) That's interesting, but I'm not very fond of magic.
+u: (<< apple you [plain ugly "less beautiful" hideous "bad looking"] >>) That's interesting, but I'm not very fond of magic.
+	$trust += 1
 	a:(why) My stepmother has tried using magic to kill me.
 		$plot = 1
 		^addtopic(~assassination_plot)
@@ -84,6 +86,9 @@ u: (<<~takethis ~food>>) You mean one of those apples?
 	a:(~Yes)
 		^input(take this apple)
 	a:(~No) In any case, I'm not hungry, thanks.
+
+u: (<< apple make [feel life] better >>) It's true that fruits do that.
+	$trust += 1
 
 #! ----------------------------------------------------------------
 #! Apple is Magical (in a good way)
@@ -108,13 +113,19 @@ s:(<<apple [protect defend help]>>) Yes, you've said that. It's a tempting thoug
 
 ?: (<< you like ~fruit >>) Sure, everyone likes fruits.
 
-u: (<< [why would] i poison [apple food] >>) Because you could be my stepmother who wants to kill me disguised as an innocent old woman.
+u: (<< [why would] [i one someone somebody] poison [apple food] >>) Because you could be my stepmother who wants to kill me disguised as an innocent old woman.
 
 
 
 #! ----------------------------------------------------------------
 #! Offer apple
 #! ----------------------------------------------------------------
+
+s:(<< [gift present] you >>) You're offering me that apple?
+	a:(~yes) That's sweet. However I can't accept anything from strangers.
+		b: (why)^reuse(justify_identity.TELLMEWHY)
+	a:(~no) What is it then?
+		b: (_~noun) Oh, but I really don't need '_0.
 
 s: (<< leave apple later >>) Keep it for someone who will eat it.	
 
@@ -125,7 +136,8 @@ t: ($trust>=3) All right, I'll have a bite of this apple. Arrrhh you vile woman!
 
 u: ($identity!=1 $offered!=1 !they !dwarf~2 [share ~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] * [apple one it] ) 
 	$offered = 1
-	Excuse me, but who are you to be offering apples to strangers? ^addtopic(~justify_identity)
+	Excuse me, but who are you to be offering apples to strangers? ^addtopic(~justify_identity) 
+		a: (_*) ^input(I am '_0) ^fail(sentence)  
 	
 #! u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
 #!	a:(~yes) That's nice but I can't accept anything from strangers.
@@ -154,7 +166,7 @@ s:(I * have * too~1 * apple) There's no such thing as too many apples.
 r:($offered!=1) That apple you're holding, is that your lunch? 
 	a: (~yes) Lucky you!
 	a: (~no) Is it the reason of your visit?
-		b: (%length<2 ~yes) So what abou the apple, then?
+		b: (%length<2 ~yes) So what about the apple, then?
 		b: (~no) Oh, ok.
 	
 
@@ -162,6 +174,6 @@ r:($offered!=1) That's a nice apple you have there.
 	a: ([thank thanks~2 ~emothanks]) You're welcome.
 
 t: ($offered==1) 	[I'm sorry to be like that but I just can't accept anything from anyone.]
-					[It's not that I don't like apples, it's just that I can't trust anyone]
+					[This apple seems nice, but I wouldn't risk my life for a generic fruit.]
 					[I know I sound impolite but I'm sure you would do the same if you feared to be poisoned.]
 	a:([why "how come" explain "tell me"]) ^reuse(justify_identity.TELLMEWHY) 

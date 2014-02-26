@@ -1060,3 +1060,241 @@ Respond: user: bot:snowwhite ip: (~justify_identity) 3  I hide too ==> I'm usual
 Respond: user: bot:snowwhite ip: (~justify_identity) 4  I hide too ==> I'm sure you mean well but how could I trust you?  When:Tue Feb 25 13:34:16 2014 Why: ~catchall.28.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 5  I hide too ==> I hate to be rude but there's an awful lot to do in this house  When:Tue Feb 25 13:34:17 2014 Why: ~catchall.30.0 
 Respond: user: bot:snowwhite ip: (~justify_identity) 6  I too hide ==> From my stepmother?  When:Tue Feb 25 13:34:19 2014 Why: ~justify_identity.48.0 
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:31:48 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I have a gift for you ==> Who are you again? What do you want?  When:Wed Feb 26 15:31:51 2014 Why: ~justify_identity.82.0 
+Command: :Reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :Reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:31:54 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I have an apple for you ==> Excuse me, but who are you to be offering apples to strangers?  When:Wed Feb 26 15:31:57 2014 Why: ~sell_apple.37.0 
+Command: :build 1
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  I have a gift for you ==> Price is not the issue here.  When:Wed Feb 26 15:32:26 2014 Why: ~sell_apple.17.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:32:27 2014 Why: ~justify_identity.3.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I have a gift for you ==> Price is not the issue here.  When:Wed Feb 26 15:32:29 2014 Why: ~sell_apple.17.0 
+Command: :up woman
+
+For woman:
+ Set hierarchy:
+ Wordnet hierarchy:
+  woman~1: women as a class 
+    is class~3  people having the same social, economic, or educational status 
+       is people~1z any group of human beings (men or women or children) collectively 
+          is group~1z any number of entities considered as a unit 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  woman~2: a human female employed to do housework 
+    is cleaner~2  someone whose occupation is cleaning 
+       is manual_laborer~1z someone who works with their hands 
+          is working_person~1z an employee who performs manual or industrial labor 
+             is employee~1z a worker who is hired to perform a job 
+                is worker~1z a person who works at a specific occupation 
+                   is somebody~1z a human being 
+                      is organism~1z a living thing that has the ability to act or function independently 
+                         is living_thing~1z a living entity 
+                            is unit~1z an assemblage of parts that is regarded as a single entity 
+                               is physical_object~1z a tangible and visible entity 
+                                  is physical_entity~1z an entity that has physical existence 
+                                     is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+                      is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  woman~3: an adult female person  
+    is adult~2  a fully developed person from maturity onward 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is female~2  a person who belongs to the sex that can have babies 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  woman~4: a female person who plays a significant role in the life of a particular man 
+    is female~2  a person who belongs to the sex that can have babies 
+       is somebody~1z a human being 
+          is organism~1z a living thing that has the ability to act or function independently 
+             is living_thing~1z a living entity 
+                is unit~1z an assemblage of parts that is regarded as a single entity 
+                   is physical_object~1z a tangible and visible entity 
+                      is physical_entity~1z an entity that has physical existence 
+                         is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+          is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+             is physical_entity~1z an entity that has physical existence 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:41:53 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I want to warn you about a wolf ==> Oh! Thanks for telling me.  When:Wed Feb 26 15:41:57 2014 Why: ~justify_identity.80.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:45:17 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm here to warn you about a mean old lady ==> You shouldn't be walking alone in the woods like that.  When:Wed Feb 26 15:45:26 2014 Why: ~justify_identity.33.0 
+Command: :up lady
+
+For lady:
+ Set hierarchy:
+ Wordnet hierarchy:
+  lady~1: a woman of refinement 
+    is woman~3  an adult female person  
+       is adult~1z a fully developed person from maturity onward 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is female~1z a person who belongs to the sex that can have babies 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  lady~2: a polite name for any woman 
+    is woman~3  an adult female person  
+       is adult~1z a fully developed person from maturity onward 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is female~1z a person who belongs to the sex that can have babies 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :up peril
+
+For peril:
+ Set hierarchy:
+ Wordnet hierarchy:
+  peril~1: a venture undertaken without regard to possible loss or injury 
+    is venture~1  any venturesome undertaking especially one with an uncertain outcome 
+       is undertaking~1z any piece of work that is undertaken or attempted 
+          is work~1z activity directed toward making or doing something 
+             is activity~1z any specific behavior 
+                is act~1z something that people do or cause to happen 
+                   is event~1z something that happens at a given place and time 
+                      is psychological_feature~1z a feature of the mental life of a living organism 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  peril~2: a source of danger 
+    is danger~4  a cause of pain or injury or loss 
+       is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+          is physical_entity~1z an entity that has physical existence 
+             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  peril~3: a state of danger involving risk 
+    is danger~3  the condition of being susceptible to harm or injury 
+       is condition~6z a state at a particular time 
+          is state~1z the way something is with respect to its main attributes 
+             is attribute~1z an abstraction belonging to or characteristic of an entity 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  peril~4: put in a dangerous, disadvantageous, or difficult position 
+  peril~5: pose a threat to 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:47:52 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  I saw dwarves, they were nice ==> They've been very good to me.  When:Wed Feb 26 15:47:58 2014 Why: ~dwarves.15.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:49:53 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I'm selling apples, delicious apples ==> This apple does look tasty but I'm afraid I couldn't eat food coming from a stranger.  When:Wed Feb 26 15:50:05 2014 Why: ~justify_identity.10.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Why? ==> It could be poisoned!  When:Wed Feb 26 15:50:20 2014 Why: ~justify_identity.10.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Don't i look trustworthy? ==> It's not like me but the dwarves told me not to trust anyone.  When:Wed Feb 26 15:50:30 2014 Why: ~justify_identity.14.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  why? ==> Because strangers have tried to kill me recently.  When:Wed Feb 26 15:50:42 2014 Why: ~justify_identity.15.0.14.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  who are they? ==> It was actually my stepmother in disguise.  When:Wed Feb 26 15:50:50 2014 Why: ~justify_identity.15.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 6  why did she want to kill you? ==> Because she's jealous of my beauty.  When:Wed Feb 26 15:50:59 2014 Why: ~justify_identity.15.3 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  This apple will make you less beautiful ==> That's interesting, but I'm not very fond of magic.  When:Wed Feb 26 15:51:11 2014 Why: ~sell_apple.23.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 8  why? ==> My stepmother has tried using magic to kill me.  When:Wed Feb 26 15:51:20 2014 Why: ~sell_apple.23.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 9  How can I gain your trust? ==> How what?  When:Wed Feb 26 15:51:33 2014 Why: ~catchall.10.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 10  How can I make you trust me? ==> I really wish my stepmother wasn't trying to kill me  When:Wed Feb 26 15:51:38 2014 Why: ~assassination_plot.34.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 11  What can make you trust me? ==> I can't think straight with all this stress.  When:Wed Feb 26 15:51:47 2014 Why: ~assassination_plot.35.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:54:18 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  How can I make you trust me? ==> It's not like me but the dwarves told me not to trust anyone.  When:Wed Feb 26 15:54:22 2014 Why: ~justify_identity.14.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  How can I make you trust me? ==> If you would eat that apple yourself, I could be tempted.  When:Wed Feb 26 15:54:24 2014 Why: ~justify_identity.21.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  How can I make you trust me? ==> The dwarves told me to simply not trust anyone.  When:Wed Feb 26 15:54:24 2014 Why: ~justify_identity.82.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:55:13 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  How can I make you trust me? ==> It's not like me but the dwarves told me not to trust anyone.  When:Wed Feb 26 15:55:22 2014 Why: ~justify_identity.14.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 15:57:06 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  How can i make you trust me? ==> If you would eat that apple yourself, I could be tempted.  When:Wed Feb 26 15:57:15 2014 Why: ~justify_identity.21.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 16:03:40 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  How can I make you trust me? ==> You just came out of the blue, I don't even know who you are. It's not really clear to me what you're doing here. You know, I trust the dwarves, and they told me not to trust anyone.  When:Wed Feb 26 16:03:44 2014 Why: ~justify_identity.21.0 
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 16:04:16 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I have a present for you! ==> You're offering me that apple?  When:Wed Feb 26 16:04:21 2014 Why: ~sell_apple.32.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  yes ==> That's sweet. However I can't accept anything from strangers.  When:Wed Feb 26 16:04:24 2014 Why: ~sell_apple.32.1 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  Why? ==> Because strangers have tried to kill me recently.  When:Wed Feb 26 16:04:28 2014 Why: ~justify_identity.15.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  what?! ==> Who are you again? What do you want?  When:Wed Feb 26 16:04:32 2014 Why: ~justify_identity.84.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 16:05:12 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  I have a surprise for you ==> Ecuse me, but who are you again and what do you want?  When:Wed Feb 26 16:05:17 2014 Why: ~justify_identity.84.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 16:05:32 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Hi neighbor! ==> Hello.  When:Wed Feb 26 16:05:35 2014 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Here's an apple for you? ==> Excuse me, but who are you to be offering apples to strangers?  When:Wed Feb 26 16:05:40 2014 Why: ~sell_apple.36.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  your neighbor! ==> Excuse me, but who are you again and what do you want?  When:Wed Feb 26 16:05:44 2014 Why: ~justify_identity.84.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 16:06:29 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  Hi, I brought you an apple! ==> Hello.  When:Wed Feb 26 16:06:34 2014 Why: ~catchall.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  Hi, I brought you an apple! ==> You're quite the greeter.  When:Wed Feb 26 16:06:36 2014 Why: ~catchall.5.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  I brought you an apple! ==> Excuse me, but who are you again and what do you want?  When:Wed Feb 26 16:06:40 2014 Why: ~justify_identity.84.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 4  your neighbor! ==> Have you moved in recently? I don't remember seeing you.  When:Wed Feb 26 16:06:43 2014 Why: ~justify_identity.71.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 5  I was invisible ==> I'm usually very friendly but in the circumstances it's hard for me to trust anyone  When:Wed Feb 26 16:06:47 2014 Why: ~justify_identity.85.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 6  why? ==> Because the two last strangers that came here tried to kill me.  When:Wed Feb 26 16:06:52 2014 Why: ~justify_identity.85.1 
+Respond: user: bot:snowwhite ip: (~sell_apple) 7  Did they give you apples? ==> No thanks, I don't trust you enough.  When:Wed Feb 26 16:07:00 2014 Why: ~sell_apple.37.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 8  what? ==> That apple you're holding, is that your lunch?  When:Wed Feb 26 16:07:27 2014 Why: ~sell_apple.45.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 9  no ==> Is it the reason of your visit?  When:Wed Feb 26 16:07:31 2014 Why: ~sell_apple.45.2 
+Respond: user: bot:snowwhite ip: (~sell_apple) 10  yes ==> So what abou the apple, then?  When:Wed Feb 26 16:07:33 2014 Why: ~sell_apple.45.3 
+Respond: user: bot:snowwhite ip: (~sell_apple) 11  It'S a gift ==> That's a nice apple you have there.  When:Wed Feb 26 16:07:45 2014 Why: ~sell_apple.46.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 12  yes ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Wed Feb 26 16:08:29 2014 Why: ~catchall.28.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 13  How is living with the dwarves? ==> It's a bit strange living with seven men half my size, but you get used to it.  When:Wed Feb 26 16:08:38 2014 Why: ~dwarves.30.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 14  Don'T you thing they might be using you? ==> I really trust the dwarves and they've told me not to talk to strangers.  When:Wed Feb 26 16:08:47 2014 Why: ~dwarves.37.0 
+Command: :build 1
+Command: :rseet
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Feb 26 16:09:06 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 1  Don'T you think the dwarves  might be using you? ==> You think so?... they seem so nice.  When:Wed Feb 26 16:09:16 2014 Why: ~dwarves.6.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 2  They are a bunch of liars ==> What makes you say that?  When:Wed Feb 26 16:09:21 2014 Why: ~dwarves.13.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 3  YOur stepmother does'T want to kill you ==> I really trust the dwarves and they've told me not to talk to strangers.  When:Wed Feb 26 16:09:33 2014 Why: ~dwarves.37.0 
+Command: :build 1

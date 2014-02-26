@@ -42,3 +42,11 @@ u: (you * [bad terrible] * host) I wish I could be more welcoming but the circum
 u: (<< you [be feel] [alone lonely] >>) You can hardly feel lonely living with seven dwarves. But it's true I sometimes long for human company.
 	$trust += 1
 
+#! ----------------------------------------------------------------
+#! Psychoanalysis tactic
+#! ----------------------------------------------------------------
+
+?: (<< how you feel that >>) Oh, it's awful. I can't sleep at night.
+	$trust +=1
+
+u: (<< talk about you >>) Oh, I'm just a young princess hiding with seven dwarves because her stepmother wants to kill her.

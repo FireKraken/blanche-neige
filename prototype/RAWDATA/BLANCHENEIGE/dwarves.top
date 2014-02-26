@@ -16,23 +16,21 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 #! Undermine dwarves tactic
 #! ----------------------------------------------------------------
 
-u: ([they dwarf~2] * [keep prison~1 ~jail kidnap~1 confine~2 trap hostage]) 
+u: (<< dwarf~2 [keep prison~1 ~jail kidnap~1 confine~2 trap hostage control dominate bridle use] you >>) 
 	You think so? ... they seem so nice.
 	$trust += 1
 
 u: (<< trust dwarf >>) I don't know where I would be if it weren't for the dwarves' help.
 
-u: (<< you [cook clean chores work~1z ~household_tasks servant slave dishes] dwarves >>) It's true they treat me a bit like their servant.
+u: (<< [cook clean chores work~1z ~household_tasks servant slave dishes exploit] dwarf~2 >>) It's true they treat me a bit like their servant.
 	$trust += 1
 
-?: (<<you [keep prison~1 ~jail kidnap~1 confine~2 trap hostage]>>) No, I'm free to leave if I want to.
-
-u: ([they dwarf~2] * stupid~1)
+u: (<<dwarf~2 simple~1 >>)
 	$trust += 1
-	Yeah, I guess they are a little bit silly sometimes. Can you believe that they thought the earth was round?
+	That's harsh but I guess they are a little bit silly sometimes. Can you believe that they thought the earth was round?
 	a:([yes "it is" "earth is round"]) Ha ha.
 
-s: ([they dwarf~2] * [unpleasant_person~1 ~insult])
+s: (<< dwarf~2 [unpleasant_person~1 ~insult]>>)
 	$trust -= 1
 	Don't talk like that about these generous creatures!
 
@@ -40,7 +38,7 @@ s: ([they dwarf~2] * [unpleasant_person~1 ~insult])
 u: ( << you [dwarf~2] [food~1 apple] [give feed] >>)
 	We mostly eat cabbages. I admit I'm a bit tired of that.
 	$trust += 1
-		a: (<<try apple>>) I guess it could make for a nice change.
+		a: (<<I not [like appreciate enjoy] cabbage>>) Who does, really?!
 		$trust += 1
 
 
@@ -49,6 +47,8 @@ u: (<< [normal natural suitable fitting moral think virtue virtuous proper] live
 		$trust += 1
 	a:(yes) It does feel right.
 		$trust += 1
+
+u: (<< dwarf~2 [liar lie deceive dishonest mislead] >>) What makes you say that?
 
 #! ----------------------------------------------------------------
 #! Praise dwarves tactic
@@ -108,11 +108,11 @@ u: (<< you come out >>) I don't have time for that with all the dishes waiting.
 	$dwarves=1
 	a:(why) They've been very nice to me.
 
-?: (where * be * dwarf~2) Digging the mountain for ore.
+?: (<<where [be go] dwarf~2>>) They're digging the mountain for ore.
 
 ?: (<< dwarf~2 be [there in home inside around] >>) No, they've gone to work.
 
-?: (when * dwarf~2) They will come back at dusk.
+?: (<<when dwarf~2 [come here back] >>) They will come back at dusk.
 
 ?: (<<[how like] dwarf~2 live>>) It's a bit strange living with seven men half my size, but you get used to it.
 
@@ -132,11 +132,17 @@ u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
 ?:(<< dwarf~2 help you >>) They've offered me food and lodging, and saved me when my stepmother tried to kill me.
 	$plot = 1
 
+?:(!not << you like dwarf~2 >>) Of course I like the dwarves, although living here is a lot of work.
+	a:([why how mean]) Well they sort of expect me to do all the household chores.
+
+
+
 #! ----------------------------------------------------------------
 #! Topic-related Gambits
 #! ----------------------------------------------------------------
 
-t: 	The dwarves know what's good for me and they've asked me not to talk to strangers.
+t: 	I really trust the dwarves and they've told me not to talk to strangers.
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
-	
+
 t: ($dwarves==1 $offered==1) The dwarves would think I'm really stupid if I accept another gift from a stranger.
+	a:([judgmental "trust yourself"]) But they're right.

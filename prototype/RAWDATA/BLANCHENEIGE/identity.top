@@ -1,6 +1,8 @@
 concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer)
 
-topic: ~justify_identity (~peddler woman ~reliability_words help apple name "I am" "I'm")
+topic: ~justify_identity (~peddler woman ~reliability_words help apple name "I am" "I'm" trust)
+
+u: (_this) ^mark(apple _0)  ^repeat() ^keep() 
 
 u: ($end==1) ^reuse(~catchall.DOORCLOSED)
 u: ($end==2 [booya booyah]) ^reuse(~catchall.RESURRECT)
@@ -78,7 +80,7 @@ s:($peddler!=1 [~sell ~buy] * [apple one it] )
 	$identity = 1
 	$purpose = 1
 	$trust += 1
-	You're an apple vendor? Well this apple does look tasty but I'm afraid I can't accept food from a stranger.
+	This apple does look tasty but I'm afraid I couldn't eat food coming from a stranger.
 		a:(why) It could be poisoned!
 			b:(why) ^reuse(TELLMEWHY)
 
@@ -94,20 +96,20 @@ s:(I * [want wish] * [wellness~1 "well-being"]) That's what they all say.
 	a:(it * true) That's also what they all say.
 
 
-s: ([not no ain't] * stranger~1) Yes you are.
+s: ([not no ain't] * stranger~1) Well, in fact you are.
 
-u: ([trust believe] * I) Sorry, I can't trust anyone.
+u: (!can !make << [trust believe trustworthy] I be >>) It's not like me to be so wary but the dwarves told me not to trust anyone.
+	a:(why)^reuse(TELLMEWHY)
 
 u: TELLMEWHY (why * not * trust~1) 
 	$dwarves = 1
-	The dwarves told me not to trust anyone.
-	a: (why)  Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+	Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
 		$plot = 1
-		b:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+		a:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
 			b:(really) Yes, crazy business.
 			b:(why) Because she's jealous of my beauty.
-		b:(why) It was my stepmother in disguise. She's jealous of my beauty.
-		b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)	
+		a:(why) It was my stepmother in disguise. She's jealous of my beauty.
+		a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)	
 
 s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 
@@ -135,7 +137,15 @@ u: (<< we talk long>> )
 s:(you * [should ought] * [wary cautious careful "watch out"]) I'm being as cautious as I can, thank you.
 	$trust += 1
 
-?: (<<make you trust me>>) If you would eat that apple yourself, I could be tempted.
+?: (<<[make can could] you trust me>>) 
+	if ($identiy != 1) {You just came out of the blue, I don't even know who you are. }
+	if ($purpose != 1) {It's not really clear to me what you're doing here. }
+	[You know, I trust the dwarves, and they told me not to trust anyone.]
+	[As long as I'll fear for my life, it will be hard to trust anyone.]
+	[This apple seems nice, but I wouldn't risk my life for a generic fruit.]
+	^keep() ^repeat()
+
+
 
 u: (<< you no remember I>>) No I don't, sorry.
 
@@ -191,7 +201,9 @@ s: ($stepmother==1 apple) I'm not falling into another one of your traps.
 #! Need help tactics
 #! ----------------------------------------------------------------
 
-s: (!~friend I * be * [old frail weak]) You shouldn't be walking alone in the woods like that.
+s: (!~friend <<I [old frail weak walk stroll promenade] >>) You shouldn't be walking alone in the woods like that.
+	$purpose = 1
+	$identiy = 1
 	a:(why) Because of the wolves and all.
 		b:([wolf wolves]) I've never seen a wolf, but you would expect that in the forest.
 
@@ -311,7 +323,7 @@ s: ([official~2 collector ~occupation_law government~4 mayor lord]) The governme
 
 s: (I * be * ~samaritan) I can't trust your word on that.
 
-?: ([may can] * [come enter]) I'm usually more hospitable but I can't let anyone in at the moment.
+?: ([may can hope want wish] * [come enter stay]) I'm usually more hospitable but I can't let anyone in at the moment.
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
 
 s: (I * be * [unpleasant_person~1 annoying]) Now that you mention it...
@@ -346,6 +358,11 @@ s: (I * be * God) Is that all you can think of?
 u: (<< walk with me >>) A stroll in the woods would be nice but I can't leave this house at the moment.
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
 
+s: (!not << I [want here go] [for see meet] you >>) How did you know I was here?
+	a:() Well here goes my cover.
+
+
+
 #! ----------------------------------------------------------------
 #! Save you from starving
 #! ----------------------------------------------------------------
@@ -354,6 +371,16 @@ u: (I * feed * you)  That's nice but I have everything I need.
 u: (<< you [malnutrition starving hungry malnourished undernourished famished haggard] >>) I assure you that I'm fine. This house is full of food.
 u: (<< you want [food~1 fare meal snack groceries ration sustenance nourishment "something to eat"] >>) Thank you but the dwarves provide me with everything I need... as long as I cook it.
 	$dwarves = 1
+
+#! ----------------------------------------------------------------
+#! Displace suspicion
+#! ----------------------------------------------------------------
+
+s: (<< I you [warn tell] about [~animate_thing danger peril threat living_thing_1z danger~4] >>) Oh! Thanks for telling me.
+	$purpose = 1
+	$trust = 1
+	$identity = 1
+
 
 #! ----------------------------------------------------------------
 #! Fishing for info
@@ -371,7 +398,7 @@ u: (<< you want [food~1 fare meal snack groceries ration sustenance nourishment 
 #! Topic-related gambits
 #! ----------------------------------------------------------------
 
-t:($identity!=1) [Excuse me, but I don't understand who you are and what you're doing here.] [Who are you again? What do you want?]
+t:($identity!=1) [Excuse me, but I don't understand who you are and what you're doing here.] [Excuse me, but who are you again and what do you want?]
 	a: (_*) ^input(I am '_0) ^fail(sentence)  
 
 
