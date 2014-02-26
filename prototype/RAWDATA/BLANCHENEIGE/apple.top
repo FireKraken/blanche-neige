@@ -47,7 +47,7 @@ u: (<<[~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] [~insul
 
 u: (<<apple [~delicious tasty "sweet"]>>)
 	$trust += 1
-	It does look good.
+	It does look delicious.
 
 u: (<<apple [cheap bargain "low price" "good price" free gratis]>>) Price is not the issue here.
 	a:(what) Trust is the issue.
@@ -127,7 +127,7 @@ u: ($identity!=1 $offered!=1 !they !dwarf~2 [share ~acquire_imperatives here tas
 	$offered = 1
 	Excuse me, but who are you to be offering apples to strangers? ^addtopic(~justify_identity)
 	
- u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
+#! u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
 #!	a:(~yes) That's nice but I can't accept anything from strangers.
 #!		$purpose = 1
 #!		$peddler = 1
@@ -150,6 +150,16 @@ s:(I * have * too~1 * apple) There's no such thing as too many apples.
 #! ----------------------------------------------------------------
 #! Topic-related gambits
 #! ----------------------------------------------------------------
+
+r:($offered!=1) That apple you're holding, is that your lunch? 
+	a: (~yes) Lucky you!
+	a: (~no) Is it the reason of your visit?
+		b: (%length<2 ~yes) So what abou the apple, then?
+		b: (~no) Oh, ok.
+	
+
+r:($offered!=1) That's a nice apple you have there.
+	a: ([thank thanks~2 ~emothanks]) You're welcome.
 
 t: ($offered==1) 	[I'm sorry to be like that but I just can't accept anything from anyone.]
 					[It's not that I don't like apples, it's just that I can't trust anyone]

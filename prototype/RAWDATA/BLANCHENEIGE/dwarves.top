@@ -136,7 +136,7 @@ u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
 #! Topic-related Gambits
 #! ----------------------------------------------------------------
 
-t: 	[The dwarves really insisted that I not to let anyone in and I know they want me to be safe.]
-	[The dwarves know that I'm naturally friendly so they made me promise to be wary of strangers.]
+t: 	The dwarves know what's good for me and they've asked me not to talk to strangers.
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
+	
 t: ($dwarves==1 $offered==1) The dwarves would think I'm really stupid if I accept another gift from a stranger.

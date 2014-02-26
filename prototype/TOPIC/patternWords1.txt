@@ -16,6 +16,7 @@ consent~2
 effort~3
 dwarf~2
 too~1
+thanks~2
 how_come
 tell_me
 losers
@@ -54,7 +55,6 @@ assist~2
 would_like
 give_me
 do_you_have
-thanks~2
 will_you
 can_I
 may_I

@@ -20,13 +20,14 @@
  ~sell_apple.31.0 #! ----------------------------------------------------------------
  ~sell_apple.31.0 #! Offer apple
  ~sell_apple.31.0 #! ----------------------------------------------------------------
- ~sell_apple.36.0 #! a:(~yes) That's nice but I can't accept anything from strangers.
- ~sell_apple.36.0 #! $purpose = 1
- ~sell_apple.36.0 #! $peddler = 1
- ~sell_apple.36.0 #! b:(why) ^reuse(justify_identity.TELLMEWHY)
- ~sell_apple.36.0 #! a:(!give ~no) Then what are you doing here?
- ~sell_apple.36.0 #! a:(give) That's nice but I really can't accept anything in the circumstances.
- ~sell_apple.36.0 #! b:(why) ^reuse(justify_identity.TELLMEWHY)
- ~sell_apple.44.0 #! ----------------------------------------------------------------
- ~sell_apple.44.0 #! Topic-related gambits
- ~sell_apple.44.0 #! ----------------------------------------------------------------
+ ~sell_apple.35.0 #! u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
+ ~sell_apple.35.0 #! a:(~yes) That's nice but I can't accept anything from strangers.
+ ~sell_apple.35.0 #! $purpose = 1
+ ~sell_apple.35.0 #! $peddler = 1
+ ~sell_apple.35.0 #! b:(why) ^reuse(justify_identity.TELLMEWHY)
+ ~sell_apple.35.0 #! a:(!give ~no) Then what are you doing here?
+ ~sell_apple.35.0 #! a:(give) That's nice but I really can't accept anything in the circumstances.
+ ~sell_apple.35.0 #! b:(why) ^reuse(justify_identity.TELLMEWHY)
+ ~sell_apple.43.0 #! ----------------------------------------------------------------
+ ~sell_apple.43.0 #! Topic-related gambits
+ ~sell_apple.43.0 #! ----------------------------------------------------------------
