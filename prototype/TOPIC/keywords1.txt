@@ -2,7 +2,7 @@
 ~samaritan ( helpfulness~2 johnny-on-the-spot humanitarian do-gooder Samaritan )
 ~takethis ( would_you_care_to_join_me would_you_care_for how_about would_you_like take_this )
 T~sell_apple ( present gift eat it ~delicious give meal snack hungry hunger food sell buy ~fruit apple )
-T~catchall ( ~emothanks thanks~2 thank really ~damage_verbs ~insults ~interjections ~emosurprise ~emogoodbye ~emohowzit ~emohello )
+T~catchall ( ~emothanks thanks~2 thank really ~damage_verbs ~insults ~interjections ~emosurprise ~emogoodbye ~emohowzit ~emohello variable )
 T~assassination_plot ( save ~evilqueen ~murderplot )
 T~justify_identity ( trust I_'m I_am name apple help ~reliability_words woman ~peddler )
 ~insult ( losers loser lame blow suck )

@@ -1298,3 +1298,28 @@ Respond: user: bot:snowwhite ip: (~dwarves) 1  Don'T you think the dwarves  migh
 Respond: user: bot:snowwhite ip: (~dwarves) 2  They are a bunch of liars ==> What makes you say that?  When:Wed Feb 26 16:09:21 2014 Why: ~dwarves.13.0 
 Respond: user: bot:snowwhite ip: (~dwarves) 3  YOur stepmother does'T want to kill you ==> I really trust the dwarves and they've told me not to talk to strangers.  When:Wed Feb 26 16:09:33 2014 Why: ~dwarves.37.0 
 Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Mar 04 16:21:17 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  tell me what the trust variable is ==> It's not like me to be so wary but the dwarves told me not to trust anyone.  When:Tue Mar 04 16:21:18 2014 Why: ~justify_identity.14.0 
+Respond: user: bot:snowwhite ip: (~catchall) 2  tell me what the trust variable is ==> 0  When:Tue Mar 04 16:21:34 2014 Why: ~catchall.36.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  tell me what the trust variable is ==> I really wish my stepmother wasn't trying to kill me  When:Tue Mar 04 16:21:36 2014 Why: ~assassination_plot.34.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Mar 04 16:22:06 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 1  pourquoi ducro il se decarcasse ==> Excuse me, but who are you again and what do you want?  When:Tue Mar 04 16:22:11 2014 Why: ~justify_identity.84.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  pourquoi ducro il se decarcasse ==> I'm usually very friendly but in the circumstances it's hard for me to trust anyone  When:Tue Mar 04 16:22:14 2014 Why: ~justify_identity.85.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 3  pourquoi ducro il se decarcasse ==> Because the two last strangers that came here tried to kill me.  When:Tue Mar 04 16:22:15 2014 Why: ~justify_identity.85.1 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 4  pourquoi ducro il se decarcasse ==> It will be hard for me to trust anyone when I know my stepmother could be disguised to kill me.  When:Tue Mar 04 16:22:15 2014 Why: ~assassination_plot.34.0 
+Respond: user: bot:snowwhite ip: (~assassination_plot) 5  pourquoi ducro il se decarcasse ==> I can't think straight with all this stress.  When:Tue Mar 04 16:22:15 2014 Why: ~assassination_plot.35.0 
+Respond: user: bot:snowwhite ip: (~dwarves) 6  pourquoi ducro il se decarcasse ==> I really trust the dwarves and they've told me not to talk to strangers.  When:Tue Mar 04 16:22:16 2014 Why: ~dwarves.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 7  pourquoi ducro il se decarcasse ==> Because strangers have tried to kill me recently.  When:Tue Mar 04 16:22:16 2014 Why: ~justify_identity.15.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 8  pourquoi ducro il se decarcasse ==> It was my stepmother in disguise. She's jealous of my beauty.  When:Tue Mar 04 16:22:17 2014 Why: ~justify_identity.15.4 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Mar 04 16:23:21 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  simon says give me variable ==> 0  When:Tue Mar 04 16:23:25 2014 Why: ~catchall.36.0 
+Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Mar 04 16:27:28 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~catchall) 1  simon say give me variable trust ==> 0  When:Tue Mar 04 16:27:34 2014 Why: ~catchall.36.0 
+Command: :build 1

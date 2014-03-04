@@ -1,4 +1,4 @@
-topic: ~catchall (~emohello ~emohowzit ~emogoodbye ~emosurprise ~interjections ~insults ~damage_verbs really thank thanks~2 ~emothanks)
+topic: ~catchall (variable ~emohello ~emohowzit ~emogoodbye ~emosurprise ~interjections ~insults ~damage_verbs really thank thanks~2 ~emothanks)
 
 #! Gambits to fall back on when input doesn't trigger anything more precise
 
@@ -94,3 +94,9 @@ t: TELLMEWHY () Because strangers have tried to kill me recently. ^addtopic(~ass
 	a:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
 		b:(really) Yes, crazy business.
 	a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
+
+#! ----------------------------------------------------------------
+#! Variable exchange with client
+#! ----------------------------------------------------------------
+
+s:(Simon say give me variable trust) $trust

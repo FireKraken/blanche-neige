@@ -46,7 +46,7 @@ u: (<< I can help >>) That would be great, but what can you do?
 
 u: (<< I here save you >>) That would be great, but what can you do?
 
-u: (<< I [~damage_verbs hunt capture punish kidnap spell dissuade] ~evilqueen >>) You would really do that?! Thanks!
+u: (<< I [~damage_verbs hunt capture punish kidnap spell dissuade] ~evilqueen >>)You would really do that?! Thanks! CTplus 
 	$trust += 1
 
 u: (<< you not [hide~5 flee escape avoid] [always forever eternally] >>) I know, but I don't know what to do.

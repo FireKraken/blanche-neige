@@ -1817,3 +1817,9 @@ Missing topic index for ~assassination_plot
 input:10 Mon Feb 24 15:40:07 2014 Missing topic index for ~dwarves
  caller: callee:snowwhite in sentence: Actually, your stepmother is trying to kill me too at 
 Missing topic index for ~dwarves
+input:2 Tue Mar 04 16:50:10 2014 Server exception
+ caller:globule callee:snowwhite in sentence: Simon says give me variable at 
+Server exception
+input:2 Tue Mar 04 16:50:10 2014 ***Server exception
+ caller:globule callee:snowwhite in sentence: Simon says give me variable at 
+***Server exception

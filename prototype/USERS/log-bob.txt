@@ -90,3 +90,8 @@ For game:
   game~12: willing to face danger 
   game~13: disabled in the feet or legs 
 Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2945 (~justify_identity) 0 ==> Excuse me, but who are you again and what do you want?  When:Tue Mar 04 16:21:02 2014 Version:3.53 Build0:1393347034 Build1:1393449022 Why: ~justify_identity.84.0 
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 1  tell me what the trust variable is ==> It's not like me to be so wary but the dwarves told me not to trust anyone.  When:Tue Mar 04 16:21:09 2014 Why: ~justify_identity.14.0 
+Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2945 (~justify_identity) 1 ==> I'm usually very friendly but in the circumstances it's hard for me to trust anyone  When:Tue Mar 04 16:59:51 2014 Version:3.53 Build0:1393347034 Build1:1393970228 Why: ~justify_identity.85.0 
+Command: :build 1
