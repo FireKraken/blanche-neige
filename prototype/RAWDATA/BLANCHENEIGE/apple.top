@@ -10,6 +10,7 @@ u: (_them) ^mark(apple _0)  ^repeat() ^keep()
 u: (_they) ^mark(apple _0)  ^repeat() ^keep() 
 u: (_one) ^mark(apple _0)  ^repeat() ^keep() 
 u: (_this) ^mark(apple _0)  ^repeat() ^keep() 
+u: (_fruit) ^mark(apple _0)  ^repeat() ^keep() 
 
 
 u: ($end==1) ^reuse(~catchall.DOORCLOSED)

@@ -1,33 +1,33 @@
  ~sell_apple.0.0 #! Possible related pronouns
- ~sell_apple.8.0 #! ----------------------------------------------------------------
- ~sell_apple.8.0 #! "I will have one too tactic"
- ~sell_apple.8.0 #! ----------------------------------------------------------------
- ~sell_apple.10.0 #! ----------------------------------------------------------------
- ~sell_apple.10.0 #! Bribe tactic
- ~sell_apple.10.0 #! ----------------------------------------------------------------
- ~sell_apple.12.0 #! ----------------------------------------------------------------
- ~sell_apple.12.0 #! Threatening
- ~sell_apple.12.0 #! ----------------------------------------------------------------
- ~sell_apple.14.0 #! ----------------------------------------------------------------
- ~sell_apple.14.0 #! Selling the apple
- ~sell_apple.14.0 #! ----------------------------------------------------------------
- ~sell_apple.26.0 #! ----------------------------------------------------------------
- ~sell_apple.26.0 #! Apple is Magical (in a good way)
- ~sell_apple.26.0 #! ----------------------------------------------------------------
- ~sell_apple.28.0 #! ----------------------------------------------------------------
- ~sell_apple.28.0 #! Fishing for info
- ~sell_apple.28.0 #! ----------------------------------------------------------------
- ~sell_apple.32.0 #! ----------------------------------------------------------------
- ~sell_apple.32.0 #! Offer apple
- ~sell_apple.32.0 #! ----------------------------------------------------------------
- ~sell_apple.37.0 #! u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
- ~sell_apple.37.0 #! a:(~yes) That's nice but I can't accept anything from strangers.
- ~sell_apple.37.0 #! $purpose = 1
- ~sell_apple.37.0 #! $peddler = 1
- ~sell_apple.37.0 #! b:(why) ^reuse(justify_identity.TELLMEWHY)
- ~sell_apple.37.0 #! a:(!give ~no) Then what are you doing here?
- ~sell_apple.37.0 #! a:(give) That's nice but I really can't accept anything in the circumstances.
- ~sell_apple.37.0 #! b:(why) ^reuse(justify_identity.TELLMEWHY)
- ~sell_apple.45.0 #! ----------------------------------------------------------------
- ~sell_apple.45.0 #! Topic-related gambits
- ~sell_apple.45.0 #! ----------------------------------------------------------------
+ ~sell_apple.9.0 #! ----------------------------------------------------------------
+ ~sell_apple.9.0 #! "I will have one too tactic"
+ ~sell_apple.9.0 #! ----------------------------------------------------------------
+ ~sell_apple.11.0 #! ----------------------------------------------------------------
+ ~sell_apple.11.0 #! Bribe tactic
+ ~sell_apple.11.0 #! ----------------------------------------------------------------
+ ~sell_apple.13.0 #! ----------------------------------------------------------------
+ ~sell_apple.13.0 #! Threatening
+ ~sell_apple.13.0 #! ----------------------------------------------------------------
+ ~sell_apple.15.0 #! ----------------------------------------------------------------
+ ~sell_apple.15.0 #! Selling the apple
+ ~sell_apple.15.0 #! ----------------------------------------------------------------
+ ~sell_apple.27.0 #! ----------------------------------------------------------------
+ ~sell_apple.27.0 #! Apple is Magical (in a good way)
+ ~sell_apple.27.0 #! ----------------------------------------------------------------
+ ~sell_apple.29.0 #! ----------------------------------------------------------------
+ ~sell_apple.29.0 #! Fishing for info
+ ~sell_apple.29.0 #! ----------------------------------------------------------------
+ ~sell_apple.33.0 #! ----------------------------------------------------------------
+ ~sell_apple.33.0 #! Offer apple
+ ~sell_apple.33.0 #! ----------------------------------------------------------------
+ ~sell_apple.38.0 #! u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
+ ~sell_apple.38.0 #! a:(~yes) That's nice but I can't accept anything from strangers.
+ ~sell_apple.38.0 #! $purpose = 1
+ ~sell_apple.38.0 #! $peddler = 1
+ ~sell_apple.38.0 #! b:(why) ^reuse(justify_identity.TELLMEWHY)
+ ~sell_apple.38.0 #! a:(!give ~no) Then what are you doing here?
+ ~sell_apple.38.0 #! a:(give) That's nice but I really can't accept anything in the circumstances.
+ ~sell_apple.38.0 #! b:(why) ^reuse(justify_identity.TELLMEWHY)
+ ~sell_apple.46.0 #! ----------------------------------------------------------------
+ ~sell_apple.46.0 #! Topic-related gambits
+ ~sell_apple.46.0 #! ----------------------------------------------------------------

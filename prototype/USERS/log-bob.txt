@@ -95,3 +95,8 @@ Respond: user:bob bot:snowwhite ip: (~justify_identity) 1  tell me what the trus
 Command: :build 1
 Start: user:bob bot:snowwhite ip: rand:2945 (~justify_identity) 1 ==> I'm usually very friendly but in the circumstances it's hard for me to trust anyone  When:Tue Mar 04 16:59:51 2014 Version:3.53 Build0:1393347034 Build1:1393970228 Why: ~justify_identity.85.0 
 Command: :build 1
+Start: user:bob bot:snowwhite ip: rand:2945 (~justify_identity) 1 ==> Sorry, but what was it that you wanted again?  When:Wed Mar 05 13:19:37 2014 Version:3.53 Build0:1393347034 Build1:1393970392 Why: ~justify_identity.86.0 
+Command: :reset
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Mar 05 13:19:39 2014 Why: ~justify_identity.4.0 
+Respond: user:bob bot:snowwhite ip: (~justify_identity) 1  I'm selling organic fruits, first one is free ==> This apple does look tasty but I'm afraid I couldn't eat food coming from a stranger.  When:Wed Mar 05 13:19:47 2014 Why: ~justify_identity.10.0 
+Command: :build 1

@@ -1323,3 +1323,9 @@ Command: :reset
 Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Mar 04 16:27:28 2014 Why: ~justify_identity.4.0 
 Respond: user: bot:snowwhite ip: (~catchall) 1  simon say give me variable trust ==> 0  When:Tue Mar 04 16:27:34 2014 Why: ~catchall.36.0 
 Command: :build 1
+Command: :reset
+Respond: user: bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Mar 05 13:20:25 2014 Why: ~justify_identity.4.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 1  I'm selling organic fruits. First one is free. ==> It's true that apples are healthy.  When:Wed Mar 05 13:20:35 2014 Why: ~sell_apple.20.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 2  organic fruits, take one ==> Excuse me, but who are you to be offering apples to strangers?  When:Wed Mar 05 13:20:50 2014 Why: ~sell_apple.37.0 
+Respond: user: bot:snowwhite ip: (~justify_identity) 3  first taste is always free ==> Oh, that makes sense.  When:Wed Mar 05 13:21:00 2014 Why: ~justify_identity.6.0 
+Respond: user: bot:snowwhite ip: (~sell_apple) 4  you want it? ==> No thanks, I don't trust you enough.  When:Wed Mar 05 13:21:08 2014 Why: ~sell_apple.38.0 

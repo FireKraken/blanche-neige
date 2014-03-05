@@ -5,8 +5,8 @@ Reading concept ~samaritan
 *** Warning- line 2 of apple.top: johnny-on-the-spot is not a known word. Is it misspelled?
 Reading concept ~takethis
 Reading topic ~sell_apple
-*** Warning- line 16 of apple.top: booya is unknown as a word in pattern
-*** Warning- line 16 of apple.top: booyah is unknown as a word in pattern
+*** Warning- line 17 of apple.top: booya is unknown as a word in pattern
+*** Warning- line 17 of apple.top: booyah is unknown as a word in pattern
 
 ----Reading file dwarves.top
 Reading concept ~insult

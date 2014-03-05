@@ -1,0 +1,11 @@
+﻿Start: user:jerome bot:snowwhite ip: rand:1720 (~justify_identity) 0 ==> Hi, what brings you to this part of the woods?  When:Wed Mar 05 13:08:29 2014 Version:3.53 Build0:1393347034 Build1:1393970392 Why: ~justify_identity.4.0 
+Respond: user:jerome bot:snowwhite ip: (~justify_identity) 1  I'm selling organic fruits. First one is free! ==> Excuse me, but who are you again and what do you want?  When:Wed Mar 05 13:10:53 2014 Why: ~justify_identity.84.0 
+Respond: user:jerome bot:snowwhite ip: (~sell_apple) 2  Organic fruits. Take one. ==> It's true that apples are healthy.  When:Wed Mar 05 13:11:19 2014 Why: ~sell_apple.19.0 
+Respond: user:jerome bot:snowwhite ip: (~sell_apple) 3  Indeedy! Come on, first taste is always free. ==> That apple you're holding, is that your lunch?  When:Wed Mar 05 13:11:42 2014 Why: ~sell_apple.45.0 
+Respond: user:jerome bot:snowwhite ip: (~sell_apple) 4  No, it's yours, dummy. ==> Is it the reason of your visit?  When:Wed Mar 05 13:11:54 2014 Why: ~sell_apple.45.2 
+Respond: user:jerome bot:snowwhite ip: (~sell_apple) 5  You could say that, yeah. Come on, bite the apple. ==> That's a nice apple you have there.  When:Wed Mar 05 13:12:13 2014 Why: ~sell_apple.46.0 
+Respond: user:jerome bot:snowwhite ip: (~sell_apple) 6  Indeedy! You'll insult me very deeply if you don't take a bite off this apple here. ==> I'd love to keep chatting with you but I don't want to make you lose your time  When:Wed Mar 05 13:12:45 2014 Why: ~catchall.28.0 
+Respond: user:jerome bot:snowwhite ip: (~sell_apple) 7  Eat the goddamn apple! ==> I hate to be rude but there's an awful lot to do in this house  When:Wed Mar 05 13:13:13 2014 Why: ~catchall.30.0 
+Command: :reset
+Respond: user:jerome bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Wed Mar 05 13:15:35 2014 Why: ~justify_identity.4.0 
+Respond: user:jerome bot:snowwhite ip: (~justify_identity) 1  first one is free ==> Excuse me, but who are you again and what do you want?  When:Wed Mar 05 13:15:38 2014 Why: ~justify_identity.84.0 
