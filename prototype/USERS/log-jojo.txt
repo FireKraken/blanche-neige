@@ -1,7 +1,0 @@
-﻿Start: user:jojo bot:anonymous ip: rand:3916 () 0 ==>   When:Mon Feb 24 15:28:04 2014 Version:3.53 Build0:1385587290 Build1:1393273627 
-Command: :reset
-Respond: user:jojo bot:anonymous ip: () 0  :reset ==>   When:Mon Feb 24 15:28:05 2014 
-Command: :build 1
-Start: user:jojo bot:anonymous ip: rand:3916 () 0 ==>   When:Mon Feb 24 15:29:17 2014 Version:3.53 Build0:1385587290 Build1:1393273688 
-Command: :build 1
-Command: :build 1

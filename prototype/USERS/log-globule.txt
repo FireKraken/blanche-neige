@@ -1,7 +1,0 @@
-﻿Server exception
-
-2 Tue Mar 04 16:50:10 2014 in sentence: Simon says give me variable 
-    ***Server exception
-
-2 Tue Mar 04 16:50:10 2014 in sentence: Simon says give me variable 
-    
