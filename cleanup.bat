@@ -1,7 +1,7 @@
 cd prototype
-cd tmp
-del *.* /f /q
-cd ..
+REM cd tmp
+REM del *.* /f /q
+REM cd ..
 cd users
 del *.* /f /q
 cd logs
