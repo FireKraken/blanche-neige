@@ -1,5 +1,5 @@
 concept: ~insult (suck blow "lame" loser losers)
-concept: ~niceperson (nice good affable amiable compassionate considerate cool pleasant sweet likable charming fun lovely great)
+concept: ~niceperson (nice good affable amiable compassionate considerate cool pleasant sweet likable charming fun lovely great kind generous)
 
 topic: ~dwarves (dwarf~2 ~mythical_intelligent_being dwarves house cook)
 
@@ -17,35 +17,35 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 #! ----------------------------------------------------------------
 
 u: (<< dwarf~2 [keep prison~1 ~jail kidnap~1 confine~2 trap hostage control dominate bridle use] you >>) 
-	You think so? ... they seem so nice.
+	You think so? ... they seem so nice.CTplus 
 	$trust += 1
 
 u: (<< trust dwarf >>) I don't know where I would be if it weren't for the dwarves' help.
 
-u: (<< [cook clean chores work~1z ~household_tasks servant slave dishes exploit] dwarf~2 >>) It's true they treat me a bit like their servant.
+u: (<< [cook clean chores work~1z ~household_tasks servant slave dishes exploit] dwarf~2 >>) It's true they treat me a bit like their servant.CTplus 
 	$trust += 1
 
 u: (<<dwarf~2 simple~1 >>)
 	$trust += 1
-	That's harsh but I guess they are a little bit silly sometimes. Can you believe that they thought the earth was round?
+	That's harsh but I guess they are a little bit silly sometimes. Can you believe that they thought the earth was round?CTplus 
 	a:([yes "it is" "earth is round"]) Ha ha.
 
 s: (<< dwarf~2 [unpleasant_person~1 ~insult]>>)
-	$trust -= 1
+	$trust -= 1CTminus
 	Don't talk like that about these generous creatures!
 
 
 u: ( << you [dwarf~2] [food~1 apple] [give feed] >>)
-	We mostly eat cabbages. I admit I'm a bit tired of that.
+	We mostly eat cabbages. I admit I'm a bit tired of that.CTplus 
 	$trust += 1
 		a: (<<I not [like appreciate enjoy] cabbage>>) Who does, really?!
 		$trust += 1
 
 
 u: (<< [normal natural suitable fitting moral think virtue virtuous proper] live with dwarf~2>>) Is it wrong for a young girl to live with seven grown--albeit small--men?
-	a:(no) Oh dear, I had never thought of this that way.
+	a:(no) Oh dear, I had never thought of this that way.CTplus 
 		$trust += 1
-	a:(yes) It does feel right.
+	a:(yes) It does feel right.CTplus 
 		$trust += 1
 
 u: (<< dwarf~2 [liar lie deceive dishonest mislead] >>) What makes you say that?
@@ -54,13 +54,13 @@ u: (<< dwarf~2 [liar lie deceive dishonest mislead] >>) What makes you say that?
 #! Praise dwarves tactic
 #! ----------------------------------------------------------------
 
-s: (<< dwarf~2 be [wise clever intelligent brilliant bright crafty genious shrewd] >>) Yes, they're nobody's fools.
+s: (<< dwarf~2 [be seem] [wise clever intelligent brilliant bright crafty genious shrewd] >>) Yes, they're nobody's fools.v
 	$trust += 1
 
-s: (!friend << dwarf~2 be ~niceperson >>) They've been very good to me.
+s: (!friend << dwarf~2 [be seem] ~niceperson >>) They've been very good to me.CTplus 
 	$trust += 1
 
-s: (!not << I [like love appreciate] dwarf~2 >>) I like them too.
+s: (!not << I [like love appreciate] dwarf~2 >>) I like them too.CTplus 
 	$trust += 1
 
 #! ----------------------------------------------------------------
@@ -82,14 +82,14 @@ s: (<< dwarf~2 [I you] message>>) What's the message?
 s: (<< apple dwarf~2 [bring deliver sell for] >>) The dwarves didn't tell me about you, come back when they're there.
 	a:(when) At dusk.
 
-u: (<< dwarf~2 I ~role_romantic >> ) Really?! They never told me about that! If that's true they'll need to introduce you themselves.
+u: (<< dwarf~2 I ~role_romantic >> ) Really?! They never told me about that! If that's true they'll need to introduce you themselves.CTplus 
 	$trust += 1
 
 #! ----------------------------------------------------------------
 #! Dwarven approval
 #! ----------------------------------------------------------------
 
-s:(dwarf * [apple] * [ok good accept acceptable "good for you"]) Well maybe if the dwarves said so...
+s:(dwarf * [apple] * [ok good accept acceptable "good for you"]) Well maybe if the dwarves said so...CTplus 
 	$trust += 1
 
 #! ----------------------------------------------------------------
@@ -116,7 +116,7 @@ u: (<< you come out >>) I don't have time for that with all the dishes waiting.
 
 ?: (<<[how like] dwarf~2 live>>) It's a bit strange living with seven men half my size, but you get used to it.
 
-?: (<<be dwarf~2 [friendly nice pleasant affable amiable attentive helpful loving sympathetic kind tender fond]>>) Yes, they're great.
+?: (<<be dwarf~2 [friendly nice pleasant affable amiable attentive helpful loving sympathetic kind tender fond]>>) Yes, they're great.CTplus 
 	$trust += 1
 
 u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
@@ -141,8 +141,8 @@ u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
 #! Topic-related Gambits
 #! ----------------------------------------------------------------
 
-t: 	I really trust the dwarves and they've told me not to talk to strangers.
+t: 	CGambitI really trust the dwarves and they've told me not to talk to strangers.
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
 
-t: ($dwarves==1 $offered==1) The dwarves would think I'm really stupid if I accept another gift from a stranger.
+t: ($dwarves==1 $offered==1) CGambitThe dwarves would think I'm really stupid if I accept another gift from a stranger.
 	a:([judgmental "trust yourself"]) But they're right.

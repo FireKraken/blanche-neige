@@ -1823,3 +1823,12 @@ Server exception
 input:2 Tue Mar 04 16:50:10 2014 ***Server exception
  caller:globule callee:snowwhite in sentence: Simon says give me variable at 
 ***Server exception
+   in identity.top at 185: s: ($stepmother==1 <<I * [surrender "give up" "calling it quits" reconcile reconciliation apologize apology "make up"]>>)Wow, that's surprisingly nice of you.
+PATTERN-45 Cannot have wildcard * inside << >>   in identity.top at 296: s:($name=="" I * be * _~propername) Your name is '_0?
+PATTERN-64 Illegal comparison $name=="" or failed to close prior rule starting at ( อออออออออออออออออออออออออออออออออออออออออออ   in identity.top at 302: s:($name!="" I * be * _~propername) Your name is '_0?
+PATTERN-64 Illegal comparison $name="" or failed to close prior rule starting at ( !ออออออออออออออออออออออออออออออออออออออออออinput:1 Tue Mar 18 13:33:18 2014 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I am Bob at 
+Missing topic index for ~justify_identity
+input:1 Tue Mar 18 13:33:18 2014 Missing topic index for ~justify_identity
+ caller: callee:snowwhite in sentence: I am Bob at 
+Missing topic index for ~justify_identity

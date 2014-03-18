@@ -9,17 +9,17 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 
 ?: (you * like * [living here house~2]) I sort of got used to it.
 
-s: (you * [be look] * [beautiful~1 pretty]) Thank you, but my beauty has brought me only misery.
+s: (you * [be look] * [beautiful~1 pretty]) CTplus Thank you, but my beauty has brought me only misery.
 	$trust += 1
 	a:(why) My stepmother has been trying to kill me because she thinks I look better than her.
 		$plot = 1
-		^addtopic(~assassination_plot)
+		^poptopic() ^addtopic(~assassination_plot)
 s: (you * [be look] * [beautiful~1 pretty]) Are you trying to hit on to me?
 
 s: (you * be * ugly) If only that was true!
 	a: (why) Then my stepmother would leave me alone!
 		$plot = 1
-		^addtopic(~assassination_plot)
+		^poptopic() ^addtopic(~assassination_plot)
 
 u: (<< you be [_unpleasant_person~1 _mean]  >>) Your mother is '_0.
 
@@ -28,7 +28,7 @@ u: (you * be * paranoid) You would be if random old women where repetitively try
 
 u: (you * be * amnesiac) I don't remember being amnesiac.
 
-u: (you * be * ~niceperson) That's very nice of you to say.
+u: (you * be * ~niceperson) That's very nice of you to say.CTplus 
 	$trust += 1
 
 u: (you * be * ~good_intelligence_adjectives) You're the first one to tell me that.
@@ -39,14 +39,14 @@ u: (you * [lost bad] * memory) I don't remember not remembering anything.
 u: (you * [bad terrible] * host) I wish I could be more welcoming but the circumstances don't allow it.
 	a:(circumstances) ^reuse(justify_identity.TELLMEWHY)
 
-u: (<< you [be feel] [alone lonely] >>) You can hardly feel lonely living with seven dwarves. But it's true I sometimes long for human company.
+u: (<< you [be feel] [alone lonely] >>) CTplus You can hardly feel lonely living with seven dwarves. But it's true I sometimes long for human company.
 	$trust += 1
 
 #! ----------------------------------------------------------------
 #! Psychoanalysis tactic
 #! ----------------------------------------------------------------
 
-?: (<< how you feel that >>) Oh, it's awful. I can't sleep at night.
+?: (<< how you feel that >>) CTplus Oh, it's awful. I can't sleep at night.
 	$trust +=1
 
 u: (<< talk about you >>) Oh, I'm just a young princess hiding with seven dwarves because her stepmother wants to kill her.

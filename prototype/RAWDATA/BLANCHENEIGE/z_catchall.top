@@ -23,7 +23,7 @@ t: (be) if (%length > 12) { You're as verbose as my English teacher. One thing a
 u: ([~emohello ~emohowzit hello hi "good morning"]) Hello. ^poptopic()
 u: ([~emohello ~emohowzit hello hi "good morning"]) You're quite the greeter. ^poptopic()
 u: ([~emohello ~emohowzit hello hi "good morning"]) Yes, I am well aware of your presence by now. ^poptopic()
-u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
+u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.CFail
 	$end = 1
 
 #! ----------------------------------------------------------------
@@ -62,23 +62,23 @@ u: ([nonsense "not making sense" "not making any sense" "mean anything" "means n
 u: (you [~insults unpleasant_person~1]) You're not being very amiable.
 	a:(neither) Sorry about that, it's the anxiety.
 	a:(sorry) That's all right.	
-u: (you [~insults unpleasant_person~1]) I don't have to listen to this, bye.
+u: (you [~insults unpleasant_person~1]) I don't have to listen to this, bye.CFail
 	$end = 1
 u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) You're not very credible, old woman.
-u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Ok, that's it. Bye now!
+u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Ok, that's it. Bye now!CFail
 	$end = 1
 
 #! ----------------------------------------------------------------
 #! Impatience gambits
 #! ----------------------------------------------------------------
 
-t: ($trust<2) 	[I'm sure you mean well but how could I trust you?]
-				[I'd love to keep chatting with you but I don't want to make you lose your time] ^poptopic()
-t: ($trust>3 $offered) [I feel sympathy towards you but still I must remain vigilant.] ^poptopic()
-t: 	[I hate to be rude but there's an awful lot to do in this house] 
-	[I don't want to keep you standing here, I'm sure you have much to do] ^poptopic()
-t: I'm going to close this door anytime soon now. ^poptopic()
-t: Goodbye then, have a safe trip.
+r:  CPatienceI'm sure you mean well but how could I trust you? 
+r:  CPatienceI'd love to keep chatting with you but I don't want to make you lose your time ^poptopic()
+r: CPatienceI feel sympathy towards you but still I must remain vigilant. ^poptopic()
+r: CPatienceI hate to be rude but there's an awful lot to do in this house 
+r:  CPatienceI don't want to keep you standing here, I'm sure you have much to do ^poptopic()
+t: CPatienceI'm going to close this door anytime soon now. ^poptopic()
+t: Goodbye then, have a safe trip.CFail
 	$end = 1
 
 #! ----------------------------------------------------------------
@@ -89,11 +89,11 @@ u: (build 1) Are you trying to compile me again?
 u: (reset) You won't get rid of me that easily!
 
 #! Reusable explanation
-t: TELLMEWHY () Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+t: TELLMEWHY () Because strangers have tried to kill me recently. ^poptopic() ^addtopic(~assassination_plot)
 	$plot = 1
-	a:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+	a:(who) It was actually my stepmother in disguise. ^poptopic() ^addtopic(~assassination_plot)
 		b:(really) Yes, crazy business.
-	a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
+	a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^poptopic() ^addtopic(~assassination_plot)
 
 #! ----------------------------------------------------------------
 #! Variable exchange with client

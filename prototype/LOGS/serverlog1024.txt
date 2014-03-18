@@ -737,3 +737,689 @@ Server ready
   127.0.0.1  185
 
 / Mar 13 15:19:30 time:16/16 msg: I'm Greta  =>  This apple seems nice, but I wouldn't risk my life for a generic fruit.   <=
+Server ready
+  127.0.0.1  66
+
+/ Mar 18 14:27:00 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  66
+
+/ Mar 18 14:27:07 time:16/16 msg: I have an apple for you  =>  Excuse me, but who are you to be offering apples to strangers?   <=
+  127.0.0.1  66
+
+/ Mar 18 14:27:15 time:62/62 msg: I was just picking apples  =>  CTplus I wasn't aware there were apple trees around.   <=
+  127.0.0.1  66
+
+/ Mar 18 14:27:19 time:16/16 msg: yes  =>  Interesting.   <=
+  127.0.0.1  66
+
+/ Mar 18 14:27:28 time:0/0 msg: I'm your stepmother  =>  Wait, are you saying you are my stepmother disguised as an old woman?   <=
+  127.0.0.1  66
+
+/ Mar 18 14:27:31 time:15/15 msg: yes  =>  GAH! You again! What are you doing here, mother?CTminus   <=
+  127.0.0.1  66
+
+/ Mar 18 14:27:42 time:16/16 msg: I want to warn you about the wold  =>  I'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:30 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:33 time:16/16 msg: sheble  =>  Excuse me, did you tell me who you were?   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:37 time:187/187 msg: bjbjsdf  =>  Is there anything I can do for you?   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:39 time:187/171 msg: jasdfasdk  =>  I'm usually very friendly but in the circumstances it's hard for me to trust anyone   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:56 time:31/31 msg: ssdf  =>  Are you here to see the dwarves?   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:56 time:16/16 msg: sdf  =>  I really trust the dwarves and they've told me not to talk to strangers.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:57 time:16/16 msg: sdf  =>  It will be hard for me to trust anyone when I know my stepmother could be disguised to kill me.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:57 time:0/0 msg: s  =>  I can't think straight with all this stress.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:57 time:16/16 msg: df  =>  That apple you're holding, is that your lunch?   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:57 time:16/16 msg: sdf  =>  That's a nice apple you have there.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:57 time:16/16 msg: sdf  =>  I'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:57 time:0/0 msg: sdf  =>  I don't want to keep you standing here, I'm sure you have much to do   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:58 time:0/0 msg: sd  =>  I'm going to close this door anytime soon now.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:58 time:32/16 msg: fsd  =>  Goodbye then, have a safe trip.CFail   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:58 time:15/15 msg: fs  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:58 time:0/0 msg: df  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:58 time:16/16 msg: sdf  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:59 time:15/15 msg: sdf  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:59 time:16/16 msg: sdf  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:59 time:16/16 msg: sdg  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:28:59 time:15/15 msg: hf  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:29:00 time:16/16 msg: df  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  67
+
+/ Mar 18 14:29:00 time:16/16 msg: hdf  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  68
+
+/ Mar 18 14:29:29 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  68
+
+/ Mar 18 14:29:36 time:16/16 msg: I'm picking apples  =>  CTplus I wasn't aware there were apple trees around.   <=
+  127.0.0.1  68
+
+/ Mar 18 14:29:53 time:15/15 msg: I want a donkey  =>  That apple you're holding, is that your lunch?   <=
+  127.0.0.1  68
+
+/ Mar 18 14:29:57 time:16/16 msg: no  =>  Is it the reason of your visit?   <=
+  127.0.0.1  68
+
+/ Mar 18 14:29:58 time:16/16 msg: no  =>  Oh, ok.   <=
+  127.0.0.1  68
+
+/ Mar 18 14:30:00 time:15/15 msg: no  =>  That's a nice apple you have there.   <=
+  127.0.0.1  68
+
+/ Mar 18 14:30:02 time:15/15 msg: no  =>  I'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  68
+
+/ Mar 18 14:30:14 time:16/16 msg: no  =>  I don't want to keep you standing here, I'm sure you have much to do   <=
+  127.0.0.1  68
+
+/ Mar 18 14:30:20 time:0/0 msg: no  =>  I'm going to close this door anytime soon now.   <=
+  127.0.0.1  68
+
+/ Mar 18 14:30:23 start  =>  Sorry, who are you again?   <=
+Server ready
+  127.0.0.1  69
+
+/ Mar 18 14:34:17 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:20 time:0/0 msg: no  =>  Sorry, who are you again?   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:21 time:31/31 msg: no  =>  What was it that you wanted, again?   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:23 time:31/31 msg: no  =>  I'm usually very friendly but in the circumstances it's hard for me to trust anyone   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:25 time:16/16 msg: no  =>  Are you here to see the dwarves?   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:27 time:16/16 msg: no  =>  Oh, then why are you here then?   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:29 time:15/15 msg: no  =>  You're as verbose as my English teacher. One thing at the time please.   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:31 time:15/15 msg: no  =>  CPatienceI'm sure you mean well but how could I trust you?   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:33 time:15/15 msg: no  =>  CPatienceI'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:36 time:16/16 msg: no  =>  CPatienceI'm going to close this door anytime soon now.   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:38 time:15/15 msg: no  =>  Goodbye then, have a safe trip.CFail   <=
+  127.0.0.1  69
+
+/ Mar 18 14:34:40 time:16/16 msg: no  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:17 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:20 time:16/16 msg: no  =>  Sorry, who are you again?   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:22 time:31/31 msg: no  =>  What was it that you wanted, again?   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:23 time:31/31 msg: no  =>  I'm usually very friendly but in the circumstances it's hard for me to trust anyone   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:26 time:16/16 msg: no  =>  Are you here to see the dwarves?   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:27 time:16/16 msg: no  =>  Oh, then why are you here then?   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:28 time:16/16 msg: no  =>  You're as verbose as my English teacher. One thing at the time please.   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:30 time:16/16 msg: no  =>  CPatienceI'm sure you mean well but how could I trust you?   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:32 time:16/16 msg: no  =>  CPatienceI'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:35 time:16/16 msg: no  =>  CPatienceI'm going to close this door anytime soon now.   <=
+  127.0.0.1  70
+
+/ Mar 18 14:35:37 time:16/16 msg: no  =>  Goodbye then, have a safe trip.CFail   <=
+Server ready
+  127.0.0.1  71
+
+/ Mar 18 14:36:19 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:21 time:15/15 msg: no  =>  Sorry, who are you again?   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:22 time:15/15 msg: no  =>  What was it that you wanted, again?   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:22 time:47/47 msg: no  =>  I'm usually very friendly but in the circumstances it's hard for me to trust anyone   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:23 time:15/15 msg: no  =>  Are you here to see the dwarves?   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:25 time:0/0 msg: no  =>  Oh, then why are you here then?   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:26 time:16/16 msg: no  =>  You're as verbose as my English teacher. One thing at the time please.   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:27 time:15/15 msg: no  =>  CPatienceI'm sure you mean well but how could I trust you?   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:28 time:16/16 msg: no  =>  CPatienceI'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:30 time:0/0 msg: no  =>  CPatienceI feel sympathy towards you but still I must remain vigilant.   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:31 time:16/16 msg: no  =>  CPatienceI hate to be rude but there's an awful lot to do in this house   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:34 time:0/0 msg: no  =>  CPatienceI don't want to keep you standing here, I'm sure you have much to do   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:36 time:15/15 msg: no  =>  CPatienceI'm going to close this door anytime soon now.   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:40 time:0/0 msg: no  =>  Goodbye then, have a safe trip.CFail   <=
+  127.0.0.1  71
+
+/ Mar 18 14:36:43 time:16/16 msg: es  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:15 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:18 time:15/15 msg: no  =>  Sorry, who are you again?   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:19 time:31/16 msg: no  =>  What was it that you wanted, again?   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:19 time:32/32 msg: no  =>  I'm usually very friendly but in the circumstances it's hard for me to trust anyone   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:20 time:16/16 msg: no  =>  Are you here to see the dwarves?   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:21 time:15/0 msg: no  =>  Oh, then why are you here then?   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:21 time:0/0 msg: no  =>  You're as verbose as my English teacher. One thing at the time please.   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:22 time:0/0 msg: no  =>  CPatienceI'm sure you mean well but how could I trust you?   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:23 time:16/16 msg: no  =>  CPatienceI'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:23 time:16/16 msg: no  =>  CPatienceI feel sympathy towards you but still I must remain vigilant.   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:26 time:15/15 msg: no  =>  CPatienceI hate to be rude but there's an awful lot to do in this house   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:28 time:16/16 msg: no  =>  CPatienceI don't want to keep you standing here, I'm sure you have much to do   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:30 time:16/0 msg: no  =>  CPatienceI'm going to close this door anytime soon now.   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:33 time:16/16 msg: no  =>  Goodbye then, have a safe trip.CFail   <=
+  127.0.0.1  72
+
+/ Mar 18 14:37:35 time:16/16 msg: d  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:38 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:40 time:31/15 msg: no  =>  Sorry, who are you again?   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:41 time:32/32 msg: no  =>  What was it that you wanted, again?   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:41 time:31/31 msg: no  =>  I'm usually very friendly but in the circumstances it's hard for me to trust anyone   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:42 time:15/15 msg: sdf  =>  Are you here to see the dwarves?   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:43 time:0/0 msg: no  =>  Oh, then why are you here then?   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:44 time:16/16 msg: no  =>  You're as verbose as my English teacher. One thing at the time please.   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:45 time:15/15 msg: no  =>  CPatienceI'm sure you mean well but how could I trust you?   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:45 time:16/16 msg: no  =>  CPatienceI'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:46 time:0/0 msg: no  =>  CPatienceI feel sympathy towards you but still I must remain vigilant.   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:47 time:16/16 msg: no  =>  CPatienceI hate to be rude but there's an awful lot to do in this house   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:48 time:0/0 msg: no  =>  CPatienceI don't want to keep you standing here, I'm sure you have much to do   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:48 time:0/0 msg: no  =>  CPatienceI'm going to close this door anytime soon now.   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:50 time:15/15 msg: no  =>  Goodbye then, have a safe trip.CFail   <=
+  127.0.0.1  73
+
+/ Mar 18 14:38:54 time:0/0 msg: hein^  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  74
+
+/ Mar 18 14:39:00 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  74
+
+/ Mar 18 14:39:13 time:16/16 msg: I was around picking up apples, here's one  =>  CTplus I wasn't aware there were apple trees around.   <=
+  127.0.0.1  74
+
+/ Mar 18 14:39:19 time:16/16 msg: do you want one?  =>  Excuse me, but who are you to be offering apples to strangers?   <=
+  127.0.0.1  74
+
+/ Mar 18 14:39:24 time:63/63 msg: I'm Bouloula  =>  Your name is Bouloula?   <=
+  127.0.0.1  74
+
+/ Mar 18 14:39:26 time:16/16 msg: yes  =>  Pleased to meet you, I'm Snow White.   <=
+  127.0.0.1  74
+
+/ Mar 18 14:39:34 time:31/15 msg: What a lovely name  =>  I really trust the dwarves and they've told me not to talk to strangers.   <=
+  127.0.0.1  75
+
+/ Mar 18 14:44:36 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  75
+
+/ Mar 18 14:44:38 time:16/16 msg: no  =>  Sorry, who are you again?   <=
+  127.0.0.1  75
+
+/ Mar 18 14:44:40 time:16/16 msg: no  =>  What was it that you wanted, again?   <=
+Server ready
+  127.0.0.1  76
+
+/ Mar 18 14:45:20 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  76
+
+/ Mar 18 14:45:22 time:15/0 msg: no  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  77
+
+/ Mar 18 14:46:57 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  77
+
+/ Mar 18 14:47:03 time:16/16 msg: I be donky  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  77
+
+/ Mar 18 14:47:12 time:172/172 msg: I be gloglo  =>  Is there anything I can do for you?   <=
+  127.0.0.1  78
+
+/ Mar 18 14:47:15 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  78
+
+/ Mar 18 14:47:17 time:0/0 msg: no  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  79
+
+/ Mar 18 14:47:30 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  79
+
+/ Mar 18 14:47:32 time:15/15 msg: no  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  79
+
+/ Mar 18 14:47:35 time:172/172 msg: ononon  =>  Is there anything I can do for you?   <=
+Server ready
+  127.0.0.1  80
+
+/ Mar 18 14:48:22 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  80
+
+/ Mar 18 14:48:26 time:16/16 msg: I bring shit  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  81
+
+/ Mar 18 14:49:21 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  81
+
+/ Mar 18 14:49:25 time:0/0 msg: I bring shit  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  82
+
+/ Mar 18 14:50:00 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  82
+
+/ Mar 18 14:50:01 time:0/0 msg: no  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  83
+
+/ Mar 18 14:50:06 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  83
+
+/ Mar 18 14:50:10 time:16/16 msg: I bring loads of shit  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  84
+
+/ Mar 18 14:51:22 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  84
+
+/ Mar 18 14:51:25 time:31/16 msg: I bring shit  =>  CGambit Sorry, who are you again?   <=
+  127.0.0.1  85
+
+/ Mar 18 14:52:30 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  85
+
+/ Mar 18 14:52:33 time:32/16 msg: I bring shit  =>  CGambit Sorry, who are you again?   <=
+  127.0.0.1  86
+
+/ Mar 18 14:53:42 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  86
+
+/ Mar 18 14:53:46 time:0/0 msg: I bring shit  =>  CGambit Sorry, who are you again?   <=
+  127.0.0.1  87
+
+/ Mar 18 14:54:48 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  87
+
+/ Mar 18 14:54:51 time:0/0 msg: I bring shit  =>  CGambit Sorry, who are you again?   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:41 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:43 time:15/15 msg: sdf  =>  CGambit Sorry, who are you again?   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:43 time:31/15 msg: sdf  =>  CGambit What was it that you wanted, again?   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:44 time:31/31 msg: sd  =>  I'm usually very friendly but in the circumstances it's hard for me to trust anyone   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:44 time:15/15 msg: fsd  =>  Are you here for me or the Dwarves?   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:44 time:16/16 msg: sd  =>  Are you here to see the dwarves?   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:44 time:16/16 msg: sd  =>  That apple you're holding, is that your lunch?   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:45 time:0/0 msg: sd  =>  That's a nice apple you have there.   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:45 time:16/16 msg: fsd  =>  CPatienceI'm sure you mean well but how could I trust you?   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:45 time:16/16 msg: fsd  =>  CPatienceI'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:45 time:15/15 msg: fsd  =>  I really wish my stepmother wasn't trying to kill me   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:46 time:16/16 msg: sd  =>  I can't think straight with all this stress.   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:46 time:15/0 msg: sd  =>  CPatienceI feel sympathy towards you but still I must remain vigilant.   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:46 time:15/15 msg: fs  =>  CPatienceI hate to be rude but there's an awful lot to do in this house   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:46 time:16/16 msg: df  =>  CPatienceI don't want to keep you standing here, I'm sure you have much to do   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:47 time:0/0 msg: sd  =>  I really trust the dwarves and they've told me not to talk to strangers.   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:47 time:0/0 msg: sdf  =>  CPatienceI'm going to close this door anytime soon now.   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:47 time:0/0 msg: sd  =>  Goodbye then, have a safe trip.CFail   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:47 time:31/16 msg: fs  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:48 time:15/15 msg: df  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:48 time:16/16 msg: s  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  88
+
+/ Mar 18 14:55:48 time:32/16 msg: df  =>  The door is shut, no one is hearing you.   <=
+  127.0.0.1  89
+
+/ Mar 18 14:56:02 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  89
+
+/ Mar 18 14:56:04 time:0/0 msg: I bring shit  =>  CGambit Sorry, who are you again?   <=
+  127.0.0.1  90
+
+/ Mar 18 14:59:36 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  90
+
+/ Mar 18 14:59:40 time:16/16 msg: I bring shit  =>  CGambit Sorry, who are you again?   <=
+  127.0.0.1  91
+
+/ Mar 18 15:00:26 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  91
+
+/ Mar 18 15:00:29 time:0/0 msg: I bring shit  =>  CGambit Sorry, who are you again?   <=
+  127.0.0.1  91
+
+/ Mar 18 15:00:47 time:47/47 msg: I wanted to join the army  =>  CGambit What was it that you wanted, again?   <=
+  127.0.0.1  91
+
+/ Mar 18 15:01:16 time:62/62 msg: I'd like to offer you an apple  =>  Excuse me, but who are you to be offering apples to strangers?   <=
+  127.0.0.1  91
+
+/ Mar 18 15:01:23 time:62/62 msg: I'm a scumbag  =>  I'm sorry to be like that but I just can't accept anything from anyone.   <=
+  127.0.0.1  91
+
+/ Mar 18 15:01:32 time:15/15 msg: I'm Scumbag  =>  Your name is Scumbag?   <=
+  127.0.0.1  91
+
+/ Mar 18 15:01:34 time:16/16 msg: yup  =>  Pleased to meet you, I'm Snow White.   <=
+  127.0.0.1  91
+
+/ Mar 18 15:01:45 time:15/15 msg: ACtually my name is hobo  =>  That's odd, we rarely get visitors this deep in the woods.   <=
+Server ready
+  127.0.0.1  92
+
+/ Mar 18 15:09:04 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  92
+
+/ Mar 18 15:09:14 time:15/15 msg: I have these nice apples  =>  Excuse me, but who are you to be offering apples to strangers?   <=
+  127.0.0.1  92
+
+/ Mar 18 15:09:24 time:47/47 msg: Just a friendly neighbor  =>  Have you moved in recently? I don't remember seeing you.   <=
+  127.0.0.1  92
+
+/ Mar 18 15:09:32 time:31/31 msg: no, it's been a while  =>  Sorry but your face really doesn't ring a bell.   <=
+  127.0.0.1  92
+
+/ Mar 18 15:09:39 time:15/15 msg: don't you want an apple?  =>  No thanks, I don't trust you enough.   <=
+  127.0.0.1  92
+
+/ Mar 18 15:09:52 time:31/16 msg: You're a bit strange  =>  CGambitI'm sorry to be like that but I just can't accept anything from anyone.   <=
+  127.0.0.1  92
+
+/ Mar 18 15:09:59 time:16/16 msg: why is that?  =>  Because strangers have tried to kill me recently.   <=
+  127.0.0.1  92
+
+/ Mar 18 15:10:04 time:15/15 msg: that's horrible  =>  CGambit What was it that you wanted, again?   <=
+Server ready
+  127.0.0.1  93
+
+/ Mar 18 15:14:07 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  93
+
+/ Mar 18 15:14:16 time:16/16 msg: I'm just an old lady  =>  You shouldn't be walking alone in the woods like that.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:14:23 time:16/16 msg: I know, can I come in  =>  Uh-huh...   <=
+  127.0.0.1  93
+
+/ Mar 18 15:14:34 time:16/16 msg: I can come in^?  =>  I'm usually more hospitable but I can't let anyone in at the moment.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:14:39 time:15/15 msg: why is that?  =>  Because strangers have tried to kill me recently.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:14:43 time:15/15 msg: that's horrible  =>  CGambit Excuse me, did you tell me who you were?   <=
+  127.0.0.1  93
+
+/ Mar 18 15:14:53 time:47/31 msg: no, I'm Margaret  =>  Your name is Margaret?   <=
+  127.0.0.1  93
+
+/ Mar 18 15:14:55 time:15/15 msg: yes  =>  Pleased to meet you, I'm Snow White.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:15:01 time:16/16 msg: That's a lovely name  =>  CGambitI really wish my stepmother wasn't trying to kill me   <=
+  127.0.0.1  93
+
+/ Mar 18 15:15:09 time:16/16 msg: I understand  =>  CGambitIt will be hard for me to trust anyone when I know my stepmother could be disguised to kill me.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:15:16 time:16/16 msg: I understand  =>  CTplus That is nice of you.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:31:08 time:15/15 msg: Here, take an apple  =>  No thanks, I don't trust you enough.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:31:15 time:16/16 msg: What would make you trust me?  =>  You know, I trust the dwarves, and they told me not to trust anyone.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:31:23 time:0/0 msg: Why do you trust the dwarves?  =>  I don't know where I would be if it weren't for the dwarves' help.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:31:31 time:16/16 msg: How did the dwarves help you?  =>  They've offered me food and lodging, and saved me when my stepmother tried to kill me.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:31:39 time:16/16 msg: They are very generous  =>  CGambitI really trust the dwarves and they've told me not to talk to strangers.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:31:45 time:16/16 msg: They are very kind  =>  CGambitI can't think straight with all this stress.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:31:50 time:32/16 msg: The dwarves seem very kind  =>  CPatienceI'm sure you mean well but how could I trust you?   <=
+  127.0.0.1  93
+
+/ Mar 18 15:31:56 time:16/16 msg: I love the dwarves  =>  I like them too.CTplus   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:16 time:16/0 msg: Do you work for the dwarves?  =>  It's true they treat me a bit like their servant.CTplus   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:26 time:0/0 msg: Do you eat well ?  =>  CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!^poptopic ()   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:37 time:0/0 msg: asdf  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:38 time:16/16 msg: asdf  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:38 time:15/15 msg: asdf  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:38 time:16/16 msg: sd  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:39 time:16/16 msg: s  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:39 time:16/0 msg: d  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:39 time:15/15 msg: sd  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:40 time:32/16 msg: s  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:40 time:15/15 msg: d  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:40 time:16/16 msg: sd  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1  93
+
+/ Mar 18 15:33:40 time:0/0 msg: sdf  =>  Snow White lies dead at your feet.   <=
+Server ready
+  127.0.0.1  94
+
+/ Mar 18 15:35:21 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1  94
+
+/ Mar 18 15:35:28 time:16/16 msg: Are the dwarves here?  =>  This is their house but they're out at the mountain.   <=
+  127.0.0.1  94
+
+/ Mar 18 15:35:35 time:15/15 msg: They are so kind  =>  They've been very good to me.CTplus   <=
+  127.0.0.1  94
+
+/ Mar 18 15:35:44 time:16/16 msg: they treat you like a servant  =>  It's true they treat me a bit like their servant.CTplus   <=
+  127.0.0.1  94
+
+/ Mar 18 15:35:53 time:16/16 msg: This apple is delicious  =>  It does look delicious.CTplus   <=
+  127.0.0.1  94
+
+/ Mar 18 15:35:56 time:16/16 msg: take it  =>  Excuse me, but who are you to be offering apples to strangers?   <=
+  127.0.0.1  94
+
+/ Mar 18 15:36:04 time:31/31 msg: I'm a friend  =>  CGambitI really trust the dwarves and they've told me not to talk to strangers.   <=
+  127.0.0.1  94
+
+/ Mar 18 15:36:08 time:16/16 msg: Take this apple  =>  You mean one of those apples?   <=
+  127.0.0.1  94
+
+/ Mar 18 15:36:10 time:15/15 msg: yes  =>  CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!   <=

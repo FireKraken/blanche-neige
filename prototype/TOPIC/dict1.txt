@@ -9,12 +9,9 @@
 + would_you_care_to_join_me 
 + ~insult CONCEPT 
 + ~niceperson CONCEPT 
-+ ~bro CONCEPT 
-+ ~sing CONCEPT 
-+ ~thewoods CONCEPT 
 + ~peddler CONCEPT 
-+ ~evilqueen CONCEPT 
 + ~murderplot CONCEPT 
++ ~evilqueen CONCEPT 
 + evil_queen 
 + stepmom 
 + ~agreement CONCEPT 
