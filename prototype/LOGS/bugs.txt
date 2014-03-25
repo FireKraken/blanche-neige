@@ -1823,3 +1823,6 @@ Server exception
 input:2 Tue Mar 04 16:50:10 2014 ***Server exception
  caller:globule callee:snowwhite in sentence: Simon says give me variable at 
 ***Server exception
+   in dwarves.top at 25: s: (dwarf~2 * [liar~2 ~deceive]) They've never given me any reason to doubt their honesty.
+input:2 Tue Mar 25 15:40:03 2014 Bad meaning index liar 2 caller: callee:snowwhite in sentence: yes at 
+Bad meaning index liar 2
