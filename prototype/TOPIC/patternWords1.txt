@@ -31,7 +31,6 @@ simple~1
 it_is
 earth_is_round
 food~1
-genious
 acquaintance~2
 rendez-vous
 won_'t

@@ -54,7 +54,7 @@ u: (<< dwarf~2 [liar lie deceive dishonest mislead] >>) What makes you say that?
 #! Praise dwarves tactic
 #! ----------------------------------------------------------------
 
-s: (<< dwarf~2 [be seem] [wise clever intelligent brilliant bright crafty genious shrewd] >>) Oh yes, they're all very smart, with one notable exception.
+s: (<< dwarf~2 [be seem] [wise clever intelligent brilliant bright crafty genius shrewd] >>) Oh yes, they're all very smart, with one notable exception.CTplus
 	$trust += 1
 
 s: (!friend << dwarf~2 [be seem] ~niceperson >>) They've been very good to me.CTplus 
