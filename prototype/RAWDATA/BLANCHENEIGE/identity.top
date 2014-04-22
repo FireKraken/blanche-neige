@@ -1,4 +1,4 @@
-concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer)
+concept: ~peddler (peddler salesman saleswoman hawker pedlar seller vender vendor dealer merchant)
 
 topic: ~justify_identity (~peddler woman ~reliability_words help apple name "I am" "I'm" trust)
 
@@ -300,7 +300,7 @@ u: (<< walk with me >>) A stroll in the woods would be nice but I can't leave th
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
 
 s: (!not << I [want here go] [for see meet] you >>) How did you know I was here?
-	a:() Well here goes my cover.
+	a:() Well there goes my cover.
 
 
 

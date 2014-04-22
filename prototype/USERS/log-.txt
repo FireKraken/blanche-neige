@@ -457,3 +457,72 @@ For landscape:
                             is entity~1z that which is perceived or known or inferred to have its own distinct existence 
   landscape~5: do landscape gardening 
   landscape~6: embellish with plants 
+Respond: user: bot:snowwhite ip: (~sell_apple) 2  im selling cakes ==> That apple you're holding, is that your lunch?  When:Tue Apr 22 16:05:33 2014 Why: ~sell_apple.46.0 
+Command: :up person
+
+For person:
+ Set hierarchy:
+ Wordnet hierarchy:
+  person~1: a human being 
+    is being~1  a living thing that has the ability to act or function independently 
+       is living_thing~1z a living entity 
+          is unit~1z an assemblage of parts that is regarded as a single entity 
+             is physical_object~1z a tangible and visible entity 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+    is causal_agency~1  any entity that produces an effect or is responsible for events or results 
+       is physical_entity~1z an entity that has physical existence 
+          is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  person~2: a human body  
+    is flesh~1  alternative names for the body of a human being 
+       is body~1z the entire structure of an organism  
+          is natural_object~1z an object occurring naturally 
+             is unit~1z an assemblage of parts that is regarded as a single entity 
+                is physical_object~1z a tangible and visible entity 
+                   is physical_entity~1z an entity that has physical existence 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  person~3: a grammatical category used in the classification of pronouns, possessive determiners, and verb forms according to whether they indicate the speaker, the addressee, or a third party 
+    is grammatical_category~1  a category of words having the same grammatical properties 
+       is course_of_instruction~1z a collection of things sharing a common attribute 
+          is assembly~2 several things grouped together or considered as a whole 
+             is group~1z any number of entities considered as a unit 
+                is abstraction~1z a general concept formed by extracting common features from specific examples 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+Command: :down ~dualsex
+~family_adult_generic ~family_children_generic acquaintance admirer anybody anyone believer buddy devotee disciple 
+  enemy everybody everyone foe friend groupie human human_being junkie kin 
+  kith lover nobody pal paramour person police resident somebody someone 
+  suitor sweetheart whoever wooer worshiper 
+Command: :up husband
+
+For husband:
+ Set hierarchy:
+ Wordnet hierarchy:
+  husband~1: a married man 
+    is mate~7  a person's partner in marriage 
+       is spousal_equivalent~1z a person with whom you cohabit and share a long-term sexual relationship 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+       is relation~1z a person related by blood or marriage 
+          is somebody~1z a human being 
+             is organism~1z a living thing that has the ability to act or function independently 
+                is living_thing~1z a living entity 
+                   is unit~1z an assemblage of parts that is regarded as a single entity 
+                      is physical_object~1z a tangible and visible entity 
+                         is physical_entity~1z an entity that has physical existence 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+             is causal_agent~1z any entity that produces an effect or is responsible for events or results 
+                is physical_entity~1z an entity that has physical existence 
+                   is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  husband~2: use cautiously and frugally 
+Command: :down ~family_adult_generic
+tribe heir parent descendant descendent ancestor clan folks elders cousin 
+  stepparent grandparent partner spouse 
