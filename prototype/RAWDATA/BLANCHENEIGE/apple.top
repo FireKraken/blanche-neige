@@ -132,8 +132,8 @@ s: (<< leave apple later >>) Keep it for someone who will eat it.
 
 s: (<< you not should eat apple >>) Thank you for the warning.
 
-#! t: ($trust>=3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
-#!	$end = 2
+t: ($trust>=3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
+	$end = 2
 
 u: ($identity!=1 $offered!=1 !they !dwarf~2 [share ~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] * [apple one it] ) 
 	$offered = 1

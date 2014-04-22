@@ -64,7 +64,7 @@ u: (you [~insults unpleasant_person~1]) You're not being very amiable.
 	a:(sorry) That's all right.	
 u: (you [~insults unpleasant_person~1]) I don't have to listen to this, bye.
 	$end = 1
-u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Your threats are not very credible, old woman.
+u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) You're not very credible, old woman.
 u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Ok, that's it. Bye now!
 	$end = 1
 
@@ -87,7 +87,6 @@ t: Goodbye then, have a safe trip.
 
 u: (build 1) Are you trying to compile me again?
 u: (reset) You won't get rid of me that easily!
-u: ("beautiful stranger") I won't take my chance on a beautiful stranger.
 
 #! Reusable explanation
 t: TELLMEWHY () Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)

@@ -1,3 +1,0 @@
-﻿Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> Hi, what brings you to this part of the woods?  When:Tue Mar 25 13:19:42 2014 Version:3.53 Build0:1393347034 Build1:1395157460 Why: ~justify_identity.4.0 
-Respond: user:nick bot:snowwhite ip: (~justify_identity) 1  I'm a saleswoman ==> I see. And you're selling apples I suppose?  When:Tue Mar 25 13:20:24 2014 Why: ~justify_identity.7.0 
-Command: :build 1

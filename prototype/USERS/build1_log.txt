@@ -1,4 +1,4 @@
-
+﻿
 ----Reading file apple.top
 Reading concept ~delicious
 Reading concept ~samaritan
@@ -13,9 +13,7 @@ Reading concept ~insult
 *** Warning- line 1 of dwarves.top: "lame" is not a known word. Is it misspelled?
 Reading concept ~niceperson
 Reading topic ~dwarves
-Bad meaning index liar 2
-   in dwarves.top at 25: s: (dwarf~2 * [liar~2 ~deceive]) They've never given me any reason to doubt their honesty.
-    *** Warning- line 59 of dwarves.top: genious is unknown as a word in pattern
+*** Warning- line 57 of dwarves.top: genious is unknown as a word in pattern
 
 ----Reading file friendship.top
 Reading concept ~bro
@@ -27,7 +25,8 @@ Reading topic ~build_friendship
 ----Reading file identity.top
 Reading concept ~peddler
 Reading topic ~justify_identity
-*** Warning- line 163 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 162 of identity.top: cannot is unknown as a word in pattern
+*** Warning- line 282 of identity.top: evilqueen is unknown as a word in pattern
 
 ----Reading file plot.top
 Reading concept ~murderplot
@@ -50,7 +49,7 @@ Reading topic ~snowwhite
 Reading topic ~catchall
 
 WARNING SUMMARY: 
-9 spelling warnings and 0 more serious warnings
+10 spelling warnings and 0 more serious warnings
     
 
 Finished compile

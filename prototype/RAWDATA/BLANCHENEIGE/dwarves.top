@@ -16,13 +16,11 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 #! Undermine dwarves tactic
 #! ----------------------------------------------------------------
 
-u: (<< dwarf~2 [keep prison~1 ~jail kidnap~1 confine~2 trap hostage control dominate bridle use ~steal] you >>) 
+u: (<< dwarf~2 [keep prison~1 ~jail kidnap~1 confine~2 trap hostage control dominate bridle use] you >>) 
 	You think so? ... they seem so nice.
 	$trust += 1
 
 u: (<< trust dwarf >>) I don't know where I would be if it weren't for the dwarves' help.
-
-s: (dwarf~2 * [liar~2 ~deceive]) They've never given me any reason to doubt their honesty.
 
 u: (<< [cook clean chores work~1z ~household_tasks servant slave dishes exploit] dwarf~2 >>) It's true they treat me a bit like their servant.
 	$trust += 1
@@ -45,9 +43,9 @@ u: ( << you [dwarf~2] [food~1 apple] [give feed] >>)
 
 
 u: (<< [normal natural suitable fitting moral think virtue virtuous proper] live with dwarf~2>>) Is it wrong for a young girl to live with seven grown--albeit small--men?
-	a: (~yes) Oh dear, I had never thought of it that way.
+	a:(no) Oh dear, I had never thought of this that way.
 		$trust += 1
-	a: (~no) It does feel right.
+	a:(yes) It does feel right.
 		$trust += 1
 
 u: (<< dwarf~2 [liar lie deceive dishonest mislead] >>) What makes you say that?
@@ -121,13 +119,12 @@ u: (<< you come out >>) I don't have time for that with all the dishes waiting.
 ?: (<<be dwarf~2 [friendly nice pleasant affable amiable attentive helpful loving sympathetic kind tender fond]>>) Yes, they're great.
 	$trust += 1
 
-u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>) I guess the dwarves might like apples but they won't eat anything coming from a stranger.
+u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>)
+	I guess the dwarves might like apples but they won't eat anything coming from a stranger.
 	a: (why) They're a bit paranoid.
 
 ?: (<< I wait  >>) You can wait outside but they've forbidden me to let anyone in.
 	a:(why) ^reuse(justify_identity.TELLMEWHY)
-
-?: (you * live * dwarf~2) Yes, they took me in when I was lost in the woods.
 
 ?:(<< who live house >>) Oh, this is the house of the seven dwarves.
 	$dwarves = 1
@@ -137,10 +134,6 @@ u: ( <<  [dwarf~2] [food~1 apple] [like enjoy eat] >>) I guess the dwarves might
 
 ?:(!not << you like dwarf~2 >>) Of course I like the dwarves, although living here is a lot of work.
 	a:([why how mean]) Well they sort of expect me to do all the household chores.
-
-?: (what * ["do you do" chores work] for * dwarf~2) They give me shelter and in return I cook and clean for them.
-
-?: (dwarf~2) You know, the little men who mine in the mountain.
 
 
 
