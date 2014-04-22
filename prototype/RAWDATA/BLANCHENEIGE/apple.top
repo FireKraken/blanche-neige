@@ -26,6 +26,9 @@ u:(!you << I [eat taste try bite] apple >>) That is somewhat convincing but you 
 
 u:(<< i eat apple whole >>) That's easy: you eat the good apple and give me the poisoned one.
 
+u:($trust<3 <<[share split half] apple>>) That's very generous but I'm not sure that I trust you enough yet.
+	$trust += 1
+
 #! ----------------------------------------------------------------
 #! Bribe tactic
 #! ----------------------------------------------------------------

@@ -17,27 +17,29 @@
  ~justify_identity.28.0 #! Vader tactic (I am your stepmother)
  ~justify_identity.28.0 #! ----------------------------------------------------------------
  ~justify_identity.33.0 #! ----------------------------------------------------------------
- ~justify_identity.33.0 #! Need help tactics
+ ~justify_identity.33.0 #! Old acquiantance tactic
  ~justify_identity.33.0 #! ----------------------------------------------------------------
- ~justify_identity.44.0 #! s:(!you I * [need want]) I don't think I can help you with that.
- ~justify_identity.50.0 #! ----------------------------------------------------------------
- ~justify_identity.50.0 #! Old acquiantance tactic
- ~justify_identity.50.0 #! ----------------------------------------------------------------
- ~justify_identity.53.0 #! ----------------------------------------------------------------
- ~justify_identity.53.0 #! Let's get violent! tactic
- ~justify_identity.53.0 #! ----------------------------------------------------------------
- ~justify_identity.55.0 #! ----------------------------------------------------------------
- ~justify_identity.55.0 #! Other identities
- ~justify_identity.55.0 #! ----------------------------------------------------------------
- ~justify_identity.77.0 #! ----------------------------------------------------------------
- ~justify_identity.77.0 #! Save you from starving
- ~justify_identity.77.0 #! ----------------------------------------------------------------
- ~justify_identity.80.0 #! ----------------------------------------------------------------
- ~justify_identity.80.0 #! Displace suspicion
- ~justify_identity.80.0 #! ----------------------------------------------------------------
- ~justify_identity.81.0 #! ----------------------------------------------------------------
- ~justify_identity.81.0 #! Fishing for info
- ~justify_identity.81.0 #! ----------------------------------------------------------------
+ ~justify_identity.36.0 #! ----------------------------------------------------------------
+ ~justify_identity.36.0 #! Let's get violent! tactic
+ ~justify_identity.36.0 #! ----------------------------------------------------------------
+ ~justify_identity.37.0 #! s: (!evilqueen kill "you") Get away from me you crazy woman!
+ ~justify_identity.37.0 #! $end = 1
+ ~justify_identity.37.0 #! ----------------------------------------------------------------
+ ~justify_identity.37.0 #! Other identities
+ ~justify_identity.37.0 #! ----------------------------------------------------------------
+ ~justify_identity.60.0 #! ----------------------------------------------------------------
+ ~justify_identity.60.0 #! Save you from starving
+ ~justify_identity.60.0 #! ----------------------------------------------------------------
+ ~justify_identity.63.0 #! ----------------------------------------------------------------
+ ~justify_identity.63.0 #! Displace suspicion
+ ~justify_identity.63.0 #! ----------------------------------------------------------------
+ ~justify_identity.64.0 #! ----------------------------------------------------------------
+ ~justify_identity.64.0 #! Fishing for info
+ ~justify_identity.64.0 #! ----------------------------------------------------------------
+ ~justify_identity.67.0 #! ----------------------------------------------------------------
+ ~justify_identity.67.0 #! Need help tactics
+ ~justify_identity.67.0 #! ----------------------------------------------------------------
+ ~justify_identity.78.0 #! s:(!you I * [need want]) I don't think I can help you with that.
  ~justify_identity.84.0 #! ----------------------------------------------------------------
  ~justify_identity.84.0 #! Topic-related gambits
  ~justify_identity.84.0 #! ----------------------------------------------------------------

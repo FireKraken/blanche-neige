@@ -67,7 +67,7 @@ s: (!not << I [like love appreciate] dwarf~2 >>) I like them too.
 #! Relation of the dwarves tactic
 #! ----------------------------------------------------------------
 
-s: ( << friend~1 [dwarf~2 they] I >>) They never mentioned you.
+s: ( << [friend~1 with know~3] [dwarf~2 they] I >>) They never mentioned you.
 	$identity=1
 
 u: ( << I dwarf~2 [~vision_verbs meet "see" appointment rendez-vous come] >>) You can come back when they're there.

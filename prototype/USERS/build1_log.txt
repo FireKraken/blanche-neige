@@ -1,4 +1,4 @@
-﻿
+
 ----Reading file apple.top
 Reading concept ~delicious
 Reading concept ~samaritan
@@ -26,7 +26,6 @@ Reading topic ~build_friendship
 Reading concept ~peddler
 Reading topic ~justify_identity
 *** Warning- line 162 of identity.top: cannot is unknown as a word in pattern
-*** Warning- line 282 of identity.top: evilqueen is unknown as a word in pattern
 
 ----Reading file plot.top
 Reading concept ~murderplot
@@ -49,7 +48,7 @@ Reading topic ~snowwhite
 Reading topic ~catchall
 
 WARNING SUMMARY: 
-10 spelling warnings and 0 more serious warnings
+9 spelling warnings and 0 more serious warnings
     
 
 Finished compile

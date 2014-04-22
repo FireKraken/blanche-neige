@@ -347,7 +347,7 @@ s: (!~friend <<I [old frail weak walk stroll promenade] >>) You shouldn't be wal
 
 s:(<< [want need] [chat talk company] [someone people] >>) Come back when the dwarves are here, you'll see plenty of company.
 
-s:(!you <<[~acquire_imperatives please need] help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
+s:(!you <<[~acquire_imperatives please need me] help~1>>) I wish that I could help you but the dwarves told me to be wary of strangers.
 	$purpose = 1
 	a:(why)^reuse(TELLMEWHY)
 

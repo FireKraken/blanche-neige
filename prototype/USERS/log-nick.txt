@@ -1,0 +1,61 @@
+﻿Start: user:nick bot:snowwhite ip: rand:2581 (~justify_identity) 0 ==> Hi, what brings you to this part of the woods?  When:Tue Apr 22 13:13:05 2014 Version:3.53 Build0:1393347034 Build1:1395157460 Why: ~justify_identity.4.0 
+Command: :reset
+Respond: user:nick bot:snowwhite ip: (~justify_identity) 0  :reset ==> Hi, what brings you to this part of the woods?  When:Tue Apr 22 13:13:21 2014 Why: ~justify_identity.4.0 
+Command: :build 1
+Start: user:nick bot:snowwhite ip: rand:2582 (~justify_identity) 0 ==> Excuse me, but who are you again and what do you want?  When:Tue Apr 22 14:58:16 2014 Version:3.53 Build0:1398202194 Build1:1398203095 Why: ~justify_identity.84.0 
+Command: :up share
+
+For share:
+ Set hierarchy:
+ Wordnet hierarchy:
+  share~1: the part played by a person in bringing about a result 
+    is effort~3  earnest and conscientious activity intended to do or accomplish something 
+       is activity~1z any specific behavior 
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  share~2: the allotment of some amount by dividing something 
+    is assignation~1  the act of distributing by allotting or apportioning 
+       is distribution~1z the act of distributing or spreading or apportioning 
+          is act~1z something that people do or cause to happen 
+             is event~1z something that happens at a given place and time 
+                is psychological_feature~1z a feature of the mental life of a living organism 
+                   is abstraction~1z a general concept formed by extracting common features from specific examples 
+                      is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  share~3: a sharp steel wedge that cuts loose the top layer of soil 
+    is wedge~2  something solid that is usable as an inclined plane that can be pushed between two things to separate them 
+       is inclined_plane~1z a simple machine for elevating objects 
+          is auto~1 a device for overcoming resistance at one point by applying force at some other point 
+             is mechanical_device~1z mechanism consisting of a device that works on mechanical principles 
+                is mechanics~1 device consisting of a piece of machinery 
+                   is twist~1 an instrumentality invented for a particular purpose 
+                      is instrumentation~1z an artifact that is instrumental in accomplishing some end 
+                         is artefact~1z a man-made object taken as a whole 
+                            is unit~1z an assemblage of parts that is regarded as a single entity 
+                               is physical_object~1z a tangible and visible entity 
+                                  is physical_entity~1z an entity that has physical existence 
+                                     is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  share~4: assets belonging to or due to or contributed by an individual person or group 
+    is assets~1  anything of material value or usefulness that is owned by a person or company 
+       is possession~1z anything owned or possessed 
+          is relation~1z an abstraction belonging to or characteristic of two entities or parts together 
+             is abstraction~1z a general concept formed by extracting common features from specific examples 
+                is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  share~5: any of the equal portions into which the capital stock of a corporation is divided and ownership of which is evidenced by a stock certificate 
+    is stock~16  a certificate documenting the shareholder's ownership in the corporation 
+       is security_measures~1z a formal declaration that documents a fact of relevance to finance and investment 
+          is tool~1z a document that states some contractual relationship or grants some right 
+             is document~1z writing that provides information 
+                is committal_to_writing~1z the work of a writer 
+                   is written_communication~1z communication by means of written symbols 
+                      is communication~1z something that is communicated by or to or between people or groups 
+                         is abstraction~1z a general concept formed by extracting common features from specific examples 
+                            is entity~1z that which is perceived or known or inferred to have its own distinct existence 
+  share~6: communicate 
+  share~7: give out as one's portion or share 
+  share~8: have, give, or receive a share of 
+  share~9: use jointly or in common 
+  share~10: have in common 
+Command: :build 1

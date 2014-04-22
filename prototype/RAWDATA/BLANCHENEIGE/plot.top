@@ -58,7 +58,7 @@ u: (<< you [why should ought could] ~damage_verbs ~evilqueen >>) I'm just a frai
 #! Compassion move
 #! ----------------------------------------------------------------
 
-s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad poor difficult] >> )
+s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad poor difficult unfortunate] >> )
 	$trust += 1
 	I know! This is so unfair! CTplus
 	a:([yes unfair indeed]) You are nice.

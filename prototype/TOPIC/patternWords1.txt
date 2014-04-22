@@ -34,6 +34,7 @@ earth_is_round
 food~1
 genious
 acquaintance~2
+know~3
 rendez-vous
 won_'t
 will_not
@@ -54,18 +55,8 @@ cannot
 make_my_way
 don_'t_know
 calling_it_quits
-assist~2
-would_like
-give_me
-do_you_have
-will_you
-can_I
-may_I
-spend_the_night
-running_after
 force~2
 forcefeed
-evilqueen
 ""
 traveler~1
 passing_by
@@ -83,6 +74,15 @@ danger~4
 afraid~1
 bank~11
 believe~1
+assist~2
+would_like
+give_me
+do_you_have
+will_you
+can_I
+may_I
+spend_the_night
+running_after
 that_'s_ok
 I_understand
 totes
@@ -107,3 +107,4 @@ not_making_any_sense
 mean_anything
 means_nothing
 blow~2
+beautiful_stranger

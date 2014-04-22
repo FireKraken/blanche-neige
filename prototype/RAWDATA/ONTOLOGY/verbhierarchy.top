@@ -1,7 +1,7 @@
 
 
 concept: ~special_english_attributes (~factitive_adjective_Verbs ~factitive_noun_Verbs ~causal_to_infinitive_verbs  ~quotable_verbs ~adjectivecomplement_taking_noun_infinitive ~omittable_that_verbs)  # THIS list is used by parser code in the engine
-concept: ~omittable_that_verbs DELAYED_RECURSIVE_DIRECT_MEMBER (feel hear appear ~tell  ~mental_states ~think_verbs )
+#! concept: ~omittable_that_verbs DELAYED_RECURSIVE_DIRECT_MEMBER (feel hear appear ~tell  ~mental_states ~think_verbs )
 concept: ~causal_to_infinitive_verbs VERB VERB_INFINITIVE(adjure advise advocate allow allure announce appoint apprize assist ask assure assume authorize badger believe bother bribe burden  call cause certify challenge charge choose clamor clear compel commission conceive condemn confess consider condition conjure constrain convince countenance counsel
 		deem dare decide declare defy demand designate devote direct disincline disqualify dispose doom drive elect employ enable encourage entitle equip  exhort expect  entitle
 		feel find fit forbid forget force  give guess hate have 
