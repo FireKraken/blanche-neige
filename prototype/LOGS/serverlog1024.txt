@@ -747,3 +747,27 @@ Server ready
   127.0.0.1 id_3_session_1/ Apr 29 11:53:29 time:234/234 msg: take this apple  =>  You mean one of those apples?   <=
   127.0.0.1 id_3_session_1/ Apr 29 11:53:32 time:32/32 msg: yes  =>  CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!   <=
   127.0.0.1 id_3_session_1/ Apr 29 11:53:59 time:16/16 msg: BOOYA  =>  Snow White's corpse suddenly begins to move. She springs to her feet and proclaims "Ha Ha! You have spoken the magical phrase that raises the dead! This time I shall not be so easily fooled by your tricks, vile woman!"   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:33:56 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:34:14 time:31/31 msg: the dwarves wanted some of my apples.  =>  No thanks, I don't trust you enough.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:34:23 time:31/31 msg: they are very delicious  =>  CTplus It does look delicious.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:34:33 time:46/46 msg: would you like to split an apple?  =>  CTplus That's very generous but I'm not sure that I trust you enough yet.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:34:55 time:47/47 msg: my husband died last year  =>  CGambit That apple you're holding, is that your lunch?   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:35:05 time:31/31 msg: yes, would you like to share it  =>  Lucky you!   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:35:11 time:16/16 msg: you can have half  =>  CGambit That's a nice apple you have there.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:35:15 time:0/0 msg: thank you  =>  You're welcome.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:35:25 time:31/31 msg: would you like half of my apple  =>  You mean one of those apples?   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:35:28 time:31/31 msg: yes  =>  CGambit I hate to be rude but there's an awful lot to do in this house CGambit I don't want to keep you standing here, I'm sure you have much to do   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:35:55 time:62/62 msg: care to join me for lunch?  =>  CGambit I really trust the dwarves and they've told me not to talk to strangers.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:36:31 time:31/31 msg: fuck the dwarves.  =>  CGambit I'm going to close this door anytime soon now.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:36:46 time:16/16 msg: i hate you  =>  CGambit I really wish my stepmother wasn't trying to kill me CGambit It will be hard for me to trust anyone when I know my stepmother could be disguised to kill me.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:37:07 time:47/47 msg: why would she try to kill you?  =>  Apparently my stepmother's jealous of my beauty and wants to kill me for that!   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:37:15 time:16/16 msg: you are very beautiful  =>  CTplus Thank you, but my beauty has brought me only misery.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:37:24 time:31/31 msg: would you like half of my apple  =>  Of course.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:37:45 time:15/15 msg: here you are  =>  CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:39:42 time:16/16 msg: hoser  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:39:47 time:16/16 msg: muahahahahahahahaha  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:39:52 time:15/15 msg: MUAHAHAHAHAHAHAHA  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:40:01 time:15/15 msg: bitch *spits*  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1 id_3_session_2/ Apr 29 13:40:34 time:62/47 msg: *steals snow whites face* I am now a GODDESS!  =>  Snow White lies dead at your feet.   <=
+  127.0.0.1 id_3_session_3/ Apr 29 13:40:39 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1 id_4_session_1/ Apr 29 13:42:54 start  =>  Hi, what brings you to this part of the woods?   <=

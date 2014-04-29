@@ -38,7 +38,7 @@ u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
 	a:(~yes) Ok.^poptopic()
 	a:(~no) You lost me.^poptopic()
 ?: (who) Who do you think? ^poptopic()
-
+	a: (~occupation ~propername) I'm not sure. I've been closed in this home for so long i feel distant from everything happening around me. ^poptopic()
 #! ----------------------------------------------------------------
 #! Generic propositions
 #! ----------------------------------------------------------------

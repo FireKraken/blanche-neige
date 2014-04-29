@@ -60,7 +60,7 @@ s: (<< dwarf~2 be [wise clever intelligent brilliant bright crafty genious shrew
 s: (!friend << dwarf~2 be ~niceperson >>) CTplus They've been very good to me.
 	$trust += 1
 
-s: (!not << I [like love appreciate] dwarf~2 >>) CTplus I like them too.
+s: (!not !apple << I [like love appreciate] dwarf~2 >>) CTplus I like them too.
 	$trust += 1
 
 #! ----------------------------------------------------------------
@@ -70,7 +70,7 @@ s: (!not << I [like love appreciate] dwarf~2 >>) CTplus I like them too.
 s: ( << [friend~1 with know~3] [dwarf~2 they] I >>) They never mentioned you.
 	$identity=1
 
-u: ( << I dwarf~2 [~vision_verbs meet "see" appointment rendez-vous come] >>) You can come back when they're there.
+u: ( << I dwarf~2 [~vision_verbs meet "see" appointment rendez-vous come] >>) You can come back when they're here.
 	a:(when) At dusk.
 
 s: (<< dwarf~2 [I you] message>>) What's the message?
