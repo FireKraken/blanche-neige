@@ -287,7 +287,7 @@ s: (!old <<I be neighbor>>) Have you moved in recently? I don't remember seeing 
 s: (<<I be old neighbor>>) Sorry but your face really doesn't ring a bell.
 	$identity = 1
 
-?: (I * ~moving_escape) Yes, bye!
+?: (I * ~moving_escape) CFail Yes, bye!
 	$end = 1
 
 u: (<< play ~game >>) That's nice but I'm not in the mood to play.

@@ -23,7 +23,7 @@ t: (be) if (%length > 12) { You're as verbose as my English teacher. One thing a
 u: ([~emohello ~emohowzit hello hi "good morning"]) Hello. ^poptopic()
 u: ([~emohello ~emohowzit hello hi "good morning"]) You're quite the greeter. ^poptopic()
 u: ([~emohello ~emohowzit hello hi "good morning"]) Yes, I am well aware of your presence by now. ^poptopic()
-u: ([~emogoodbye bye goodbye ciao "see you"]) Goodbye.
+u: ([~emogoodbye bye goodbye ciao "see you"]) CFail Goodbye.
 	$end = 1
 
 #! ----------------------------------------------------------------
@@ -80,7 +80,7 @@ t: ($trust>3 $offered) CGambit[I feel sympathy towards you but still I must rema
 t: 	CPatience[I hate to be rude but there's an awful lot to do in this house] 
 	CPatience[I don't want to keep you standing here, I'm sure you have much to do] ^poptopic()
 t: CPatience I'm going to close this door anytime soon now. ^poptopic()
-t: CGambit CFailGoodbye then, have a safe trip.
+t: CGambit CFail Goodbye then, have a safe trip.
 	$end = 1
 
 #! ----------------------------------------------------------------
