@@ -23,7 +23,7 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 	a: ([~NO ~badness]) She's out of her mind.
 
 ?: ($stepmother!=1 << [why reason] [~evilqueen they stranger] ~murderplot >>) Apparently my stepmother's jealous of my beauty and wants to kill me for that!
-	a:([silly ridiculous ludicrous preposterous bizarre absurd preposterous unbelievable grotesque farcical]) Isn't it?!
+	a:([silly ridiculous ludicrous preposterous bizarre absurd preposterous unbelievable grotesque farcical]) CTplus Isn't it?!
 		$trust+=1
 
 ?: ($stepmother!=1 who * ~evilqueen) Simply the kingdom's queen!
@@ -46,10 +46,10 @@ u: (<< I can help >>) That would be great, but what can you do?
 
 u: (<< I here save you >>) That would be great, but what can you do?
 
-u: (<< I [~damage_verbs hunt capture punish kidnap spell dissuade] ~evilqueen >>)You would really do that?! Thanks! CTplus 
+u: (<< I [~damage_verbs hunt capture punish kidnap spell dissuade] ~evilqueen >>) CTplus You would really do that?! Thanks! CTplus 
 	$trust += 1
 
-u: (<< you not [hide~5 flee escape avoid] [always forever eternally] >>) I know, but I don't know what to do.CTplus
+u: (<< you not [hide~5 flee escape avoid] [always forever eternally] >>) CTplus I know, but I don't know what to do.CTplus
 	$trust += 1
 
 u: (<< you [why should ought could] ~damage_verbs ~evilqueen >>) I'm just a frail young girl. I was raised to believe that this was a job for a prince.
@@ -60,13 +60,13 @@ u: (<< you [why should ought could] ~damage_verbs ~evilqueen >>) I'm just a frai
 
 s: ( << [that it situation ~evilqueen ~murderplot] [horrible awful tragic sad poor difficult unfortunate] >> )
 	$trust += 1
-	I know! This is so unfair! CTplus
+	CTplus I know! This is so unfair! CTplus
 	a:([yes unfair indeed]) You are nice.
 
 
 s: (poor * [thing you]) Thank you for the compassion.
 
-s:($plot==1 <<[I my] [sympathy sympathize sorry understand "feel you"] >>) That is nice of you.
+s:($plot==1 <<[I my] [sympathy sympathize sorry understand "feel you"] >>) CTplus That is nice of you.
 	$trust += 1
 
 s:(<< ~evilqueen happy you [should would] >>) I know.
@@ -84,10 +84,10 @@ s: ($stepmother==1 I * want * [friendly~2 chat~3]) Somehow I doubt that, given o
 #! Not being stepmother
 #! ----------------------------------------------------------------
 
-s: (!~evilqueen !~Snowwhite <<[~family_members ~dualsex] poison>>) I'm so sorry to hear that. Poisonings really are awful.
+s: (!~evilqueen !~Snowwhite <<[~family_members ~dualsex] poison>>) CTplus I'm so sorry to hear that. Poisonings really are awful.
 	$trust += 1
 
-s: (<<~evilqueen  [want try]  [kill capture hurt ~damage_verbs]  me >>) Oh! Poor thing! How I understand you! It's not for me to invite you in the dwarves' house but you can go hide in this shed.CTplus
+s: (<<~evilqueen  [want try]  [kill capture hurt ~damage_verbs]  me >>) CTplus Oh! Poor thing! How I understand you! It's not for me to invite you in the dwarves' house but you can go hide in this shed.CTplus
 	$trust += 1
 	$purpose = 1
 
@@ -97,13 +97,13 @@ s:(<< ~evilqueen [woods wood here around close] >>) Arg! I really should hide!
 
 s: ($stepmother!=1 ~evilqueen * [dead~1 away~3])
 	$trust += 1
-	Really!? That's great news!CTplus
+	CTplus Really!? That's great news!CTplus
 
 s: ($stepmother!=1 <<I  [not nothing] [look resemble like] ~evilqueen>>) Yes but she tends to disguise herself.
 
 s: ($stepmother!=1 I * not * ~evilqueen) How do I know that?
 
-s: ($stepmother!=1 I * [hate~2 despise~1] * ~evilqueen) She's not very popular.
+s: ($stepmother!=1 I * [hate~2 despise~1] * ~evilqueen) CTplus She's not very popular.
 	$trust += 1
 
 s:(<<I not [look resemble resemblance] ~evilqueen>>) True, but she's usually disguised.
@@ -115,9 +115,9 @@ s:(<<I not [costume disguise] >>) That easy to say. My stepmother's a magician a
 #! Topic related gambits
 #! ----------------------------------------------------------------
 
-t: 	[I really wish my stepmother wasn't trying to kill me]
-	[It will be hard for me to trust anyone when I know my stepmother could be disguised to kill me.]
+t: 	CGambit[I really wish my stepmother wasn't trying to kill me]
+	CGambit[It will be hard for me to trust anyone when I know my stepmother could be disguised to kill me.]
 	$plot = 1
-	a:(I * too) I see you understand.
+	a:(I * too) CTplus I see you understand.
 		$trust += 1
-t:  I can't think straight with all this stress.
+t:  CGambit I can't think straight with all this stress.

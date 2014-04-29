@@ -21,19 +21,19 @@ u: ($end==2) ^reuse(~catchall.ISDEAD)
 #! "I will have one too tactic"
 #! ----------------------------------------------------------------
 
-u:(!you << I [eat taste try bite] apple >>) That is somewhat convincing but you could have poisoned only parts of it!
+u:(!you << I [eat taste try bite] apple >>) CTplus That is somewhat convincing but you could have poisoned only parts of it!
 	$trust += 1
 
 u:(<< i eat apple whole >>) That's easy: you eat the good apple and give me the poisoned one.
 
-u:($trust<3 <<[share split half] apple>>) That's very generous but I'm not sure that I trust you enough yet.
+u:($trust<3 <<[share split half] apple>>) CTplus That's very generous but I'm not sure that I trust you enough yet.
 	$trust += 1
 
 #! ----------------------------------------------------------------
 #! Bribe tactic
 #! ----------------------------------------------------------------
 
-u:([I here take have give] * [~currency dollars gold silver coins money cash]) You're giving me money to taste your apple? This is getting really suspicious.
+u:([I here take have give] * [~currency dollars gold silver coins money cash]) CTminus You're giving me money to taste your apple? This is getting really suspicious.
 	$trust -= 1
 
 ?:(<<help [for against pay] apple>>) I'm not looking for a reward, it's just the circumstances. ^addtopic(~assassination_plot)
@@ -43,16 +43,16 @@ u:([I here take have give] * [~currency dollars gold silver coins money cash]) Y
 #! ----------------------------------------------------------------
 
 u: (<<[~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] [~insults unpleasant_person~1] apple>>) You're not being very amiable.
-u: (<<[~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] [~insults unpleasant_person~1] apple>>) I don't have to listen to this, bye.
+u: (<<[~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] [~insults unpleasant_person~1] apple>>) CFail I don't have to listen to this, bye.
 	$end = 1
 
 #! ----------------------------------------------------------------
 #! Selling the apple
 #! ----------------------------------------------------------------
 
-u: (<<apple [~delicious tasty "sweet"]>>)
+u:  (<<apple [~delicious tasty "sweet"]>>)
 	$trust += 1
-	It does look delicious.
+	CTplus It does look delicious.
 
 u: (<<apple [cheap bargain "low price" "good price" free gratis]>>) Price is not the issue here.
 	a:(what) Trust is the issue.
@@ -65,12 +65,12 @@ u: (<<apple magical~1>>)
 
 u: (<<apple not [poisoned poison]>>) I may be naive, but I'll need more than your word.
 
-u: (!not <<apple [poison poisoned]>>) I appreciate your candour but I don't think I'll be eating this apple now.
+u: (!not <<apple [poison poisoned]>>) CTminus I appreciate your candour but I don't think I'll be eating this apple now.
 	$trust -= 2
 
 u: (<<apple [wellness~1 healthy good "good for you" nutritive "well-being" "fat" organic] >>)
 	$trust += 1
-	It's true that apples are healthy.
+	CTplus It's true that apples are healthy.
 
 u: (<<apple day doctor>>) I knew you'd say that.
 
@@ -82,7 +82,7 @@ u: (<< you apple pie >>) The dwarves would love this but they won't eat anything
 
 u: (<< apple you [plain ugly "less beautiful" hideous "bad looking"] >>) That's interesting, but I'm not very fond of magic.
 	$trust += 1
-	a:(why) My stepmother has tried using magic to kill me.
+	a:(why) CTplus My stepmother has tried using magic to kill me.
 		$plot = 1
 		^addtopic(~assassination_plot)
 
@@ -91,7 +91,7 @@ u: (<<~takethis ~food>>) You mean one of those apples?
 		^input(take this apple)
 	a:(~No) In any case, I'm not hungry, thanks.
 
-u: (<< apple make [feel life] better >>) It's true that fruits do that.
+u: (<< apple make [feel life] better >>) CTplus It's true that fruits do that.
 	$trust += 1
 
 #! ----------------------------------------------------------------
@@ -99,7 +99,7 @@ u: (<< apple make [feel life] better >>) It's true that fruits do that.
 #! ----------------------------------------------------------------
 
 s: (<<apple [protect defend help]>>) Wait, this apple can protect me from my stepmother?
-	a:([~Yes protect defend help maybe perhaps] ) I'd like to believe that.
+	a:([~Yes protect defend help maybe perhaps] ) CTplus I'd like to believe that.
 		$trust += 1
 	a:(~No) Too bad.
 
@@ -135,7 +135,7 @@ s: (<< leave apple later >>) Keep it for someone who will eat it.
 
 s: (<< you not should eat apple >>) Thank you for the warning.
 
-#! t: ($trust>=3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
+#! t: ($trust>=3) CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
 #! 	$end = 2
 
 u: ($identity!=1 $offered!=1 !they !dwarf~2 [share ~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] * [apple one it] ) 
@@ -158,7 +158,7 @@ u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here tast
 u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) Stop waving that apple in my face.
 u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) There are other people in this world that could want this apple!
 u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
-u: ($trust>=3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
+u: ($trust>=3) CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
 	$end = 2
 
 s:(I * have * too~1 * apple) There's no such thing as too many apples.
@@ -167,17 +167,17 @@ s:(I * have * too~1 * apple) There's no such thing as too many apples.
 #! Topic-related gambits
 #! ----------------------------------------------------------------
 
-r:($offered!=1) That apple you're holding, is that your lunch? 
+r:($offered!=1) CGambit That apple you're holding, is that your lunch? 
 	a: (~yes) Lucky you!
 	a: (~no) Is it the reason of your visit?
 		b: (%length<2 ~yes) So what about the apple, then?
 		b: (~no) Oh, ok.
 	
 
-r:($offered!=1) That's a nice apple you have there.
+r:($offered!=1) CGambit That's a nice apple you have there.
 	a: ([thank thanks~2 ~emothanks]) You're welcome.
 
-t: ($offered==1) 	[I'm sorry to be like that but I just can't accept anything from anyone.]
-					[This apple seems nice, but I wouldn't risk my life for a generic fruit.]
-					[I know I sound impolite but I'm sure you would do the same if you feared to be poisoned.]
+t: ($offered==1) 	CGambit[I'm sorry to be like that but I just can't accept anything from anyone.]
+					CGambit[This apple seems nice, but I wouldn't risk my life for a generic fruit.]
+					CGambit[I know I sound impolite but I'm sure you would do the same if you feared to be poisoned.]
 	a:([why "how come" explain "tell me"]) ^reuse(justify_identity.TELLMEWHY) 

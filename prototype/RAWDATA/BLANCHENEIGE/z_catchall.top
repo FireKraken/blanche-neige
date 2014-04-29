@@ -64,23 +64,23 @@ u: ([nonsense "not making sense" "not making any sense" "mean anything" "means n
 u: (you [~insults unpleasant_person~1]) You're not being very amiable.
 	a:(neither) Sorry about that, it's the anxiety.
 	a:(sorry) That's all right.	
-u: (you [~insults unpleasant_person~1]) I don't have to listen to this, bye.
+u: (you [~insults unpleasant_person~1]) CFail I don't have to listen to this, bye.
 	$end = 1
 u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Your threats are not very credible, old woman.
-u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) Ok, that's it. Bye now!
+u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) CFail Ok, that's it. Bye now!
 	$end = 1
 
 #! ----------------------------------------------------------------
 #! Impatience gambits
 #! ----------------------------------------------------------------
 
-t: ($trust<2) 	[I'm sure you mean well but how could I trust you?]
-				[I'd love to keep chatting with you but I don't want to make you lose your time] ^poptopic()
-t: ($trust>3 $offered) [I feel sympathy towards you but still I must remain vigilant.] ^poptopic()
-t: 	[I hate to be rude but there's an awful lot to do in this house] 
-	[I don't want to keep you standing here, I'm sure you have much to do] ^poptopic()
-t: I'm going to close this door anytime soon now. ^poptopic()
-t: Goodbye then, have a safe trip.
+t: ($trust<2) 	CGambit[I'm sure you mean well but how could I trust you?]
+				CGambit[I'd love to keep chatting with you but I don't want to make you lose your time] ^poptopic()
+t: ($trust>3 $offered) CGambit[I feel sympathy towards you but still I must remain vigilant.] ^poptopic()
+t: 	CGambit[I hate to be rude but there's an awful lot to do in this house] 
+	CGambit[I don't want to keep you standing here, I'm sure you have much to do] ^poptopic()
+t: CGambit I'm going to close this door anytime soon now. ^poptopic()
+t: CGambit CFailGoodbye then, have a safe trip.
 	$end = 1
 
 #! ----------------------------------------------------------------
@@ -92,7 +92,7 @@ u: (reset) You won't get rid of me that easily!
 u: ("beautiful stranger") I won't take my chance on a beautiful stranger.
 
 #! Reusable explanation
-t: TELLMEWHY () Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+t: CGambit TELLMEWHY () Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
 	$plot = 1
 	a:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
 		b:(really) Yes, crazy business.
