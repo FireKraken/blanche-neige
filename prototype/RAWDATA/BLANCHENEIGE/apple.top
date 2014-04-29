@@ -5,7 +5,7 @@ concept: ~takethis ("take this" "would you like" "how about" "would you care for
 topic: ~sell_apple (apple ~fruit buy sell food hunger hungry snack meal give ~delicious it eat gift present)
 
 #! Possible related pronouns
-u: (_it) ^mark(apple _0)  ^repeat() ^keep() 
+u: (_it) ^mark(apple _0)    ^repeat() ^keep()
 u: (_them) ^mark(apple _0)  ^repeat() ^keep() 
 u: (_they) ^mark(apple _0)  ^repeat() ^keep() 
 u: (_one) ^mark(apple _0)  ^repeat() ^keep() 
@@ -178,6 +178,6 @@ r:($offered!=1) CGambit That's a nice apple you have there.
 	a: ([thank thanks~2 ~emothanks]) You're welcome.
 
 t: ($offered==1) 	CGambit[I'm sorry to be like that but I just can't accept anything from anyone.]
-					CGambit[This apple seems nice, but I wouldn't risk my life for a generic fruit.]
+					CGambit[That apple seems nice, but I wouldn't risk my life for a generic fruit.]
 					CGambit[I know I sound impolite but I'm sure you would do the same if you feared to be poisoned.]
 	a:([why "how come" explain "tell me"]) ^reuse(justify_identity.TELLMEWHY) 
