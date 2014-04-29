@@ -103,13 +103,13 @@ u: (!can !make << [trust believe trustworthy] I be >>) It's not like me to be so
 
 u: TELLMEWHY (why * not * trust~1) 
 	$dwarves = 1
-	Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+	Because strangers have tried to kill me recently. ^poptopic() ^addtopic(~assassination_plot)
 		$plot = 1
-		a:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+		a:(who) It was actually my stepmother in disguise. ^poptopic() ^addtopic(~assassination_plot)
 			b:(really) Yes, crazy business.
 			b:(why) Because she's jealous of my beauty.
 		a:(why) It was my stepmother in disguise. She's jealous of my beauty.
-		a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)	
+		a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^poptopic() ^addtopic(~assassination_plot)	
 
 s: (I * be * [~reliability_words sincere truthful]) That's easy to say.
 
@@ -266,9 +266,9 @@ s: (I * be * ~samaritan) I can't trust your word on that.
 
 s: (I * be * [unpleasant_person~1 annoying]) Now that you mention it...
 
-s: (<< I [pick picking] apple >>) I wasn't aware there were apple trees around. ^addtopic(~sell_apple)
+s: (<< I [pick picking] apple >>) I wasn't aware there were apple trees around. ^poptopic() ^addtopic(~sell_apple)
 	$purpose = 1
-	a:([~yes "there are" indeed]) Interesting. ^addtopic(~sell_apple)
+	a:([~yes "there are" indeed]) Interesting. ^poptopic() ^addtopic(~sell_apple)
 
 s: (I * ["grown-up" adult]) I wasn't even born when you were a child.
 
@@ -367,7 +367,7 @@ u:(<< I ["would like" can need want "give me" "do you have"] [water drink ~bever
 		b:([thanks~2 thanks "thank you"]) No problem.
 	a:(~no) Ok.
 
-u:(I * ["would like" need want "give me" "do you have" be] * [food eat hungry famished]) You should eat one of those apples you have there. ^addtopic(~sell_apple)
+u:(I * ["would like" need want "give me" "do you have" be] * [food eat hungry famished]) You should eat one of those apples you have there. ^poptopic() ^addtopic(~sell_apple)
 
 u:(<<[i me] [need want "give me" "do you have" "will you"] [help assist] >>) What do you need?
 	a: (_*) ^input(I need '_0) ^fail(sentence)  
@@ -406,10 +406,10 @@ t:($identity!=1) [Excuse me, but I don't understand who you are and what you're 
 
 
 t: ($identity!=1) 	CGambit[I'm usually very friendly but in the circumstances it's hard for me to trust anyone]
-	a:(why) Because the two last strangers that came here tried to kill me.  ^addtopic(~assassination_plot)
+	a:(why) Because the two last strangers that came here tried to kill me.  ^poptopic() ^addtopic(~assassination_plot)
 		$plot = 1
-			b:([who what]) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
-			b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
+			b:([who what]) It was actually my stepmother in disguise. ^poptopic() ^addtopic(~assassination_plot)
+			b:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^poptopic() ^addtopic(~assassination_plot)
 	a:(["that's ok" "I understand" good fine understandable]) CTplus I'm glad that you understand my predicament.
 		$trust += 1		
 

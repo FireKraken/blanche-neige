@@ -10,6 +10,9 @@
 + ~insult CONCEPT 
 + ~niceperson CONCEPT 
 + ~bro CONCEPT 
++ home_slice 
++ dawg 
++ home_boy 
 + ~sing CONCEPT 
 + ~thewoods CONCEPT 
 + ~peddler CONCEPT 

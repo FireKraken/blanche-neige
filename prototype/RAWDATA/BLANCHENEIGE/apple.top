@@ -36,7 +36,7 @@ u:($trust<3 <<[share split half] apple>>) CTplus That's very generous but I'm no
 u:([I here take have give] * [~currency dollars gold silver coins money cash]) CTminus You're giving me money to taste your apple? This is getting really suspicious.
 	$trust -= 1
 
-?:(<<help [for against pay] apple>>) I'm not looking for a reward, it's just the circumstances. ^addtopic(~assassination_plot)
+?:(<<help [for against pay] apple>>) I'm not looking for a reward, it's just the circumstances. ^poptopic() ^addtopic(~assassination_plot)
 
 #! ----------------------------------------------------------------
 #! Threatening
@@ -61,7 +61,7 @@ u: (<<apple magical~1>>)
 	I've become wary of magic.
 	a:(why) My stepmother has been using magic to kill me.
 		$plot = 1
-		^addtopic(~assassination_plot)
+		^poptopic() ^addtopic(~assassination_plot)
 
 u: (<<apple not [poisoned poison]>>) I may be naive, but I'll need more than your word.
 
@@ -84,7 +84,7 @@ u: (<< apple you [plain ugly "less beautiful" hideous "bad looking"] >>) That's 
 	$trust += 1
 	a:(why) CTplus My stepmother has tried using magic to kill me.
 		$plot = 1
-		^addtopic(~assassination_plot)
+		^poptopic() ^addtopic(~assassination_plot)
 
 u: (<<~takethis ~food>>) You mean one of those apples?
 	a:(~Yes)
@@ -140,7 +140,7 @@ s: (<< you not should eat apple >>) Thank you for the warning.
 
 u: ($identity!=1 $offered!=1 !they !dwarf~2 [share ~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] * [apple one it] ) 
 	$offered = 1
-	Excuse me, but who are you to be offering apples to strangers? ^addtopic(~justify_identity) 
+	Excuse me, but who are you to be offering apples to strangers? ^poptopic() ^addtopic(~justify_identity) 
 		a: (_*) ^input(I am '_0) ^fail(sentence)  
 	
 #! u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
@@ -158,7 +158,7 @@ u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here tast
 u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) Stop waving that apple in my face.
 u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) There are other people in this world that could want this apple!
 u: ($trust<3 !~insults !unpleasant_person~1 [bite ~acquire_imperatives here taste buy want ~acquiring_verbs ~eat] * [apple ~it_words] ) No. ^keep() ^repeat()
-u: ($trust>=3) CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
+u: ($trust>=3) CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^poptopic() ^addtopic(~catchall)
 	$end = 2
 
 s:(I * have * too~1 * apple) There's no such thing as too many apples.

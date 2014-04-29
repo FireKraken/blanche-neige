@@ -92,11 +92,11 @@ u: (reset) You won't get rid of me that easily!
 u: ("beautiful stranger") I won't take my chance on a beautiful stranger.
 
 #! Reusable explanation
-t: CGambit TELLMEWHY () Because strangers have tried to kill me recently. ^addtopic(~assassination_plot)
+t: CGambit TELLMEWHY () Because strangers have tried to kill me recently. ^poptopic() ^addtopic(~assassination_plot)
 	$plot = 1
-	a:(who) It was actually my stepmother in disguise. ^addtopic(~assassination_plot)
+	a:(who) It was actually my stepmother in disguise. ^poptopic() ^addtopic(~assassination_plot)
 		b:(really) Yes, crazy business.
-	a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^addtopic(~assassination_plot)
+	a:(how) First it was bodice lace that nearly squeezed the death out of me. Then it was a poisoned comb. ^poptopic() ^addtopic(~assassination_plot)
 
 #! ----------------------------------------------------------------
 #! Variable exchange with client

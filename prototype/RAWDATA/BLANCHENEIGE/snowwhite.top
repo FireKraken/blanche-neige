@@ -13,13 +13,13 @@ s: (you * [be look] * [beautiful~1 pretty]) CTplus Thank you, but my beauty has 
 	$trust += 1
 	a:(why) My stepmother has been trying to kill me because she thinks I look better than her.
 		$plot = 1
-		^addtopic(~assassination_plot)
+		^poptopic() ^addtopic(~assassination_plot)
 s: (you * [be look] * [beautiful~1 pretty]) Are you trying to hit on to me?
 
 s: (you * be * ugly) If only that was true!
 	a: (why) Then my stepmother would leave me alone!
 		$plot = 1
-		^addtopic(~assassination_plot)
+		^poptopic() ^addtopic(~assassination_plot)
 
 u: (<< you be [_unpleasant_person~1 _mean]  >>) Your mother is '_0.
 

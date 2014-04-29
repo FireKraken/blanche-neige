@@ -737,3 +737,13 @@ Server ready
   127.0.0.1  185
 
 / Mar 13 15:19:30 time:16/16 msg: I'm Greta  =>  This apple seems nice, but I wouldn't risk my life for a generic fruit.   <=
+Server ready
+Server ready
+  127.0.0.1 id_3_session_1/ Apr 29 11:49:32 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1 id_3_session_1/ Apr 29 11:49:46 time:47/47 msg: This apple is delicious  =>  CTplus It does look delicious.   <=
+  127.0.0.1 id_3_session_1/ Apr 29 11:50:29 time:78/78 msg: would you like to split the apple?  =>  CTplus That's very generous but I'm not sure that I trust you enough yet.   <=
+  127.0.0.1 id_3_session_1/ Apr 29 11:52:43 time:47/47 msg: it's organic!  =>  CTplus It's true that apples are healthy.   <=
+  127.0.0.1 id_3_session_1/ Apr 29 11:53:10 time:62/62 msg: here, have half of the apple.  =>  Excuse me, but who are you to be offering apples to strangers?   <=
+  127.0.0.1 id_3_session_1/ Apr 29 11:53:29 time:234/234 msg: take this apple  =>  You mean one of those apples?   <=
+  127.0.0.1 id_3_session_1/ Apr 29 11:53:32 time:32/32 msg: yes  =>  CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now!   <=
+  127.0.0.1 id_3_session_1/ Apr 29 11:53:59 time:16/16 msg: BOOYA  =>  Snow White's corpse suddenly begins to move. She springs to her feet and proclaims "Ha Ha! You have spoken the magical phrase that raises the dead! This time I shall not be so easily fooled by your tricks, vile woman!"   <=

@@ -20,7 +20,7 @@
  ~sell_apple.34.0 #! ----------------------------------------------------------------
  ~sell_apple.34.0 #! Offer apple
  ~sell_apple.34.0 #! ----------------------------------------------------------------
- ~sell_apple.37.0 #! t: ($trust>=3) All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
+ ~sell_apple.37.0 #! t: ($trust>=3) CWin All right, I'll have a bite of this apple. Arrrhh you vile woman! I'm too young to die! The dwarves will definitely think me an idiot now! ^addtopic(~catchall)
  ~sell_apple.37.0 #! $end = 2
  ~sell_apple.38.0 #! u: ($offered!=1 $peddler!=1 apple) Sorry, are you here to sell apples?
  ~sell_apple.38.0 #! a:(~yes) That's nice but I can't accept anything from strangers.
