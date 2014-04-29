@@ -74,12 +74,12 @@ u: (I * [blow~2 hurt kill destroy ~damage_verbs] * you) CFail Ok, that's it. Bye
 #! Impatience gambits
 #! ----------------------------------------------------------------
 
-t: ($trust<2) 	CGambit[I'm sure you mean well but how could I trust you?]
-				CGambit[I'd love to keep chatting with you but I don't want to make you lose your time] ^poptopic()
+t: ($trust<2) 	CPatience [I'm sure you mean well but how could I trust you?]
+				CPatience[I'd love to keep chatting with you but I don't want to make you lose your time] ^poptopic()
 t: ($trust>3 $offered) CGambit[I feel sympathy towards you but still I must remain vigilant.] ^poptopic()
-t: 	CGambit[I hate to be rude but there's an awful lot to do in this house] 
-	CGambit[I don't want to keep you standing here, I'm sure you have much to do] ^poptopic()
-t: CGambit I'm going to close this door anytime soon now. ^poptopic()
+t: 	CPatience[I hate to be rude but there's an awful lot to do in this house] 
+	CPatience[I don't want to keep you standing here, I'm sure you have much to do] ^poptopic()
+t: CPatience I'm going to close this door anytime soon now. ^poptopic()
 t: CGambit CFailGoodbye then, have a safe trip.
 	$end = 1
 

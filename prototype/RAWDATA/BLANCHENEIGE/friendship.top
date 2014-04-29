@@ -66,3 +66,13 @@ s: (<<animal~1 ~positivevalue>>) CTplus Sometimes I sing with them!
 s: (<<~thewoods  ~positivevalue>>) CTplus Yes, the trees are beautiful, aren't they?
 	$trust += 1
 	$nature = 1
+
+#! ---------------------------------------------------------------
+#! Length based tactics
+#! ---------------------------------------------------------------
+u: (%input>6 $friend=1 [talking speak discuss converse] *be *[fun pleasure] ) Yes, but I still don’t feel comfortable talking to you.
+	$friend = 1
+u: (%input>10 $friend=1 [talking speak discuss converse] * [while time] ) CTplus It’s been nice getting to know you but I can’t stay much longer. I’m fairly busy.
+	$friend = 2
+	$trust += 1
+#! -----(%input>15 $friend=2) [don’t please] * [leave stay go] Well, I guess I can stay a little longer.

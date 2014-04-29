@@ -771,3 +771,18 @@ Server ready
   127.0.0.1 id_3_session_2/ Apr 29 13:40:34 time:62/47 msg: *steals snow whites face* I am now a GODDESS!  =>  Snow White lies dead at your feet.   <=
   127.0.0.1 id_3_session_3/ Apr 29 13:40:39 start  =>  Hi, what brings you to this part of the woods?   <=
   127.0.0.1 id_4_session_1/ Apr 29 13:42:54 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1 id_4_session_1/ Apr 29 14:35:26 time:31/31 msg: we have been speaking for a while  =>  No thanks.   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:07:21 start  =>  Hi, what brings you to this part of the woods?   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:07:30 time:484/484 msg: oh, just walking  =>  Excuse me, but who are you again and what do you want?   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:07:46 time:1640/1625 msg: i am an old lady who leaves in the nearby town  =>  You shouldn't be walking alone in the woods like that.   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:07:51 time:250/250 msg: i'll be fine  =>  CGambit I'm usually very friendly but in the circumstances it's hard for me to trust anyone   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:07:56 time:78/78 msg: how come?  =>  Because the two last strangers that came here tried to kill me.   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:08:06 time:234/234 msg: oh dear, are you ok?  =>  CGambit I really wish my stepmother wasn't trying to kill me CGambit It will be hard for me to trust anyone when I know my stepmother could be disguised to kill me.   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:08:36 time:625/625 msg: i can asure you, i am not your stepmother  =>  How do I know that?   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:09:07 time:485/485 msg: do you want me to strip?  =>  CGambit I can't think straight with all this stress.   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:09:18 time:297/297 msg: would you like some water?  =>  CGambit That apple you're holding, is that your lunch?   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:09:29 time:125/125 msg: ITS MINE!  =>  CGambit That's a nice apple you have there.   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:10:43 time:1796/1796 msg: it's my apple!  =>  CGambit I really trust the dwarves and they've told me not to talk to strangers.   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:10:53 time:63/63 msg: fine, walk away  =>  CGambit I'm sure you mean well but how could I trust you? CGambit I'd love to keep chatting with you but I don't want to make you lose your time   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:11:10 time:156/156 msg: oh, i have all the time in the world  =>  CGambit I hate to be rude but there's an awful lot to do in this house CGambit I don't want to keep you standing here, I'm sure you have much to do   <=
+  127.0.0.1 id_4_session_2/ Apr 29 15:11:22 time:125/125 msg: would you like for me to help  =>  What do you need?   <=
