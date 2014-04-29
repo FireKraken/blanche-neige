@@ -67,6 +67,9 @@ s: (!not !apple << I [like love appreciate] dwarf~2 >>) CTplus I like them too.
 #! Relation of the dwarves tactic
 #! ----------------------------------------------------------------
 
+u: (dwarf~2 * [are were] * stranger) CTplus You're right. I guess not all strangers are bad.
+	$trust += 1
+
 s: ( << [friend~1 with know~3] [dwarf~2 they] I >>) They never mentioned you.
 	$identity=1
 
@@ -95,6 +98,8 @@ s:(dwarf * [apple] * [ok good accept acceptable "good for you"]) CTplus Well may
 #! ----------------------------------------------------------------
 #! Other Tactics
 #! ----------------------------------------------------------------
+
+u: (<<~evilqueen dwarf~2 [disguise "dressed up"]) I think that I would have noticed if one of the dwarves was nearly six feet tall.
 
 u: (<<[they dwarf~2] [no not won't "will not"] [know "find out"]>>) The problem isn't whether or not they know. It's a question of my own safety!
 

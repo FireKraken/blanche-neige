@@ -54,6 +54,7 @@ s: (!I [here take have] * ) No thanks. ^poptopic() ^keep() ^repeat()
 ?: (<< you have _~noun >>) I don't have a '_0 ^poptopic() ^keep() ^repeat()
 #! ?: (<< you [want need] _~noun >>) I don't want a '_0 ^poptopic() ^keep() ^repeat()
 u: (~moving_to * ~place_adverbs) I'm fine right where I am. ^poptopic() ^keep() ^repeat()
+?: ([come go] * [walk jog run trip]) I'm fine right where I am. ^poptopic() ^keep() ^repeat()
 u: (not * [~chat say]) Don't tell me what I can and cannot do. ^poptopic() ^keep() ^repeat()
 u: ([nonsense "not making sense" "not making any sense" "mean anything" "means nothing"]) Sorry, I lost my train of thought. What were we talking about? ^poptopic()
 

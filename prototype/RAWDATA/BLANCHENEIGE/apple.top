@@ -12,7 +12,7 @@ u: (_one) ^mark(apple _0)  ^repeat() ^keep()
 u: (_this) ^mark(apple _0)  ^repeat() ^keep() 
 u: (_fruit) ^mark(apple _0)  ^repeat() ^keep() 
 
-
+ 
 u: ($end==1) ^reuse(~catchall.DOORCLOSED)
 u: ($end==2 [booya booyah]) ^reuse(~catchall.RESURRECT)
 u: ($end==2) ^reuse(~catchall.ISDEAD)
@@ -50,14 +50,14 @@ u: (<<[~acquire_imperatives here taste buy want~1 ~acquiring_verbs have] [~insul
 #! Selling the apple
 #! ----------------------------------------------------------------
 
-u:  (<<apple [~delicious tasty "sweet"]>>)
+u:  (<<!no !not apple [~delicious tasty "sweet"]>>)
 	$trust += 1
 	CTplus It does look delicious.
 
-u: (<<apple [cheap bargain "low price" "good price" free gratis]>>) Price is not the issue here.
+u: (<<!no !not apple [cheap bargain "low price" "good price" free gratis]>>) Price is not the issue here.
 	a:(what) Trust is the issue.
 
-u: (<<apple magical~1>>)
+u: (<<!no !not apple magical~1>>)
 	I've become wary of magic.
 	a:(why) My stepmother has been using magic to kill me.
 		$plot = 1
@@ -68,42 +68,42 @@ u: (<<apple not [poisoned poison]>>) I may be naive, but I'll need more than you
 u: (!not <<apple [poison poisoned]>>) CTminus I appreciate your candour but I don't think I'll be eating this apple now.
 	$trust -= 2
 
-u: (<<apple [wellness~1 healthy good "good for you" nutritive "well-being" "fat" organic] >>)
+u: (<<!no !not apple [wellness~1 healthy good "good for you" nutritive "well-being" "fat" organic] >>)
 	$trust += 1
 	CTplus It's true that apples are healthy.
 
-u: (<<apple day doctor>>) I knew you'd say that.
+u: (<<!no !not apple day doctor>>) I knew you'd say that.
 
-u: (dwarf~1 * like~5 * apple) They do, but they're very picky when it comes to the origin of what they eat.
+u: !no !not dwarf~1 * like~5 * apple) They do, but they're very picky when it comes to the origin of what they eat.
 	$dwarves = 1
 
-u: (<< you apple pie >>) The dwarves would love this but they won't eat anything they haven't grown themselves.
+u: (<<!no !not  you apple pie >>) The dwarves would love this but they won't eat anything they haven't grown themselves.
 	$dwarves = 1
 
-u: (<< apple you [plain ugly "less beautiful" hideous "bad looking"] >>) That's interesting, but I'm not very fond of magic.
+u: (<<!no !not  apple you [plain ugly "less beautiful" hideous "bad looking"] >>) That's interesting, but I'm not very fond of magic.
 	$trust += 1
 	a:(why) CTplus My stepmother has tried using magic to kill me.
 		$plot = 1
 		^poptopic() ^addtopic(~assassination_plot)
 
-u: (<<~takethis ~food>>) You mean one of those apples?
+u: (<<!no !not ~takethis ~food>>) You mean one of those apples?
 	a:(~Yes)
 		^input(take this apple)
 	a:(~No) In any case, I'm not hungry, thanks.
 
-u: (<< apple make [feel life] better >>) CTplus It's true that fruits do that.
+u: (<<!no !not apple make [feel life] better >>) CTplus It's true that fruits do that.
 	$trust += 1
 
 #! ----------------------------------------------------------------
 #! Apple is Magical (in a good way)
 #! ----------------------------------------------------------------
 
-s: (<<apple [protect defend help]>>) Wait, this apple can protect me from my stepmother?
+s: (<<!no !not apple [protect defend help]>>) Wait, this apple can protect me from my stepmother?
 	a:([~Yes protect defend help maybe perhaps] ) CTplus I'd like to believe that.
 		$trust += 1
 	a:(~No) Too bad.
 
-s:(<<apple [protect defend help]>>) Yes, you've said that. It's a tempting thought but you could be lying.
+s:(<<!no !not apple [protect defend help]>>) Yes, you've said that. It's a tempting thought but you could be lying.
 
 #! ----------------------------------------------------------------
 #! Fishing for info
@@ -113,9 +113,9 @@ s:(<<apple [protect defend help]>>) Yes, you've said that. It's a tempting thoug
 	$plot = 1
 	The last two times a strange woman came to my door to give me something, it turned out to be assassination attempts from my stepmother. 
 
-?: (<< you like apple >>) Of course.	
+?: (<<!no !not  you like apple >>) Of course.	
 
-?: (<< you like ~fruit >>) Sure, everyone likes fruits.
+?: (<<!no !not  you like ~fruit >>) Sure, everyone likes fruits.
 
 u: (<< [why would] [i one someone somebody] poison [apple food] >>) Because you could be my stepmother who wants to kill me disguised as an innocent old woman.
 
