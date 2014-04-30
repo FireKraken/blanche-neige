@@ -81,6 +81,7 @@ t: ($trust>3 $offered) CGambit[I feel sympathy towards you but still I must rema
 t: 	CPatience[I hate to be rude but there's an awful lot to do in this house] 
 	CPatience[I don't want to keep you standing here, I'm sure you have much to do] ^poptopic()
 t: CPatience I'm going to close this door anytime soon now. ^poptopic()
+	a: (why) Because I have lots of chores to do before the dwarves get home. ^poptopic() ^addtopic(~dwarves)
 t: CGambit CFail Goodbye then, have a safe trip.
 	$end = 1
 

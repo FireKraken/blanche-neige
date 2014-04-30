@@ -202,7 +202,7 @@ s: ($stepmother==1 apple) I'm not falling into another one of your traps.
 
 u:(~remember * me) Sorry, but your face doesn't seem familiar
 
-u:(!no !not !~evilqueen I * be * ~friend * ~family_members) Really? I never knew my real family very well. How are they doing?
+u:(!no !not !~evilqueen !dwarf~2 I * be * ~friend * ~family_members) Really? I never knew my real family very well. How are they doing?
 	a: (~goodness) CTplus That's great to hear!
 		$trust += 1
 	a: (~badness) CTplus Oh no, that's awful!
@@ -250,7 +250,7 @@ s: ($traveller!=1 !not !no I * be * [stranger~2 traveller~1 "passing by"])
 			$identity = 1
 			CTplus I can certainly understand that. These woods are so peaceful! 
 
-u: (!stepmother <<I  be  ~family_members>>) I think I would recognize a family member.
+u: (!stepmother !dwarf~2 <<I  be  ~family_members>>) I think I would recognize a family member.
 
 u: (we * be * [family related parent]) I don't recognize you. 
 

@@ -9,6 +9,7 @@
 + would_you_care_to_join_me 
 + ~insult CONCEPT 
 + ~niceperson CONCEPT 
++ ~evilqueen CONCEPT 
 + ~bro CONCEPT 
 + home_slice 
 + dawg 
@@ -16,7 +17,6 @@
 + ~sing CONCEPT 
 + ~thewoods CONCEPT 
 + ~peddler CONCEPT 
-+ ~evilqueen CONCEPT 
 + ~murderplot CONCEPT 
 + evil_queen 
 + stepmom 

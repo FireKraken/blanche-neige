@@ -74,7 +74,7 @@ u: (<<!no !not apple [wellness~1 healthy good "good for you" nutritive "well-bei
 
 u: (<<!no !not apple day doctor>>) I knew you'd say that.
 
-u: !no !not dwarf~1 * like~5 * apple) They do, but they're very picky when it comes to the origin of what they eat.
+u: (!no !not dwarf~1 * like~5 * apple) They do, but they're very picky when it comes to the origin of what they eat.
 	$dwarves = 1
 
 u: (<<!no !not  you apple pie >>) The dwarves would love this but they won't eat anything they haven't grown themselves.

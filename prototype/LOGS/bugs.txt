@@ -1823,3 +1823,7 @@ Server exception
 input:2 Tue Mar 04 16:50:10 2014 ***Server exception
  caller:globule callee:snowwhite in sentence: Simon says give me variable at 
 ***Server exception
+   in apple.top at 77: u: !no !not dwarf~1 * like~5 * apple) They do, but they're very picky when it comes to the origin of what they eat.
+RULE-3 Missing pattern for rule   in dwarves.top at 104: u: (<<~evilqueen dwarf~2 [disguise "dressed up"]) I think that I would have noticed if one of the dwarves was nearly six feet tall.
+PATTERN-70 Failed to close <<Missing topic index for ~justify_identity
+Missing topic index for ~justify_identity

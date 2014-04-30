@@ -67,6 +67,8 @@ s: (!not !apple << I [like love appreciate] dwarf~2 >>) CTplus I like them too.
 #! Relation of the dwarves tactic
 #! ----------------------------------------------------------------
 
+s: (dwarf~2 * my * _~family_members) In that case you should come back when your '_0 is actually home.
+
 u: (dwarf~2 * [are were] * stranger) CTplus You're right. I guess not all strangers are bad.
 	$trust += 1
 
@@ -99,7 +101,7 @@ s:(dwarf * [apple] * [ok good accept acceptable "good for you"]) CTplus Well may
 #! Other Tactics
 #! ----------------------------------------------------------------
 
-u: (<<~evilqueen dwarf~2 [disguise "dressed up"]) I think that I would have noticed if one of the dwarves was nearly six feet tall.
+u: (<<~evilqueen dwarf~2 [disguise "dressed up"]>>) I think that I would have noticed if one of the dwarves was nearly six feet tall.
 
 u: (<<[they dwarf~2] [no not won't "will not"] [know "find out"]>>) The problem isn't whether or not they know. It's a question of my own safety!
 

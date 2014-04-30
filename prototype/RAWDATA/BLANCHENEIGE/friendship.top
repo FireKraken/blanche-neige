@@ -32,6 +32,9 @@ u: (!no !not ~sing) CTplus Okay! With a smile and a song, Life is just a sunny d
 #! Cement friendship
 #! ----------------------------------------------------------------
 
+?: (what * do * trust) CTminus To be honest, your desperate attempts to earn my trust are a bit suspicious.
+	$trust -= 1
+
 s: ($trust<2 $friend!=1 I * be * ~bro) I just met you.
 
 s: ($trust>=2 $friend!=1 I * [no not] * stranger~2) CTplus You're right, I have gotten to know you a bit better.
